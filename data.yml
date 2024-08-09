@@ -4,6 +4,16 @@
 # This PDF file should be stored in src/assets/files/presentations/
 
 presentations:
+
+  - location: Shanghai, China
+    daymonth: 9 August
+    type: conference
+    event: International Conference on Representations of Algebras ICRA 21
+    url: https://icra21.sjtu.edu.cn/index.html
+    file: ICRA21
+    title: On the classification of triangulated categories with finiteness conditions
+    year: 2024
+
   - location: online seminar
     daymonth: 28 November
     type: seminar
