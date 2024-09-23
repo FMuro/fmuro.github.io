@@ -5,6 +5,15 @@
 
 presentations:
 
+  - location: Prague, Czech Republic
+    daymonth: 23 September
+    type: conference
+    event: Triangulated Categories in Algebra and Geometry
+    url: https://sites.google.com/view/triang-cats-algebra-geometry/home
+    file: prague24
+    title: Cluster tilting differential graded algebras
+    year: 2024
+
   - location: Shanghai, China
     daymonth: 9 August
     type: conference
