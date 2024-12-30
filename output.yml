@@ -1,3 +1,38 @@
+- DOI: 10.1007/978-3-031-57789-5_4
+  ISBN: 978-3-031-57788-8; 978-3-031-57791-8; 978-3-031-57789-5
+  abstract: We provide an outline of the proof of the Donovan--Wemyss Conjecture in
+    the context of the Homological Minimal Model Program for threefolds. The proof
+    relies on results of August, of Hua and the second-named author, Wemyss, and on
+    the Derived Auslander--Iyama Correspondence -- a recent result by the first- and
+    third-named authors.
+  arxiv: '2301.11593'
+  author:
+  - family: Jasso
+    given: Gustavo
+  - family: Keller
+    given: Bernhard
+  - family: Muro
+    given: Fernando
+  bibtex: "@InCollection{zbMATH07950525,\n    Author = {Jasso, Gustavo and Keller,\
+    \ Bernhard and Muro, Fernando},\n    Title = {The {Donovan}-{Wemyss} conjecture\
+    \ via the derived {Auslander}-{Iyama} correspondence},\n    BookTitle = {Triangulated\
+    \ categories in representation theory and beyond. The Abel symposium 2022, \xC5\
+    lesund, Norway, June 6--10, 2022},\n    ISBN = {978-3-031-57788-8; 978-3-031-57791-8;\
+    \ 978-3-031-57789-5},\n    Pages = {105--140},\n    Year = {2024},\n    Publisher\
+    \ = {Cham: Springer},\n    Language = {English},\n    DOI = {10.1007/978-3-031-57789-5_4},\n\
+    \    Keywords = {16Gxx,18G80,14E30,13D03},\n    }"
+  container-title: "Triangulated categories in representation theory and beyond. The\
+    \ abel symposium 2022, \xE5lesund, norway, june 6\u201310, 2022"
+  id: zbMATH07950525
+  issued:
+    date-parts:
+    - - 2024
+  keyword: 16Gxx,18G80,14E30,13D03
+  page: 105-140
+  publisher: 'Cham: Springer'
+  title: The Donovan-Wemyss conjecture via the derived Auslander-Iyama correspondence
+  type: chapter
+  zbmath_url: https://zbmath.org/7950525
 - DOI: 10.1017/prm.2022.42
   ISSN: 0308-2105
   abstract: We develop a theory of minimal models for algebras over an operad defined
@@ -87,7 +122,8 @@
   type: article-journal
   volume: '25'
   zbmath_url: https://zbmath.org/7681901
-- abstract: We prove that the (homotopy) hypercommutative algebra structure on the
+- URL: https://arxiv.org/abs/2312.07321
+  abstract: We prove that the (homotopy) hypercommutative algebra structure on the
     de Rham cohomology of a Poisson or Jacobi manifold defined by several authors
     is (homotopically) trivial, i.e. it reduces to the underlying (homotopy) commutative
     algebra structure. We do so by showing that the DG operads which codify the algebraic
@@ -104,11 +140,11 @@
     given: Ai
   - family: Muro
     given: Fernando
-  bibtex: "@Misc{zbMATH902382702,\n    Author = {Guan, Ai and Muro, Fernando},\n \
-    \   Title = {Operations on the de {Rham} cohomology of {Poisson} and {Jacobi}\
+  bibtex: "@Misc{arXiv:2312.07321,\n    Author = {Guan, Ai and Muro, Fernando},\n\
+    \    Title = {Operations on the de {Rham} cohomology of {Poisson} and {Jacobi}\
     \ manifolds},\n    Year = {2023},\n    HowPublished = {Preprint, {arXiv}:2312.07321\
-    \ [math.{DG}] (2023)},\n        }"
-  id: zbMATH902382702
+    \ [math.{DG}] (2023)},\n    URL = {https://arxiv.org/abs/2312.07321},\n    }"
+  id: arXiv:2312.07321
   issued:
     date-parts:
     - - 2023
@@ -116,34 +152,6 @@
   title: Operations on the de Rham cohomology of Poisson and Jacobi manifolds
   type: ''
   zbmath_url: https://zbmath.org/902382702
-- abstract: We provide an outline of the proof of the Donovan--Wemyss Conjecture in
-    the context of the Homological Minimal Model Program for threefolds. The proof
-    relies on results of August, of Hua and the second-named author, Wemyss, and on
-    the Derived Auslander--Iyama Correspondence -- a recent result by the first- and
-    third-named authors.
-  arxiv: '2301.11593'
-  author:
-  - family: Jasso
-    given: Gustavo
-  - family: Keller
-    given: Bernhard
-  - family: Muro
-    given: Fernando
-  bibtex: "@Misc{zbMATH900577785,\n    Author = {Jasso, Gustavo and Keller, Bernhard\
-    \ and Muro, Fernando},\n    Title = {The {Donovan}--{Wemyss} {Conjecture} via\
-    \ the {Derived} {Auslander}--{Iyama} {Correspondence}},\n    Year = {2023},\n\
-    \    HowPublished = {Preprint, {arXiv}:2301.11593 [math.{AG}] (2023)},\n    Keywords\
-    \ = {14E30,13D03},\n        }"
-  id: zbMATH900577785
-  issued:
-    date-parts:
-    - - 2023
-  keyword: 14E30,13D03
-  publisher: Preprint, arXiv:2301.11593 [math.AG] (2023)
-  title: "The Donovan\u2013Wemyss Conjecture via the Derived Auslander\u2013Iyama\
-    \ Correspondence"
-  type: ''
-  zbmath_url: https://zbmath.org/900577785
 - DOI: 10.1017/S1474748020000250
   ISSN: 1474-7480
   abstract: We give a necessary and sufficient condition for the existence of an enhancement
@@ -171,7 +179,8 @@
   type: article-journal
   volume: '21'
   zbmath_url: https://zbmath.org/7506910
-- abstract: We work over a perfect field. Recent work of the third-named author established
+- URL: https://arxiv.org/abs/2208.14413
+  abstract: We work over a perfect field. Recent work of the third-named author established
     a Derived Auslander Correspondence that relates finite-dimensional self-injective
     algebras that are twisted $3$-periodic to algebraic triangulated categories of
     finite type. Moreover, the aforementioned work also shows that the latter triangulated
@@ -198,11 +207,12 @@
     given: Bernhard
   - family: Muro
     given: Fernando
-  bibtex: "@Misc{zbMATH900570519,\n    Author = {Jasso, Gustavo and Keller, Bernhard\
+  bibtex: "@Misc{arXiv:2208.14413,\n    Author = {Jasso, Gustavo and Keller, Bernhard\
     \ and Muro, Fernando},\n    Title = {The {Derived} {Auslander}-{Iyama} {Correspondence}},\n\
     \    Year = {2022},\n    HowPublished = {Preprint, {arXiv}:2208.14413 [math.{RT}]\
-    \ (2022)},\n    Keywords = {18G80,18N40},\n        }"
-  id: zbMATH900570519
+    \ (2022)},\n    Keywords = {18G80,18N40},\n    URL = {https://arxiv.org/abs/2208.14413},\n\
+    \    }"
+  id: arXiv:2208.14413
   issued:
     date-parts:
     - - 2022
@@ -211,7 +221,8 @@
   title: The Derived Auslander-Iyama Correspondence
   type: ''
   zbmath_url: https://zbmath.org/900570519
-- abstract: Several model structures related to the homotopy theory of locally constant
+- URL: https://arxiv.org/abs/2107.14174
+  abstract: Several model structures related to the homotopy theory of locally constant
     factorization algebras are constructed. This answers a question raised by D. Calaque
     in his habilitation thesis. Our methods also solve a problem related to cosheafification
     and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally
@@ -224,11 +235,11 @@
     given: Ramon
   - family: Muro
     given: Fernando
-  bibtex: "@Misc{zbMATH900514688,\n    Author = {Carmona, Victor and Flores, Ramon\
+  bibtex: "@Misc{arXiv:2107.14174,\n    Author = {Carmona, Victor and Flores, Ramon\
     \ and Muro, Fernando},\n    Title = {A model structure for locally constant factorization\
     \ algebras},\n    Year = {2021},\n    HowPublished = {Preprint, {arXiv}:2107.14174\
-    \ [math.{AT}] (2021)},\n        }"
-  id: zbMATH900514688
+    \ [math.{AT}] (2021)},\n    URL = {https://arxiv.org/abs/2107.14174},\n    }"
+  id: arXiv:2107.14174
   issued:
     date-parts:
     - - 2021
@@ -615,6 +626,7 @@
   volume: '59'
   zbmath_url: https://zbmath.org/6417698
 - DOI: 10.1007/s40062-019-00245-0
+  URL: https://arxiv.org/abs/1510.00312
   abstract: We extend the Bousfield-Kan spectral sequence for the computation of the
     homotopy groups of the space of minimal A-infinity algebra structures on a graded
     projective module. We use the new part to define obstructions to the extension
@@ -626,11 +638,12 @@
   author:
   - family: Muro
     given: Fernando
-  bibtex: "@Misc{zbMATH900556798,\n    Author = {Muro, Fernando},\n    Title = {Enhanced\
+  bibtex: "@Misc{arXiv:1510.00312,\n    Author = {Muro, Fernando},\n    Title = {Enhanced\
     \ ${A}$-infinity obstruction theory},\n    Year = {2015},\n    HowPublished =\
     \ {Preprint, {arXiv}:1510.00312 [math.{AT}] (2015)},\n    DOI = {10.1007/s40062-019-00245-0},\n\
-    \    Keywords = {18G40,18D50,55S35},\n        }"
-  id: zbMATH900556798
+    \    Keywords = {18G40,18D50,55S35},\n    URL = {https://arxiv.org/abs/1510.00312},\n\
+    \    }"
+  id: arXiv:1510.00312
   issued:
     date-parts:
     - - 2015
@@ -1142,18 +1155,19 @@
   type: article-journal
   volume: '211'
   zbmath_url: https://zbmath.org/5186664
-- abstract: We exhibit a triangulated category which is neither the stable category
+- URL: https://arxiv.org/abs/math/0703311
+  abstract: We exhibit a triangulated category which is neither the stable category
     of a Frobenius category nor a full triangulated subcategory of the homotopy category
     of a stable model category.
   arxiv: math/0703311
   author:
   - family: Muro
     given: Fernando
-  bibtex: "@Misc{zbMATH900080869,\n    Author = {Muro, Fernando},\n    Title = {A\
-    \ triangulated category without models},\n    Year = {2007},\n    HowPublished\
+  bibtex: "@Misc{arXiv:math/0703311,\n    Author = {Muro, Fernando},\n    Title =\
+    \ {A triangulated category without models},\n    Year = {2007},\n    HowPublished\
     \ = {Preprint, {arXiv}:math/0703311 [math.{KT}] (2007)},\n    Keywords = {18E30,55P42,16E40},\n\
-    \        }"
-  id: zbMATH900080869
+    \    URL = {https://arxiv.org/abs/math/0703311},\n    }"
+  id: arXiv:math/0703311
   issued:
     date-parts:
     - - 2007
@@ -1193,7 +1207,8 @@
   type: article-journal
   volume: '204'
   zbmath_url: https://zbmath.org/2244508
-- abstract: In this paper we address the classification problem for locally compact
+- URL: https://arxiv.org/abs/math/0605213
+  abstract: In this paper we address the classification problem for locally compact
     (n-1)-connected CW-complexes with dimension less or equal than n+2 up to proper
     homotopy type. We obtain complete classification theorems in terms of purely algebraic
     data in those cases where the representation type of the involved algebra is finite.
@@ -1203,11 +1218,12 @@
   author:
   - family: Muro
     given: Fernando
-  bibtex: "@Misc{zbMATH900028837,\n    Author = {Muro, Fernando},\n    Title = {On\
-    \ the proper homotopy type of locally compact {A}^2_n-polyhedra},\n    Year =\
-    \ {2006},\n    HowPublished = {Preprint, {arXiv}:math/0605213 [math.{AT}] (2006)},\n\
-    \    Keywords = {55P15,55P57,55S05,55S35,18G60,18G35,18G15,18G50},\n        }"
-  id: zbMATH900028837
+  bibtex: "@Misc{arXiv:math/0605213,\n    Author = {Muro, Fernando},\n    Title =\
+    \ {On the proper homotopy type of locally compact {A}^2_n-polyhedra},\n    Year\
+    \ = {2006},\n    HowPublished = {Preprint, {arXiv}:math/0605213 [math.{AT}] (2006)},\n\
+    \    Keywords = {55P15,55P57,55S05,55S35,18G60,18G35,18G15,18G50},\n    URL =\
+    \ {https://arxiv.org/abs/math/0605213},\n    }"
+  id: arXiv:math/0605213
   issued:
     date-parts:
     - - 2006
@@ -1299,7 +1315,8 @@
   type: article-journal
   volume: '357'
   zbmath_url: https://zbmath.org/2172214
-- abstract: "This is the final version of a series of papers uploaded in May 25, 2005.\
+- URL: https://arxiv.org/abs/math/0505540
+  abstract: "This is the final version of a series of papers uploaded in May 25, 2005.\
     \ We have splitted the long last paper of the previous version in two parts to\
     \ make it easier to understand. The results are essentially the same, although\
     \ the presentation has changed substantially. The first three papers have not\
@@ -1322,11 +1339,12 @@
     given: H. -J.
   - family: Muro
     given: F.
-  bibtex: "@Misc{zbMATH900079638,\n    Author = {Baues, H. -J. and Muro, F.},\n  \
-    \  Title = {The characteristic cohomology class of a triangulated category},\n\
+  bibtex: "@Misc{arXiv:math/0505540,\n    Author = {Baues, H. -J. and Muro, F.},\n\
+    \    Title = {The characteristic cohomology class of a triangulated category},\n\
     \    Year = {2005},\n    HowPublished = {Preprint, {arXiv}:math/0505540 [math.{KT}]\
-    \ (2005)},\n    Keywords = {18E30,18G60,18D05,55S35},\n        }"
-  id: zbMATH900079638
+    \ (2005)},\n    Keywords = {18E30,18G60,18D05,55S35},\n    URL = {https://arxiv.org/abs/math/0505540},\n\
+    \    }"
+  id: arXiv:math/0505540
   issued:
     date-parts:
     - - 2005
