@@ -12223,6 +12223,8 @@ hr.divider-light {
   #mainNav .navbar-nav li:hover > ul.dropdown-menu {
     display: block;
     background-color: transparent;
+    -webkit-backdrop-filter: blur(7px);
+            backdrop-filter: blur(7px);
     border-color: #f4623a;
     padding-left: 0rem;
     padding-top: 0.5rem;
