@@ -349,10 +349,6 @@ portfolio:
   - name: Categorical Groups, Barcelona, 2008
     category: Workshop
     image: barcelona
-  
-  - name: Triangulated Categories and Applications, Banff, 2016
-    category: Workshop
-    image: banff2016triang
 
   - name: Operations in Highly Structured Homology Theories, Banff, 2016
     category: Workshop
@@ -369,6 +365,10 @@ portfolio:
   - name: Hochschild (Co)Homology and Applications, Oberwolfach, 2024
     category: Workshop
     image: oberwolfach
+
+  - name: ICRA 21, Shanghai, 2024
+    category: Conference
+    image: icra21
 
 
 # Landing page icons, they'll appear in this order
