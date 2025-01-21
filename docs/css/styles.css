@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v7.0.7 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2024 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
 .merriweather-light {
@@ -12223,6 +12223,8 @@ hr.divider-light {
   #mainNav .navbar-nav li:hover > ul.dropdown-menu {
     display: block;
     background-color: transparent;
+    -webkit-backdrop-filter: blur(7px);
+            backdrop-filter: blur(7px);
     border-color: #f4623a;
     padding-left: 0rem;
     padding-top: 0.5rem;

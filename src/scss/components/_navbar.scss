@@ -84,6 +84,7 @@
         .navbar-nav li:hover > ul.dropdown-menu {
             display: block;
             background-color: transparent;
+            backdrop-filter: blur(7px);
             border-color: $primary;
             padding-left: 0rem;
             padding-top: .5rem;

@@ -4,6 +4,25 @@
 # This PDF file should be stored in src/assets/files/presentations/
 
 presentations:
+
+  - location: Prague, Czech Republic
+    daymonth: 23 September
+    type: conference
+    event: Triangulated Categories in Algebra and Geometry
+    url: https://sites.google.com/view/triang-cats-algebra-geometry/home
+    file: prague24
+    title: Cluster tilting differential graded algebras
+    year: 2024
+
+  - location: Shanghai, China
+    daymonth: 9 August
+    type: conference
+    event: International Conference on Representations of Algebras ICRA 21
+    url: https://icra21.sjtu.edu.cn/index.html
+    file: ICRA21
+    title: On the classification of triangulated categories with finiteness conditions
+    year: 2024
+
   - location: online seminar
     daymonth: 28 November
     type: seminar
@@ -328,7 +347,7 @@ open:
 # otherwise I'd have to change the jinja2 templates
 
 coauthors:
-  Roitzheim: https://www.kent.ac.uk/smsas/personal/csrr/
+  Roitzheim: https://sites.google.com/view/constanzeroitzheim/home
   Schwede: https://www.math.uni-bonn.de/people/schwede/
   Strickland: https://strickland1.org
   Keller: https://webusers.imj-prg.fr/~bernhard.keller/
