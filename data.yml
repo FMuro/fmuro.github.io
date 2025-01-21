@@ -368,6 +368,10 @@ portfolio:
   - name: Categorical Groups, Barcelona, 2008
     category: Workshop
     image: barcelona
+  
+  # - name: Triangulated Categories and Applications, Banff, 2016
+  #   category: Workshop
+  #   image: banff2016triang
 
   - name: Operations in Highly Structured Homology Theories, Banff, 2016
     category: Workshop
