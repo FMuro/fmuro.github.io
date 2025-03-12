@@ -24,7 +24,7 @@ jobs:
         run:
           python bibliographer-github-1.py
       - name: convert bibtex to CSL JSON
-        uses: docker://pandoc/core:3.2
+        uses: docker://pandoc/core:latest
         with:
           args: >-  # allows you to break string into multiple lines
             -f
