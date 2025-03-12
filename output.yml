@@ -278,6 +278,14 @@
   zbmath_url: https://zbmath.org/7242463
 - DOI: 10.1007/s40062-019-00245-0
   ISSN: 2193-8407
+  abstract: We extend the Bousfield-Kan spectral sequence for the computation of the
+    homotopy groups of the space of minimal A-infinity algebra structures on a graded
+    projective module. We use the new part to define obstructions to the extension
+    of truncated minimal A-infinity algebra structures. We also consider the Bousfield-Kan
+    spectral sequence for the moduli space of A-infinity algebras. We compute up to
+    the second page, terms and differentials, of these spectral sequences in terms
+    of Hochschild cohomology.
+  arxiv: '1510.00312'
   author:
   - family: Muro
     given: Fernando
@@ -625,33 +633,6 @@
   type: article-journal
   volume: '59'
   zbmath_url: https://zbmath.org/6417698
-- DOI: 10.1007/s40062-019-00245-0
-  URL: https://arxiv.org/abs/1510.00312
-  abstract: We extend the Bousfield-Kan spectral sequence for the computation of the
-    homotopy groups of the space of minimal A-infinity algebra structures on a graded
-    projective module. We use the new part to define obstructions to the extension
-    of truncated minimal A-infinity algebra structures. We also consider the Bousfield-Kan
-    spectral sequence for the moduli space of A-infinity algebras. We compute up to
-    the second page, terms and differentials, of these spectral sequences in terms
-    of Hochschild cohomology.
-  arxiv: '1510.00312'
-  author:
-  - family: Muro
-    given: Fernando
-  bibtex: "@Misc{arXiv:1510.00312,\n    Author = {Muro, Fernando},\n    Title = {Enhanced\
-    \ ${A}$-infinity obstruction theory},\n    Year = {2015},\n    HowPublished =\
-    \ {Preprint, {arXiv}:1510.00312 [math.{AT}] (2015)},\n    DOI = {10.1007/s40062-019-00245-0},\n\
-    \    Keywords = {18G40,18D50,55S35},\n    URL = {https://arxiv.org/abs/1510.00312},\n\
-    \    }"
-  id: arXiv:1510.00312
-  issued:
-    date-parts:
-    - - 2015
-  keyword: 18G40,18D50,55S35
-  publisher: Preprint, arXiv:1510.00312 [math.AT] (2015)
-  title: Enhanced ${A}$-infinity obstruction theory
-  type: ''
-  zbmath_url: https://zbmath.org/900556798
 - DOI: 10.1515/forum-2011-0130
   ISSN: 0933-7741
   URL: idus.us.es/handle/11441/41889
@@ -984,6 +965,7 @@
   zbmath_url: https://zbmath.org/5367270
 - DOI: 10.1515/FORUM.2008.032
   ISSN: 0933-7741
+  URL: idus.us.es/xmlui/handle/11441/41883
   abstract: Secondary homotopy groups supplement the structure of classical homotopy
     groups. They yield a track functor on the track category of pointed spaces compatible
     with fiber sequences, suspensions and loop spaces. They also yield algebraic models
@@ -999,7 +981,7 @@
     \    Journal = {Forum Math.},\n    ISSN = {0933-7741},\n    Volume = {20},\n \
     \   Number = {4},\n    Pages = {631--677},\n    Year = {2008},\n    Language =\
     \ {English},\n    DOI = {10.1515/FORUM.2008.032},\n    Keywords = {18D05,55Q25,55S45},\n\
-    \        }"
+    \    URL = {idus.us.es/xmlui/handle/11441/41883},\n        }"
   container-title: Forum Math.
   id: zbMATH05351182
   issue: '4'
@@ -1039,6 +1021,7 @@
   zbmath_url: https://zbmath.org/5347000
 - DOI: 10.1093/imrn/rnm153
   ISSN: 1073-7928
+  URL: idus.us.es/handle/11441/41891
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -1052,7 +1035,8 @@
     \ Mathematics Research Notices},\n    Journal = {Int. Math. Res. Not.},\n    ISSN\
     \ = {1073-7928},\n    Volume = {2008},\n    Pages = {31},\n    Note = {Id/No rnm153},\n\
     \    Year = {2008},\n    Language = {English},\n    DOI = {10.1093/imrn/rnm153},\n\
-    \    Keywords = {19D99,18E10,18E30,19B99,55P42},\n        }"
+    \    Keywords = {19D99,18E10,18E30,19B99,55P42},\n    URL = {idus.us.es/handle/11441/41891},\n\
+    \        }"
   container-title: Int. Math. Res. Not.
   id: zbMATH05306025
   issued:

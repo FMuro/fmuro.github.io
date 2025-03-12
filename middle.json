@@ -543,28 +543,6 @@
     "volume": "59"
   },
   {
-    "DOI": "10.1007/s40062-019-00245-0",
-    "URL": "https://arxiv.org/abs/1510.00312",
-    "author": [
-      {
-        "family": "Muro",
-        "given": "Fernando"
-      }
-    ],
-    "id": "arXiv:1510.00312",
-    "issued": {
-      "date-parts": [
-        [
-          2015
-        ]
-      ]
-    },
-    "keyword": "18G40,18D50,55S35",
-    "publisher": "Preprint, arXiv:1510.00312 [math.AT] (2015)",
-    "title": "Enhanced ${A}$-infinity obstruction theory",
-    "type": ""
-  },
-  {
     "DOI": "10.1515/forum-2011-0130",
     "ISSN": "0933-7741",
     "URL": "idus.us.es/handle/11441/41889",
@@ -875,6 +853,7 @@
   {
     "DOI": "10.1515/FORUM.2008.032",
     "ISSN": "0933-7741",
+    "URL": "idus.us.es/xmlui/handle/11441/41883",
     "author": [
       {
         "family": "Baues",
@@ -933,6 +912,7 @@
   {
     "DOI": "10.1093/imrn/rnm153",
     "ISSN": "1073-7928",
+    "URL": "idus.us.es/handle/11441/41891",
     "author": [
       {
         "family": "Muro",
