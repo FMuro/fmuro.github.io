@@ -13,5 +13,4 @@ do
     null:
 done
 
-find src/assets/img/ -name '*.jpg' -execdir mogrify -format webp {} +
-find src/assets/img/ -name '*.jpeg' -execdir mogrify -format webp {} +
+find src/assets/img/ \( -name "*.jpg" -o -name "*.jpeg" \) -execdir mogrify -format webp {} +
