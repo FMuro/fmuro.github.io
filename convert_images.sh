@@ -4,7 +4,7 @@
 
 for file in src/assets/img/*.jpg
 do
-  convert $file  -write mpr:img +delete \
+  magick $file  -write mpr:img +delete \
     \( mpr:img -resize 576x +write ${file%.*}_576w.webp \) \
     \( mpr:img -resize 768x +write ${file%.*}_768w.webp \) \
     \( mpr:img -resize 992x +write ${file%.*}_992w.webp \) \
@@ -14,3 +14,4 @@ do
 done
 
 find src/assets/img/ -name '*.jpg' -execdir mogrify -format webp {} +
+find src/assets/img/ -name '*.jpeg' -execdir mogrify -format webp {} +
