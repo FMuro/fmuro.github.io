@@ -117,7 +117,7 @@ html(lang='en')
         #portfolio.bg-dark
             .container-fluid.p-0
                 .row.g-0
-                    {% for event in datos.portfolio %}
+                    {% for event in datos.portfolio | reverse %}
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/{{ event.image }}.webp', width='1300', height='700', title='{{ event.name }}')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/{{ event.image }}.webp', width='650', height='350', alt='...')
