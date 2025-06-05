@@ -25,14 +25,12 @@ html(lang='en')
         link(href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet")
 
         // Favicon
-                link(rel="icon", type="image/png", href="/favicon-96x96.png", sizes="96x96")
-        link(rel="icon", type="image/svg+xml", href="/favicon.svg")
-        link(rel="shortcut icon", href="/favicon.ico")
-        link(rel="apple-touch-icon", sizes="180x180", href="/apple-touch-icon.png")
-        link(rel="manifest", href="/site.webmanifest")
-        meta(name="msapplication-TileColor", content="#da532c")
-        meta(name="msapplication-config", content="assets/ico/browserconfig.xml")
-        meta(name="theme-color", content="#ffffff")
+        link(rel="icon", type="image/png", href="/assets/ico/favicon-96x96.png", sizes="96x96")
+        link(rel="icon", type="image/svg+xml", href="/assets/ico/favicon.svg")
+        link(rel="shortcut icon", href="/assets/ico/favicon.ico")
+        link(rel="apple-touch-icon", sizes="180x180", href="/assets/ico/apple-touch-icon.png")
+        meta(name="apple-mobile-web-app-title", content="F. Muro")
+        link(rel="manifest", href="/assets/ico/site.webmanifest")
 
         // Academicons
         link(rel="stylesheet", href="assets/css/academicons.min.css")
@@ -49,6 +47,13 @@ html(lang='en')
         // MathJax
         script(src="js/mathjax-config.js", defer)
         script(type="text/javascript", id="MathJax-script", defer, src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js")
+
+        // Facebook Open Graph Meta Data
+        meta(property="og:url" content="https://personal.us.es/fmuro/")
+        meta(property="og:type" content="website")
+        meta(property="og:title" content="Fernando Muro")
+        meta(property="og:description" content="Welcome to my website! I'm a professor of mathematics at the University of Seville. Here, you'll mostly find information about my research.")
+        meta(property="og:image" content="https://personal.us.es/fmuro/assets/img/bg-masthead_576w.webp")
 
     body#page-top
 
