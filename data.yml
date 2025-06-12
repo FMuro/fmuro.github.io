@@ -5,6 +5,15 @@
 
 presentations:
 
+  - location: College Park, Maryland
+    daymonth: 2 June
+    type: conference
+    event: Modern Developments in Geometry and Higher Structures
+    url: https://brinmrc.umd.edu/programs/workshops/summer25/summer25-workshop-modern.html
+    file: maryland
+    title: Geometry of singularities and higher structures
+    year: 2025
+
   - location: Prague, Czech Republic
     daymonth: 23 September
     type: conference
