@@ -124,9 +124,9 @@ html(lang='en')
             .container-fluid.p-0
                 .row.g-0
                     {% for event in datos.portfolio | reverse %}
-                    .col-lg-4.col-sm-4
+                    .col-md-4
                         a.portfolio-box(href='assets/img/portfolio/fullsize/{{ event.image }}.webp', width='1300', height='700', title='{{ event.name }}')
-                            img.img-fluid(src='assets/img/portfolio/thumbnails/{{ event.image }}.webp', width='650', height='350', alt='...')
+                            img.img-fluid(src='assets/img/portfolio/thumbnails/{{ event.image }}.webp', width='768', height='414', alt='...')
                             .portfolio-box-caption
                                 .project-category.text-white-50
                                     | {{ event.category }}

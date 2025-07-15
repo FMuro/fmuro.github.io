@@ -369,7 +369,7 @@ coauthors:
   
 # Portfolio pictures, they'll appear in this order
 
-# place 650x350 jpg images in src/assets/img/portfolio/thumbnails/
+# place 720x388 jpg images in src/assets/img/portfolio/thumbnails/
 # place 1300x700 jpg images in src/assets/img/portfolio/fullsize/
 
 portfolio:
