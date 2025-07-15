@@ -1,6 +1,6 @@
 {% from "src/pug/_macros.j2" import paper %}
 
-{% set maximum = 2 %}
+{% set maximum = 10 %}
 
 {% set count = {'counter': 0} %}
 {% for entry in biblio %}
@@ -9,7 +9,7 @@
 {% if count.counter == 0 %}
 h3.mt-5.mb-3.text-center
     .bi.bi-journal &nbsp; Preprints
-.row.row-cols-1.gx-5.gy-4.mb-4
+.d-flex.flex-row.flex-nowrap
 {% endif -%}
     {% for name in entry.author %}
     {% if name.family in datos.coauthors.keys() %}
@@ -30,7 +30,7 @@ h3.mt-5.mb-3.text-center
 
 h3.mt-5.mb-3.text-center 
     .bi.bi-journal-check &nbsp; Papers
-.row.row-cols-1.gx-5.gy-4.mb-4
+.d-flex.flex-row.flex-nowrap
 {% set count = {'counter': 0} %}
 {% for entry in biblio %}
 {% if entry.type != '' %}

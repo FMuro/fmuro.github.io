@@ -576,7 +576,7 @@
   author:
   - family: Muro
     given: Fernando
-  bibtex: "@article{zbMATH06451815,\n    author = {Muro, Fernando},\n    title = {Dwyer-{Kan}\
+  bibtex: "@article{zbMATH06451815,\n    author = {Muro, Fernando},\n    title = {Dwyer-Kan\
     \ homotopy theory of enriched categories},\n    fjournal = {Journal of Topology},\n\
     \    journal = {J. Topol.},\n    issn = {1753-8416},\n    volume = {8},\n    number\
     \ = {2},\n    pages = {377--413},\n    year = {2015},\n    language = {English},\n\
@@ -590,7 +590,7 @@
     - - 2015
   keyword: 18D20,18G55,55U35
   page: 377-413
-  title: Dwyer-Kan homotopy theory of enriched categories
+  title: Dwyer-kan homotopy theory of enriched categories
   type: article-journal
   volume: '8'
   zbmath_url: https://zbmath.org/6451815
