@@ -382,13 +382,13 @@ portfolio:
     category: Workshop
     image: banff2016triang
 
-  - name: MCHAFTAF 2022
-    category: Workshop
-    image: salamanca
-
   - name: Operations in Highly Structured Homology Theories, Banff, 2016
     category: Workshop
     image: banff2016operations
+
+  - name: MCHAFTAF 2022
+    category: Workshop
+    image: salamanca
 
   - name: Triangulated Categories in Representation Theory and Beyond, Ålesund, 2022
     category: Conference
