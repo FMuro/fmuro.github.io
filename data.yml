@@ -378,9 +378,13 @@ portfolio:
     category: Workshop
     image: barcelona
   
-  # - name: Triangulated Categories and Applications, Banff, 2016
-  #   category: Workshop
-  #   image: banff2016triang
+  - name: Triangulated Categories and Applications, Banff, 2016
+    category: Workshop
+    image: banff2016triang
+
+  - name: MCHAFTAF 2022
+    category: Workshop
+    image: salamanca
 
   - name: Operations in Highly Structured Homology Theories, Banff, 2016
     category: Workshop
@@ -402,6 +406,9 @@ portfolio:
     category: Conference
     image: icra21
 
+  - name: Modern Developments in Geometry and Higher Structures, College Park, MD, 2025
+    category: Conference
+    image: maryland
 
 # Landing page icons, they'll appear in this order
 
