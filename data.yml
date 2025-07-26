@@ -243,7 +243,6 @@ presentations:
   - location: Seville, Spain
     type: conference
     event: Advanced School on Homotopy Theory and Algebraic Geometry
-    url: http://congreso.us.es/htag09/php/index.php
     daymonth: 7-12 September
     file: htag
     title: Triangulated categories
@@ -341,7 +340,7 @@ presentations:
 # Papers with free PDF version 
 
 # the PDF file should be stored in src/assets/files/papers/ (if empty value) or in a URL
-# the title of local PDF files should be the zmath ID
+# the title of local PDF files should be the zbmath ID
 
 open: 
   zbMATH06417698:
