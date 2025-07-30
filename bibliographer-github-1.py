@@ -11,5 +11,8 @@ json_zbmath = get_json_from_zbmath('muro.fernando')
 with open('bibtex.bib', 'w') as outfile:
     outfile.write(bibtex(bibtex_zbmath, dict_arxiv, 2020))
 
+with open('dict_arxiv.json', 'w') as outfile:
+    json.dump(dict_arxiv, outfile, indent=4)
+
 with open('json_zbmath.json', 'w') as outfile:
     json.dump(json_zbmath, outfile, indent=4)
