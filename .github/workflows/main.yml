@@ -29,11 +29,11 @@ jobs:
           args: >-  # allows you to break string into multiple lines
             -f
             bibtex
-            output.bib
+            bibtex.bib
             -t
             csljson
             -o
-            middle.json
+            csl_json.json
       - name: convert bibtex to json and add some extras
         run:
           python bibliographer-github-2.py  

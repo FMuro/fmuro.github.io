@@ -1,5 +1,15 @@
 #!./bin/python3
-from bibliographer.libbibliographer import get_bibtex_from_zbmath
+import json
+from bibliographer.libbibliographer import get_bibtex_from_zbmath, get_json_from_zbmath, get_dict_from_arxiv, bibtex
 
-with open('output.bib', 'w') as outfile:
-    outfile.write(get_bibtex_from_zbmath('muro.fernando'))
+bibtex_zbmath = get_bibtex_from_zbmath('muro.fernando')
+dict_arxiv = get_dict_from_arxiv('0000-0001-8457-9889')
+json_zbmath = get_json_from_zbmath('muro.fernando')
+
+# arxiv
+
+with open('bibtex.bib', 'w') as outfile:
+    outfile.write(bibtex(bibtex_zbmath, dict_arxiv, 2020))
+
+with open('json_zbmath.json', 'w') as outfile:
+    json.dump(json_zbmath, outfile, indent=4)
