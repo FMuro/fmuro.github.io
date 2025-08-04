@@ -1,5 +1,5 @@
 {% macro paper (id, authors, title, year, type, publication, volume, number, series, pages, note, DOI, arxiv, abstract, bibtex, zbmath, pdf) %}
-.col.col-lg-9.mx-auto
+.col.col-9.mx-auto
     .card.shadow.rounded
         .card-body
             | {% for name in authors %}{% if loop.index > 1 %}{% if loop.last %}  and {% else %}, {% endif %}{% endif %}{% if name.url %}

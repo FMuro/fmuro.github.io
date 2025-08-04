@@ -1,36 +1,46 @@
 {% from "src/pug/_macros.j2" import paper %}
 
-{% set maximum = 2 %}
+{% set maximum = 100 %}
 
 {% set count = {'counter': 0} %}
 {% for entry in biblio %}
-{% if entry.type == '' and (entry.issued['date-parts'][0][0] | int) > 2020%}
+{% if entry.type == '' and (entry.issued['date-parts'][0][0] | int) > 2020 %}
 {% if count.counter < maximum %}
 {% if count.counter == 0 %}
 h3.mt-5.mb-3.text-center
     .bi.bi-journal &nbsp; Preprints
-.row.row-cols-1.gx-5.gy-4.mb-4
+.carousel.slide(id='Preprints', data-bs-ride='carousel')
+    .carousel-inner
+        .carousel-item.active
+{% else %}
+        .carousel-item
 {% endif -%}
     {% for name in entry.author %}
     {% if name.family in datos.coauthors.keys() %}
     {% do name.update({'url': datos.coauthors[name.family]}) %}
     {% endif %}
     {% endfor %}
-    {% filter indent(width=4) %}
+    {% filter indent(width=12) %}
     {{ paper(entry.id, entry.author, entry.title, entry.issued['date-parts'][0][0], entry.type, entry['container-title'], entry.volume, entry.issue, entry.series, entry.page, entry.note, entry.DOI, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url']) }}
     {% endfilter -%}
 {% elif count.counter == maximum -%}
 .text-center.mt-2
-    a.btn.btn-primary.btn-xl(href='preprints.html') See all preprints
+    a.btn.btn-primary.btn-sm.btn-xl(href='preprints.html') See all preprints
 {% endif -%}
 {% if count.update({'counter': count.counter + 1}) %} {% endif %}
 {% endif -%}
 {% endfor %}
-
+    .carousel-control-prev(type='button' data-bs-target='#Preprints' data-bs-slide='prev' style='filter: invert(100%)')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+    .carousel-control-next(type='button' data-bs-target='#Preprints' data-bs-slide='next' style='filter: invert(100%)')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
 
 h3.mt-5.mb-3.text-center 
     .bi.bi-journal-check &nbsp; Papers
-.row.row-cols-1.gx-5.gy-4.mb-4
+.carousel.slide(id='Papers', data-bs-ride='carousel')
+    .carousel-inner
 {% set count = {'counter': 0} %}
 {% for entry in biblio %}
 {% if entry.type != '' %}
@@ -49,13 +59,26 @@ h3.mt-5.mb-3.text-center
 {% endif %}
 {% endfor %}
 {% if count.counter < maximum %}
-    {% filter indent(width=4) %}
+{% if count.counter == 0 %}
+        .carousel-item.active
+{% else %}
+        .carousel-item
+{% endif -%}
+    {% filter indent(width=12) %}
     {{ paper(entry.id, entry.author, entry.title, entry.issued['date-parts'][0][0], entry.type, entry['container-title'], entry.volume, entry.issue, entry.series, entry.page, entry.note, entry.DOI, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url'], pdf) }}
     {% endfilter -%}
 {% elif count.counter == maximum -%}
 .text-center.mt-2
-    a.btn.btn-primary.btn-xl(href='papers.html') See all papers
+    a.btn.btn-primary.btn-sm.btn-xl(href='papers.html') See all papers
 {% endif -%}
 {% if count.update({'counter': count.counter + 1}) %} {% endif -%}
 {% endif -%}
 {% endfor %}
+    .carousel-control-prev
+        button.btn.btn-primary.btn-sm(type='button' data-bs-target='#Papers' data-bs-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.visually-hidden Previous
+    .carousel-control-next
+        button.btn.btn-primary.btn-sm(type='button' data-bs-target='#Papers' data-bs-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.visually-hidden Next
