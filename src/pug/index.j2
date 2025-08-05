@@ -1,3 +1,4 @@
+{% from "src/pug/_macros.j2" import paper, papermodal, presentation %}
 doctype html
 html(lang='en')
 
@@ -63,15 +64,8 @@ html(lang='en')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto.my-2.my-lg-0
-                        li.nav-item.dropdown
-                            a#navbarDropdownMenuLink.nav-link.dropdown-toggle(href='#research', data-toggle="dropdown", aria-haspopup="true", aria-expanded="false") Research
-                            ul.dropdown-menu.border-3(aria-labelledby="navbarDropdownMenuLink")
-                                li.nav-item 
-                                    a.nav-link(href="preprints.html") Preprints
-                                li.nav-item 
-                                    a.nav-link(href="papers.html") Papers
-                                li.nav-item 
-                                    a.nav-link(href="presentations.html") Presentations
+                        li.nav-item
+                            a.nav-link(href='#research') Research
                         li.nav-item
                             a.nav-link(href='#docencia') Docencia
                         li.nav-item
@@ -106,8 +100,60 @@ html(lang='en')
                 hr.divider
                 p.text-muted.mb-2.mx-5.text-center
                     | I work on algebraic topology, specifically on homotopy theory, and I also interact with related fields such as category theory, homological algebra, K-theory, and representation theory.
-                include ../subfiles/publications.pug
-                include ../subfiles/presentations_max.pug
+            {% set count = {'counter': 0} %}
+            {% for entry in biblio %}
+            {% if entry.type == '' and (entry.issued['date-parts'][0][0] | int) > 2020%}
+            {% if count.counter == 0 %}
+            .container-fluid
+                h3.mt-5.mb-3.text-center
+                    .bi.bi-journal &nbsp; Preprints
+                .scrolling-wrapper.row.flex-row.flex-nowrap.px-3.px-sm-5.mt-4.pb-4.pt-2(style="overflow-x: auto; overflow-y: hidden; -webkit-mask: linear-gradient(90deg,#0000,#000 5% 95%,#0000);")
+            {% endif -%}
+                {% for name in entry.author %}
+                {% if name.family in datos.coauthors.keys() %}
+                {% do name.update({'url': datos.coauthors[name.family]}) %}
+                {% endif %}
+                {% endfor %}
+                {% filter indent(width=20) %}
+                {{ paper(entry.id, entry.author, entry.title, entry.issued['date-parts'][0][0], entry.type, entry['container-title'], entry.volume, entry.issue, entry.series, entry.page, entry.note, entry.DOI, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url']) }}
+                {% endfilter -%}
+            {% if count.update({'counter': count.counter + 1}) %} {% endif %}
+            {% endif -%}
+            {% endfor %}
+            .container-fluid
+                h3.mt-5.mb-3.text-center 
+                    .bi.bi-journal-check &nbsp; Papers
+                .scrolling-wrapper.row.flex-row.flex-nowrap.px-3.px-sm-5.mt-4.pb-4.pt-2(style="overflow-x: auto; overflow-y: hidden; -webkit-mask: linear-gradient(90deg,#0000,#000 5% 95%,#0000);")
+            {% for entry in biblio %}
+            {% if entry.type != '' %}
+            {% if entry.id in datos.open.keys() %}
+            {% if datos.open[entry.id] == ''%}
+            {% set pdf = ('a.btn.btn-xs(href="assets/files/papers/' ~ entry.id ~ '.pdf") PDF') %}
+            {% else %}
+            {% set pdf = ('a.btn.btn-xs(href="' ~ datos.open[entry.id] ~ '") PDF') %}
+            {% endif %}
+            {% else %}
+            {% set pdf = '' %}
+            {% endif %}
+            {% for name in entry.author %}
+            {% if name.family in datos.coauthors.keys() %}
+            {% do name.update({'url': datos.coauthors[name.family]}) %}
+            {% endif %}
+            {% endfor %}
+                {% filter indent(width=20) %}
+                {{ paper(entry.id, entry.author, entry.title, entry.issued['date-parts'][0][0], entry.type, entry['container-title'], entry.volume, entry.issue, entry.series, entry.page, entry.note, entry.DOI, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url'], pdf) }}
+                {% endfilter -%}
+            {% endif -%}
+            {% endfor %}
+            .container-fluid
+                h3.mt-5.mb-3.text-center
+                    .bi.bi-easel &nbsp; Presentations
+                .scrolling-wrapper.row.flex-row.flex-nowrap.px-3.px-sm-5.mt-4.pb-4.pt-2(style="overflow-x: auto; overflow-y: hidden; -webkit-mask: linear-gradient(90deg,#0000,#000 5% 95%,#0000);")
+            {% for entry in datos.presentations %}
+            {% filter indent(width=20) %}
+                {{ presentation(entry.title, entry.event, entry.note, entry.daymonth, entry.year, entry.location, entry.file, entry.video, entry.url) }}
+            {% endfilter %}
+            {% endfor %}
 
 
         // Docencia
@@ -185,6 +231,70 @@ html(lang='en')
                     | with 
                     a(href='https://startbootstrap.com/theme/creative') Creative 
                     | theme.
+
+        {% for entry in biblio %}
+        {% if (entry.type == '' and (entry.issued['date-parts'][0][0] | int) > 2020) or entry.type != '' %}
+        {% filter indent(width=4) %}
+        {{ papermodal(entry.id, entry.title, entry.abstract, entry.bibtex) }}
+        {% endfilter -%}
+        {% endif %}
+        {% endfor %}
+
+        script.
+            function myFunction(myInput) {
+                let text = myInput.textContent;
+                // Replace '&nbsp;&nbsp;&nbsp;&nbsp;' (4 non-breaking spaces) with a new line
+                text = text.replace(/\u00a0{4}/g, '\n');
+                navigator.clipboard.writeText(text);
+                // Find the button that triggered this function
+                let btn = null;
+                // Try to get the button from the event if possible
+                if (window.event && window.event.target) {
+                    btn = window.event.target;
+                } else {
+                    // fallback: try to find the closest button
+                    btn = myInput.closest('.modal').querySelector('.btn-info, .btn-secondary');
+                }
+                if (btn) {
+                    // Change color to secondary
+                    btn.classList.remove('btn-info');
+                    btn.classList.add('btn-secondary');
+                    // Show tooltip
+                    const original = btn.getAttribute('data-bs-original-title') || btn.title || '';
+                    btn.setAttribute('data-bs-original-title', original); // store original
+                    btn.setAttribute('title', 'Copied!');
+                    // Bootstrap 5 tooltip
+                    if (window.bootstrap && bootstrap.Tooltip) {
+                        let tooltip = bootstrap.Tooltip.getInstance(btn);
+                        if (!tooltip) {
+                            tooltip = new bootstrap.Tooltip(btn);
+                        }
+                        tooltip.setContent({ '.tooltip-inner': 'Copied!' });
+                        tooltip.show();
+                        // Tooltip will stay until modal is closed
+                    } else {
+                        // fallback: native tooltip
+                        btn.setAttribute('title', 'Copied!');
+                    }
+                    // Hide tooltip and reset button when modal is closed
+                    const modal = myInput.closest('.modal');
+                    if (modal) {
+                        modal.addEventListener('hidden.bs.modal', function handler() {
+                            // Reset button color
+                            btn.classList.remove('btn-secondary');
+                            btn.classList.add('btn-info');
+                            // Restore original tooltip
+                            const original = btn.getAttribute('data-bs-original-title') || '';
+                            btn.setAttribute('title', original);
+                            if (window.bootstrap && bootstrap.Tooltip) {
+                                let tooltip = bootstrap.Tooltip.getInstance(btn);
+                                if (tooltip) tooltip.hide();
+                            }
+                            modal.removeEventListener('hidden.bs.modal', handler);
+                        });
+                    }
+                }
+            }
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js')

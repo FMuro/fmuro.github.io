@@ -1,5 +1,5 @@
 {% macro paper (id, authors, title, year, type, publication, volume, number, series, pages, note, DOI, arxiv, abstract, bibtex, zbmath, pdf) %}
-.col.col-lg-9.mx-auto
+.col-12.col-sm-10.col-md-8.col-lg-6.col-lx-4.mx-auto
     .card.shadow.rounded
         .card-body
             | {% for name in authors %}{% if loop.index > 1 %}{% if loop.last %}  and {% else %}, {% endif %}{% endif %}{% if name.url %}
@@ -19,38 +19,47 @@
             {% endif -%}
             {% if abstract -%}
             a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract{{ id }}") Abstract
-
-            // Modal
-            .modal.fade(id="abstract{{ id }}", tabindex="-1", role="dialog", aria-labelledby="{{ title }}", aria-hidden="true")
-                .modal-dialog(role="document").modal-dialog-centered
-                    .modal-content
-                        .modal-header
-                            h5.modal-title {{ title }}
-                        .modal-body
-                            p {{ abstract | e }}
-                        .modal-footer.justify-content-center
-                            button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
             {% endif -%}
             {% if bibtex -%}
             a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex{{ id }}") BibTeX
-
-            // Modal
-            .modal.fade(id="bibtex{{ id }}", tabindex="-1", role="dialog", aria-labelledby="{{ title }}", aria-hidden="true")
-                .modal-dialog(role="document").modal-dialog-centered
-                    .modal-content
-                        .modal-body
-                            p(id="bibtex{{ id }}") 
-                                code {{ bibtex.replace('\n', '<br>&nbsp;&nbsp;&nbsp;&nbsp;') }}
-                        .modal-footer.justify-content-center
-                            button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
             {% endif -%}
             {% if zbmath -%}
             a.btn.btn-xs(href="{{ zbmath }}") zbMath
             {% endif -%}
 {% endmacro %}
 
+{% macro papermodal (id, title, abstract, bibtex) %}
+{% if abstract -%}
+// Modal
+.modal.fade(id="abstract{{ id }}", tabindex="-1", role="dialog", aria-labelledby="{{ title }}", aria-hidden="true")
+    .modal-dialog(role="document").modal-dialog-centered
+        .modal-content
+            .modal-header
+                h5.modal-title {{ title }}
+            .modal-body
+                p {{ abstract | e }}
+            .modal-footer.justify-content-center
+                button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+{% endif -%}
+{% if bibtex -%}
+// Modal
+.modal.fade(id="bibtex{{ id }}", tabindex="-1", role="dialog", aria-labelledby="{{ title }}", aria-hidden="true")
+    .modal-dialog(role="document").modal-dialog-centered
+        .modal-content
+            .modal-body
+                p 
+                    code.user-select-all(id="bibtexcontent{{ id }}") {{ bibtex.replace('\n', '<br>&nbsp;&nbsp;&nbsp;&nbsp;') }}
+            .modal-footer.justify-content-center
+                button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent{{ id }}'))") Copy to clipboard
+{% endif -%}
+{% if zbmath -%}
+a.btn.btn-xs(href="{{ zbmath }}") zbMath
+{% endif -%}
+{% endmacro %}
+
 {% macro presentation (title, event, note, daymonth, year, location, file, video, url) %}
-.col.col-lg-9.mx-auto
+.col-12.col-sm-10.col-md-8.col-lg-6.col-lx-4.mx-auto
     .card.shadow.rounded
         .card-body
             | #[strong {{ title }}]<br>
