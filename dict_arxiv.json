@@ -3838,16 +3838,16 @@
                 "type": "text/html"
             }
         ],
-        "updated": "2025-08-05T00:00:00-04:00",
+        "updated": "2025-08-30T00:00:00-04:00",
         "updated_parsed": [
             2025,
             8,
-            5,
+            30,
             4,
             0,
             0,
-            1,
-            217,
+            5,
+            242,
             0
         ],
         "id": "https://arxiv.org/a/0000-0001-8457-9889",
@@ -3857,17 +3857,17 @@
     "headers": {
         "connection": "close",
         "server": "Apache",
-        "set-cookie": "browser=52.173.178.216.1754406845781397; path=/; max-age=946080000; domain=.arxiv.org",
+        "set-cookie": "browser=20.109.95.99.1756595884608690; path=/; max-age=946080000; domain=.arxiv.org",
         "x-catalyst": "5.90019",
         "strict-transport-security": "max-age=31536000",
         "content-encoding": "gzip",
         "content-type": "application/atom+xml; charset=UTF-8",
         "accept-ranges": "bytes",
         "via": "1.1 varnish, 1.1 varnish",
-        "date": "Tue, 05 Aug 2025 15:14:06 GMT",
-        "x-served-by": "cache-lga21974-LGA, cache-dfw-kdfw8210133-DFW",
+        "date": "Sat, 30 Aug 2025 23:18:04 GMT",
+        "x-served-by": "cache-lga21974-LGA, cache-iad-kiad7000029-IAD",
         "x-cache": "MISS, MISS",
-        "x-timer": "S1754406846.742052,VS0,VE347",
+        "x-timer": "S1756595885.571188,VS0,VE377",
         "vary": "Accept-Encoding",
         "transfer-encoding": "chunked"
     },

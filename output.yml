@@ -1,3 +1,25 @@
+- URL: https://arxiv.org/abs/2508.18852
+  arxiv: '2508.18852'
+  author:
+  - family: Jasso
+    given: Gustavo
+  - family: Muro
+    given: Fernando
+  bibtex: "@misc{arXiv:2508.18852,\n    author = {Jasso, Gustavo and Muro, Fernando},\n\
+    \    title = {Minimal ${A_}{{\\infty}}$-algebras of endomorphisms: {The} case\
+    \ of $d{{\\mathbb}}{Z}$-cluster tilting objects},\n    year = {2025},\n    howpublished\
+    \ = {Preprint, {arXiv}:2508.18852 [math.{RT}] (2025)},\n    keywords = {18G80,18N40},\n\
+    \    url = {https://arxiv.org/abs/2508.18852},\n    }"
+  id: arXiv:2508.18852
+  issued:
+    date-parts:
+    - - 2025
+  keyword: 18G80,18N40
+  publisher: Preprint, arXiv:2508.18852 [math.RT] (2025)
+  title: 'Minimal ${A_}{{\infty}}$-algebras of endomorphisms: The case of $d{{\mathbb}}{Z}$-cluster
+    tilting objects'
+  title-short: Minimal ${A_}{{\infty}}$-algebras of endomorphisms
+  type: ''
 - URL: https://arxiv.org/abs/2507.17568
   abstract: We develop an obstruction theory for the extension of truncated minimal
     $A$-infinity bimodule structures over truncated minimal $A$-infinity algebras.

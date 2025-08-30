@@ -1,5 +1,31 @@
 [
   {
+    "URL": "https://arxiv.org/abs/2508.18852",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "arXiv:2508.18852",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "18G80,18N40",
+    "publisher": "Preprint, arXiv:2508.18852 [math.RT] (2025)",
+    "title": "Minimal ${A_}{{\\infty}}$-algebras of endomorphisms: The case of $d{{\\mathbb}}{Z}$-cluster tilting objects",
+    "title-short": "Minimal ${A_}{{\\infty}}$-algebras of endomorphisms",
+    "type": ""
+  },
+  {
     "URL": "https://arxiv.org/abs/2507.17568",
     "author": [
       {
