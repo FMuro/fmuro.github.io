@@ -2,6 +2,89 @@
     "bozo": false,
     "entries": [
         {
+            "id": "http://arxiv.org/abs/2508.18852v1",
+            "guidislink": true,
+            "link": "http://arxiv.org/abs/2508.18852v1",
+            "updated": "2025-08-26T05:31:54-04:00",
+            "updated_parsed": [
+                2025,
+                8,
+                26,
+                9,
+                31,
+                54,
+                1,
+                238,
+                0
+            ],
+            "published": "2025-08-26T05:31:54-04:00",
+            "published_parsed": [
+                2025,
+                8,
+                26,
+                9,
+                31,
+                54,
+                1,
+                238,
+                0
+            ],
+            "title": "Minimal $A_\\infty$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "Minimal $A_\\infty$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
+            },
+            "summary": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
+            "summary_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author."
+            },
+            "authors": [
+                {
+                    "name": "Gustavo Jasso, Fernando Muro"
+                }
+            ],
+            "author_detail": {
+                "name": "Gustavo Jasso, Fernando Muro"
+            },
+            "author": "Gustavo Jasso, Fernando Muro",
+            "arxiv_comment": "17 pages. Contribution to the proceedings of the XXI International Conference on Representations of Algebras (ICRA 21)",
+            "links": [
+                {
+                    "href": "http://arxiv.org/abs/2508.18852v1",
+                    "rel": "alternate",
+                    "type": "text/html"
+                },
+                {
+                    "title": "pdf",
+                    "href": "http://arxiv.org/pdf/2508.18852v1",
+                    "rel": "related",
+                    "type": "application/pdf"
+                }
+            ],
+            "arxiv_primary_category": {
+                "term": "math.RT",
+                "scheme": "http://arxiv.org/schemas/atom",
+                "label": "Representation Theory (math.RT)"
+            },
+            "tags": [
+                {
+                    "term": "math.RT",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": "Representation Theory (math.RT)"
+                },
+                {
+                    "term": "Primary: 18G80. Secondary: 18N40",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": null
+                }
+            ]
+        },
+        {
             "id": "http://arxiv.org/abs/2507.17568v1",
             "guidislink": true,
             "link": "http://arxiv.org/abs/2507.17568v1",
@@ -3838,16 +3921,16 @@
                 "type": "text/html"
             }
         ],
-        "updated": "2025-08-30T00:00:00-04:00",
+        "updated": "2025-09-01T00:00:00-04:00",
         "updated_parsed": [
             2025,
-            8,
-            30,
+            9,
+            1,
             4,
             0,
             0,
-            5,
-            242,
+            0,
+            244,
             0
         ],
         "id": "https://arxiv.org/a/0000-0001-8457-9889",
@@ -3857,17 +3940,17 @@
     "headers": {
         "connection": "close",
         "server": "Apache",
-        "set-cookie": "browser=20.109.95.99.1756595884608690; path=/; max-age=946080000; domain=.arxiv.org",
+        "set-cookie": "browser=20.102.47.165.1756716071795262; path=/; max-age=946080000; domain=.arxiv.org",
         "x-catalyst": "5.90019",
         "strict-transport-security": "max-age=31536000",
         "content-encoding": "gzip",
         "content-type": "application/atom+xml; charset=UTF-8",
         "accept-ranges": "bytes",
         "via": "1.1 varnish, 1.1 varnish",
-        "date": "Sat, 30 Aug 2025 23:18:04 GMT",
-        "x-served-by": "cache-lga21974-LGA, cache-iad-kiad7000029-IAD",
+        "date": "Mon, 01 Sep 2025 08:41:12 GMT",
+        "x-served-by": "cache-lga21974-LGA, cache-iad-kcgs7200076-IAD",
         "x-cache": "MISS, MISS",
-        "x-timer": "S1756595885.571188,VS0,VE377",
+        "x-timer": "S1756716072.771275,VS0,VE282",
         "vary": "Accept-Encoding",
         "transfer-encoding": "chunked"
     },
