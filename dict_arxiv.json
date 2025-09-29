@@ -2,6 +2,89 @@
     "bozo": false,
     "entries": [
         {
+            "id": "http://arxiv.org/abs/2509.22625v1",
+            "guidislink": true,
+            "link": "http://arxiv.org/abs/2509.22625v1",
+            "updated": "2025-09-26T13:51:20-04:00",
+            "updated_parsed": [
+                2025,
+                9,
+                26,
+                17,
+                51,
+                20,
+                4,
+                269,
+                0
+            ],
+            "published": "2025-09-26T13:51:20-04:00",
+            "published_parsed": [
+                2025,
+                9,
+                26,
+                17,
+                51,
+                20,
+                4,
+                269,
+                0
+            ],
+            "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures"
+            },
+            "summary": "Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\mathbb{Z}$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. For $d=1$ this correspondence specialises to previous work of the second-named author on algebraic triangulated categories of finite type. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule.",
+            "summary_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\mathbb{Z}$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. For $d=1$ this correspondence specialises to previous work of the second-named author on algebraic triangulated categories of finite type. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule."
+            },
+            "authors": [
+                {
+                    "name": "Gustavo Jasso, Fernando Muro"
+                }
+            ],
+            "author_detail": {
+                "name": "Gustavo Jasso, Fernando Muro"
+            },
+            "author": "Gustavo Jasso, Fernando Muro",
+            "arxiv_comment": "91 pages",
+            "links": [
+                {
+                    "href": "http://arxiv.org/abs/2509.22625v1",
+                    "rel": "alternate",
+                    "type": "text/html"
+                },
+                {
+                    "title": "pdf",
+                    "href": "http://arxiv.org/pdf/2509.22625v1",
+                    "rel": "related",
+                    "type": "application/pdf"
+                }
+            ],
+            "arxiv_primary_category": {
+                "term": "math.RT",
+                "scheme": "http://arxiv.org/schemas/atom",
+                "label": "Representation Theory (math.RT)"
+            },
+            "tags": [
+                {
+                    "term": "math.RT",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": "Representation Theory (math.RT)"
+                },
+                {
+                    "term": "Primary: 18G80 Secondary: 18N40",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": null
+                }
+            ]
+        },
+        {
             "id": "http://arxiv.org/abs/2508.18852v1",
             "guidislink": true,
             "link": "http://arxiv.org/abs/2508.18852v1",
@@ -3921,16 +4004,16 @@
                 "type": "text/html"
             }
         ],
-        "updated": "2025-09-12T00:00:00-04:00",
+        "updated": "2025-09-29T00:00:00-04:00",
         "updated_parsed": [
             2025,
             9,
-            12,
+            29,
             4,
             0,
             0,
-            4,
-            255,
+            0,
+            272,
             0
         ],
         "id": "https://arxiv.org/a/0000-0001-8457-9889",
@@ -3940,17 +4023,17 @@
     "headers": {
         "connection": "close",
         "server": "Apache",
-        "set-cookie": "browser=135.232.208.136.1757668012215826; path=/; max-age=946080000; domain=.arxiv.org",
+        "set-cookie": "browser=64.236.141.192.1759131270059726; path=/; max-age=946080000; domain=.arxiv.org",
         "x-catalyst": "5.90019",
         "strict-transport-security": "max-age=31536000",
         "content-encoding": "gzip",
         "content-type": "application/atom+xml; charset=UTF-8",
         "accept-ranges": "bytes",
         "via": "1.1 varnish, 1.1 varnish",
-        "date": "Fri, 12 Sep 2025 09:06:53 GMT",
-        "x-served-by": "cache-lga21974-LGA, cache-chi-kigq8000042-CHI",
+        "date": "Mon, 29 Sep 2025 07:34:30 GMT",
+        "x-served-by": "cache-lga21974-LGA, cache-chi-kigq8000049-CHI",
         "x-cache": "MISS, MISS",
-        "x-timer": "S1757668012.177514,VS0,VE1270",
+        "x-timer": "S1759131270.021687,VS0,VE408",
         "vary": "Accept-Encoding",
         "transfer-encoding": "chunked"
     },

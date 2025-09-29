@@ -1328,5 +1328,30 @@
     "title": "An elementary approach to the projective dimension in proper homotopy theory",
     "type": "article-journal",
     "volume": "31"
+  },
+  {
+    "URL": "https://arxiv.org/abs/2509.22625",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "arXiv:2509.22625",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "publisher": "Preprint, arXiv:2509.22625 [math.RT] (2025)",
+    "title": "The derived auslander–iyama correspondence II: Bimodule calabi–yau structures",
+    "title-short": "The derived auslander–iyama correspondence II",
+    "type": ""
   }
 ]

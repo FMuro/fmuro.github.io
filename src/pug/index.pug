@@ -321,6 +321,33 @@ html(lang='en')
             
             
             
+            
+            
+                
+                
+                
+                
+                
+                
+                
+                                    
+                    .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
+                        .card.shadow.rounded
+                            .card-body
+                                | 
+                                a.coauthor(href="https://gustavo.jasso.info") Gustavo Jasso
+                                |  and Fernando Muro<br>
+                                | #[strong The derived auslander–iyama correspondence II: Bimodule calabi–yau structures]<br>
+                                |   2025
+                            .card-footer
+                                
+                                
+                                a.btn.btn-xs(href="https://arxiv.org/abs/2509.22625") arxiv
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstractarXiv:2509.22625") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtexarXiv:2509.22625") BibTeX
+                                
+                                    
+            
             .container-fluid
                 h3.mt-5.mb-3.text-center 
                     .bi.bi-journal-check &nbsp; Papers
@@ -1396,6 +1423,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://zbmath.org/2010229") zbMath
                                 
                                     
+            
             .container-fluid
                 h3.mt-5.mb-3.text-center
                     .bi.bi-easel &nbsp; Presentations
@@ -3205,6 +3233,32 @@ html(lang='en')
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
                     button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontentzbMATH02010229'))") Copy to clipboard
+
+            
+        
+        
+        
+            
+    // Modal
+    .modal.fade(id="abstractarXiv:2509.22625", tabindex="-1", role="dialog", aria-labelledby="The derived auslander–iyama correspondence II: Bimodule calabi–yau structures", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-header
+                    h5.modal-title The derived auslander–iyama correspondence II: Bimodule calabi–yau structures
+                .modal-body
+                    p Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\mathbb{Z}$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. For $d=1$ this correspondence specialises to previous work of the second-named author on algebraic triangulated categories of finite type. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\infty$-bimodule structures on a graded bimodule.
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtexarXiv:2509.22625", tabindex="-1", role="dialog", aria-labelledby="The derived auslander–iyama correspondence II: Bimodule calabi–yau structures", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontentarXiv:2509.22625") @misc{arXiv:2509.22625,<br>&nbsp;&nbsp;&nbsp;&nbsp;      title={The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures}, <br>&nbsp;&nbsp;&nbsp;&nbsp;      author={Gustavo Jasso and Fernando Muro},<br>&nbsp;&nbsp;&nbsp;&nbsp;      year={2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;                        url={https://arxiv.org/abs/2509.22625}, <br>&nbsp;&nbsp;&nbsp;&nbsp;      howpublished={Preprint, {arXiv}:2509.22625 [math.{RT}] (2025)}<br>&nbsp;&nbsp;&nbsp;&nbsp;}
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontentarXiv:2509.22625'))") Copy to clipboard
 
             
         

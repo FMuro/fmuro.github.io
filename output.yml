@@ -1466,3 +1466,35 @@
   type: article-journal
   volume: '31'
   zbmath_url: https://zbmath.org/2010229
+- URL: https://arxiv.org/abs/2509.22625
+  abstract: 'Let $d$ be a positive integer. In a previous article we established a
+    bijective correspondence between the following classes of objects, considered
+    up to the appropriate notion of equivalence: differential graded algebras with
+    finite-dimensional $0$-th cohomology such that the canonical generator of their
+    perfect derived category is a basic $d\mathbb{Z}$-cluster tilting object, and
+    basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. For $d=1$
+    this correspondence specialises to previous work of the second-named author on
+    algebraic triangulated categories of finite type. In this article, we prove a
+    variant of our general correspondence for bimodule right Calabi--Yau dg algebras.
+    A novel ingredient is a new cohomology theory which contains obstructions to the
+    existence and uniqueness of minimal $A_\infty$-bimodule structures on a graded
+    bimodule.'
+  arxiv: '2509.22625'
+  author:
+  - family: Jasso
+    given: Gustavo
+  - family: Muro
+    given: Fernando
+  bibtex: "@misc{arXiv:2509.22625,\n      title={The Derived Auslander--Iyama Correspondence\
+    \ II: Bimodule Calabi--Yau Structures}, \n      author={Gustavo Jasso and Fernando\
+    \ Muro},\n      year={2025},\n                        url={https://arxiv.org/abs/2509.22625},\
+    \ \n      howpublished={Preprint, {arXiv}:2509.22625 [math.{RT}] (2025)}\n}"
+  id: arXiv:2509.22625
+  issued:
+    date-parts:
+    - - 2025
+  publisher: Preprint, arXiv:2509.22625 [math.RT] (2025)
+  title: "The derived auslander\u2013iyama correspondence II: Bimodule calabi\u2013\
+    yau structures"
+  title-short: "The derived auslander\u2013iyama correspondence II"
+  type: ''
