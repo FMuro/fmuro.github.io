@@ -381,6 +381,10 @@ portfolio:
     category: Workshop
     image: banff2016triang
 
+  # - name: Non-commutative, derived and homotopical methods in geometry, Antwerp, 2016
+  #   category: Conference
+  #   image: antwerp
+
   - name: Operations in Highly Structured Homology Theories, Banff, 2016
     category: Workshop
     image: banff2016operations
