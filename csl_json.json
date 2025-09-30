@@ -1,5 +1,54 @@
 [
   {
+    "URL": "https://arxiv.org/abs/2509.22625",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "arXiv:2509.22625",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "publisher": "Preprint, arXiv:2509.22625 [math.RT] (2025)",
+    "title": "The Derived Auslander–Iyama Correspondence II: Bimodule Calabi–Yau Structures",
+    "type": ""
+  },
+  {
+    "URL": "https://arxiv.org/abs/2508.18852",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "arXiv:2508.18852",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "18G80,18N40",
+    "publisher": "Preprint, arXiv:2508.18852 [math.RT] (2025)",
+    "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
+    "type": ""
+  },
+  {
     "URL": "https://arxiv.org/abs/2507.17568",
     "author": [
       {
@@ -41,7 +90,7 @@
         "given": "Fernando"
       }
     ],
-    "container-title": "Triangulated categories in representation theory and beyond. The abel symposium 2022, ålesund, norway, june 6–10, 2022",
+    "container-title": "Triangulated categories in representation theory and beyond. The Abel symposium 2022, Ålesund, Norway, June 6–10, 2022",
     "id": "zbMATH07950525",
     "issued": {
       "date-parts": [
@@ -372,7 +421,6 @@
     "keyword": "18M60,55U35,18M05,18C40,18D20",
     "page": "3837-3852",
     "title": "Correction to: “Homotopy theory of nonsymmetric operads. I–II”",
-    "title-short": "Correction to",
     "type": "article-journal",
     "volume": "17"
   },
@@ -530,7 +578,7 @@
     },
     "keyword": "18D20,18G55,55U35",
     "page": "377-413",
-    "title": "Dwyer-kan homotopy theory of enriched categories",
+    "title": "Dwyer-Kan homotopy theory of enriched categories",
     "type": "article-journal",
     "volume": "8"
   },
@@ -644,7 +692,6 @@
     "keyword": "18D50,18D10,18G55,55U35",
     "page": "229-281",
     "title": "Homotopy theory of non-symmetric operads. II: Change of base category and left properness",
-    "title-short": "Homotopy theory of non-symmetric operads. II",
     "type": "article-journal",
     "volume": "14"
   },
@@ -831,7 +878,7 @@
         "given": "Andrew"
       }
     ],
-    "container-title": "$K$-theory and noncommutative geometry. Proceedings of the ICM 2006 satellite conference, valladolid, spain, august 31–september 6, 2006",
+    "container-title": "$K$-theory and noncommutative geometry. Proceedings of the ICM 2006 satellite conference, Valladolid, Spain, August 31–September 6, 2006",
     "id": "zbMATH05381934",
     "issued": {
       "date-parts": [
