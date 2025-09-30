@@ -12953,99 +12953,6 @@
                         "name": null,
                         "sign": null
                     },
-                    "text": "Summary: The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
-                    "contribution_type": "summary"
-                }
-            ],
-            "id": 902815985,
-            "identifier": "arXiv:2508.18852",
-            "keywords": [
-                null
-            ],
-            "language": {
-                "languages": [],
-                "addition": [
-                    null
-                ]
-            },
-            "license": [
-                "http://creativecommons.org/licenses/by/4.0/"
-            ],
-            "links": [
-                {
-                    "identifier": "2508.18852",
-                    "type": "arxiv",
-                    "url": "https://arxiv.org/abs/2508.18852"
-                }
-            ],
-            "msc": [
-                {
-                    "code": "18G80",
-                    "scheme": "msc2020",
-                    "text": "Derived categories, triangulated categories"
-                },
-                {
-                    "code": "18N40",
-                    "scheme": "msc2020",
-                    "text": "Homotopical algebra, Quillen model categories, derivators"
-                }
-            ],
-            "references": [],
-            "source": {
-                "book": [],
-                "pages": null,
-                "series": [],
-                "source": "Preprint, arXiv:2508.18852 [math.RT] (2025)"
-            },
-            "states": [],
-            "title": {
-                "addition": null,
-                "original": null,
-                "subtitle": null,
-                "title": "Minimal $A_\\infty$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
-            },
-            "year": "2025",
-            "zbmath_url": "https://zbmath.org/902815985"
-        },
-        {
-            "biographic_references": [],
-            "contributors": {
-                "authors": [
-                    {
-                        "aliases": [],
-                        "checked": "0",
-                        "codes": [
-                            "jasso.gustavo"
-                        ],
-                        "name": "Jasso, Gustavo"
-                    },
-                    {
-                        "aliases": [],
-                        "checked": "0",
-                        "codes": [
-                            "muro.fernando"
-                        ],
-                        "name": "Muro, Fernando"
-                    }
-                ],
-                "author_references": [],
-                "editors": []
-            },
-            "database": "arXiv",
-            "datestamp": "0001-01-01T00:00:00Z",
-            "document_type": {
-                "code": "p",
-                "description": "preprint"
-            },
-            "editorial_contributions": [
-                {
-                    "language": null,
-                    "reviewer": {
-                        "author_code": null,
-                        "reviewer_id": null,
-                        "name": null,
-                        "sign": null
-                    },
                     "text": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
                     "contribution_type": "summary"
                 }
@@ -13109,6 +13016,99 @@
             },
             "year": "2025",
             "zbmath_url": "https://zbmath.org/902790912"
+        },
+        {
+            "biographic_references": [],
+            "contributors": {
+                "authors": [
+                    {
+                        "aliases": [],
+                        "checked": "0",
+                        "codes": [
+                            "jasso.gustavo"
+                        ],
+                        "name": "Jasso, Gustavo"
+                    },
+                    {
+                        "aliases": [],
+                        "checked": "0",
+                        "codes": [
+                            "muro.fernando"
+                        ],
+                        "name": "Muro, Fernando"
+                    }
+                ],
+                "author_references": [],
+                "editors": []
+            },
+            "database": "arXiv",
+            "datestamp": "0001-01-01T00:00:00Z",
+            "document_type": {
+                "code": "p",
+                "description": "preprint"
+            },
+            "editorial_contributions": [
+                {
+                    "language": null,
+                    "reviewer": {
+                        "author_code": null,
+                        "reviewer_id": null,
+                        "name": null,
+                        "sign": null
+                    },
+                    "text": "Summary: The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
+                    "contribution_type": "summary"
+                }
+            ],
+            "id": 902815985,
+            "identifier": "arXiv:2508.18852",
+            "keywords": [
+                null
+            ],
+            "language": {
+                "languages": [],
+                "addition": [
+                    null
+                ]
+            },
+            "license": [
+                "http://creativecommons.org/licenses/by/4.0/"
+            ],
+            "links": [
+                {
+                    "identifier": "2508.18852",
+                    "type": "arxiv",
+                    "url": "https://arxiv.org/abs/2508.18852"
+                }
+            ],
+            "msc": [
+                {
+                    "code": "18G80",
+                    "scheme": "msc2020",
+                    "text": "Derived categories, triangulated categories"
+                },
+                {
+                    "code": "18N40",
+                    "scheme": "msc2020",
+                    "text": "Homotopical algebra, Quillen model categories, derivators"
+                }
+            ],
+            "references": [],
+            "source": {
+                "book": [],
+                "pages": null,
+                "series": [],
+                "source": "Preprint, arXiv:2508.18852 [math.RT] (2025)"
+            },
+            "states": [],
+            "title": {
+                "addition": null,
+                "original": null,
+                "subtitle": null,
+                "title": "Minimal $A_\\infty$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
+            },
+            "year": "2025",
+            "zbmath_url": "https://zbmath.org/902815985"
         },
         {
             "biographic_references": [],
@@ -22834,8 +22834,8 @@
         "last_id": null,
         "nr_total_results": 48,
         "nr_request_results": 48,
-        "query_execution_time_in_seconds": 1.6971523761749268,
+        "query_execution_time_in_seconds": 1.6031804084777832,
         "status_code": 200,
-        "time_stamp": "2025-09-29T07:34:33Z"
+        "time_stamp": "2025-09-30T11:08:32Z"
     }
 }
