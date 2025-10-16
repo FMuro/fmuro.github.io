@@ -1,5 +1,35 @@
 [
   {
+    "DOI": "10.1007/s00029-025-01087-w",
+    "ISSN": "1022-1824",
+    "author": [
+      {
+        "family": "Guan",
+        "given": "Ai"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "container-title": "Sel. Math., New Ser.",
+    "id": "zbMATH08105648",
+    "issue": "5",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "keyword": "18M60,53D17",
+    "note": "Id/No 94",
+    "page": "36",
+    "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds",
+    "type": "article-journal",
+    "volume": "31"
+  },
+  {
     "URL": "https://arxiv.org/abs/2509.22625",
     "author": [
       {
@@ -19,6 +49,7 @@
         ]
       ]
     },
+    "keyword": "18G80,18N40",
     "publisher": "Preprint, arXiv:2509.22625 [math.RT] (2025)",
     "title": "The Derived Auslander–Iyama Correspondence II: Bimodule Calabi–Yau Structures",
     "type": ""
@@ -45,7 +76,7 @@
     },
     "keyword": "18G80,18N40",
     "publisher": "Preprint, arXiv:2508.18852 [math.RT] (2025)",
-    "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
+    "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d{{\\mathbb}}{Z}$-cluster tilting objects",
     "type": ""
   },
   {
@@ -183,30 +214,6 @@
     "title": "Derived universal Massey products",
     "type": "article-journal",
     "volume": "25"
-  },
-  {
-    "URL": "https://arxiv.org/abs/2312.07321",
-    "author": [
-      {
-        "family": "Guan",
-        "given": "Ai"
-      },
-      {
-        "family": "Muro",
-        "given": "Fernando"
-      }
-    ],
-    "id": "arXiv:2312.07321",
-    "issued": {
-      "date-parts": [
-        [
-          2023
-        ]
-      ]
-    },
-    "publisher": "Preprint, arXiv:2312.07321 [math.DG] (2023)",
-    "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds",
-    "type": ""
   },
   {
     "DOI": "10.1017/S1474748020000250",

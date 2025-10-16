@@ -750,7 +750,7 @@
                             "13N05"
                         ],
                         "prefix": "Zbl",
-                        "series_id": 0,
+                        "series_id": 9625,
                         "year": "1988"
                     }
                 },
@@ -12953,6 +12953,99 @@
                         "name": null,
                         "sign": null
                     },
+                    "text": "Summary: Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\mathbb{Z}$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. For $d=1$ this correspondence specialises to previous work of the second-named author on algebraic triangulated categories of finite type. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule.",
+                    "contribution_type": "summary"
+                }
+            ],
+            "id": 902841587,
+            "identifier": "arXiv:2509.22625",
+            "keywords": [
+                null
+            ],
+            "language": {
+                "languages": [],
+                "addition": [
+                    null
+                ]
+            },
+            "license": [
+                "http://creativecommons.org/licenses/by/4.0/"
+            ],
+            "links": [
+                {
+                    "identifier": "2509.22625",
+                    "type": "arxiv",
+                    "url": "https://arxiv.org/abs/2509.22625"
+                }
+            ],
+            "msc": [
+                {
+                    "code": "18G80",
+                    "scheme": "msc2020",
+                    "text": "Derived categories, triangulated categories"
+                },
+                {
+                    "code": "18N40",
+                    "scheme": "msc2020",
+                    "text": "Homotopical algebra, Quillen model categories, derivators"
+                }
+            ],
+            "references": [],
+            "source": {
+                "book": [],
+                "pages": null,
+                "series": [],
+                "source": "Preprint, arXiv:2509.22625 [math.RT] (2025)"
+            },
+            "states": [],
+            "title": {
+                "addition": null,
+                "original": null,
+                "subtitle": null,
+                "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures"
+            },
+            "year": "2025",
+            "zbmath_url": "https://zbmath.org/902841587"
+        },
+        {
+            "biographic_references": [],
+            "contributors": {
+                "authors": [
+                    {
+                        "aliases": [],
+                        "checked": "0",
+                        "codes": [
+                            "jasso.gustavo"
+                        ],
+                        "name": "Jasso, Gustavo"
+                    },
+                    {
+                        "aliases": [],
+                        "checked": "0",
+                        "codes": [
+                            "muro.fernando"
+                        ],
+                        "name": "Muro, Fernando"
+                    }
+                ],
+                "author_references": [],
+                "editors": []
+            },
+            "database": "arXiv",
+            "datestamp": "0001-01-01T00:00:00Z",
+            "document_type": {
+                "code": "p",
+                "description": "preprint"
+            },
+            "editorial_contributions": [
+                {
+                    "language": null,
+                    "reviewer": {
+                        "author_code": null,
+                        "reviewer_id": null,
+                        "name": null,
+                        "sign": null
+                    },
                     "text": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
                     "contribution_type": "summary"
                 }
@@ -13105,7 +13198,7 @@
                 "addition": null,
                 "original": null,
                 "subtitle": null,
-                "title": "Minimal $A_\\infty$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
+                "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
             },
             "year": "2025",
             "zbmath_url": "https://zbmath.org/902815985"
@@ -14939,7 +15032,7 @@
                             "13N05"
                         ],
                         "prefix": "Zbl",
-                        "series_id": 0,
+                        "series_id": 9625,
                         "year": "1988"
                     }
                 },
@@ -15915,370 +16008,6 @@
             },
             "year": "2015",
             "zbmath_url": "https://zbmath.org/6454207"
-        },
-        {
-            "biographic_references": [],
-            "contributors": {
-                "authors": [
-                    {
-                        "aliases": [],
-                        "checked": "1",
-                        "codes": [
-                            "muro.fernando"
-                        ],
-                        "name": "Muro, Fernando"
-                    }
-                ],
-                "author_references": [],
-                "editors": []
-            },
-            "database": "Zbl",
-            "datestamp": "2017-10-16T13:39:18Z",
-            "document_type": {
-                "code": "j",
-                "description": "journal article"
-            },
-            "editorial_contributions": [
-                {
-                    "language": "English",
-                    "reviewer": {
-                        "author_code": null,
-                        "reviewer_id": null,
-                        "name": null,
-                        "sign": null
-                    },
-                    "text": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
-                    "contribution_type": "summary"
-                }
-            ],
-            "id": 6791664,
-            "identifier": "1451.18037",
-            "keywords": [
-                "operad",
-                "functor-operad",
-                "algebra",
-                "model category"
-            ],
-            "language": {
-                "languages": [
-                    "English"
-                ],
-                "addition": [
-                    null
-                ]
-            },
-            "license": [],
-            "links": [
-                {
-                    "identifier": "10.2140/agt.2017.17.3837",
-                    "type": "doi",
-                    "url": "https://doi.org/10.2140/agt.2017.17.3837"
-                },
-                {
-                    "identifier": "1507.06644",
-                    "type": "arxiv",
-                    "url": "https://arxiv.org/abs/1507.06644"
-                }
-            ],
-            "msc": [
-                {
-                    "code": "18M60",
-                    "scheme": "msc2020",
-                    "text": "Operads (general)"
-                },
-                {
-                    "code": "55U35",
-                    "scheme": "msc2020",
-                    "text": "Abstract and axiomatic homotopy theory in algebraic topology"
-                },
-                {
-                    "code": "18M05",
-                    "scheme": "msc2020",
-                    "text": "Monoidal categories, symmetric monoidal categories"
-                },
-                {
-                    "code": "18C40",
-                    "scheme": "msc2020",
-                    "text": "Structured objects in a category (group objects, etc.)"
-                },
-                {
-                    "code": "18D20",
-                    "scheme": "msc2020",
-                    "text": "Enriched categories (over closed or monoidal categories)"
-                }
-            ],
-            "references": [
-                {
-                    "doi": "10.1016/S0022-4049(96)00084-9",
-                    "position": "1",
-                    "text": "DOI:10.1016/S0022-4049(96)00084-9",
-                    "zbmath": {
-                        "author_codes": [
-                            "batanin.michael-a"
-                        ],
-                        "document_id": 1121662,
-                        "msc": [
-                            "18D20",
-                            "55U35",
-                            "18D35",
-                            "18G30",
-                            "18A10",
-                            "18G55"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 518,
-                        "year": "1998"
-                    }
-                },
-                {
-                    "doi": "10.1007/s10485-008-9179-7",
-                    "position": "2",
-                    "text": "DOI:10.1007/s10485-008-9179-7",
-                    "zbmath": {
-                        "author_codes": [
-                            "weber.mark",
-                            "batanin.michael-a"
-                        ],
-                        "document_id": 5871633,
-                        "msc": [
-                            "18D50",
-                            "18A05",
-                            "18D20",
-                            "55U35"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 1875,
-                        "year": "2011"
-                    }
-                },
-                {
-                    "doi": "10.1007/s00014-003-0772-y",
-                    "position": "3",
-                    "text": "DOI:10.1007/s00014-003-0772-y",
-                    "zbmath": {
-                        "author_codes": [
-                            "berger.clemens",
-                            "moerdijk.ieke"
-                        ],
-                        "document_id": 2038410,
-                        "msc": [
-                            "18D50",
-                            "18G55",
-                            "55U35",
-                            "55P48"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 389,
-                        "year": "2003"
-                    }
-                },
-                {
-                    "doi": "10.1090/conm/346/06287",
-                    "position": "4",
-                    "text": "DOI:10.1090/conm/346/06287",
-                    "zbmath": {
-                        "author_codes": [],
-                        "document_id": null,
-                        "msc": [],
-                        "prefix": null,
-                        "series_id": 0,
-                        "year": null
-                    }
-                },
-                {
-                    "doi": "10.1016/j.jpaa.2009.11.006",
-                    "position": "5",
-                    "text": "DOI:10.1016/j.jpaa.2009.11.006",
-                    "zbmath": {
-                        "author_codes": [
-                            "harper.john-e"
-                        ],
-                        "document_id": 5678561,
-                        "msc": [
-                            "55U35",
-                            "55P48",
-                            "55P43",
-                            "18G55"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 518,
-                        "year": "2010"
-                    }
-                },
-                {
-                    "doi": null,
-                    "position": "6",
-                    "text": "Hirschhorn, Model categories and their localizations. Mathematical Surveys and Monographs, 99, 2003; Hirschhorn, Model categories and their localizations. Mathematical Surveys and Monographs, 99, 2003",
-                    "zbmath": {
-                        "author_codes": [
-                            "hirschhorn.philip-s"
-                        ],
-                        "document_id": 1860105,
-                        "msc": [
-                            "55-02",
-                            "18-02",
-                            "55U35",
-                            "18G30",
-                            "18E35"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 4094,
-                        "year": "2003"
-                    }
-                },
-                {
-                    "doi": "10.1016/j.jpaa.2006.10.002",
-                    "position": "7",
-                    "text": "DOI:10.1016/j.jpaa.2006.10.002",
-                    "zbmath": {
-                        "author_codes": [
-                            "mandell.michael-a",
-                            "lewis.l-gaunce-jun"
-                        ],
-                        "document_id": 5167551,
-                        "msc": [
-                            "18G55",
-                            "55P99",
-                            "18D10",
-                            "18D20"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 518,
-                        "year": "2007"
-                    }
-                },
-                {
-                    "doi": "10.1353/ajm.2004.0038",
-                    "position": "8",
-                    "text": "DOI:10.1353/ajm.2004.0038",
-                    "zbmath": {
-                        "author_codes": [
-                            "mcclure.james-e",
-                            "smith.jeffrey-henderson"
-                        ],
-                        "document_id": 2149539,
-                        "msc": [
-                            "55P48",
-                            "18D50"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 300,
-                        "year": "2004"
-                    }
-                },
-                {
-                    "doi": "10.2140/agt.2011.11.1541",
-                    "position": "9",
-                    "text": "DOI:10.2140/agt.2011.11.1541",
-                    "zbmath": {
-                        "author_codes": [
-                            "muro.fernando"
-                        ],
-                        "document_id": 5904608,
-                        "msc": [
-                            "18D50",
-                            "18G55",
-                            "18D10",
-                            "55U35"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 2808,
-                        "year": "2011"
-                    }
-                },
-                {
-                    "doi": "10.2140/agt.2014.14.229",
-                    "position": "10",
-                    "text": "DOI:10.2140/agt.2014.14.229",
-                    "zbmath": {
-                        "author_codes": [
-                            "muro.fernando"
-                        ],
-                        "document_id": 6243329,
-                        "msc": [
-                            "18D50",
-                            "18D10",
-                            "18G55",
-                            "55U35"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 2808,
-                        "year": "2014"
-                    }
-                },
-                {
-                    "doi": "10.1112/S002461150001220X",
-                    "position": "11",
-                    "text": "DOI:10.1112/S002461150001220X",
-                    "zbmath": {
-                        "author_codes": [
-                            "shipley.brooke-e",
-                            "schwede.stefan"
-                        ],
-                        "document_id": 1463619,
-                        "msc": [
-                            "18D10",
-                            "55U35",
-                            "18G55"
-                        ],
-                        "prefix": "Zbl",
-                        "series_id": 628,
-                        "year": "2000"
-                    }
-                }
-            ],
-            "source": {
-                "book": [],
-                "pages": "3837-3852",
-                "series": [
-                    {
-                        "acronym": "AGT",
-                        "issn": [
-                            {
-                                "number": "1472-2747",
-                                "type": "print"
-                            },
-                            {
-                                "number": "1472-2739",
-                                "type": "electronic"
-                            }
-                        ],
-                        "issue": "6",
-                        "issue_id": 370866,
-                        "parallel_title": null,
-                        "part": null,
-                        "publisher": "Mathematical Sciences Publishers (MSP), Berkeley, CA; Geometry \\& Topology Publications c/o University of Warwick, Mathematics Institute, Coventry",
-                        "series_id": 2808,
-                        "short_title": "Algebr. Geom. Topol.",
-                        "title": "Algebraic \\& Geometric Topology",
-                        "volume": "17",
-                        "year": "2017"
-                    }
-                ],
-                "source": "Algebr. Geom. Topol. 17, No. 6, 3837-3852 (2017)."
-            },
-            "states": [
-                [
-                    "s",
-                    "item with single author"
-                ],
-                [
-                    "r",
-                    "item has references"
-                ],
-                [
-                    "c",
-                    "is cited"
-                ]
-            ],
-            "title": {
-                "addition": null,
-                "original": null,
-                "subtitle": null,
-                "title": "Correction to: ``Homotopy theory of nonsymmetric operads. I--II''"
-            },
-            "year": "2017",
-            "zbmath_url": "https://zbmath.org/6791664"
         },
         {
             "biographic_references": [],
@@ -17550,6 +17279,370 @@
                 "editors": []
             },
             "database": "Zbl",
+            "datestamp": "2017-10-16T13:39:18Z",
+            "document_type": {
+                "code": "j",
+                "description": "journal article"
+            },
+            "editorial_contributions": [
+                {
+                    "language": "English",
+                    "reviewer": {
+                        "author_code": null,
+                        "reviewer_id": null,
+                        "name": null,
+                        "sign": null
+                    },
+                    "text": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+                    "contribution_type": "summary"
+                }
+            ],
+            "id": 6791664,
+            "identifier": "1451.18037",
+            "keywords": [
+                "operad",
+                "functor-operad",
+                "algebra",
+                "model category"
+            ],
+            "language": {
+                "languages": [
+                    "English"
+                ],
+                "addition": [
+                    null
+                ]
+            },
+            "license": [],
+            "links": [
+                {
+                    "identifier": "10.2140/agt.2017.17.3837",
+                    "type": "doi",
+                    "url": "https://doi.org/10.2140/agt.2017.17.3837"
+                },
+                {
+                    "identifier": "1507.06644",
+                    "type": "arxiv",
+                    "url": "https://arxiv.org/abs/1507.06644"
+                }
+            ],
+            "msc": [
+                {
+                    "code": "18M60",
+                    "scheme": "msc2020",
+                    "text": "Operads (general)"
+                },
+                {
+                    "code": "55U35",
+                    "scheme": "msc2020",
+                    "text": "Abstract and axiomatic homotopy theory in algebraic topology"
+                },
+                {
+                    "code": "18M05",
+                    "scheme": "msc2020",
+                    "text": "Monoidal categories, symmetric monoidal categories"
+                },
+                {
+                    "code": "18C40",
+                    "scheme": "msc2020",
+                    "text": "Structured objects in a category (group objects, etc.)"
+                },
+                {
+                    "code": "18D20",
+                    "scheme": "msc2020",
+                    "text": "Enriched categories (over closed or monoidal categories)"
+                }
+            ],
+            "references": [
+                {
+                    "doi": "10.1016/S0022-4049(96)00084-9",
+                    "position": "1",
+                    "text": "DOI:10.1016/S0022-4049(96)00084-9",
+                    "zbmath": {
+                        "author_codes": [
+                            "batanin.michael-a"
+                        ],
+                        "document_id": 1121662,
+                        "msc": [
+                            "18D20",
+                            "55U35",
+                            "18D35",
+                            "18G30",
+                            "18A10",
+                            "18G55"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 518,
+                        "year": "1998"
+                    }
+                },
+                {
+                    "doi": "10.1007/s10485-008-9179-7",
+                    "position": "2",
+                    "text": "DOI:10.1007/s10485-008-9179-7",
+                    "zbmath": {
+                        "author_codes": [
+                            "weber.mark",
+                            "batanin.michael-a"
+                        ],
+                        "document_id": 5871633,
+                        "msc": [
+                            "18D50",
+                            "18A05",
+                            "18D20",
+                            "55U35"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 1875,
+                        "year": "2011"
+                    }
+                },
+                {
+                    "doi": "10.1007/s00014-003-0772-y",
+                    "position": "3",
+                    "text": "DOI:10.1007/s00014-003-0772-y",
+                    "zbmath": {
+                        "author_codes": [
+                            "berger.clemens",
+                            "moerdijk.ieke"
+                        ],
+                        "document_id": 2038410,
+                        "msc": [
+                            "18D50",
+                            "18G55",
+                            "55U35",
+                            "55P48"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 389,
+                        "year": "2003"
+                    }
+                },
+                {
+                    "doi": "10.1090/conm/346/06287",
+                    "position": "4",
+                    "text": "DOI:10.1090/conm/346/06287",
+                    "zbmath": {
+                        "author_codes": [],
+                        "document_id": null,
+                        "msc": [],
+                        "prefix": null,
+                        "series_id": 0,
+                        "year": null
+                    }
+                },
+                {
+                    "doi": "10.1016/j.jpaa.2009.11.006",
+                    "position": "5",
+                    "text": "DOI:10.1016/j.jpaa.2009.11.006",
+                    "zbmath": {
+                        "author_codes": [
+                            "harper.john-e"
+                        ],
+                        "document_id": 5678561,
+                        "msc": [
+                            "55U35",
+                            "55P48",
+                            "55P43",
+                            "18G55"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 518,
+                        "year": "2010"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "6",
+                    "text": "Hirschhorn, Model categories and their localizations. Mathematical Surveys and Monographs, 99, 2003; Hirschhorn, Model categories and their localizations. Mathematical Surveys and Monographs, 99, 2003",
+                    "zbmath": {
+                        "author_codes": [
+                            "hirschhorn.philip-s"
+                        ],
+                        "document_id": 1860105,
+                        "msc": [
+                            "55-02",
+                            "18-02",
+                            "55U35",
+                            "18G30",
+                            "18E35"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 4094,
+                        "year": "2003"
+                    }
+                },
+                {
+                    "doi": "10.1016/j.jpaa.2006.10.002",
+                    "position": "7",
+                    "text": "DOI:10.1016/j.jpaa.2006.10.002",
+                    "zbmath": {
+                        "author_codes": [
+                            "mandell.michael-a",
+                            "lewis.l-gaunce-jun"
+                        ],
+                        "document_id": 5167551,
+                        "msc": [
+                            "18G55",
+                            "55P99",
+                            "18D10",
+                            "18D20"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 518,
+                        "year": "2007"
+                    }
+                },
+                {
+                    "doi": "10.1353/ajm.2004.0038",
+                    "position": "8",
+                    "text": "DOI:10.1353/ajm.2004.0038",
+                    "zbmath": {
+                        "author_codes": [
+                            "mcclure.james-e",
+                            "smith.jeffrey-henderson"
+                        ],
+                        "document_id": 2149539,
+                        "msc": [
+                            "55P48",
+                            "18D50"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 300,
+                        "year": "2004"
+                    }
+                },
+                {
+                    "doi": "10.2140/agt.2011.11.1541",
+                    "position": "9",
+                    "text": "DOI:10.2140/agt.2011.11.1541",
+                    "zbmath": {
+                        "author_codes": [
+                            "muro.fernando"
+                        ],
+                        "document_id": 5904608,
+                        "msc": [
+                            "18D50",
+                            "18G55",
+                            "18D10",
+                            "55U35"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 2808,
+                        "year": "2011"
+                    }
+                },
+                {
+                    "doi": "10.2140/agt.2014.14.229",
+                    "position": "10",
+                    "text": "DOI:10.2140/agt.2014.14.229",
+                    "zbmath": {
+                        "author_codes": [
+                            "muro.fernando"
+                        ],
+                        "document_id": 6243329,
+                        "msc": [
+                            "18D50",
+                            "18D10",
+                            "18G55",
+                            "55U35"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 2808,
+                        "year": "2014"
+                    }
+                },
+                {
+                    "doi": "10.1112/S002461150001220X",
+                    "position": "11",
+                    "text": "DOI:10.1112/S002461150001220X",
+                    "zbmath": {
+                        "author_codes": [
+                            "shipley.brooke-e",
+                            "schwede.stefan"
+                        ],
+                        "document_id": 1463619,
+                        "msc": [
+                            "18D10",
+                            "55U35",
+                            "18G55"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 628,
+                        "year": "2000"
+                    }
+                }
+            ],
+            "source": {
+                "book": [],
+                "pages": "3837-3852",
+                "series": [
+                    {
+                        "acronym": "AGT",
+                        "issn": [
+                            {
+                                "number": "1472-2747",
+                                "type": "print"
+                            },
+                            {
+                                "number": "1472-2739",
+                                "type": "electronic"
+                            }
+                        ],
+                        "issue": "6",
+                        "issue_id": 370866,
+                        "parallel_title": null,
+                        "part": null,
+                        "publisher": "Mathematical Sciences Publishers (MSP), Berkeley, CA; Geometry \\& Topology Publications c/o University of Warwick, Mathematics Institute, Coventry",
+                        "series_id": 2808,
+                        "short_title": "Algebr. Geom. Topol.",
+                        "title": "Algebraic \\& Geometric Topology",
+                        "volume": "17",
+                        "year": "2017"
+                    }
+                ],
+                "source": "Algebr. Geom. Topol. 17, No. 6, 3837-3852 (2017)."
+            },
+            "states": [
+                [
+                    "s",
+                    "item with single author"
+                ],
+                [
+                    "r",
+                    "item has references"
+                ],
+                [
+                    "c",
+                    "is cited"
+                ]
+            ],
+            "title": {
+                "addition": null,
+                "original": null,
+                "subtitle": null,
+                "title": "Correction to: ``Homotopy theory of nonsymmetric operads. I--II''"
+            },
+            "year": "2017",
+            "zbmath_url": "https://zbmath.org/6791664"
+        },
+        {
+            "biographic_references": [],
+            "contributors": {
+                "authors": [
+                    {
+                        "aliases": [],
+                        "checked": "1",
+                        "codes": [
+                            "muro.fernando"
+                        ],
+                        "name": "Muro, Fernando"
+                    }
+                ],
+                "author_references": [],
+                "editors": []
+            },
+            "database": "Zbl",
             "datestamp": "2020-09-01T08:25:23Z",
             "document_type": {
                 "code": "j",
@@ -18426,6 +18519,819 @@
                         "aliases": [],
                         "checked": "0",
                         "codes": [
+                            "guan.ai"
+                        ],
+                        "name": "Guan, Ai"
+                    },
+                    {
+                        "aliases": [],
+                        "checked": "0",
+                        "codes": [
+                            "muro.fernando"
+                        ],
+                        "name": "Muro, Fernando"
+                    }
+                ],
+                "author_references": [],
+                "editors": []
+            },
+            "database": "Zbl",
+            "datestamp": "2025-10-15T08:31:33Z",
+            "document_type": {
+                "code": "j",
+                "description": "journal article"
+            },
+            "editorial_contributions": [
+                {
+                    "language": "English",
+                    "reviewer": {
+                        "author_code": null,
+                        "reviewer_id": null,
+                        "name": null,
+                        "sign": null
+                    },
+                    "text": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
+                    "contribution_type": "summary"
+                }
+            ],
+            "id": 8105648,
+            "identifier": null,
+            "keywords": [
+                null
+            ],
+            "language": {
+                "languages": [
+                    "English"
+                ],
+                "addition": [
+                    null
+                ]
+            },
+            "license": [
+                "https://creativecommons.org/licenses/by/4.0/"
+            ],
+            "links": [
+                {
+                    "identifier": "10.1007/s00029-025-01087-w",
+                    "type": "doi",
+                    "url": "https://doi.org/10.1007/s00029-025-01087-w"
+                },
+                {
+                    "identifier": "2312.07321",
+                    "type": "arxiv",
+                    "url": "https://arxiv.org/abs/2312.07321"
+                }
+            ],
+            "msc": [
+                {
+                    "code": "18M60",
+                    "scheme": "msc2020",
+                    "text": "Operads (general)"
+                },
+                {
+                    "code": "53D17",
+                    "scheme": "msc2020",
+                    "text": "Poisson manifolds; Poisson groupoids and algebroids"
+                }
+            ],
+            "references": [
+                {
+                    "doi": null,
+                    "position": "1",
+                    "text": "Akman, F.; Ionescu, LM, Higher Derived Brackets and Deformation Theory I, Journal of Homotopy and Related Structures, 3, 1, 385-403, 2008",
+                    "zbmath": {
+                        "author_codes": [
+                            "akman.fusun",
+                            "ionescu.lucian-m"
+                        ],
+                        "document_id": 5672991,
+                        "msc": [
+                            "17B55",
+                            "17B56",
+                            "18G55"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 4977,
+                        "year": "2008"
+                    }
+                },
+                {
+                    "doi": "10.1016/S0022-4049(96)00036-9",
+                    "position": "2",
+                    "text": "Akman, F., On Some Generalizations of Batalin-Vilkovisky Algebras, J. Pure Appl. Algebra, 120, 2, 105-141, 1997",
+                    "zbmath": {
+                        "author_codes": [
+                            "akman.fusun"
+                        ],
+                        "document_id": 1067511,
+                        "msc": [
+                            "17B69",
+                            "58A50"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 518,
+                        "year": "1997"
+                    }
+                },
+                {
+                    "doi": "10.1155/S1073792898000166",
+                    "position": "3",
+                    "text": "Barannikov, S.; Kontsevich, M., Frobenius Manifolds and Formality of Lie Algebras of Polyvector Fields, IMRN. International Mathematics Research Notices, 1998, 4, 201-215, 1998",
+                    "zbmath": {
+                        "author_codes": [
+                            "kontsevich.maxim",
+                            "barannikov.serguei"
+                        ],
+                        "document_id": 1162060,
+                        "msc": [
+                            "58D27",
+                            "32G13",
+                            "17B66"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 1388,
+                        "year": "1998"
+                    }
+                },
+                {
+                    "doi": "10.2140/agt.2014.14.2511",
+                    "position": "4",
+                    "text": "Berglund, A., Homological perturbation theory for algebras over operads, Algebraic Geom. Topology, 14, 5, 2511-2548, 2014",
+                    "zbmath": {
+                        "author_codes": [
+                            "berglund.alexander"
+                        ],
+                        "document_id": 6369089,
+                        "msc": [
+                            "18D50",
+                            "55P48"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 2808,
+                        "year": "2014"
+                    }
+                },
+                {
+                    "doi": "10.1090/S0077-1554-2014-00216-8",
+                    "position": "5",
+                    "text": "Braun, C.; Lazarev, A., Homotopy BV Algebras in Poisson Geometry, Transactions of the Moscow Mathematical Society, 74, 217-227, 2013",
+                    "zbmath": {
+                        "author_codes": [
+                            "lazarev.andrey"
+                        ],
+                        "document_id": 6371563,
+                        "msc": [
+                            "53D17",
+                            "16E45"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 746,
+                        "year": "2013"
+                    }
+                },
+                {
+                    "doi": "10.1007/s40062-016-0129-z",
+                    "position": "6",
+                    "text": "Bashkirov, D.; Voronov, AA, The BV formalism for $L_\\infty $-algebras, Journal of Homotopy and Related Structures, 12, 2, 305-327, 2017",
+                    "zbmath": {
+                        "author_codes": [
+                            "bashkirov.denis",
+                            "voronov.alexander-a"
+                        ],
+                        "document_id": 6748674,
+                        "msc": [
+                            "18G55",
+                            "17B55",
+                            "18D50"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 4977,
+                        "year": "2017"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "7",
+                    "text": "Cartier, P.: Some Fundamental Techniques in the Theory of Integrable Systems. Lectures on Integrable Systems (Sophia-Antipolis, 1991). World Sci. Publ., River Edge, NJ, pp. 1\u201341 (1994)",
+                    "zbmath": {
+                        "author_codes": [],
+                        "document_id": null,
+                        "msc": [],
+                        "prefix": null,
+                        "series_id": 0,
+                        "year": null
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "8",
+                    "text": "Cirici, J., Horel, G.: Formality of hypercommutative algebras of K \u00e4 hler and Calabi-Yau manifolds. Feb. 24, (2023). doi:10.48550/arXiv.2302.08492arxiv:2302.08492 (visited on 08/20/2023). Pre-published",
+                    "zbmath": {
+                        "author_codes": [],
+                        "document_id": null,
+                        "msc": [],
+                        "prefix": null,
+                        "series_id": 0,
+                        "year": null
+                    }
+                },
+                {
+                    "doi": "10.1215/00127094-3645116",
+                    "position": "9",
+                    "text": "Campos, R.; Merkulov, S.; Willwacher, T., The Frobenius Properad Is Koszul, Duke Math. J., 165, 15, 2921-2989, 2016",
+                    "zbmath": {
+                        "author_codes": [
+                            "willwacher.thomas",
+                            "merkulov.sergei-a",
+                            "campos.ricardo"
+                        ],
+                        "document_id": 6656238,
+                        "msc": [
+                            "18D50",
+                            "17B62",
+                            "55P50"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 411,
+                        "year": "2016"
+                    }
+                },
+                {
+                    "doi": "10.1007/s00029-012-0098-y",
+                    "position": "10",
+                    "text": "Drummond-Cole, GC; Vallette, B., The Minimal Model for the Batalin-Vilkovisky Operad, Sel. Math. New Ser., 19, 1, 1-47, 2013",
+                    "zbmath": {
+                        "author_codes": [
+                            "vallette.bruno",
+                            "drummond-cole.gabriel-c"
+                        ],
+                        "document_id": 6147904,
+                        "msc": [
+                            "18D50",
+                            "18G55",
+                            "53D45",
+                            "55P48"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 2077,
+                        "year": "2013"
+                    }
+                },
+                {
+                    "doi": "10.1007/s00220-022-04577-6",
+                    "position": "11",
+                    "text": "Dotsenko, V.; Shadrin, S.; Tamaroff, P., Generalized Cohomological Field Theories in the Higher Order Formalism, Commun. Math. Phys., 399, 3, 1439-1500, 2023",
+                    "zbmath": {
+                        "author_codes": [
+                            "tamaroff.pedro",
+                            "shadrin.sergey",
+                            "dotsenko.vladimir-v"
+                        ],
+                        "document_id": 7681014,
+                        "msc": [
+                            "18M75",
+                            "55P48",
+                            "81T45"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 63,
+                        "year": "2023"
+                    }
+                },
+                {
+                    "doi": "10.1016/j.aim.2013.01.003",
+                    "position": "12",
+                    "text": "Dotsenko, V.; Shadrin, S.; Vallette, B., Givental Group Action on Topological Field Theories and Homotopy Batalin-Vilkovisky Algebras, Adv. Math., 236, 224-256, 2013",
+                    "zbmath": {
+                        "author_codes": [
+                            "vallette.bruno",
+                            "dotsenko.vladimir-v",
+                            "shadrin.sergey"
+                        ],
+                        "document_id": 6150714,
+                        "msc": [
+                            "14N35",
+                            "53D45",
+                            "18D50",
+                            "57R56",
+                            "14F43",
+                            "14H10",
+                            "81T45",
+                            "13N10"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 290,
+                        "year": "2013"
+                    }
+                },
+                {
+                    "doi": "10.4171/JEMS/510",
+                    "position": "13",
+                    "text": "Dotsenko, V.; Shadrin, S.; Vallette, B., De Rham Cohomology and Homotopy Frobenius Manifolds, J. Eur. Math. Soc., 17, 3, 535-547, 2015",
+                    "zbmath": {
+                        "author_codes": [
+                            "shadrin.sergey",
+                            "dotsenko.vladimir-v",
+                            "vallette.bruno"
+                        ],
+                        "document_id": 6424458,
+                        "msc": [
+                            "58A12",
+                            "14F40",
+                            "53D17",
+                            "53D45",
+                            "18G55"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 2579,
+                        "year": "2015"
+                    }
+                },
+                {
+                    "doi": "10.2307/1969820",
+                    "position": "14",
+                    "text": "Eilenberg, S.; Lane, SM, On the groups $H(\\Pi , n)$. I, Ann. Math. (2), 58, 55-106, 1953",
+                    "zbmath": {
+                        "author_codes": [
+                            "eilenberg.samuel",
+                            "mac-lane.saunders"
+                        ],
+                        "document_id": 3080175,
+                        "msc": [],
+                        "prefix": "Zbl",
+                        "series_id": 2531,
+                        "year": "1953"
+                    }
+                },
+                {
+                    "doi": "10.2307/1969702",
+                    "position": "15",
+                    "text": "Eilenberg, S.; Lane, SM, On the groups $H(\\Pi , n)$. II. Methods of computation, Annals of Mathematics (2), 60, 49-139, 1954",
+                    "zbmath": {
+                        "author_codes": [
+                            "eilenberg.samuel",
+                            "mac-lane.saunders"
+                        ],
+                        "document_id": 3088760,
+                        "msc": [],
+                        "prefix": "Zbl",
+                        "series_id": 2531,
+                        "year": "1954"
+                    }
+                },
+                {
+                    "doi": "10.4171/JNCG/99",
+                    "position": "16",
+                    "text": "G\u00e1lvez-Carrillo, I.; Tonks, A.; Vallette, B., Homotopy Batalin-Vilkovisky Algebras, Journal of Noncommutative Geometry, 6, 3, 539-602, 2012",
+                    "zbmath": {
+                        "author_codes": [
+                            "galvez-carrillo.imma",
+                            "vallette.bruno",
+                            "tonks.andrew"
+                        ],
+                        "document_id": 6078131,
+                        "msc": [
+                            "18D50",
+                            "18G55",
+                            "81T40",
+                            "17B69"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 4952,
+                        "year": "2012"
+                    }
+                },
+                {
+                    "doi": "10.1215/S0012-7094-94-07608-4",
+                    "position": "17",
+                    "text": "Ginzburg, V.; Kapranov, M., Koszul Duality for Operads, Duke Math. J., 76, 1, 203-272, 1994",
+                    "zbmath": {
+                        "author_codes": [
+                            "ginzburg.victor",
+                            "kapranov.mikhail-m"
+                        ],
+                        "document_id": 727824,
+                        "msc": [
+                            "18D10",
+                            "17A42",
+                            "55P47",
+                            "16S99",
+                            "18G35",
+                            "14H10"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 411,
+                        "year": "1994"
+                    }
+                },
+                {
+                    "doi": "10.1007/BF02732123",
+                    "position": "18",
+                    "text": "Grothendieck, A., \u00c9l\u00e9ments de g\u00e9om\u00e9trie alg\u00e9brique: IV. \u00c9tude locale des sch\u00e9mas et des morphismes de sch\u00e9mas, Quatri\u00e8me partie, Publications Math \u00e9 matiques de l\u2019IH \u00c9 S, 32, 5-361, 1967",
+                    "zbmath": {
+                        "author_codes": [
+                            "grothendieck.alexander"
+                        ],
+                        "document_id": 3245973,
+                        "msc": [
+                            "14-02",
+                            "14Axx",
+                            "14Fxx"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 455,
+                        "year": "1967"
+                    }
+                },
+                {
+                    "doi": "10.1016/0022-4049(82)90036-6",
+                    "position": "19",
+                    "text": "Gugenheim, VKAM, On a Perturbation Theory for the Homology of the Loop-Space, J. Pure Appl. Algebra, 25, 2, 197-205, 1982",
+                    "zbmath": {
+                        "author_codes": [
+                            "gugenheim.v-k-a-m"
+                        ],
+                        "document_id": 3766693,
+                        "msc": [
+                            "55P35",
+                            "55T20",
+                            "57T30",
+                            "55U15",
+                            "57T35"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 518,
+                        "year": "1982"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "20",
+                    "text": "Hinich, V.: Erratum to Homological Algebra of Homotopy Algebras. Oct. 12, (2003). doi:10.48550/arXiv.math/0309453, arXiv:math/0309453 (visited on 10/25/2023). Pre-published",
+                    "zbmath": {
+                        "author_codes": [],
+                        "document_id": null,
+                        "msc": [],
+                        "prefix": null,
+                        "series_id": 0,
+                        "year": null
+                    }
+                },
+                {
+                    "doi": "10.1080/00927879708826055",
+                    "position": "21",
+                    "text": "Hinich, V., Homological Algebra of Homotopy Algebras, Comm. Algebra, 25, 10, 3291-3323, 1997",
+                    "zbmath": {
+                        "author_codes": [
+                            "hinich.vladimir"
+                        ],
+                        "document_id": 1078838,
+                        "msc": [
+                            "18G55",
+                            "18G25",
+                            "18C15"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 57,
+                        "year": "1997"
+                    }
+                },
+                {
+                    "doi": "10.2140/agt.2016.16.2691",
+                    "position": "22",
+                    "text": "Hackney, P.; Robertson, M.; Yau, D., Relative Left Properness of Colored Operads, Algebraic & Geometric Topology, 16, 5, 2691-2714, 2016",
+                    "zbmath": {
+                        "author_codes": [
+                            "yau.donald-y",
+                            "hackney.philip",
+                            "robertson.marcy"
+                        ],
+                        "document_id": 6653755,
+                        "msc": [
+                            "18D50",
+                            "18G55",
+                            "55U35",
+                            "55P48"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 2808,
+                        "year": "2016"
+                    }
+                },
+                {
+                    "doi": "10.1063/1.3043861",
+                    "position": "23",
+                    "text": "Voronov, T.; Khudaverdian, HM, Higher Poisson Brackets and Differential Forms, AIP Conf. Proc., 1079, 1, 203-215, 2008",
+                    "zbmath": {
+                        "author_codes": [
+                            "voronov.theodore-th",
+                            "khudaverdian.hovhannes-m"
+                        ],
+                        "document_id": 5548116,
+                        "msc": [
+                            "70G45",
+                            "70G65"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 0,
+                        "year": "2008"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "24",
+                    "text": "Katzarkov, L., Kontsevich, M., Pantev, T.: Hodge Theoretic Aspects of Mirror Symmetry. Proceedings of Symposia in Pure Mathematics. Ed. by R. Donagi and K. Wendland. Vol. 78. Providence, Rhode Island: American Mathematical Society, pp. 87\u2013174 (2008) doi:10.1090/pspum/078/2483750",
+                    "zbmath": {
+                        "author_codes": [
+                            "katzarkov.ludmil",
+                            "pantev.tony-g",
+                            "kontsevich.maxim"
+                        ],
+                        "document_id": 5380327,
+                        "msc": [
+                            "14A22",
+                            "14C30",
+                            "14J32",
+                            "19D55",
+                            "34M40"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 0,
+                        "year": "2008"
+                    }
+                },
+                {
+                    "doi": "10.1007/s00220-013-1737-7",
+                    "position": "25",
+                    "text": "Khoroshkin, A.; Markarian, N.; Shadrin, S., Hypercommutative Operad as a Homotopy Quotient of BV, Commun. Math. Phys., 322, 3, 697-729, 2013",
+                    "zbmath": {
+                        "author_codes": [
+                            "shadrin.sergey",
+                            "markarian.nikita",
+                            "khoroshkin.anton"
+                        ],
+                        "document_id": 6197106,
+                        "msc": [
+                            "55P48",
+                            "22E67",
+                            "53D45",
+                            "81T40",
+                            "81T70"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 63,
+                        "year": "2013"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "26",
+                    "text": "Koszul, J.-L.: Crochet de Schouten-Nijenhuis et Cohomologie. Ast \u00e9 risque. Num\u00e9ro Hors S\u00e9rie. pp. 257\u2013271 (1985)",
+                    "zbmath": {
+                        "author_codes": [
+                            "koszul.jean-louis"
+                        ],
+                        "document_id": 3996707,
+                        "msc": [
+                            "58J10",
+                            "17B56"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 0,
+                        "year": "1985"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "27",
+                    "text": "Kravchenko, O.: Deformations of Batalin\u2013Vilkovisky algebras. Poisson geometry. Stanis\u0142aw Zakrzewski in memoriam. Warszawa: Polish Academy of Sciences, Institute of Mathematics, 131\u2013139 (2000)",
+                    "zbmath": {
+                        "author_codes": [
+                            "kravchenko.olga"
+                        ],
+                        "document_id": 1522615,
+                        "msc": [
+                            "17B70",
+                            "53D55",
+                            "81T70"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 0,
+                        "year": "2000"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "28",
+                    "text": "Lambe, L.A.: Resolutions Which Split off of the Bar Construction. J. Pure Appl. Algebra 84(3), 311\u2013329 (1993) 10/cwbbdm",
+                    "zbmath": {
+                        "author_codes": [
+                            "lambe.larry-a"
+                        ],
+                        "document_id": 166177,
+                        "msc": [
+                            "55U15",
+                            "57T30",
+                            "18G10"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 518,
+                        "year": "1993"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "29",
+                    "text": "Losev, A., Shadrin, S.: From Zwiebach Invariants to Getzler Relation. Communications in Mathematical Physics 2007 271:3 271.3 (2007), pp. 649\u2013679. doi:10.1007/S00220-007-0217-3",
+                    "zbmath": {
+                        "author_codes": [
+                            "losev.andrei-s",
+                            "shadrin.sergey"
+                        ],
+                        "document_id": 5199700,
+                        "msc": [
+                            "53D45",
+                            "14N35"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 63,
+                        "year": "2007"
+                    }
+                },
+                {
+                    "doi": "10.1007/BF01165893",
+                    "position": "30",
+                    "text": "Lambe, L.; Stasheff, J., Applications of Perturbation Theory to Iterated Fibrations, Manuscripta Math., 58, 3, 363-376, 1987",
+                    "zbmath": {
+                        "author_codes": [
+                            "stasheff.james-d",
+                            "lambe.larry-a"
+                        ],
+                        "document_id": 4028415,
+                        "msc": [
+                            "55U15",
+                            "57T30",
+                            "57T35",
+                            "55R20"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 547,
+                        "year": "1987"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "31",
+                    "text": "Loday, J.-L., Vallette, B.: Algebraic Operads. Vol. 346. Grundlehren Der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences]. Springer, Heidelberg, (2012). xxiv+634. doi:10.1007/978-3-642-30362-3",
+                    "zbmath": {
+                        "author_codes": [
+                            "loday.jean-louis",
+                            "vallette.bruno"
+                        ],
+                        "document_id": 6043075,
+                        "msc": [
+                            "18-02",
+                            "18D50",
+                            "18G50",
+                            "55P48",
+                            "57T30",
+                            "16S37",
+                            "16E99",
+                            "18G55",
+                            "55U35",
+                            "17A32",
+                            "17A30"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 3921,
+                        "year": "2012"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "32",
+                    "text": "Manin, Y. I.: Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces. Vol. 47. American Mathematical Society Colloquium Publications. American Mathematical Society, Providence, RI, xiv+303. (1999). doi:10.1090/coll/047",
+                    "zbmath": {
+                        "author_codes": [
+                            "manin.yurii-ivanovich"
+                        ],
+                        "document_id": 1327759,
+                        "msc": [
+                            "14J32",
+                            "81-02",
+                            "14-02",
+                            "14N35",
+                            "53D45",
+                            "81T40"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 3824,
+                        "year": "1999"
+                    }
+                },
+                {
+                    "doi": "10.1007/s11005-007-0165-z",
+                    "position": "33",
+                    "text": "Park, J-S, Semi-Classical Quantum Fields Theories and Frobenius Manifolds, Lett. Math. Phys., 81, 1, 41-59, 2007",
+                    "zbmath": {
+                        "author_codes": [
+                            "park.jae-suk"
+                        ],
+                        "document_id": 5181194,
+                        "msc": [
+                            "81T70",
+                            "58H15",
+                            "81Q20",
+                            "53D45"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 145,
+                        "year": "2007"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "34",
+                    "text": "Sharygin, G., Talalaev, D.: On the Lie-formality of Poisson Manifolds. Journal of K-Theory. K-Theory and its Applications in Algebra, Geometry, Analysis & Topology 2 (2, Special issue in memory of Yurii Petrovich Solovyev. Part 1 2008), pp. 361\u2013384. doi:10.1017/is008001011jkt030",
+                    "zbmath": {
+                        "author_codes": [],
+                        "document_id": 5356710,
+                        "msc": [
+                            "17B55",
+                            "17B63"
+                        ],
+                        "prefix": "Zbl",
+                        "series_id": 6558,
+                        "year": "2008"
+                    }
+                },
+                {
+                    "doi": null,
+                    "position": "35",
+                    "text": "Tamarkin, D., Tsygan, B.: Noncommutative Differential Calculus, Homotopy BV Algebras and Formality Conjectures. Feb. 15, 2000. doi:10.48550/arXiv.math/0002116arXiv:abs/math/0002116 (visited on 10/24/2023). Pre-published",
+                    "zbmath": {
+                        "author_codes": [],
+                        "document_id": null,
+                        "msc": [],
+                        "prefix": null,
+                        "series_id": 0,
+                        "year": null
+                    }
+                }
+            ],
+            "source": {
+                "book": [],
+                "pages": "Paper No. 94, 36 p.",
+                "series": [
+                    {
+                        "acronym": null,
+                        "issn": [
+                            {
+                                "number": "1022-1824",
+                                "type": "print"
+                            },
+                            {
+                                "number": "1420-9020",
+                                "type": "electronic"
+                            }
+                        ],
+                        "issue": "5",
+                        "issue_id": 533890,
+                        "parallel_title": null,
+                        "part": null,
+                        "publisher": "Springer (Birkh\u00e4user), Basel",
+                        "series_id": 2077,
+                        "short_title": "Sel. Math., New Ser.",
+                        "title": "Selecta Mathematica. New Series",
+                        "volume": "31",
+                        "year": "2025"
+                    }
+                ],
+                "source": "Sel. Math., New Ser. 31, No. 5, Paper No. 94, 36 p. (2025)"
+            },
+            "states": [
+                [
+                    "r",
+                    "item has references"
+                ]
+            ],
+            "title": {
+                "addition": null,
+                "original": null,
+                "subtitle": null,
+                "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds"
+            },
+            "year": "2025",
+            "zbmath_url": "https://zbmath.org/8105648"
+        },
+        {
+            "biographic_references": [],
+            "contributors": {
+                "authors": [
+                    {
+                        "aliases": [],
+                        "checked": "0",
+                        "codes": [
                             "carmona.victor"
                         ],
                         "name": "Carmona, Victor"
@@ -19026,88 +19932,6 @@
             },
             "year": "2016",
             "zbmath_url": "https://zbmath.org/6571599"
-        },
-        {
-            "biographic_references": [],
-            "contributors": {
-                "authors": [
-                    {
-                        "aliases": [],
-                        "checked": "0",
-                        "codes": [
-                            "guan.ai"
-                        ],
-                        "name": "Guan, Ai"
-                    },
-                    {
-                        "aliases": [],
-                        "checked": "0",
-                        "codes": [
-                            "muro.fernando"
-                        ],
-                        "name": "Muro, Fernando"
-                    }
-                ],
-                "author_references": [],
-                "editors": []
-            },
-            "database": "arXiv",
-            "datestamp": "0001-01-01T00:00:00Z",
-            "document_type": {
-                "code": "p",
-                "description": "preprint"
-            },
-            "editorial_contributions": [
-                {
-                    "language": null,
-                    "reviewer": {
-                        "author_code": null,
-                        "reviewer_id": null,
-                        "name": null,
-                        "sign": null
-                    },
-                    "text": "zbMATH Open Web Interface contents unavailable due to conflicting licenses.",
-                    "contribution_type": "summary"
-                }
-            ],
-            "id": 902382702,
-            "identifier": "arXiv:2312.07321",
-            "keywords": [
-                null
-            ],
-            "language": {
-                "languages": [],
-                "addition": [
-                    null
-                ]
-            },
-            "license": [
-                "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"
-            ],
-            "links": [
-                {
-                    "identifier": "2312.07321",
-                    "type": "arxiv",
-                    "url": "https://arxiv.org/abs/2312.07321"
-                }
-            ],
-            "msc": [],
-            "references": [],
-            "source": {
-                "book": [],
-                "pages": null,
-                "series": [],
-                "source": "Preprint, arXiv:2312.07321 [math.DG] (2023)"
-            },
-            "states": [],
-            "title": {
-                "addition": null,
-                "original": null,
-                "subtitle": null,
-                "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds"
-            },
-            "year": "2023",
-            "zbmath_url": "https://zbmath.org/902382702"
         },
         {
             "biographic_references": [],
@@ -21672,7 +22496,7 @@
                             "13N05"
                         ],
                         "prefix": "Zbl",
-                        "series_id": 0,
+                        "series_id": 9625,
                         "year": "1988"
                     }
                 },
@@ -22832,10 +23656,10 @@
         "execution_bool": true,
         "internal_code": "ok",
         "last_id": null,
-        "nr_total_results": 48,
-        "nr_request_results": 48,
-        "query_execution_time_in_seconds": 1.6507396697998047,
+        "nr_total_results": 49,
+        "nr_request_results": 49,
+        "query_execution_time_in_seconds": 1.851865530014038,
         "status_code": 200,
-        "time_stamp": "2025-09-30T16:08:39Z"
+        "time_stamp": "2025-10-16T22:15:27Z"
     }
 }
