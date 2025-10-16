@@ -87,7 +87,7 @@
     given: Fernando
   bibtex: "@misc{arXiv:2508.18852,\n    author = {Jasso, Gustavo and Muro, Fernando},\n\
     \    title = {{Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of\
-    \ $d{{\\mathbb}}{Z}$-cluster tilting objects}},\n    year = {2025},\n    howpublished\
+    \ $d\\mathbb{Z}$-cluster tilting objects}},\n    year = {2025},\n    howpublished\
     \ = {Preprint, {arXiv}:2508.18852 [math.{RT}] (2025)},\n    keywords = {18G80,18N40},\n\
     \    url = {https://arxiv.org/abs/2508.18852},\n    }"
   id: arXiv:2508.18852
@@ -96,7 +96,7 @@
     - - 2025
   keyword: 18G80,18N40
   publisher: Preprint, arXiv:2508.18852 [math.RT] (2025)
-  title: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d{{\mathbb}}{Z}$-cluster
+  title: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d\mathbb{Z}$-cluster
     tilting objects'
   type: ''
   zbmath_url: https://zbmath.org/902815985
