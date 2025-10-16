@@ -8,7 +8,7 @@ json_zbmath = get_json_from_zbmath('muro.fernando')
 
 def handle_exceptions(string):
     return string.replace(
-        "title = {Minimal ${A_}{{\\infty}}$-algebras of endomorphisms: {The} case of $d{{\\mathbb}}{Z}$-cluster tilting objects},",
+        "title = {Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of $d{{\\mathbb}}{Z}$-cluster tilting objects},",
         "title = {Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of $d\\mathbb{Z}$-cluster tilting objects},"
     )
 
