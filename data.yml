@@ -9,7 +9,7 @@ presentations:
     daymonth: 2 June
     type: conference
     event: Modern Developments in Geometry and Higher Structures
-    url: https://brinmrc.umd.edu/programs/workshops/summer25/summer25-workshop-modern.html
+    url: https://brinmrc.umd.edu/modern-developments-in-geometry-and-higher-structures-2/
     file: maryland
     title: Geometry of singularities and higher structures
     year: 2025
@@ -43,7 +43,7 @@ presentations:
   - location: Barcelona, Spain
     type: conference
     event: Operadic Methods in Geometry
-    url: https://geoffroy.horel.org/OMG.html
+    url: https://geoffroy.horel.org/OMG1.html
     daymonth: 22 November
     file: Barcelona2023
     title: Hypercommutative algebras and differential forms
