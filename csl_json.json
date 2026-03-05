@@ -1,5 +1,58 @@
 [
   {
+    "URL": "https://arxiv.org/abs/2508.18852",
+    "author": [
+      {
+        "family": "Jasso",
+        "given": "Gustavo"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "arXiv:2508.18852",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "keyword": "18G80,18N40",
+    "publisher": "Preprint, arXiv:2508.18852 [math.RT] (2026)",
+    "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
+    "type": ""
+  },
+  {
+    "URL": "https://arxiv.org/abs/2107.14174",
+    "author": [
+      {
+        "family": "Carmona",
+        "given": "Victor"
+      },
+      {
+        "family": "Flores",
+        "given": "Ramon"
+      },
+      {
+        "family": "Muro",
+        "given": "Fernando"
+      }
+    ],
+    "id": "arXiv:2107.14174",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "publisher": "Preprint, arXiv:2107.14174 [math.AT] (2026)",
+    "title": "A model structure for locally constant factorization algebras",
+    "type": ""
+  },
+  {
     "DOI": "10.1007/s00029-025-01087-w",
     "ISSN": "1022-1824",
     "author": [
@@ -52,31 +105,6 @@
     "keyword": "18G80,18N40",
     "publisher": "Preprint, arXiv:2509.22625 [math.RT] (2025)",
     "title": "The Derived Auslander–Iyama Correspondence II: Bimodule Calabi–Yau Structures",
-    "type": ""
-  },
-  {
-    "URL": "https://arxiv.org/abs/2508.18852",
-    "author": [
-      {
-        "family": "Jasso",
-        "given": "Gustavo"
-      },
-      {
-        "family": "Muro",
-        "given": "Fernando"
-      }
-    ],
-    "id": "arXiv:2508.18852",
-    "issued": {
-      "date-parts": [
-        [
-          2025
-        ]
-      ]
-    },
-    "keyword": "18G80,18N40",
-    "publisher": "Preprint, arXiv:2508.18852 [math.RT] (2025)",
-    "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
     "type": ""
   },
   {
@@ -270,34 +298,6 @@
     "type": ""
   },
   {
-    "URL": "https://arxiv.org/abs/2107.14174",
-    "author": [
-      {
-        "family": "Carmona",
-        "given": "Victor"
-      },
-      {
-        "family": "Flores",
-        "given": "Ramon"
-      },
-      {
-        "family": "Muro",
-        "given": "Fernando"
-      }
-    ],
-    "id": "arXiv:2107.14174",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "publisher": "Preprint, arXiv:2107.14174 [math.AT] (2021)",
-    "title": "A model structure for locally constant factorization algebras",
-    "type": ""
-  },
-  {
     "DOI": "10.1007/s00209-019-02438-y",
     "ISSN": "0025-5874",
     "author": [
@@ -379,7 +379,6 @@
   {
     "DOI": "10.1016/j.jpaa.2018.08.007",
     "ISSN": "0022-4049",
-    "URL": "kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf",
     "author": [
       {
         "family": "Muro",
@@ -463,7 +462,6 @@
   {
     "DOI": "10.1016/j.jpaa.2016.02.013",
     "ISSN": "0022-4049",
-    "URL": "idus.us.es/xmlui/handle/11441/43063",
     "author": [
       {
         "family": "Muro",
@@ -566,7 +564,6 @@
   {
     "DOI": "10.1112/jtopol/jtu029",
     "ISSN": "1753-8416",
-    "URL": "idus.us.es/xmlui/handle/11441/43027",
     "author": [
       {
         "family": "Muro",
@@ -625,7 +622,6 @@
   {
     "DOI": "10.1515/forum-2011-0130",
     "ISSN": "0933-7741",
-    "URL": "idus.us.es/handle/11441/41889",
     "author": [
       {
         "family": "Muro",
@@ -759,7 +755,6 @@
   {
     "DOI": "10.1112/plms/pdq034",
     "ISSN": "0024-6115",
-    "URL": "idus.us.es/xmlui/handle/11441/41904",
     "author": [
       {
         "family": "Baues",
@@ -789,7 +784,6 @@
   {
     "DOI": "10.1080/00927870802241188",
     "ISSN": "0092-7872",
-    "URL": "idus.us.es/xmlui/handle/11441/41881",
     "author": [
       {
         "family": "Baues",
@@ -932,7 +926,7 @@
   {
     "DOI": "10.1515/FORUM.2008.032",
     "ISSN": "0933-7741",
-    "URL": "idus.us.es/xmlui/handle/11441/41883",
+    "URL": "idus.us.es/handle/11441/41883",
     "author": [
       {
         "family": "Baues",
@@ -1017,7 +1011,6 @@
   {
     "DOI": "10.1007/s00222-007-0061-2",
     "ISSN": "0020-9910",
-    "URL": "idus.us.es/xmlui/handle/11441/41893",
     "author": [
       {
         "family": "Muro",
@@ -1130,7 +1123,6 @@
   {
     "DOI": "10.1016/j.jpaa.2005.05.004",
     "ISSN": "0022-4049",
-    "URL": "idus.us.es/xmlui/handle/11441/41897",
     "author": [
       {
         "family": "Muro",
@@ -1297,7 +1289,7 @@
   {
     "DOI": "10.1007/s10977-004-1837-4",
     "ISSN": "0920-3036",
-    "URL": "idus.us.es/xmlui/handle/11441/41899",
+    "URL": "idus.us.es/handle/11441/41899",
     "author": [
       {
         "family": "Muro",

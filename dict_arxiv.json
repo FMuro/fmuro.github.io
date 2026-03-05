@@ -2,6 +2,172 @@
     "bozo": false,
     "entries": [
         {
+            "id": "http://arxiv.org/abs/2107.14174v4",
+            "guidislink": true,
+            "link": "http://arxiv.org/abs/2107.14174v4",
+            "updated": "2026-01-09T11:16:58-05:00",
+            "updated_parsed": [
+                2026,
+                1,
+                9,
+                16,
+                16,
+                58,
+                4,
+                9,
+                0
+            ],
+            "published": "2021-07-29T12:54:13-04:00",
+            "published_parsed": [
+                2021,
+                7,
+                29,
+                16,
+                54,
+                13,
+                3,
+                210,
+                0
+            ],
+            "title": "A model structure for locally constant factorization algebras",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "A model structure for locally constant factorization algebras"
+            },
+            "summary": "Several model structures related to the homotopy theory of locally constant factorization algebras are constructed. This answers a question raised by D. Calaque in his habilitation thesis. Our methods also solve a problem related to cosheafification and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally constant case.",
+            "summary_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "Several model structures related to the homotopy theory of locally constant factorization algebras are constructed. This answers a question raised by D. Calaque in his habilitation thesis. Our methods also solve a problem related to cosheafification and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally constant case."
+            },
+            "authors": [
+                {
+                    "name": "Victor Carmona, Ramon Flores, Fernando Muro"
+                }
+            ],
+            "author_detail": {
+                "name": "Victor Carmona, Ramon Flores, Fernando Muro"
+            },
+            "author": "Victor Carmona, Ramon Flores, Fernando Muro",
+            "arxiv_comment": "v4: Major revision. Accepted version in Algebraic & Geometric Topology. v3: A problem related to left properness of operadic algebras has been fixed. Some typos corrected and minor changes in the exposition. Comments are welcome!",
+            "links": [
+                {
+                    "href": "http://arxiv.org/abs/2107.14174v4",
+                    "rel": "alternate",
+                    "type": "text/html"
+                },
+                {
+                    "title": "pdf",
+                    "href": "http://arxiv.org/pdf/2107.14174v4",
+                    "rel": "related",
+                    "type": "application/pdf"
+                }
+            ],
+            "arxiv_primary_category": {
+                "term": "math.AT",
+                "scheme": "http://arxiv.org/schemas/atom",
+                "label": "Algebraic Topology (math.AT)"
+            },
+            "tags": [
+                {
+                    "term": "math.AT",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": "Algebraic Topology (math.AT)"
+                },
+                {
+                    "term": "math.CT",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": "Category Theory (math.CT)"
+                }
+            ]
+        },
+        {
+            "id": "http://arxiv.org/abs/2508.18852v2",
+            "guidislink": true,
+            "link": "http://arxiv.org/abs/2508.18852v2",
+            "updated": "2026-01-06T04:00:52-05:00",
+            "updated_parsed": [
+                2026,
+                1,
+                6,
+                9,
+                0,
+                52,
+                1,
+                6,
+                0
+            ],
+            "published": "2025-08-26T05:31:54-04:00",
+            "published_parsed": [
+                2025,
+                8,
+                26,
+                9,
+                31,
+                54,
+                1,
+                238,
+                0
+            ],
+            "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
+            "title_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
+            },
+            "summary": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
+            "summary_detail": {
+                "type": "text/plain",
+                "language": null,
+                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+                "value": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author."
+            },
+            "authors": [
+                {
+                    "name": "Gustavo Jasso, Fernando Muro"
+                }
+            ],
+            "author_detail": {
+                "name": "Gustavo Jasso, Fernando Muro"
+            },
+            "author": "Gustavo Jasso, Fernando Muro",
+            "arxiv_comment": "17 pages. Contribution to the proceedings of the XXI International Conference on Representations of Algebras (ICRA 21); v2: final version following referee's comments",
+            "links": [
+                {
+                    "href": "http://arxiv.org/abs/2508.18852v2",
+                    "rel": "alternate",
+                    "type": "text/html"
+                },
+                {
+                    "title": "pdf",
+                    "href": "http://arxiv.org/pdf/2508.18852v2",
+                    "rel": "related",
+                    "type": "application/pdf"
+                }
+            ],
+            "arxiv_primary_category": {
+                "term": "math.RT",
+                "scheme": "http://arxiv.org/schemas/atom",
+                "label": "Representation Theory (math.RT)"
+            },
+            "tags": [
+                {
+                    "term": "math.RT",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": "Representation Theory (math.RT)"
+                },
+                {
+                    "term": "Primary: 18G80. Secondary: 18N40",
+                    "scheme": "http://arxiv.org/schemas/atom",
+                    "label": null
+                }
+            ]
+        },
+        {
             "id": "http://arxiv.org/abs/2509.22625v1",
             "guidislink": true,
             "link": "http://arxiv.org/abs/2509.22625v1",
@@ -79,89 +245,6 @@
                 },
                 {
                     "term": "Primary: 18G80 Secondary: 18N40",
-                    "scheme": "http://arxiv.org/schemas/atom",
-                    "label": null
-                }
-            ]
-        },
-        {
-            "id": "http://arxiv.org/abs/2508.18852v1",
-            "guidislink": true,
-            "link": "http://arxiv.org/abs/2508.18852v1",
-            "updated": "2025-08-26T05:31:54-04:00",
-            "updated_parsed": [
-                2025,
-                8,
-                26,
-                9,
-                31,
-                54,
-                1,
-                238,
-                0
-            ],
-            "published": "2025-08-26T05:31:54-04:00",
-            "published_parsed": [
-                2025,
-                8,
-                26,
-                9,
-                31,
-                54,
-                1,
-                238,
-                0
-            ],
-            "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
-            "title_detail": {
-                "type": "text/plain",
-                "language": null,
-                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
-                "value": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
-            },
-            "summary": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
-            "summary_detail": {
-                "type": "text/plain",
-                "language": null,
-                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
-                "value": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author."
-            },
-            "authors": [
-                {
-                    "name": "Gustavo Jasso, Fernando Muro"
-                }
-            ],
-            "author_detail": {
-                "name": "Gustavo Jasso, Fernando Muro"
-            },
-            "author": "Gustavo Jasso, Fernando Muro",
-            "arxiv_comment": "17 pages. Contribution to the proceedings of the XXI International Conference on Representations of Algebras (ICRA 21)",
-            "links": [
-                {
-                    "href": "http://arxiv.org/abs/2508.18852v1",
-                    "rel": "alternate",
-                    "type": "text/html"
-                },
-                {
-                    "title": "pdf",
-                    "href": "http://arxiv.org/pdf/2508.18852v1",
-                    "rel": "related",
-                    "type": "application/pdf"
-                }
-            ],
-            "arxiv_primary_category": {
-                "term": "math.RT",
-                "scheme": "http://arxiv.org/schemas/atom",
-                "label": "Representation Theory (math.RT)"
-            },
-            "tags": [
-                {
-                    "term": "math.RT",
-                    "scheme": "http://arxiv.org/schemas/atom",
-                    "label": "Representation Theory (math.RT)"
-                },
-                {
-                    "term": "Primary: 18G80. Secondary: 18N40",
                     "scheme": "http://arxiv.org/schemas/atom",
                     "label": null
                 }
@@ -647,89 +730,6 @@
                     "term": "18M70, 55S20, 13D03, 16E40, 17B56",
                     "scheme": "http://arxiv.org/schemas/atom",
                     "label": null
-                }
-            ]
-        },
-        {
-            "id": "http://arxiv.org/abs/2107.14174v3",
-            "guidislink": true,
-            "link": "http://arxiv.org/abs/2107.14174v3",
-            "updated": "2022-04-05T08:49:27-04:00",
-            "updated_parsed": [
-                2022,
-                4,
-                5,
-                12,
-                49,
-                27,
-                1,
-                95,
-                0
-            ],
-            "published": "2021-07-29T12:54:13-04:00",
-            "published_parsed": [
-                2021,
-                7,
-                29,
-                16,
-                54,
-                13,
-                3,
-                210,
-                0
-            ],
-            "title": "A model structure for locally constant factorization algebras",
-            "title_detail": {
-                "type": "text/plain",
-                "language": null,
-                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
-                "value": "A model structure for locally constant factorization algebras"
-            },
-            "summary": "Several model structures related to the homotopy theory of locally constant factorization algebras are constructed. This answers a question raised by D. Calaque in his habilitation thesis. Our methods also solve a problem related to cosheafification and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally constant case.",
-            "summary_detail": {
-                "type": "text/plain",
-                "language": null,
-                "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
-                "value": "Several model structures related to the homotopy theory of locally constant factorization algebras are constructed. This answers a question raised by D. Calaque in his habilitation thesis. Our methods also solve a problem related to cosheafification and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally constant case."
-            },
-            "authors": [
-                {
-                    "name": "Victor Carmona, Ramon Flores, Fernando Muro"
-                }
-            ],
-            "author_detail": {
-                "name": "Victor Carmona, Ramon Flores, Fernando Muro"
-            },
-            "author": "Victor Carmona, Ramon Flores, Fernando Muro",
-            "arxiv_comment": "A problem related to left properness of operadic algebras has been fixed. Some typos corrected and minor changes in the exposition. Comments are welcome!",
-            "links": [
-                {
-                    "href": "http://arxiv.org/abs/2107.14174v3",
-                    "rel": "alternate",
-                    "type": "text/html"
-                },
-                {
-                    "title": "pdf",
-                    "href": "http://arxiv.org/pdf/2107.14174v3",
-                    "rel": "related",
-                    "type": "application/pdf"
-                }
-            ],
-            "arxiv_primary_category": {
-                "term": "math.AT",
-                "scheme": "http://arxiv.org/schemas/atom",
-                "label": "Algebraic Topology (math.AT)"
-            },
-            "tags": [
-                {
-                    "term": "math.AT",
-                    "scheme": "http://arxiv.org/schemas/atom",
-                    "label": "Algebraic Topology (math.AT)"
-                },
-                {
-                    "term": "math.CT",
-                    "scheme": "http://arxiv.org/schemas/atom",
-                    "label": "Category Theory (math.CT)"
                 }
             ]
         },
@@ -4004,16 +4004,16 @@
                 "type": "text/html"
             }
         ],
-        "updated": "2025-12-10T00:00:00-05:00",
+        "updated": "2026-03-05T00:00:00-05:00",
         "updated_parsed": [
-            2025,
-            12,
-            10,
+            2026,
+            3,
+            5,
             5,
             0,
             0,
-            2,
-            344,
+            3,
+            64,
             0
         ],
         "id": "https://arxiv.org/a/0000-0001-8457-9889",
@@ -4022,18 +4022,18 @@
     },
     "headers": {
         "connection": "close",
+        "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
+        "content-type": "application/atom+xml; charset=UTF-8",
+        "server": "Apache",
+        "set-cookie": "browser=74.235.151.8.1772751830065866; path=/; max-age=946080000; domain=.arxiv.org",
         "accept-ranges": "bytes",
         "x-catalyst": "5.90019",
-        "server": "Apache",
-        "content-type": "application/atom+xml; charset=UTF-8",
-        "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
-        "set-cookie": "browser=20.168.106.248.1765357623968409; path=/; max-age=946080000; domain=.arxiv.org",
         "strict-transport-security": "max-age=31536000",
         "content-encoding": "gzip",
-        "date": "Wed, 10 Dec 2025 09:07:04 GMT",
-        "x-served-by": "cache-lga21983-LGA, cache-lga21974-LGA, cache-bur-kbur8200053-BUR",
+        "date": "Thu, 05 Mar 2026 23:03:51 GMT",
+        "x-served-by": "cache-lga21990-LGA, cache-lga21974-LGA, cache-iad-kiad7000084-IAD",
         "x-cache": "MISS, MISS, MISS",
-        "x-timer": "S1765357624.903960,VS0,VE788",
+        "x-timer": "S1772751830.029173,VS0,VE1246",
         "vary": "Accept-Encoding",
         "transfer-encoding": "chunked"
     },

@@ -1,3 +1,58 @@
+- URL: https://arxiv.org/abs/2508.18852
+  abstract: The Derived Auslander--Iyama Corresponence, a recent result of the authors,
+    provides a classification up to quasi-isomorphism of the derived endomorphism
+    algebras of basic $d\mathbb{Z}$-cluster tilting objects in $\operatorname{Hom}$-finite
+    algebraic triangulated categories in terms of a small amount of algebraic data.
+    In this note we highlight the role of minimal $A_\infty$-algebra structures in
+    the proof of this result, as well as the crucial role of the enhanced $A_\infty$-obstruction
+    theory developed by the second-named author.
+  arxiv: '2508.18852'
+  author:
+  - family: Jasso
+    given: Gustavo
+  - family: Muro
+    given: Fernando
+  bibtex: "@misc{arXiv:2508.18852,\n    author = {Jasso, Gustavo and Muro, Fernando},\n\
+    \    title = {{Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of\
+    \ $d\\mathbb{Z}$-cluster tilting objects}},\n    year = {2026},\n    howpublished\
+    \ = {Preprint, {arXiv}:2508.18852 [math.{RT}] (2026)},\n    keywords = {18G80,18N40},\n\
+    \    url = {https://arxiv.org/abs/2508.18852},\n    }"
+  id: arXiv:2508.18852
+  issued:
+    date-parts:
+    - - 2026
+  keyword: 18G80,18N40
+  publisher: Preprint, arXiv:2508.18852 [math.RT] (2026)
+  title: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d\mathbb{Z}$-cluster
+    tilting objects'
+  type: ''
+  zbmath_url: https://zbmath.org/902815985
+- URL: https://arxiv.org/abs/2107.14174
+  abstract: Several model structures related to the homotopy theory of locally constant
+    factorization algebras are constructed. This answers a question raised by D. Calaque
+    in his habilitation thesis. Our methods also solve a problem related to cosheafification
+    and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally
+    constant case.
+  arxiv: '2107.14174'
+  author:
+  - family: Carmona
+    given: Victor
+  - family: Flores
+    given: Ramon
+  - family: Muro
+    given: Fernando
+  bibtex: "@misc{arXiv:2107.14174,\n    author = {Carmona, Victor and Flores, Ramon\
+    \ and Muro, Fernando},\n    title = {{A model structure for locally constant factorization\
+    \ algebras}},\n    year = {2026},\n    howpublished = {Preprint, {arXiv}:2107.14174\
+    \ [math.{AT}] (2026)},\n    url = {https://arxiv.org/abs/2107.14174},\n    }"
+  id: arXiv:2107.14174
+  issued:
+    date-parts:
+    - - 2026
+  publisher: Preprint, arXiv:2107.14174 [math.AT] (2026)
+  title: A model structure for locally constant factorization algebras
+  type: ''
+  zbmath_url: https://zbmath.org/900514688
 - DOI: 10.1007/s00029-025-01087-w
   ISSN: 1022-1824
   abstract: We prove that the (homotopy) hypercommutative algebra structure on the
@@ -71,35 +126,6 @@
     Yau Structures"
   type: ''
   zbmath_url: https://zbmath.org/902841587
-- URL: https://arxiv.org/abs/2508.18852
-  abstract: The Derived Auslander--Iyama Corresponence, a recent result of the authors,
-    provides a classification up to quasi-isomorphism of the derived endomorphism
-    algebras of basic $d\mathbb{Z}$-cluster tilting objects in $\operatorname{Hom}$-finite
-    algebraic triangulated categories in terms of a small amount of algebraic data.
-    In this note we highlight the role of minimal $A_\infty$-algebra structures in
-    the proof of this result, as well as the crucial role of the enhanced $A_\infty$-obstruction
-    theory developed by the second-named author.
-  arxiv: '2508.18852'
-  author:
-  - family: Jasso
-    given: Gustavo
-  - family: Muro
-    given: Fernando
-  bibtex: "@misc{arXiv:2508.18852,\n    author = {Jasso, Gustavo and Muro, Fernando},\n\
-    \    title = {{Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of\
-    \ $d\\mathbb{Z}$-cluster tilting objects}},\n    year = {2025},\n    howpublished\
-    \ = {Preprint, {arXiv}:2508.18852 [math.{RT}] (2025)},\n    keywords = {18G80,18N40},\n\
-    \    url = {https://arxiv.org/abs/2508.18852},\n    }"
-  id: arXiv:2508.18852
-  issued:
-    date-parts:
-    - - 2025
-  keyword: 18G80,18N40
-  publisher: Preprint, arXiv:2508.18852 [math.RT] (2025)
-  title: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d\mathbb{Z}$-cluster
-    tilting objects'
-  type: ''
-  zbmath_url: https://zbmath.org/902815985
 - URL: https://arxiv.org/abs/2507.17568
   abstract: We develop an obstruction theory for the extension of truncated minimal
     $A$-infinity bimodule structures over truncated minimal $A$-infinity algebras.
@@ -337,32 +363,6 @@
   title: The Derived Auslander-Iyama Correspondence
   type: ''
   zbmath_url: https://zbmath.org/900570519
-- URL: https://arxiv.org/abs/2107.14174
-  abstract: Several model structures related to the homotopy theory of locally constant
-    factorization algebras are constructed. This answers a question raised by D. Calaque
-    in his habilitation thesis. Our methods also solve a problem related to cosheafification
-    and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally
-    constant case.
-  arxiv: '2107.14174'
-  author:
-  - family: Carmona
-    given: Victor
-  - family: Flores
-    given: Ramon
-  - family: Muro
-    given: Fernando
-  bibtex: "@misc{arXiv:2107.14174,\n    author = {Carmona, Victor and Flores, Ramon\
-    \ and Muro, Fernando},\n    title = {{A model structure for locally constant factorization\
-    \ algebras}},\n    year = {2021},\n    howpublished = {Preprint, {arXiv}:2107.14174\
-    \ [math.{AT}] (2021)},\n    url = {https://arxiv.org/abs/2107.14174},\n    }"
-  id: arXiv:2107.14174
-  issued:
-    date-parts:
-    - - 2021
-  publisher: Preprint, arXiv:2107.14174 [math.AT] (2021)
-  title: A model structure for locally constant factorization algebras
-  type: ''
-  zbmath_url: https://zbmath.org/900514688
 - DOI: 10.1007/s00209-019-02438-y
   ISSN: 0025-5874
   abstract: In this paper we relate triangulated category structures to the cohomology
@@ -457,7 +457,6 @@
   zbmath_url: https://zbmath.org/7053579
 - DOI: 10.1016/j.jpaa.2018.08.007
   ISSN: 0022-4049
-  URL: kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf
   abstract: We define two model structures on the category of bicomplexes concentrated
     in the right half plane. The first model structure has weak equivalences detected
     by the totalisation functor. The second model structure's weak equivalences are
@@ -475,8 +474,7 @@
     \ and Applied Algebra},\n    journal = {J. Pure Appl. Algebra},\n    issn = {0022-4049},\n\
     \    volume = {223},\n    number = {5},\n    pages = {1913--1939},\n    year =\
     \ {2019},\n    language = {English},\n    doi = {10.1016/j.jpaa.2018.08.007},\n\
-    \    keywords = {18G55,55U35},\n    url = {kar.kent.ac.uk/67611/1/bi_and_twisted_complexes_revision.pdf},\n\
-    \        }"
+    \    keywords = {18G55,55U35},\n        }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH07006249
   issue: '5'
@@ -551,7 +549,6 @@
   zbmath_url: https://zbmath.org/6673997
 - DOI: 10.1016/j.jpaa.2016.02.013
   ISSN: 0022-4049
-  URL: idus.us.es/xmlui/handle/11441/43063
   abstract: We construct small cylinders for cellular non-symmetric DG-operads over
     an arbitrary commutative ring by using the basic perturbation lemma from homological
     algebra. We show that our construction, applied to the A-infinity operad, yields
@@ -567,8 +564,7 @@
     \ = {Journal of Pure and Applied Algebra},\n    journal = {J. Pure Appl. Algebra},\n\
     \    issn = {0022-4049},\n    volume = {220},\n    number = {9},\n    pages =\
     \ {3248--3281},\n    year = {2016},\n    language = {English},\n    doi = {10.1016/j.jpaa.2016.02.013},\n\
-    \    keywords = {18D50,18G55,03E10},\n    url = {idus.us.es/xmlui/handle/11441/43063},\n\
-    \        }"
+    \    keywords = {18D50,18G55,03E10},\n        }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH06571599
   issue: '9'
@@ -681,7 +677,6 @@
   zbmath_url: https://zbmath.org/6454207
 - DOI: 10.1112/jtopol/jtu029
   ISSN: 1753-8416
-  URL: idus.us.es/xmlui/handle/11441/43027
   abstract: We construct a model structure on the category of small categories enriched
     over a combinatorial closed symmetric monoidal model category satisfying the monoid
     axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which
@@ -696,7 +691,7 @@
     \    journal = {J. Topol.},\n    issn = {1753-8416},\n    volume = {8},\n    number\
     \ = {2},\n    pages = {377--413},\n    year = {2015},\n    language = {English},\n\
     \    doi = {10.1112/jtopol/jtu029},\n    keywords = {18D20,18G55,55U35},\n   \
-    \ url = {idus.us.es/xmlui/handle/11441/43027},\n        }"
+    \     }"
   container-title: J. Topol.
   id: zbMATH06451815
   issue: '2'
@@ -750,7 +745,6 @@
   zbmath_url: https://zbmath.org/6417698
 - DOI: 10.1515/forum-2011-0130
   ISSN: 0933-7741
-  URL: idus.us.es/handle/11441/41889
   abstract: We construct a topological cellular operad such that the algebras over
     its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.
   arxiv: '1110.1959'
@@ -764,7 +758,7 @@
     \    journal = {Forum Math.},\n    issn = {0933-7741},\n    volume = {26},\n \
     \   number = {2},\n    pages = {593--620},\n    year = {2014},\n    language =\
     \ {English},\n    doi = {10.1515/forum-2011-0130},\n    keywords = {18D50,18G55},\n\
-    \    url = {idus.us.es/handle/11441/41889},\n        }"
+    \        }"
   container-title: Forum Math.
   id: zbMATH06342603
   issue: '2'
@@ -902,7 +896,6 @@
   zbmath_url: https://zbmath.org/5904608
 - DOI: 10.1112/plms/pdq034
   ISSN: 0024-6115
-  URL: idus.us.es/xmlui/handle/11441/41904
   abstract: The primary algebraic model of a ring spectrum is the ring of homotopy
     groups. We introduce the secondary model which has the structure of a secondary
     analogue of a ring. This new algebraic model determines Massey products and cup-one
@@ -919,7 +912,7 @@
     \    journal = {Proc. Lond. Math. Soc. (3)},\n    issn = {0024-6115},\n    volume\
     \ = {102},\n    number = {4},\n    pages = {637--696},\n    year = {2011},\n \
     \   language = {English},\n    doi = {10.1112/plms/pdq034},\n    keywords = {55P42,55P43,55Q35,55S20,55S30},\n\
-    \    url = {idus.us.es/xmlui/handle/11441/41904},\n        }"
+    \        }"
   container-title: Proc. Lond. Math. Soc. (3)
   id: zbMATH05882112
   issue: '4'
@@ -934,7 +927,6 @@
   zbmath_url: https://zbmath.org/5882112
 - DOI: 10.1080/00927870802241188
   ISSN: 0092-7872
-  URL: idus.us.es/xmlui/handle/11441/41881
   abstract: In this paper we prove the laws of Toda brackets on the homotopy groups
     of a connective ring spectrum and the laws of the cup-one square in the homotopy
     groups of a commutative connective ring spectrum.
@@ -949,8 +941,7 @@
     \ = {Communications in Algebra},\n    journal = {Commun. Algebra},\n    issn =\
     \ {0092-7872},\n    volume = {37},\n    number = {1},\n    pages = {56--82},\n\
     \    year = {2009},\n    language = {English},\n    doi = {10.1080/00927870802241188},\n\
-    \    keywords = {18G50,55P42,55Q35},\n    url = {idus.us.es/xmlui/handle/11441/41881},\n\
-    \        }"
+    \    keywords = {18G50,55P42,55Q35},\n        }"
   container-title: Commun. Algebra
   id: zbMATH05538788
   issue: '1'
@@ -1079,7 +1070,7 @@
   zbmath_url: https://zbmath.org/5367270
 - DOI: 10.1515/FORUM.2008.032
   ISSN: 0933-7741
-  URL: idus.us.es/xmlui/handle/11441/41883
+  URL: idus.us.es/handle/11441/41883
   abstract: Secondary homotopy groups supplement the structure of classical homotopy
     groups. They yield a track functor on the track category of pointed spaces compatible
     with fiber sequences, suspensions and loop spaces. They also yield algebraic models
@@ -1095,7 +1086,7 @@
     \    journal = {Forum Math.},\n    issn = {0933-7741},\n    volume = {20},\n \
     \   number = {4},\n    pages = {631--677},\n    year = {2008},\n    language =\
     \ {English},\n    doi = {10.1515/FORUM.2008.032},\n    keywords = {18D05,55Q25,55S45},\n\
-    \    url = {idus.us.es/xmlui/handle/11441/41883},\n        }"
+    \    url = {idus.us.es/handle/11441/41883},\n        }"
   container-title: Forum Math.
   id: zbMATH05351182
   issue: '4'
@@ -1165,7 +1156,6 @@
   zbmath_url: https://zbmath.org/5306025
 - DOI: 10.1007/s00222-007-0061-2
   ISSN: 0020-9910
-  URL: idus.us.es/xmlui/handle/11441/41893
   abstract: We exhibit examples of triangulated categories which are neither the stable
     category of a Frobenius category nor a full triangulated subcategory of the homotopy
     category of a stable model category. Even more drastically, our examples do not
@@ -1184,8 +1174,7 @@
     \    fjournal = {Inventiones Mathematicae},\n    journal = {Invent. Math.},\n\
     \    issn = {0020-9910},\n    volume = {170},\n    number = {2},\n    pages =\
     \ {231--241},\n    year = {2007},\n    language = {English},\n    doi = {10.1007/s00222-007-0061-2},\n\
-    \    keywords = {18E30,55P42,16E45,13D25},\n    url = {idus.us.es/xmlui/handle/11441/41893},\n\
-    \        }"
+    \    keywords = {18E30,55P42,16E45,13D25},\n        }"
   container-title: Invent. Math.
   id: zbMATH05208165
   issue: '2'
@@ -1276,7 +1265,6 @@
   zbmath_url: https://zbmath.org/900080869
 - DOI: 10.1016/j.jpaa.2005.05.004
   ISSN: 0022-4049
-  URL: idus.us.es/xmlui/handle/11441/41897
   abstract: In this paper we show that the Baues-Wirsching complex used to define
     cohomology of categories is a 2-functor from a certain 2-category of natural systems
     of abelian groups to the 2-category of chain complexes, chain homomorphism and
@@ -1291,8 +1279,7 @@
     \ Pure and Applied Algebra},\n    journal = {J. Pure Appl. Algebra},\n    issn\
     \ = {0022-4049},\n    volume = {204},\n    number = {3},\n    pages = {455--472},\n\
     \    year = {2006},\n    language = {English},\n    doi = {10.1016/j.jpaa.2005.05.004},\n\
-    \    keywords = {18G60,18D05,18E35},\n    url = {idus.us.es/xmlui/handle/11441/41897},\n\
-    \        }"
+    \    keywords = {18G60,18D05,18E35},\n        }"
   container-title: J. Pure Appl. Algebra
   id: zbMATH02244508
   issue: '3'
@@ -1453,7 +1440,7 @@
   zbmath_url: https://zbmath.org/900079638
 - DOI: 10.1007/s10977-004-1837-4
   ISSN: 0920-3036
-  URL: idus.us.es/xmlui/handle/11441/41899
+  URL: idus.us.es/handle/11441/41899
   abstract: In this paper we determine the representation type of some algebras of
     infinite matrices continuously controlled at infinity by a compact metrizable
     space. We explicitly classify their finitely presented modules in the finite and
@@ -1470,7 +1457,7 @@
     (K\\)-Theory},\n    issn = {0920-3036},\n    volume = {33},\n    number = {1},\n\
     \    pages = {23--65},\n    year = {2004},\n    language = {English},\n    doi\
     \ = {10.1007/s10977-004-1837-4},\n    keywords = {16G60,16S50,19J25,57N99},\n\
-    \    url = {idus.us.es/xmlui/handle/11441/41899},\n        }"
+    \    url = {idus.us.es/handle/11441/41899},\n        }"
   container-title: $K$-Theory
   id: zbMATH05068816
   issue: '1'
