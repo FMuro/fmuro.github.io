@@ -1,0 +1,2268 @@
+{
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+    "facets": {},
+    "total-results": 4,
+    "items": [
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2026-01-13T06:54:52Z",
+          "timestamp": 1768287292494,
+          "version": "3.49.0"
+        },
+        "reference-count": 56,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2016-04-01T00:00:00Z",
+              "timestamp": 1459468800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  4,
+                  1
+                ]
+              ],
+              "date-time": "2016-04-01T00:00:00Z",
+              "timestamp": 1459468800000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/legal/tdmrep-license"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  4,
+                  9
+                ]
+              ],
+              "date-time": "2020-04-09T00:00:00Z",
+              "timestamp": 1586390400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 1469,
+            "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+          }
+        ],
+        "funder": [
+          {
+            "DOI": "10.13039/501100003329",
+            "name": "Ministry of Economy and Competitiveness",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "MTM2010-15831"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "MTM2010-15831"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100003329",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100003329",
+            "name": "Ministry of Economy and Competitiveness",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "MTM2013-42178-P"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "MTM2013-42178-P"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100003329",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100002809",
+            "name": "Government of Catalonia",
+            "doi-asserted-by": "publisher",
+            "award": [
+              "SGR-119-2009"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "SGR-119-2009"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100002809",
+                "id-type": "DOI",
+                "asserted-by": "publisher"
+              }
+            ]
+          },
+          {
+            "name": "Andalusian Ministry of Economy, Innovation and Science",
+            "award": [
+              "FQM-5713"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "FQM-5713"
+                ]
+              }
+            ]
+          },
+          {
+            "DOI": "10.13039/501100001659",
+            "name": "German Research Foundation",
+            "doi-asserted-by": "crossref",
+            "award": [
+              "SFB 1085"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "SFB 1085"
+                ]
+              }
+            ],
+            "id": [
+              {
+                "id": "10.13039/501100001659",
+                "id-type": "DOI",
+                "asserted-by": "crossref"
+              }
+            ]
+          },
+          {
+            "name": "Ministry of Education, Youth and Sports of the Czech Republic",
+            "award": [
+              "CZ.1.07/2.3.00/20.0003"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "CZ.1.07/2.3.00/20.0003"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Advances in Mathematics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              4
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.aim.2016.01.009",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              8
+            ]
+          ],
+          "date-time": "2016-02-08T13:48:16Z",
+          "timestamp": 1454939296000
+        },
+        "page": "111-180",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 5,
+        "special_numbering": "C",
+        "title": [
+          "Transfinite Adams representability"
+        ],
+        "prefix": "10.1016",
+        "volume": "292",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8457-9889",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Muro",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "given": "Oriol",
+            "family": "Raventós",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0030",
+            "article-title": "Locally Presentable and Accessible Categories",
+            "volume": "vol. 189",
+            "author": "Adámek",
+            "year": "1994"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "185",
+            "DOI": "10.1016/0040-9383(71)90003-6",
+            "article-title": "A variant of E.H. Brown's representability theorem",
+            "volume": "10",
+            "author": "Adams",
+            "year": "1971",
+            "journal-title": "Topology"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0020",
+            "doi-asserted-by": "crossref",
+            "first-page": "225",
+            "DOI": "10.4153/CJM-2000-010-4",
+            "article-title": "Localization in categories of complexes and unbounded resolutions",
+            "volume": "52",
+            "author": "Alonso Tarrío",
+            "year": "2000",
+            "journal-title": "Canad. J. Math."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "141",
+            "DOI": "10.1016/0022-4049(82)90019-6",
+            "article-title": "A homological approach to representations of algebras. II. Tame hereditary algebras",
+            "volume": "26",
+            "author": "Baer",
+            "year": "1982",
+            "journal-title": "J. Pure Appl. Algebra"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.aim.2016.01.009_br0150",
+            "doi-asserted-by": "crossref",
+            "first-page": "227",
+            "DOI": "10.1016/0022-4049(82)90040-8",
+            "article-title": "A homological approach to representations of algebras. I. The wild case",
+            "volume": "24",
+            "author": "Baer",
+            "year": "1982",
+            "journal-title": "J. Pure Appl. Algebra"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0040",
+            "article-title": "Algebraic Homotopy",
+            "volume": "vol. 15",
+            "author": "Baues",
+            "year": "1989"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0050",
+            "article-title": "Combinatorial Homotopy and 4-Dimensional Complexes",
+            "volume": "vol. 2",
+            "author": "Baues",
+            "year": "1991"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.aim.2016.01.009_br0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "3",
+            "DOI": "10.1017/is007011018jkt019",
+            "article-title": "Cohomologically triangulated categories. I",
+            "volume": "1",
+            "author": "Baues",
+            "year": "2008",
+            "journal-title": "J. K-Theory"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.aim.2016.01.009_br0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "1",
+            "DOI": "10.1017/is008007021jkt061",
+            "article-title": "Cohomologically triangulated categories. II",
+            "volume": "3",
+            "author": "Baues",
+            "year": "2009",
+            "journal-title": "J. K-Theory"
+          },
+          {
+            "issue": "2–3",
+            "key": "10.1016/j.aim.2016.01.009_br0200",
+            "doi-asserted-by": "crossref",
+            "first-page": "187",
+            "DOI": "10.1016/0022-4049(85)90008-8",
+            "article-title": "Cohomology of small categories",
+            "volume": "38",
+            "author": "Baues",
+            "year": "1985",
+            "journal-title": "J. Pure Appl. Algebra"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.aim.2016.01.009_br0190",
+            "doi-asserted-by": "crossref",
+            "first-page": "125",
+            "DOI": "10.1112/S0010437X12000413",
+            "article-title": "On abelianization of a derived category and a negative solution to Rosický's problem",
+            "volume": "149",
+            "author": "Bazzoni",
+            "year": "2013",
+            "journal-title": "Compos. Math."
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.aim.2016.01.009_br0070",
+            "doi-asserted-by": "crossref",
+            "first-page": "268",
+            "DOI": "10.1006/jabr.1999.8237",
+            "article-title": "Relative homological algebra and purity in triangulated categories",
+            "volume": "227",
+            "author": "Beligiannis",
+            "year": "2000",
+            "journal-title": "J. Algebra"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0130",
+            "first-page": "451",
+            "article-title": "Realizing maps between modules over Tate cohomology rings",
+            "volume": "44",
+            "author": "Beligiannis",
+            "year": "2003",
+            "journal-title": "Beitr. Algebra Geom."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0080",
+            "doi-asserted-by": "crossref",
+            "first-page": "747",
+            "DOI": "10.1006/jabr.2001.9043",
+            "article-title": "Phantom maps and purity in modular representation theory. III",
+            "volume": "248",
+            "author": "Benson",
+            "year": "2002",
+            "journal-title": "J. Algebra"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0090",
+            "doi-asserted-by": "crossref",
+            "first-page": "171",
+            "DOI": "10.1016/j.jalgebra.2014.01.013",
+            "article-title": "Corrigendum to “Phantom maps and purity in modular representation theory. III”",
+            "volume": "406",
+            "author": "Benson",
+            "year": "2014",
+            "journal-title": "J. Algebra"
+          },
+          {
+            "issue": "1–2",
+            "key": "10.1016/j.aim.2016.01.009_br0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "37",
+            "DOI": "10.4064/fm-161-1-2-37-91",
+            "article-title": "Phantom maps and purity in modular representation theory. I",
+            "volume": "161",
+            "author": "Benson",
+            "year": "1999",
+            "journal-title": "Fund. Math."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.aim.2016.01.009_br0110",
+            "doi-asserted-by": "crossref",
+            "first-page": "395",
+            "DOI": "10.1023/A:1012475019810",
+            "article-title": "Phantom maps and purity in modular representation theory. II",
+            "volume": "4",
+            "author": "Benson",
+            "year": "2001",
+            "journal-title": "Algebr. Represent. Theory"
+          },
+          {
+            "issue": "9",
+            "key": "10.1016/j.aim.2016.01.009_br0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "3621",
+            "DOI": "10.1090/S0002-9947-03-03373-7",
+            "article-title": "Realizability of modules over Tate cohomology",
+            "volume": "356",
+            "author": "Benson",
+            "year": "2004",
+            "journal-title": "Trans. Amer. Math. Soc."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "221",
+            "DOI": "10.1007/s11856-011-0121-6",
+            "article-title": "Splitting kernels into small summands",
+            "volume": "188",
+            "author": "Braun",
+            "year": "2012",
+            "journal-title": "Israel J. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "467",
+            "DOI": "10.2307/1970209",
+            "article-title": "Cohomology theories",
+            "volume": "75",
+            "author": "Brown",
+            "year": "1962",
+            "journal-title": "Ann. of Math. (2)"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.aim.2016.01.009_br0210",
+            "doi-asserted-by": "crossref",
+            "first-page": "2782",
+            "DOI": "10.1016/j.aim.2007.11.008",
+            "article-title": "Ghosts in modular representation theory",
+            "volume": "217",
+            "author": "Chebolu",
+            "year": "2008",
+            "journal-title": "Adv. Math."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0220",
+            "doi-asserted-by": "crossref",
+            "first-page": "284",
+            "DOI": "10.1006/aima.1998.1735",
+            "article-title": "Ideals in triangulated categories: phantoms, ghosts and skeleta",
+            "volume": "136",
+            "author": "Christensen",
+            "year": "1998",
+            "journal-title": "Adv. Math."
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.aim.2016.01.009_br0230",
+            "doi-asserted-by": "crossref",
+            "first-page": "1339",
+            "DOI": "10.1016/S0040-9383(00)00015-X",
+            "article-title": "Failure of Brown representability in derived categories",
+            "volume": "40",
+            "author": "Christensen",
+            "year": "2001",
+            "journal-title": "Topology"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0240",
+            "doi-asserted-by": "crossref",
+            "first-page": "339",
+            "DOI": "10.1016/S0040-9383(97)00031-1",
+            "article-title": "Phantom maps and homology theories",
+            "volume": "37",
+            "author": "Christensen",
+            "year": "1998",
+            "journal-title": "Topology"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0250",
+            "author": "Fu"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0260",
+            "first-page": "xvi+613",
+            "article-title": "Modules over Non-Noetherian Domains",
+            "volume": "vol. 84",
+            "author": "Fuchs",
+            "year": "2001"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.aim.2016.01.009_br0270",
+            "doi-asserted-by": "crossref",
+            "first-page": "1394",
+            "DOI": "10.1016/j.jpaa.2007.10.007",
+            "article-title": "Realizing modules over the homology of a DGA",
+            "volume": "212",
+            "author": "Granja",
+            "year": "2008",
+            "journal-title": "J. Pure Appl. Algebra"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0280",
+            "first-page": "119",
+            "article-title": "Sur quelques points d'algèbre homologique",
+            "volume": "9",
+            "author": "Grothendieck",
+            "year": "1957",
+            "journal-title": "Tôhoku Math. J. (2)"
+          },
+          {
+            "issue": "6",
+            "key": "10.1016/j.aim.2016.01.009_br0290",
+            "doi-asserted-by": "crossref",
+            "first-page": "1907",
+            "DOI": "10.1090/S0002-9939-09-09672-5",
+            "article-title": "The ghost dimension of a ring",
+            "volume": "137",
+            "author": "Hovey",
+            "year": "2009",
+            "journal-title": "Proc. Amer. Math. Soc."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0300",
+            "doi-asserted-by": "crossref",
+            "first-page": "31",
+            "DOI": "10.1007/s11856-011-0022-8",
+            "article-title": "The ghost and weak dimensions of rings and ring spectra",
+            "volume": "182",
+            "author": "Hovey",
+            "year": "2011",
+            "journal-title": "Israel J. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0310",
+            "article-title": "Set Theory",
+            "author": "Jech",
+            "year": "2003"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0320",
+            "article-title": "Model-Theoretic Algebra with Particular Emphasis on Fields, Rings, Modules",
+            "volume": "vol. 2",
+            "author": "Jensen",
+            "year": "1989"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.aim.2016.01.009_br0330",
+            "doi-asserted-by": "crossref",
+            "first-page": "479",
+            "DOI": "10.1007/BF01393744",
+            "article-title": "On the derived categories of coherent sheaves on some homogeneous spaces",
+            "volume": "92",
+            "author": "Kapranov",
+            "year": "1988",
+            "journal-title": "Invent. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0340",
+            "doi-asserted-by": "crossref",
+            "first-page": "121",
+            "DOI": "10.4171/dm/99",
+            "article-title": "On Neeman's well generated triangulated categories",
+            "volume": "6",
+            "author": "Krause",
+            "year": "2001",
+            "journal-title": "Doc. Math."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.aim.2016.01.009_br0350",
+            "doi-asserted-by": "crossref",
+            "first-page": "853",
+            "DOI": "10.1016/S0040-9383(01)00010-6",
+            "article-title": "A Brown representability theorem via coherent functors",
+            "volume": "41",
+            "author": "Krause",
+            "year": "2002",
+            "journal-title": "Topology"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.aim.2016.01.009_br0360",
+            "doi-asserted-by": "crossref",
+            "first-page": "1128",
+            "DOI": "10.1112/S0010437X05001375",
+            "article-title": "The stable derived category of a Noetherian scheme",
+            "volume": "141",
+            "author": "Krause",
+            "year": "2005",
+            "journal-title": "Compos. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0370",
+            "first-page": "101",
+            "article-title": "Derived Categories, Resolutions, and Brown Representability",
+            "volume": "vol. 436",
+            "author": "Krause",
+            "year": "2007"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0380",
+            "series-title": "Triangulated Categories",
+            "first-page": "161",
+            "article-title": "Localization theory for triangulated categories",
+            "volume": "vol. 375",
+            "author": "Krause",
+            "year": "2010"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.aim.2016.01.009_br0390",
+            "doi-asserted-by": "crossref",
+            "first-page": "31",
+            "DOI": "10.1017/is010005005jkt115",
+            "article-title": "Rouquier's cocovering theorem and well-generated triangulated categories",
+            "volume": "8",
+            "author": "Murfet",
+            "year": "2011",
+            "journal-title": "J. K-Theory"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.aim.2016.01.009_br0460",
+            "doi-asserted-by": "crossref",
+            "first-page": "527",
+            "DOI": "10.1017/is011003012jkt148",
+            "article-title": "Brown representability in A1-homotopy theory",
+            "volume": "7",
+            "author": "Naumann",
+            "year": "2011",
+            "journal-title": "J. K-Theory"
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.aim.2016.01.009_br0400",
+            "doi-asserted-by": "crossref",
+            "first-page": "619",
+            "DOI": "10.1016/S0040-9383(96)00021-3",
+            "article-title": "On a theorem of Brown and Adams",
+            "volume": "36",
+            "author": "Neeman",
+            "year": "1997",
+            "journal-title": "Topology"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.aim.2016.01.009_br0410",
+            "doi-asserted-by": "crossref",
+            "first-page": "97",
+            "DOI": "10.1007/s002220050240",
+            "article-title": "Brown representability for the dual",
+            "volume": "133",
+            "author": "Neeman",
+            "year": "1998",
+            "journal-title": "Invent. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0420",
+            "doi-asserted-by": "crossref",
+            "first-page": "483",
+            "DOI": "10.4171/dm/111",
+            "article-title": "On the derived category of sheaves on a manifold",
+            "volume": "6",
+            "author": "Neeman",
+            "year": "2001",
+            "journal-title": "Doc. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0430",
+            "article-title": "Triangulated Categories",
+            "volume": "vol. 148",
+            "author": "Neeman",
+            "year": "2001"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0440",
+            "doi-asserted-by": "crossref",
+            "first-page": "255",
+            "DOI": "10.1007/s00222-008-0131-0",
+            "article-title": "The homotopy category of flat modules, and Grothendieck duality",
+            "volume": "174",
+            "author": "Neeman",
+            "year": "2008",
+            "journal-title": "Invent. Math."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0450",
+            "doi-asserted-by": "crossref",
+            "first-page": "262",
+            "DOI": "10.1112/jtopol/jtp009",
+            "article-title": "Brown representability follows from Rosický's theorem",
+            "volume": "2",
+            "author": "Neeman",
+            "year": "2009",
+            "journal-title": "J. Topol."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0470",
+            "doi-asserted-by": "crossref",
+            "first-page": "91",
+            "DOI": "10.1016/0021-8693(67)90069-5",
+            "article-title": "The global dimension of boolean rings",
+            "volume": "7",
+            "author": "Pierce",
+            "year": "1967",
+            "journal-title": "J. Algebra"
+          },
+          {
+            "issue": "19",
+            "key": "10.1016/j.aim.2016.01.009_br0480",
+            "first-page": "451",
+            "article-title": "Generalized Brown representability in homotopy categories",
+            "volume": "14",
+            "author": "Rosický",
+            "year": "2005",
+            "journal-title": "Theory Appl. Categ."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0490",
+            "first-page": "18",
+            "article-title": "Erratum: “Generalized Brown representability in homotopy categories” [Theory Appl. Categ. 14 (19) (2005) 451–479]",
+            "volume": "20",
+            "author": "Rosický",
+            "year": "2008",
+            "journal-title": "Theory Appl. Categ."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0500",
+            "author": "Rosický"
+          },
+          {
+            "issue": "5",
+            "key": "10.1016/j.aim.2016.01.009_br0510",
+            "doi-asserted-by": "crossref",
+            "first-page": "2767",
+            "DOI": "10.1090/S0002-9947-07-04487-X",
+            "article-title": "Universal Toda brackets of ring spectra",
+            "volume": "360",
+            "author": "Sagave",
+            "year": "2008",
+            "journal-title": "Trans. Amer. Math. Soc."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.aim.2016.01.009_br0520",
+            "doi-asserted-by": "crossref",
+            "first-page": "91",
+            "DOI": "10.4064/fm-96-2-91-116",
+            "article-title": "On pure global dimension of locally finitely presented Grothendieck categories",
+            "volume": "96",
+            "author": "Simson",
+            "year": "1977",
+            "journal-title": "Fund. Math."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0530",
+            "unstructured": "J. Šťovíček, On the pure projective dimension of Pλ, 2013, in preparation."
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0540",
+            "series-title": "Homotopy classification of filtered complexes",
+            "author": "Street",
+            "year": "1968"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0550",
+            "series-title": "Proceedings of the International Congress of Mathematicians, vol. I",
+            "first-page": "579",
+            "article-title": "A1-homotopy theory",
+            "author": "Voevodsky",
+            "year": "1998"
+          },
+          {
+            "key": "10.1016/j.aim.2016.01.009_br0560",
+            "series-title": "The homotopy categories of injective modules of derived discrete algebras",
+            "author": "Zhe",
+            "year": "2013"
+          }
+        ],
+        "container-title": [
+          "Advances in Mathematics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0001870816000359?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0001870816000359?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              11
+            ]
+          ],
+          "date-time": "2025-09-11T02:00:51Z",
+          "timestamp": 1757556051000
+        },
+        "score": 0.0,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0001870816000359"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              4
+            ]
+          ]
+        },
+        "references-count": 56,
+        "alternative-id": [
+          "S0001870816000359"
+        ],
+        "URL": "https://doi.org/10.1016/j.aim.2016.01.009",
+        "ISSN": [
+          "0001-8708"
+        ],
+        "issn-type": [
+          {
+            "value": "0001-8708",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              4
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "Transfinite Adams representability",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Advances in Mathematics",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.aim.2016.01.009",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2016 Elsevier Inc. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              26
+            ]
+          ],
+          "date-time": "2025-11-26T22:01:12Z",
+          "timestamp": 1764194472096,
+          "version": "3.40.5"
+        },
+        "reference-count": 63,
+        "publisher": "Cambridge University Press (CUP)",
+        "issue": "3",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  6,
+                  18
+                ]
+              ],
+              "date-time": "2020-06-18T00:00:00Z",
+              "timestamp": 1592438400000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "cambridge.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "J. Inst. Math. Jussieu"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2022,
+              5
+            ]
+          ]
+        },
+        "abstract": "<jats:title>Abstract</jats:title><jats:p>We give a necessary and sufficient condition for the existence of an enhancement of a finite triangulated category. Moreover, we show that enhancements are unique when they exist, up to Morita equivalence.</jats:p>",
+        "DOI": "10.1017/s1474748020000250",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              18
+            ]
+          ],
+          "date-time": "2020-06-18T09:37:21Z",
+          "timestamp": 1592473041000
+        },
+        "page": "741-783",
+        "update-policy": "https://doi.org/10.1017/policypage",
+        "source": "Crossref",
+        "is-referenced-by-count": 3,
+        "title": [
+          "ENHANCED FINITE TRIANGULATED CATEGORIES"
+        ],
+        "prefix": "10.1017",
+        "volume": "21",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8457-9889",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Muro",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "56",
+        "published-online": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              18
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "S1474748020000250_r53",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/conm/406/07658"
+          },
+          {
+            "key": "S1474748020000250_r17",
+            "first-page": "177",
+            "article-title": "Twisted bimodules and Hochschild cohomology for self-injective algebras of class A\nn",
+            "volume": "11",
+            "author": "Erdmann",
+            "year": "1999",
+            "journal-title": "Forum Math."
+          },
+          {
+            "key": "S1474748020000250_r56",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/S0002-9939-04-07409-X"
+          },
+          {
+            "key": "S1474748020000250_r32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/S0894-0347-10-00664-8"
+          },
+          {
+            "key": "S1474748020000250_r61",
+            "first-page": "x+224",
+            "article-title": "Homotopical algebraic geometry. II. Geometric stacks and applications",
+            "volume": "193",
+            "author": "Toën",
+            "year": "2008",
+            "journal-title": "Mem. Amer. Math. Soc."
+          },
+          {
+            "key": "S1474748020000250_r28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.crma.2018.09.003"
+          },
+          {
+            "key": "S1474748020000250_r29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/is011011005jkt172"
+          },
+          {
+            "key": "S1474748020000250_r5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4171/JNCG/139"
+          },
+          {
+            "key": "S1474748020000250_r39",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s40062-019-00245-0"
+          },
+          {
+            "key": "S1474748020000250_r40",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2018.08.007"
+          },
+          {
+            "key": "S1474748020000250_r55",
+            "unstructured": "55. Street, R. , Homotopy classification of filtered complexes, PhD thesis, University of Sydney (1969)."
+          },
+          {
+            "key": "S1474748020000250_r43",
+            "first-page": "65",
+            "volume-title": "Colloquium on Algebraic Topology",
+            "author": "Puppe",
+            "year": "1962"
+          },
+          {
+            "key": "S1474748020000250_r62",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jalgebra.2005.05.011"
+          },
+          {
+            "key": "S1474748020000250_r22",
+            "unstructured": "22. Hanihara, N. , Auslander correspondence for triangulated categories, arXiv:1805.07585 [math], 2018."
+          },
+          {
+            "key": "S1474748020000250_r3",
+            "first-page": "53",
+            "volume-title": "Representations of Finite-Dimensional Algebras (Tsukuba, 1990)",
+            "author": "Auslander",
+            "year": "1991"
+          },
+          {
+            "key": "S1474748020000250_r48",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00222-002-0231-1"
+          },
+          {
+            "key": "S1474748020000250_r57",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1155/IMRN.2005.3309"
+          },
+          {
+            "key": "S1474748020000250_r24",
+            "first-page": "183",
+            "article-title": "On the theory of homology of fiber spaces",
+            "volume": "35",
+            "author": "Kadeishvili",
+            "year": "1980",
+            "journal-title": "Uspekhi Mat. Nauk"
+          },
+          {
+            "key": "S1474748020000250_r11",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0021-8693(84)90170-4"
+          },
+          {
+            "key": "S1474748020000250_r30",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-1-4612-0525-8"
+          },
+          {
+            "key": "S1474748020000250_r45",
+            "first-page": "449",
+            "volume-title": "Representation Theory, II (Proc. Second Internat. Conf., Carleton Univ., Ottawa, Ont., 1979)",
+            "author": "Riedtmann",
+            "year": "1980"
+          },
+          {
+            "key": "S1474748020000250_r18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4171/062-1/5"
+          },
+          {
+            "key": "S1474748020000250_r63",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511600685"
+          },
+          {
+            "key": "S1474748020000250_r21",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-99902-4_5"
+          },
+          {
+            "key": "S1474748020000250_r33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0001-8708(72)90002-3"
+          },
+          {
+            "key": "S1474748020000250_r50",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4007/annals.2007.166.837"
+          },
+          {
+            "key": "S1474748020000250_r47",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/proc/14065"
+          },
+          {
+            "key": "S1474748020000250_r42",
+            "unstructured": "42. Pstrągowski, P. , Chromatic homotopy is algebraic when $p>n^{2}+n+1$ , arXiv:1810.12250 [math] (2018)."
+          },
+          {
+            "key": "S1474748020000250_r44",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BF02566682"
+          },
+          {
+            "key": "S1474748020000250_r6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00927872.2018.1508585"
+          },
+          {
+            "key": "S1474748020000250_r10",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4064/cm127-1-8"
+          },
+          {
+            "key": "S1474748020000250_r35",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/agt.2014.14.1489"
+          },
+          {
+            "key": "S1474748020000250_r12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1070/SM1991v070n01ABEH001253"
+          },
+          {
+            "key": "S1474748020000250_r38",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s00209-019-02438-y"
+          },
+          {
+            "key": "S1474748020000250_r52",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s002090100347"
+          },
+          {
+            "key": "S1474748020000250_r31",
+            "unstructured": "31. Lefèvre-Hasegawa, K. , Sur les $A_{\\infty }$ -catégories, PhD thesis, Université Paris 7 (2003)."
+          },
+          {
+            "key": "S1474748020000250_r15",
+            "unstructured": "15. Chen, J. , Surjections of unit groups and semi-inverses, J. Commut. Algebra (2019), https://projecteuclid.org/euclid.jca/1545015624."
+          },
+          {
+            "key": "S1474748020000250_r60",
+            "article-title": "Corrections à Invariants Additifs de DG-catégories",
+            "volume": "2007",
+            "author": "Tabuada",
+            "year": "2007",
+            "journal-title": "Int. Math. Res. Not. IMRN"
+          },
+          {
+            "key": "S1474748020000250_r2",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00927877409412807"
+          },
+          {
+            "key": "S1474748020000250_r20",
+            "article-title": "Uniqueness theorems for certain triangulated categories possessing an Adams spectral sequence",
+            "volume": "139",
+            "author": "Franke",
+            "year": "1996",
+            "journal-title": "K-theory"
+          },
+          {
+            "key": "S1474748020000250_r9",
+            "first-page": "27",
+            "article-title": "Nonstandard additively finite triangulated categories of Calabi–Yau dimension one in characteristic 3",
+            "volume": "6",
+            "author": "Białkowski",
+            "year": "2007",
+            "journal-title": "Algebra Discrete Math."
+          },
+          {
+            "key": "S1474748020000250_r37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/tran/6545"
+          },
+          {
+            "key": "S1474748020000250_r58",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.crma.2004.11.007"
+          },
+          {
+            "key": "S1474748020000250_r19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jalgebra.2008.11.003"
+          },
+          {
+            "key": "S1474748020000250_r36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2016.02.013"
+          },
+          {
+            "key": "S1474748020000250_r54",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4171/102"
+          },
+          {
+            "key": "S1474748020000250_r26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2012.11.006"
+          },
+          {
+            "key": "S1474748020000250_r59",
+            "article-title": "Addendum à Invariants Additifs de dg-Catégories",
+            "volume": "2006",
+            "author": "Tabuada",
+            "year": "2006",
+            "journal-title": "Int. Math. Res. Not. IMRN"
+          },
+          {
+            "key": "S1474748020000250_r8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jalgebra.2011.08.005"
+          },
+          {
+            "key": "S1474748020000250_r25",
+            "first-page": "249",
+            "article-title": "The algebraic structure in the homology of an A (∞)-algebra",
+            "volume": "108",
+            "author": "Kadeishvili",
+            "year": "1982",
+            "journal-title": "Soobshcheniya Akademii Nauk Gruzinskoĭ SSR"
+          },
+          {
+            "key": "S1474748020000250_r13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-540-38117-4"
+          },
+          {
+            "key": "S1474748020000250_r16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/0040-9383(84)90035-1"
+          },
+          {
+            "key": "S1474748020000250_r49",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1006/aima.2001.2009"
+          },
+          {
+            "key": "S1474748020000250_r27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4310/HHA.2001.v3.n1.a1"
+          },
+          {
+            "key": "S1474748020000250_r1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.24033/bsmf.2542"
+          },
+          {
+            "key": "S1474748020000250_r34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2005.05.004"
+          },
+          {
+            "key": "S1474748020000250_r4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/S0002-9947-03-03373-7"
+          },
+          {
+            "key": "S1474748020000250_r14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.4171/JEMS/820"
+          },
+          {
+            "key": "S1474748020000250_r41",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1112/blms.12105"
+          },
+          {
+            "key": "S1474748020000250_r51",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1112/S002461150001220X"
+          },
+          {
+            "key": "S1474748020000250_r23",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00927879808826363"
+          },
+          {
+            "key": "S1474748020000250_r7",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/S0002-9947-07-03948-7"
+          },
+          {
+            "key": "S1474748020000250_r46",
+            "first-page": "231",
+            "article-title": "Representation-finite self-injective algebras of class D\nn",
+            "volume": "49",
+            "author": "Riedtmann",
+            "year": "1983",
+            "journal-title": "Compos. Math."
+          }
+        ],
+        "container-title": [
+          "Journal of the Institute of Mathematics of Jussieu"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S1474748020000250",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2022,
+              4,
+              6
+            ]
+          ],
+          "date-time": "2022-04-06T11:25:08Z",
+          "timestamp": 1649244308000
+        },
+        "score": 0.0,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/S1474748020000250/type/journal_article"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              18
+            ]
+          ]
+        },
+        "references-count": 63,
+        "journal-issue": {
+          "issue": "3",
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                5
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S1474748020000250"
+        ],
+        "URL": "https://doi.org/10.1017/s1474748020000250",
+        "ISSN": [
+          "1474-7480",
+          "1475-3030"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "1474-7480"
+          },
+          {
+            "type": "electronic",
+            "value": "1475-3030"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              18
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "© The Author(s) 2020. Published by Cambridge University Press",
+            "name": "copyright",
+            "label": "Copyright",
+            "group": {
+              "name": "copyright_and_licensing",
+              "label": "Copyright and Licensing"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              13
+            ]
+          ],
+          "date-time": "2025-05-13T21:51:09Z",
+          "timestamp": 1747173069499,
+          "version": "3.40.5"
+        },
+        "reference-count": 37,
+        "publisher": "Cambridge University Press (CUP)",
+        "issue": "4",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  7,
+                  25
+                ]
+              ],
+              "date-time": "2022-07-25T00:00:00Z",
+              "timestamp": 1658707200000
+            },
+            "content-version": "unspecified",
+            "delay-in-days": 0,
+            "URL": "https://www.cambridge.org/core/terms"
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "cambridge.org"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Proceedings of the Royal Society of Edinburgh: Section A Mathematics"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2023,
+              8
+            ]
+          ]
+        },
+        "abstract": "<jats:p>We develop a theory of minimal models for algebras over a Koszul operad with trivial differential defined over a commutative ring (containing <jats:inline-formula><jats:alternatives><jats:tex-math>$\\mathbb {Q}$</jats:tex-math><jats:inline-graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" mime-subtype=\"png\" xlink:href=\"S0308210522000427_inline1.png\"/></jats:alternatives></jats:inline-formula> in the symmetric case), not necessarily a field, extending and supplementing the work of Sagave for the associative case. Our minimal models are bigraded and contain a projective resolution of the homology.</jats:p>",
+        "DOI": "10.1017/prm.2022.42",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              25
+            ]
+          ],
+          "date-time": "2022-07-25T06:22:35Z",
+          "timestamp": 1658730155000
+        },
+        "page": "1198-1243",
+        "update-policy": "https://doi.org/10.1017/policypage",
+        "source": "Crossref",
+        "is-referenced-by-count": 1,
+        "title": [
+          "Derived homotopy algebras"
+        ],
+        "prefix": "10.1017",
+        "volume": "153",
+        "author": [
+          {
+            "given": "Jeroen",
+            "family": "Maes",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          },
+          {
+            "ORCID": "https://orcid.org/0000-0001-8457-9889",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Muro",
+            "sequence": "additional",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "56",
+        "published-online": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              25
+            ]
+          ]
+        },
+        "reference": [
+          {
+            "key": "S0308210522000427_ref3",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/conm/641/12855"
+          },
+          {
+            "key": "S0308210522000427_ref34",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/agt.2017.17.3837"
+          },
+          {
+            "key": "S0308210522000427_ref37",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1515/crelle.2010.011"
+          },
+          {
+            "key": "S0308210522000427_ref2",
+            "unstructured": "2 Adámek, J. and Rosický, J. , Locally presentable and accessible categories, London Mathematical Society Lecture Note Series, Vol. 189 (Cambridge University Press, Cambridge, 1994)."
+          },
+          {
+            "volume-title": "Homological algebra",
+            "year": "1956",
+            "author": "Cartan",
+            "key": "S0308210522000427_ref7"
+          },
+          {
+            "key": "S0308210522000427_ref19",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2009.11.006"
+          },
+          {
+            "key": "S0308210522000427_ref11",
+            "unstructured": "11 Dimitrova, B. , Obstruction theory for operadic algebras, Ph.D. thesis, Universitäts- und Landesbibliothek Bonn, May 2012."
+          },
+          {
+            "key": "S0308210522000427_ref33",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/agt.2011.11.1541"
+          },
+          {
+            "key": "S0308210522000427_ref35",
+            "unstructured": "35 Muro, F. . Derived universal Massey products, arXiv:2109.01421 [math.KT] (2021). To appear in Homology Homotopy Appl."
+          },
+          {
+            "key": "S0308210522000427_ref30",
+            "unstructured": "30 Maes, J. , Derived homotopy algebras, Ph.D. thesis, Universidad de Sevilla, http://hdl.handle.net/11441/48473, October 2016."
+          },
+          {
+            "key": "S0308210522000427_ref18",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/conm/504/09879"
+          },
+          {
+            "key": "S0308210522000427_ref24",
+            "unstructured": "24 Kontsevich, M. and Soibelman, Y. , Notes on $A_\\infty$ -algebras, $A_\\infty$ -categories and non-commutative geometry, Homological Mirror Symmetry, Lecture Notes in Phys., Vol. 757, pp. 153–219 (Springer, Berlin, 2009). MR 2596638."
+          },
+          {
+            "key": "S0308210522000427_ref9",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2008.04.002"
+          },
+          {
+            "key": "S0308210522000427_ref8",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.topol.2017.12.004"
+          },
+          {
+            "key": "S0308210522000427_ref21",
+            "unstructured": "21 Hinich, V. , Erratum to ‘Homological algebra of homotopy algebras’, arXiv:math/0309453 (2003)."
+          },
+          {
+            "key": "S0308210522000427_ref22",
+            "unstructured": "22 Hirschhorn, P. S. , Model categories and their localizations, Mathematical Surveys and Monographs, Vol. 99 (American Mathematical Society, Providence, RI, 2003)."
+          },
+          {
+            "key": "S0308210522000427_ref15",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/S0002-9947-99-02489-7"
+          },
+          {
+            "key": "S0308210522000427_ref17",
+            "doi-asserted-by": "crossref",
+            "unstructured": "17 Fresse, B. , Modules over operads and functors, Lecture Notes in Mathematics, Vol. 1967 (Springer-Verlag, Berlin, 2009). MR 2494775.",
+            "DOI": "10.1007/978-3-540-89056-0"
+          },
+          {
+            "key": "S0308210522000427_ref10",
+            "doi-asserted-by": "crossref",
+            "unstructured": "10 Cirici, J. , Santander, D. E. , Livernet, M. and Whitehouse, S. , Model category structures and spectral sequences, Proceedings of the Royal Society of Edinburgh Section A: Mathematics 150 (2020), no. 6, 2815–2848.",
+            "DOI": "10.1017/prm.2019.45"
+          },
+          {
+            "key": "S0308210522000427_ref13",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/agt.2009.9.135"
+          },
+          {
+            "key": "S0308210522000427_ref23",
+            "first-page": "19",
+            "article-title": "The structure of the $A(\\infty )$-algebra, and the Hochschild and Harrison cohomologies",
+            "volume": "91",
+            "author": "Kadeishvili",
+            "year": "1988",
+            "journal-title": "Trudy Tbiliss. Mat. Inst. Razmadze Akad. Nauk Gruzin. SSR"
+          },
+          {
+            "key": "S0308210522000427_ref28",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/978-3-642-30362-3"
+          },
+          {
+            "key": "S0308210522000427_ref12",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s10485-015-9407-x"
+          },
+          {
+            "key": "S0308210522000427_ref29",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2019.05.019"
+          },
+          {
+            "key": "S0308210522000427_ref32",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.jpaa.2018.08.007"
+          },
+          {
+            "key": "S0308210522000427_ref5",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/agt.2014.14.2511"
+          },
+          {
+            "key": "S0308210522000427_ref6",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/CBO9780511525858"
+          },
+          {
+            "key": "S0308210522000427_ref36",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1017/S0305004102006370"
+          },
+          {
+            "key": "S0308210522000427_ref14",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1016/j.topol.2022.108104"
+          },
+          {
+            "key": "S0308210522000427_ref20",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00927879708826055"
+          },
+          {
+            "key": "S0308210522000427_ref25",
+            "unstructured": "25 Lefèvre-Hasegawa, K. , Sur les A $_{\\infty }$ -catégories, Ph.D. thesis, Université Paris 7, 2003."
+          },
+          {
+            "key": "S0308210522000427_ref31",
+            "unstructured": "31 McCleary, J. , A user's guide to spectral sequences, 2nd ed., Cambridge Studies in Advanced Mathematics, Vol. 58 (Cambridge University Press, Cambridge, 2001). MR 1793722."
+          },
+          {
+            "key": "S0308210522000427_ref27",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.2140/agt.2013.13.409"
+          },
+          {
+            "key": "S0308210522000427_ref26",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1080/00927879508825335"
+          },
+          {
+            "key": "S0308210522000427_ref4",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/BFb0083084"
+          },
+          {
+            "key": "S0308210522000427_ref1",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1007/s40062-013-0026-7"
+          },
+          {
+            "key": "S0308210522000427_ref16",
+            "doi-asserted-by": "publisher",
+            "DOI": "10.1090/conm/346/06287"
+          }
+        ],
+        "container-title": [
+          "Proceedings of the Royal Society of Edinburgh: Section A Mathematics"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0308210522000427",
+            "content-type": "unspecified",
+            "content-version": "vor",
+            "intended-application": "similarity-checking"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              6
+            ]
+          ],
+          "date-time": "2023-07-06T11:53:40Z",
+          "timestamp": 1688644420000
+        },
+        "score": 0.0,
+        "resource": {
+          "primary": {
+            "URL": "https://www.cambridge.org/core/product/identifier/S0308210522000427/type/journal_article"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              25
+            ]
+          ]
+        },
+        "references-count": 37,
+        "journal-issue": {
+          "issue": "4",
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                8
+              ]
+            ]
+          }
+        },
+        "alternative-id": [
+          "S0308210522000427"
+        ],
+        "URL": "https://doi.org/10.1017/prm.2022.42",
+        "ISSN": [
+          "0308-2105",
+          "1473-7124"
+        ],
+        "issn-type": [
+          {
+            "type": "print",
+            "value": "0308-2105"
+          },
+          {
+            "type": "electronic",
+            "value": "1473-7124"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2022,
+              7,
+              25
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Copyright © The Author(s), 2022. Published by Cambridge University Press on behalf of The Royal Society of Edinburgh",
+            "name": "copyright",
+            "label": "Copyright",
+            "group": {
+              "name": "copyright_and_licensing",
+              "label": "Copyright and Licensing"
+            }
+          }
+        ]
+      },
+      {
+        "indexed": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              17
+            ]
+          ],
+          "date-time": "2026-02-17T18:34:55Z",
+          "timestamp": 1771353295411,
+          "version": "3.50.1"
+        },
+        "reference-count": 18,
+        "publisher": "Elsevier BV",
+        "license": [
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2015,
+                  8,
+                  1
+                ]
+              ],
+              "date-time": "2015-08-01T00:00:00Z",
+              "timestamp": 1438387200000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+          },
+          {
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  8,
+                  15
+                ]
+              ],
+              "date-time": "2019-08-15T00:00:00Z",
+              "timestamp": 1565827200000
+            },
+            "content-version": "vor",
+            "delay-in-days": 1475,
+            "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+          }
+        ],
+        "funder": [
+          {
+            "name": "Andalusian Ministry of Economy, Innovation and Science",
+            "award": [
+              "FQM-5713"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "FQM-5713"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Spanish Ministry of Economy and Competitiveness",
+            "award": [
+              "MTM2013-42178-P"
+            ],
+            "award-info": [
+              {
+                "award-number": [
+                  "MTM2013-42178-P"
+                ]
+              }
+            ]
+          }
+        ],
+        "content-domain": {
+          "domain": [
+            "elsevier.com",
+            "sciencedirect.com"
+          ],
+          "crossmark-restriction": true
+        },
+        "short-container-title": [
+          "Topology and its Applications"
+        ],
+        "published-print": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "DOI": "10.1016/j.topol.2015.05.006",
+        "type": "journal-article",
+        "created": {
+          "date-parts": [
+            [
+              2015,
+              5,
+              22
+            ]
+          ],
+          "date-time": "2015-05-22T06:17:49Z",
+          "timestamp": 1432275469000
+        },
+        "page": "37-47",
+        "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+        "source": "Crossref",
+        "is-referenced-by-count": 4,
+        "special_numbering": "C",
+        "title": [
+          "On the unit of a monoidal model category"
+        ],
+        "prefix": "10.1016",
+        "volume": "191",
+        "author": [
+          {
+            "ORCID": "https://orcid.org/0000-0001-8457-9889",
+            "authenticated-orcid": false,
+            "given": "Fernando",
+            "family": "Muro",
+            "sequence": "first",
+            "affiliation": [],
+            "role": [
+              {
+                "role": "author",
+                "vocabulary": "crossref"
+              }
+            ]
+          }
+        ],
+        "member": "78",
+        "reference": [
+          {
+            "issue": "3",
+            "key": "10.1016/j.topol.2015.05.006_br0010",
+            "doi-asserted-by": "crossref",
+            "first-page": "805",
+            "DOI": "10.1093/qmath/hat023",
+            "article-title": "On the homotopy theory of enriched categories",
+            "volume": "64",
+            "author": "Berger",
+            "year": "2013",
+            "journal-title": "Q. J. Math."
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0020",
+            "author": "Caviglia"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0030",
+            "article-title": "Rings, Modules, and Algebras in Stable Homotopy Theory",
+            "volume": "vol. 47",
+            "author": "Elmendorf",
+            "year": "1997"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0040",
+            "article-title": "Model Categories",
+            "volume": "vol. 63",
+            "author": "Hovey",
+            "year": "1999"
+          },
+          {
+            "issue": "1",
+            "key": "10.1016/j.topol.2015.05.006_br0050",
+            "doi-asserted-by": "crossref",
+            "first-page": "149",
+            "DOI": "10.1090/S0894-0347-99-00320-3",
+            "article-title": "Symmetric spectra",
+            "volume": "13",
+            "author": "Hovey",
+            "year": "2000",
+            "journal-title": "J. Am. Math. Soc."
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.topol.2015.05.006_br0060",
+            "doi-asserted-by": "crossref",
+            "first-page": "395",
+            "DOI": "10.1016/j.jpaa.2006.10.002",
+            "article-title": "Modules in monoidal model categories",
+            "volume": "210",
+            "author": "Lewis",
+            "year": "2007",
+            "journal-title": "J. Pure Appl. Algebra"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0070",
+            "article-title": "Equivariant Stable Homotopy Theory",
+            "volume": "vol. 1213",
+            "author": "Lewis",
+            "year": "1986"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0080",
+            "author": "Lurie"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.topol.2015.05.006_br0100",
+            "doi-asserted-by": "crossref",
+            "first-page": "441",
+            "DOI": "10.1112/S0024611501012692",
+            "article-title": "Model categories of diagram spectra",
+            "volume": "82",
+            "author": "Mandell",
+            "year": "2001",
+            "journal-title": "Proc. Lond. Math. Soc. (3)"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0120",
+            "doi-asserted-by": "crossref",
+            "first-page": "229",
+            "DOI": "10.2140/agt.2014.14.229",
+            "article-title": "Homotopy theory of non-symmetric operads, II: change of base category and left properness",
+            "volume": "14",
+            "author": "Muro",
+            "year": "2014",
+            "journal-title": "Algebr. Geom. Topol."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.topol.2015.05.006_br0130",
+            "doi-asserted-by": "crossref",
+            "first-page": "1489",
+            "DOI": "10.2140/agt.2014.14.1489",
+            "article-title": "Moduli spaces of algebras over nonsymmetric operads",
+            "volume": "14",
+            "author": "Muro",
+            "year": "2014",
+            "journal-title": "Algebr. Geom. Topol."
+          },
+          {
+            "issue": "3",
+            "key": "10.1016/j.topol.2015.05.006_br0140",
+            "doi-asserted-by": "crossref",
+            "first-page": "517",
+            "DOI": "10.1007/PL00004446",
+            "article-title": "S-Modules and symmetric spectra",
+            "volume": "319",
+            "author": "Schwede",
+            "year": "2001",
+            "journal-title": "Math. Ann."
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0150",
+            "series-title": "Homotopy Theory: Relations with Algebraic Geometry, Group Cohomology, and Algebraic K-Theory",
+            "first-page": "473",
+            "article-title": "A convenient model category for commutative ring spectra",
+            "volume": "vol. 346",
+            "author": "Shipley",
+            "year": "2004"
+          },
+          {
+            "issue": "2",
+            "key": "10.1016/j.topol.2015.05.006_br0160",
+            "doi-asserted-by": "crossref",
+            "first-page": "491",
+            "DOI": "10.1112/S002461150001220X",
+            "article-title": "Algebras and modules in monoidal model categories",
+            "volume": "80",
+            "author": "Schwede",
+            "year": "2000",
+            "journal-title": "Proc. Lond. Math. Soc. (3)"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0170",
+            "doi-asserted-by": "crossref",
+            "first-page": "287",
+            "DOI": "10.2140/agt.2003.3.287",
+            "article-title": "Equivalences of monoidal model categories",
+            "volume": "3",
+            "author": "Schwede",
+            "year": "2003",
+            "journal-title": "Algebr. Geom. Topol."
+          },
+          {
+            "issue": "4",
+            "key": "10.1016/j.topol.2015.05.006_br0180",
+            "doi-asserted-by": "crossref",
+            "first-page": "1122",
+            "DOI": "10.1016/j.aim.2009.01.014",
+            "article-title": "Homotopy theory of spectral categories",
+            "volume": "221",
+            "author": "Tabuada",
+            "year": "2009",
+            "journal-title": "Adv. Math."
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0190",
+            "article-title": "Homotopical Algebraic Geometry. II. Geometric Stacks and Applications",
+            "volume": "vol. 193",
+            "author": "Toën",
+            "year": "2008"
+          },
+          {
+            "key": "10.1016/j.topol.2015.05.006_br0200",
+            "author": "White"
+          }
+        ],
+        "container-title": [
+          "Topology and its Applications"
+        ],
+        "language": "en",
+        "link": [
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0166864115001728?httpAccept=text/xml",
+            "content-type": "text/xml",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          },
+          {
+            "URL": "https://api.elsevier.com/content/article/PII:S0166864115001728?httpAccept=text/plain",
+            "content-type": "text/plain",
+            "content-version": "vor",
+            "intended-application": "text-mining"
+          }
+        ],
+        "deposited": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              14
+            ]
+          ],
+          "date-time": "2019-08-14T21:02:10Z",
+          "timestamp": 1565816530000
+        },
+        "score": 0.0,
+        "resource": {
+          "primary": {
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0166864115001728"
+          }
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "references-count": 18,
+        "alternative-id": [
+          "S0166864115001728"
+        ],
+        "URL": "https://doi.org/10.1016/j.topol.2015.05.006",
+        "ISSN": [
+          "0166-8641"
+        ],
+        "issn-type": [
+          {
+            "value": "0166-8641",
+            "type": "print"
+          }
+        ],
+        "published": {
+          "date-parts": [
+            [
+              2015,
+              8
+            ]
+          ]
+        },
+        "assertion": [
+          {
+            "value": "Elsevier",
+            "name": "publisher",
+            "label": "This article is maintained by"
+          },
+          {
+            "value": "On the unit of a monoidal model category",
+            "name": "articletitle",
+            "label": "Article Title"
+          },
+          {
+            "value": "Topology and its Applications",
+            "name": "journaltitle",
+            "label": "Journal Title"
+          },
+          {
+            "value": "https://doi.org/10.1016/j.topol.2015.05.006",
+            "name": "articlelink",
+            "label": "CrossRef DOI link to publisher maintained version"
+          },
+          {
+            "value": "article",
+            "name": "content_type",
+            "label": "Content Type"
+          },
+          {
+            "value": "Copyright © 2015 Elsevier B.V. All rights reserved.",
+            "name": "copyright",
+            "label": "Copyright"
+          }
+        ]
+      }
+    ],
+    "items-per-page": 20,
+    "query": {
+      "start-index": 0,
+      "search-terms": null
+    }
+  }
+}

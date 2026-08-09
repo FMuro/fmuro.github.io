@@ -1,580 +1,4048 @@
-[
-  {
-    "author": [
-      {
-        "family": "Blasco-García",
-        "given": "Rubén"
+{
+  "bozo": false,
+  "entries": [
+    {
+      "id": "http://arxiv.org/abs/2509.22625v4",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2509.22625v4",
+      "updated": "2026-07-14T03:33:26-04:00",
+      "updated_parsed": [
+        2026,
+        7,
+        14,
+        7,
+        33,
+        26,
+        1,
+        195,
+        0
+      ],
+      "published": "2025-09-26T13:51:20-04:00",
+      "published_parsed": [
+        2025,
+        9,
+        26,
+        17,
+        51,
+        20,
+        4,
+        269,
+        0
+      ],
+      "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures"
       },
-      {
-        "family": "Cumplido",
-        "given": "María"
+      "summary": "Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras (dg) with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\ZZ$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule. As an application of our results, we obtain, to our knowledge, the first example of an algebraic triangulated category with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule right Calabi--Yau structure on any of its dg enhancements.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras (dg) with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\ZZ$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule. As an application of our results, we obtain, to our knowledge, the first example of an algebraic triangulated category with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule right Calabi--Yau structure on any of its dg enhancements."
       },
-      {
-        "family": "Morris-Wright",
-        "given": "Rose"
-      }
-    ],
-    "id": "2204.03523",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
+      "authors": [
+        {
+          "name": "Gustavo Jasso, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Gustavo Jasso, Fernando Muro"
+      },
+      "author": "Gustavo Jasso, Fernando Muro",
+      "arxiv_comment": "103 pages. v2: Corrected several small typos. Added new Section 7.3 on a non-enhanceable triangulated Calabi--Yau structure. v3: Editorial improvements. v4: Enhanced exposition, several small corrections. Subsection 7.3 is now Section 8",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2509.22625v4",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2509.22625v4",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.RT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Representation Theory (math.RT)"
+      },
+      "tags": [
+        {
+          "term": "math.RT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Representation Theory (math.RT)"
+        },
+        {
+          "term": "Primary: 18G80 Secondary: 18N40",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
       ]
     },
-    "title": "The Word Problem is Solvable for 3-free Artin groups in Quadratic Time",
-    "type": ""
+    {
+      "id": "http://arxiv.org/abs/2208.14413v6",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2208.14413v6",
+      "updated": "2026-05-12T06:02:12-04:00",
+      "updated_parsed": [
+        2026,
+        5,
+        12,
+        10,
+        2,
+        12,
+        1,
+        132,
+        0
+      ],
+      "published": "2022-08-30T13:27:09-04:00",
+      "published_parsed": [
+        2022,
+        8,
+        30,
+        17,
+        27,
+        9,
+        1,
+        242,
+        0
+      ],
+      "title": "The Derived Auslander-Iyama Correspondence",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The Derived Auslander-Iyama Correspondence"
+      },
+      "summary": "We work over a perfect field. Recent work of the third-named author established a Derived Auslander Correspondence that relates finite-dimensional self-injective algebras that are twisted $3$-periodic to algebraic triangulated categories of finite type. Moreover, the aforementioned work also shows that the latter triangulated categories admit a unique differential graded enhancement. In this article we prove a higher-dimensional version of this result that, given an integer $d\\geq1$, relates twisted $(d+2)$-periodic algebras to algebraic triangulated categories with a $d\\mathbb{Z}$-cluster tilting object. We also show that the latter triangulated categories admit a unique differential graded enhancement. Our result yields recognition theorems for interesting algebraic triangulated categories, such as the Amiot cluster category of a self-injective quiver with potential in the sense of Herschend and Iyama and, more generally, the Amiot-Guo-Keller cluster category associated with a $d$-representation finite algebra in the sense of Iyama and Oppermann. As an application of our result, we obtain infinitely many triangulated categories with a unique differential graded enhancement that is not strongly unique. In the appendix, B. Keller explains how -- combined with crucial results of August and Hua-Keller -- our main result yields the last key ingredient to prove the Donovan-Wemyss Conjecture in the context of the Homological Minimal Model Program for threefolds.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We work over a perfect field. Recent work of the third-named author established a Derived Auslander Correspondence that relates finite-dimensional self-injective algebras that are twisted $3$-periodic to algebraic triangulated categories of finite type. Moreover, the aforementioned work also shows that the latter triangulated categories admit a unique differential graded enhancement. In this article we prove a higher-dimensional version of this result that, given an integer $d\\geq1$, relates twisted $(d+2)$-periodic algebras to algebraic triangulated categories with a $d\\mathbb{Z}$-cluster tilting object. We also show that the latter triangulated categories admit a unique differential graded enhancement. Our result yields recognition theorems for interesting algebraic triangulated categories, such as the Amiot cluster category of a self-injective quiver with potential in the sense of Herschend and Iyama and, more generally, the Amiot-Guo-Keller cluster category associated with a $d$-representation finite algebra in the sense of Iyama and Oppermann. As an application of our result, we obtain infinitely many triangulated categories with a unique differential graded enhancement that is not strongly unique. In the appendix, B. Keller explains how -- combined with crucial results of August and Hua-Keller -- our main result yields the last key ingredient to prove the Donovan-Wemyss Conjecture in the context of the Homological Minimal Model Program for threefolds."
+      },
+      "authors": [
+        {
+          "name": "Gustavo Jasso, Bernhard Keller, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Gustavo Jasso, Bernhard Keller, Fernando Muro"
+      },
+      "author": "Gustavo Jasso, Bernhard Keller, Fernando Muro",
+      "arxiv_comment": "Appendix by Bernhard Keller. 117 pp., 2 figs. v1-v5: See submission history. v6: Significant edits following referee report. Accepted for publication in J. Amer. Math. Soc",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2208.14413v6",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2208.14413v6",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.RT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Representation Theory (math.RT)"
+      },
+      "tags": [
+        {
+          "term": "math.RT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Representation Theory (math.RT)"
+        },
+        {
+          "term": "math.AG",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Geometry (math.AG)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18G80 (Primary) 18N40 (Secondary)",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2107.14174v4",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2107.14174v4",
+      "updated": "2026-01-09T11:16:58-05:00",
+      "updated_parsed": [
+        2026,
+        1,
+        9,
+        16,
+        16,
+        58,
+        4,
+        9,
+        0
+      ],
+      "published": "2021-07-29T12:54:13-04:00",
+      "published_parsed": [
+        2021,
+        7,
+        29,
+        16,
+        54,
+        13,
+        3,
+        210,
+        0
+      ],
+      "title": "A model structure for locally constant factorization algebras",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "A model structure for locally constant factorization algebras"
+      },
+      "summary": "Several model structures related to the homotopy theory of locally constant factorization algebras are constructed. This answers a question raised by D. Calaque in his habilitation thesis. Our methods also solve a problem related to cosheafification and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally constant case.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Several model structures related to the homotopy theory of locally constant factorization algebras are constructed. This answers a question raised by D. Calaque in his habilitation thesis. Our methods also solve a problem related to cosheafification and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally constant case."
+      },
+      "authors": [
+        {
+          "name": "Victor Carmona, Ramon Flores, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Victor Carmona, Ramon Flores, Fernando Muro"
+      },
+      "author": "Victor Carmona, Ramon Flores, Fernando Muro",
+      "arxiv_comment": "v4: Major revision. Accepted version in Algebraic & Geometric Topology. v3: A problem related to left properness of operadic algebras has been fixed. Some typos corrected and minor changes in the exposition. Comments are welcome!",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2107.14174v4",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2107.14174v4",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2508.18852v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2508.18852v2",
+      "updated": "2026-01-06T04:00:52-05:00",
+      "updated_parsed": [
+        2026,
+        1,
+        6,
+        9,
+        0,
+        52,
+        1,
+        6,
+        0
+      ],
+      "published": "2025-08-26T05:31:54-04:00",
+      "published_parsed": [
+        2025,
+        8,
+        26,
+        9,
+        31,
+        54,
+        1,
+        238,
+        0
+      ],
+      "title": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Minimal ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster tilting objects"
+      },
+      "summary": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author."
+      },
+      "authors": [
+        {
+          "name": "Gustavo Jasso, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Gustavo Jasso, Fernando Muro"
+      },
+      "author": "Gustavo Jasso, Fernando Muro",
+      "arxiv_comment": "17 pages. Contribution to the proceedings of the XXI International Conference on Representations of Algebras (ICRA 21); v2: final version following referee's comments",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2508.18852v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2508.18852v2",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.RT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Representation Theory (math.RT)"
+      },
+      "tags": [
+        {
+          "term": "math.RT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Representation Theory (math.RT)"
+        },
+        {
+          "term": "Primary: 18G80. Secondary: 18N40",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2507.17568v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2507.17568v1",
+      "updated": "2025-07-23T10:58:33-04:00",
+      "updated_parsed": [
+        2025,
+        7,
+        23,
+        14,
+        58,
+        33,
+        2,
+        204,
+        0
+      ],
+      "published": "2025-07-23T10:58:33-04:00",
+      "published_parsed": [
+        2025,
+        7,
+        23,
+        14,
+        58,
+        33,
+        2,
+        204,
+        0
+      ],
+      "title": "Obstruction theory for $A$-infinity bimodules",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Obstruction theory for $A$-infinity bimodules"
+      },
+      "summary": "We develop an obstruction theory for the extension of truncated minimal $A$-infinity bimodule structures over truncated minimal $A$-infinity algebras. Obstructions live in far-away pages of a (truncated) fringed spectral sequence of Bousfield--Kan type. The second page of this spectral sequence is mostly given by a new cohomology theory associated to a pair consisting of a graded algebra and a graded bimodule over it. This new cohomology theory fits in a long exact sequence involving the Hochschild cohomology of the algebra and the self-extensions of the bimodule. We show that the second differential of this spectral sequence is given by the Gerstenhaber bracket with a bimodule analogue of the universal Massey product of a minimal $A$-infinity algebra. We also develop a closely-related obstruction theory for truncated minimal $A$-infinity bimodule structures over (the truncation of) a fixed minimal $A$-infinity algebra; the second page of the corresponding spectral sequence is now mostly given by the vector spaces of self-extensions of the underlying graded bimodule and the second differential is described analogously to the previous one. We also establish variants of the above for graded algebras and graded bimodules that are $d$-sparse, that is they are concentrated in degrees that are multiples of a fixed integer $d\\geq1$. These obstruction theories are used to establish intrinsic formality and almost formality theorems for differential graded bimodules over differential graded algebras. Our results hold, more generally, in the context of graded operads with multiplication equipped with an associative operadic ideal, examples of which are the endomorphism operad of a graded algebra and the linear endomorphism operad of a pair consisting of a graded algebra and a graded bimodule over it.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We develop an obstruction theory for the extension of truncated minimal $A$-infinity bimodule structures over truncated minimal $A$-infinity algebras. Obstructions live in far-away pages of a (truncated) fringed spectral sequence of Bousfield--Kan type. The second page of this spectral sequence is mostly given by a new cohomology theory associated to a pair consisting of a graded algebra and a graded bimodule over it. This new cohomology theory fits in a long exact sequence involving the Hochschild cohomology of the algebra and the self-extensions of the bimodule. We show that the second differential of this spectral sequence is given by the Gerstenhaber bracket with a bimodule analogue of the universal Massey product of a minimal $A$-infinity algebra. We also develop a closely-related obstruction theory for truncated minimal $A$-infinity bimodule structures over (the truncation of) a fixed minimal $A$-infinity algebra; the second page of the corresponding spectral sequence is now mostly given by the vector spaces of self-extensions of the underlying graded bimodule and the second differential is described analogously to the previous one. We also establish variants of the above for graded algebras and graded bimodules that are $d$-sparse, that is they are concentrated in degrees that are multiples of a fixed integer $d\\geq1$. These obstruction theories are used to establish intrinsic formality and almost formality theorems for differential graded bimodules over differential graded algebras. Our results hold, more generally, in the context of graded operads with multiplication equipped with an associative operadic ideal, examples of which are the endomorphism operad of a graded algebra and the linear endomorphism operad of a pair consisting of a graded algebra and a graded bimodule over it."
+      },
+      "authors": [
+        {
+          "name": "Gustavo Jasso, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Gustavo Jasso, Fernando Muro"
+      },
+      "author": "Gustavo Jasso, Fernando Muro",
+      "arxiv_comment": "66 pages, 1 figure",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2507.17568v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2507.17568v1",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "math.RT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Representation Theory (math.RT)"
+        },
+        {
+          "term": "18M65, 18N40, 55S35, 18G40",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2301.11593v3",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2301.11593v3",
+      "updated": "2024-05-11T02:16:30-04:00",
+      "updated_parsed": [
+        2024,
+        5,
+        11,
+        6,
+        16,
+        30,
+        5,
+        132,
+        0
+      ],
+      "published": "2023-01-27T03:36:52-05:00",
+      "published_parsed": [
+        2023,
+        1,
+        27,
+        8,
+        36,
+        52,
+        4,
+        27,
+        0
+      ],
+      "title": "The Donovan--Wemyss Conjecture via the Derived Auslander--Iyama Correspondence",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The Donovan--Wemyss Conjecture via the Derived Auslander--Iyama Correspondence"
+      },
+      "summary": "We provide an outline of the proof of the Donovan--Wemyss Conjecture in the context of the Homological Minimal Model Program for threefolds. The proof relies on results of August, of Hua and the second-named author, Wemyss, and on the Derived Auslander--Iyama Correspondence -- a recent result by the first- and third-named authors.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We provide an outline of the proof of the Donovan--Wemyss Conjecture in the context of the Homological Minimal Model Program for threefolds. The proof relies on results of August, of Hua and the second-named author, Wemyss, and on the Derived Auslander--Iyama Correspondence -- a recent result by the first- and third-named authors."
+      },
+      "authors": [
+        {
+          "name": "Gustavo Jasso, Bernhard Keller, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Gustavo Jasso, Bernhard Keller, Fernando Muro"
+      },
+      "author": "Gustavo Jasso, Bernhard Keller, Fernando Muro",
+      "arxiv_doi": "10.1007/978-3-031-57789-5_4",
+      "arxiv_comment": "25 pages. v4: Corrected several minor typos. v3: New title; final version; to appear in the proceedings of the Abel Symposium 2022: Triangulated categories in representation theory and beyond",
+      "arxiv_journal_ref": "Triangulated Categories in Representation Theory and Beyond. Abelsymposium 2017. Abel Symposia, vol 17. Springer, Cham",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2301.11593v3",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2301.11593v3",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1007/978-3-031-57789-5_4",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AG",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Geometry (math.AG)"
+      },
+      "tags": [
+        {
+          "term": "math.AG",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Geometry (math.AG)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "math.RT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Representation Theory (math.RT)"
+        },
+        {
+          "term": "Primary 14E30, Secondary 13D03",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2312.07321v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2312.07321v1",
+      "updated": "2023-12-12T09:36:30-05:00",
+      "updated_parsed": [
+        2023,
+        12,
+        12,
+        14,
+        36,
+        30,
+        1,
+        346,
+        0
+      ],
+      "published": "2023-12-12T09:36:30-05:00",
+      "published_parsed": [
+        2023,
+        12,
+        12,
+        14,
+        36,
+        30,
+        1,
+        346,
+        0
+      ],
+      "title": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Operations on the de Rham cohomology of Poisson and Jacobi manifolds"
+      },
+      "summary": "We prove that the (homotopy) hypercommutative algebra structure on the de Rham cohomology of a Poisson or Jacobi manifold defined by several authors is (homotopically) trivial, i.e. it reduces to the underlying (homotopy) commutative algebra structure. We do so by showing that the DG operads which codify the algebraic structure on the de Rham complex of Poisson and Jacobi manifolds, generated by the exterior product and the interior products with the structure polyvector fields, are quasi-isomorphic to the commutative suboperad. Hence, there is no hope to endow the de Rham cohomology of such manifolds with any (higher) structure beyond the well-known (homotopy) commutative algebra structure, which exists for any smooth manifold. We proceed similarly with the commutative Batalin-Vilkovisky-infinity algebra structure on the de Rham complex of a generalized Poisson supermanifold.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We prove that the (homotopy) hypercommutative algebra structure on the de Rham cohomology of a Poisson or Jacobi manifold defined by several authors is (homotopically) trivial, i.e. it reduces to the underlying (homotopy) commutative algebra structure. We do so by showing that the DG operads which codify the algebraic structure on the de Rham complex of Poisson and Jacobi manifolds, generated by the exterior product and the interior products with the structure polyvector fields, are quasi-isomorphic to the commutative suboperad. Hence, there is no hope to endow the de Rham cohomology of such manifolds with any (higher) structure beyond the well-known (homotopy) commutative algebra structure, which exists for any smooth manifold. We proceed similarly with the commutative Batalin-Vilkovisky-infinity algebra structure on the de Rham complex of a generalized Poisson supermanifold."
+      },
+      "authors": [
+        {
+          "name": "Ai Guan, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Ai Guan, Fernando Muro"
+      },
+      "author": "Ai Guan, Fernando Muro",
+      "arxiv_comment": "30 pages",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2312.07321v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2312.07321v1",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.DG",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Differential Geometry (math.DG)"
+      },
+      "tags": [
+        {
+          "term": "math.DG",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Differential Geometry (math.DG)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2106.14996v4",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2106.14996v4",
+      "updated": "2023-03-03T05:30:31-05:00",
+      "updated_parsed": [
+        2023,
+        3,
+        3,
+        10,
+        30,
+        31,
+        4,
+        62,
+        0
+      ],
+      "published": "2021-06-28T17:41:09-04:00",
+      "published_parsed": [
+        2021,
+        6,
+        28,
+        21,
+        41,
+        9,
+        0,
+        179,
+        0
+      ],
+      "title": "Massey products for algebras over operads",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Massey products for algebras over operads"
+      },
+      "summary": "We define a generalization of Massey products for algebras over a Koszul operad in characteristic zero, extending Massey's and Allday's and Retah's in the associative and Lie cases, respectively. We establish connections with minimal models and with Dimitrova's universal operadic cohomology class. We compute a Gerstenhaber algebra example and a hypercommutative algebra example related to the Chevalley-Eilenberg complex of the Heisenberg Lie algebra.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We define a generalization of Massey products for algebras over a Koszul operad in characteristic zero, extending Massey's and Allday's and Retah's in the associative and Lie cases, respectively. We establish connections with minimal models and with Dimitrova's universal operadic cohomology class. We compute a Gerstenhaber algebra example and a hypercommutative algebra example related to the Chevalley-Eilenberg complex of the Heisenberg Lie algebra."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_comment": "18 pages, remove claim about sign mistake in another paper, really final version",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2106.14996v4",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2106.14996v4",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18M70, 55S20, 13D03, 16E40, 17B56",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2109.01421v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2109.01421v1",
+      "updated": "2021-09-03T06:29:37-04:00",
+      "updated_parsed": [
+        2021,
+        9,
+        3,
+        10,
+        29,
+        37,
+        4,
+        246,
+        0
+      ],
+      "published": "2021-09-03T06:29:37-04:00",
+      "published_parsed": [
+        2021,
+        9,
+        3,
+        10,
+        29,
+        37,
+        4,
+        246,
+        0
+      ],
+      "title": "Derived universal Massey products",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Derived universal Massey products"
+      },
+      "summary": "We define an obstruction to the formality of a differential graded algebra over a graded operad defined over a commutative ground ring. This obstruction lives in the derived operadic cohomology of the algebra. Moreover, it determines all operadic Massey products induced on the homology algebra, hence the name of derived universal Massey product.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We define an obstruction to the formality of a differential graded algebra over a graded operad defined over a commutative ground ring. This obstruction lives in the derived operadic cohomology of the algebra. Moreover, it determines all operadic Massey products induced on the homology algebra, hence the name of derived universal Massey product."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_comment": "28 pages",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2109.01421v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2109.01421v1",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18M70, 55S20, 13D03, 16E40, 17B56",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2106.14987v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/2106.14987v1",
+      "updated": "2021-06-28T17:12:47-04:00",
+      "updated_parsed": [
+        2021,
+        6,
+        28,
+        21,
+        12,
+        47,
+        0,
+        179,
+        0
+      ],
+      "published": "2021-06-28T17:12:47-04:00",
+      "published_parsed": [
+        2021,
+        6,
+        28,
+        21,
+        12,
+        47,
+        0,
+        179,
+        0
+      ],
+      "title": "Derived homotopy algebras",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Derived homotopy algebras"
+      },
+      "summary": "We develop a theory of minimal models for algebras over an operad defined over a commutative ring, not necessarily a field, extending and supplementing the work of Sagave in the associative case.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We develop a theory of minimal models for algebras over an operad defined over a commutative ring, not necessarily a field, extending and supplementing the work of Sagave in the associative case."
+      },
+      "authors": [
+        {
+          "name": "Jeroen Maes, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Jeroen Maes, Fernando Muro"
+      },
+      "author": "Jeroen Maes, Fernando Muro",
+      "arxiv_doi": "10.1017/prm.2022.42",
+      "arxiv_comment": "42 pages",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/2106.14987v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/2106.14987v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1017/prm.2022.42",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18M70, 55U35",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1810.10068v4",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1810.10068v4",
+      "updated": "2020-05-11T14:16:57-04:00",
+      "updated_parsed": [
+        2020,
+        5,
+        11,
+        18,
+        16,
+        57,
+        0,
+        132,
+        0
+      ],
+      "published": "2018-10-23T15:52:28-04:00",
+      "published_parsed": [
+        2018,
+        10,
+        23,
+        19,
+        52,
+        28,
+        1,
+        296,
+        0
+      ],
+      "title": "Enhanced finite triangulated categories",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Enhanced finite triangulated categories"
+      },
+      "summary": "We give a necessary and sufficient condition for the existence of an enhancement of a finite triangulated category. Moreover, we show that enhancements are unique when they exist, up to Morita equivalence.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We give a necessary and sufficient condition for the existence of an enhancement of a finite triangulated category. Moreover, we show that enhancements are unique when they exist, up to Morita equivalence."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1017/S1474748020000250",
+      "arxiv_comment": "40 pages, minor improvements",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1810.10068v4",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1810.10068v4",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1017/S1474748020000250",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18E30, 16E40, 18G40, 55S35",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1510.00312v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1510.00312v2",
+      "updated": "2018-03-12T06:20:54-04:00",
+      "updated_parsed": [
+        2018,
+        3,
+        12,
+        10,
+        20,
+        54,
+        0,
+        71,
+        0
+      ],
+      "published": "2015-10-01T12:51:19-04:00",
+      "published_parsed": [
+        2015,
+        10,
+        1,
+        16,
+        51,
+        19,
+        3,
+        274,
+        0
+      ],
+      "title": "Enhanced $A$-infinity obstruction theory",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Enhanced $A$-infinity obstruction theory"
+      },
+      "summary": "We extend the Bousfield-Kan spectral sequence for the computation of the homotopy groups of the space of minimal A-infinity algebra structures on a graded projective module. We use the new part to define obstructions to the extension of truncated minimal A-infinity algebra structures. We also consider the Bousfield-Kan spectral sequence for the moduli space of A-infinity algebras. We compute up to the second page, terms and differentials, of these spectral sequences in terms of Hochschild cohomology.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We extend the Bousfield-Kan spectral sequence for the computation of the homotopy groups of the space of minimal A-infinity algebra structures on a graded projective module. We use the new part to define obstructions to the extension of truncated minimal A-infinity algebra structures. We also consider the Bousfield-Kan spectral sequence for the moduli space of A-infinity algebras. We compute up to the second page, terms and differentials, of these spectral sequences in terms of Hochschild cohomology."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1007/s40062-019-00245-0",
+      "arxiv_comment": "42 pages, color figures",
+      "arxiv_journal_ref": "Journal of Homotopy and Related Structures (2020) 15:61-112",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1510.00312v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1510.00312v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1007/s40062-019-00245-0",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18G40, 18D50, 55S35",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1803.02464v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1803.02464v1",
+      "updated": "2018-03-06T17:59:41-05:00",
+      "updated_parsed": [
+        2018,
+        3,
+        6,
+        22,
+        59,
+        41,
+        1,
+        65,
+        0
+      ],
+      "published": "2018-03-06T17:59:41-05:00",
+      "published_parsed": [
+        2018,
+        3,
+        6,
+        22,
+        59,
+        41,
+        1,
+        65,
+        0
+      ],
+      "title": "The first obstructions to enhancing a triangulated category",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The first obstructions to enhancing a triangulated category"
+      },
+      "summary": "In this paper we relate triangulated category structures to the cohomology of small categories and define initial obstructions to the existence of an algebraic or topological enhancement. We show that these obstructions do not vanish in an example of triangulated category without models. We also obtain cohomological characterizations of pre-triangulated DG, A-infinity, and spectral categories.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we relate triangulated category structures to the cohomology of small categories and define initial obstructions to the existence of an algebraic or topological enhancement. We show that these obstructions do not vanish in an example of triangulated category without models. We also obtain cohomological characterizations of pre-triangulated DG, A-infinity, and spectral categories."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_comment": "38 pages",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1803.02464v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1803.02464v1",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "18E30, 16E40, 18G50, 18G60",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1707.07654v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1707.07654v2",
+      "updated": "2018-03-02T19:03:55-05:00",
+      "updated_parsed": [
+        2018,
+        3,
+        3,
+        0,
+        3,
+        55,
+        5,
+        62,
+        0
+      ],
+      "published": "2017-07-24T13:22:09-04:00",
+      "published_parsed": [
+        2017,
+        7,
+        24,
+        17,
+        22,
+        9,
+        0,
+        205,
+        0
+      ],
+      "title": "Torsion homology and cellular approximation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Torsion homology and cellular approximation"
+      },
+      "summary": "In this note we describe the role of the Schur multiplier in the structure of the $p$-torsion of discrete groups. More concretely, we show how the knowledge of $H_2G$ allows to approximate many groups by colimits of copies of finite $p$-groups. Our examples include interesting families of non-commutative infinite groups, including Burnside groups, certain solvable examples and the first Grigorchuk group. We also provide a counterexample for a conjecture of E. Farjoun.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this note we describe the role of the Schur multiplier in the structure of the $p$-torsion of discrete groups. More concretely, we show how the knowledge of $H_2G$ allows to approximate many groups by colimits of copies of finite $p$-groups. Our examples include interesting families of non-commutative infinite groups, including Burnside groups, certain solvable examples and the first Grigorchuk group. We also provide a counterexample for a conjecture of E. Farjoun."
+      },
+      "authors": [
+        {
+          "name": "Ramón Flores, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Ramón Flores, Fernando Muro"
+      },
+      "author": "Ramón Flores, Fernando Muro",
+      "arxiv_doi": "10.2140/agt.2019.19.457",
+      "arxiv_comment": "17 pages",
+      "arxiv_journal_ref": "Algebr. Geom. Topol. 19 (2019) 457-476",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1707.07654v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1707.07654v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.2140/agt.2019.19.457",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.GR",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Group Theory (math.GR)"
+      },
+      "tags": [
+        {
+          "term": "math.GR",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Group Theory (math.GR)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "20J05, 20E25, 55P20",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1802.07610v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1802.07610v1",
+      "updated": "2018-02-21T10:20:41-05:00",
+      "updated_parsed": [
+        2018,
+        2,
+        21,
+        15,
+        20,
+        41,
+        2,
+        52,
+        0
+      ],
+      "published": "2018-02-21T10:20:41-05:00",
+      "published_parsed": [
+        2018,
+        2,
+        21,
+        15,
+        20,
+        41,
+        2,
+        52,
+        0
+      ],
+      "title": "Homotopy Theory of Bicomplexes",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Homotopy Theory of Bicomplexes"
+      },
+      "summary": "We define two model structures on the category of bicomplexes concentrated in the right half plane. The first model structure has weak equivalences detected by the totalisation functor. The second model structure's weak equivalences are detected by the $E^2$-term of the spectral sequence associated to the filtration of the total complex by the horizontal degree. We then extend this result to twisted complexes.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We define two model structures on the category of bicomplexes concentrated in the right half plane. The first model structure has weak equivalences detected by the totalisation functor. The second model structure's weak equivalences are detected by the $E^2$-term of the spectral sequence associated to the filtration of the total complex by the horizontal degree. We then extend this result to twisted complexes."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Constanze Roitzheim"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Constanze Roitzheim"
+      },
+      "author": "Fernando Muro, Constanze Roitzheim",
+      "arxiv_doi": "10.1016/j.jpaa.2018.08.007",
+      "arxiv_comment": "26 pages",
+      "arxiv_journal_ref": "Journal of Pure and Applied Algebra 223, Issue 5 (2019) 1913-1939",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1802.07610v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1802.07610v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.jpaa.2018.08.007",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1402.1871v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1402.1871v2",
+      "updated": "2016-07-14T03:22:50-04:00",
+      "updated_parsed": [
+        2016,
+        7,
+        14,
+        7,
+        22,
+        50,
+        3,
+        196,
+        0
+      ],
+      "published": "2014-02-08T12:31:45-05:00",
+      "published_parsed": [
+        2014,
+        2,
+        8,
+        17,
+        31,
+        45,
+        5,
+        39,
+        0
+      ],
+      "title": "K-theory of derivators revisited",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "K-theory of derivators revisited"
+      },
+      "summary": "We define a $K$-theory for pointed right derivators and show that it agrees with Waldhausen $K$-theory in the case where the derivator arises from a good Waldhausen category. This $K$-theory is not invariant under general equivalences of derivators, but only under a stronger notion of equivalence that is defined by considering a simplicial enrichment of the category of derivators. We show that derivator $K$-theory, as originally defined, is the best approximation to Waldhausen $K$-theory by a functor that is invariant under equivalences of derivators.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We define a $K$-theory for pointed right derivators and show that it agrees with Waldhausen $K$-theory in the case where the derivator arises from a good Waldhausen category. This $K$-theory is not invariant under general equivalences of derivators, but only under a stronger notion of equivalence that is defined by considering a simplicial enrichment of the category of derivators. We show that derivator $K$-theory, as originally defined, is the best approximation to Waldhausen $K$-theory by a functor that is invariant under equivalences of derivators."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, George Raptis"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, George Raptis"
+      },
+      "author": "Fernando Muro, George Raptis",
+      "arxiv_doi": "10.2140/akt.2017.2.303",
+      "arxiv_comment": "31 page. Minor modifications. Final version",
+      "arxiv_journal_ref": "Annals of K-Theory 2-2 (2017), 303-340",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1402.1871v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1402.1871v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.2140/akt.2017.2.303",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1304.3599v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1304.3599v2",
+      "updated": "2016-02-02T04:35:10-05:00",
+      "updated_parsed": [
+        2016,
+        2,
+        2,
+        9,
+        35,
+        10,
+        1,
+        33,
+        0
+      ],
+      "published": "2013-04-12T06:40:48-04:00",
+      "published_parsed": [
+        2013,
+        4,
+        12,
+        10,
+        40,
+        48,
+        4,
+        102,
+        0
+      ],
+      "title": "Transfinite Adams representability",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Transfinite Adams representability"
+      },
+      "summary": "In a well generated triangulated category T, given a regular cardinal a, we consider the following problems: given a functor from the category of a-compact objects to abelian groups that preserves products of <a objects and takes exact triangles to exact sequences, is it the restriction of a representable functor in T? Is every natural transformation between two such restricted representable functors induced by a map between the representatives? If the answer to both questions is positive we say that T satisfies a-Adams representability. A classical result going back to Brown and Adams shows that the stable homotopy category satisfies Adams representability for the first infinite cardinal. For that cardinal, Adams representability is well understood thanks to the work of Christensen, Keller and Neeman. In this paper, we develop an obstruction theory to decide when T satisfies a-Adams representability. We derive necessary and sufficient conditions of homological nature, and we compute several examples. In particular, we show that there are rings satisfying a-Adams representability for all non-countable cardinals a and rings which do not satisfy a-Adams representability for any infinite cardinal a. Moreover, we exhibit rings for which the answer to both questions is no for infinite many cardinals. As a side result, we give an example of an infinite phantom map.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In a well generated triangulated category T, given a regular cardinal a, we consider the following problems: given a functor from the category of a-compact objects to abelian groups that preserves products of <a objects and takes exact triangles to exact sequences, is it the restriction of a representable functor in T? Is every natural transformation between two such restricted representable functors induced by a map between the representatives? If the answer to both questions is positive we say that T satisfies a-Adams representability. A classical result going back to Brown and Adams shows that the stable homotopy category satisfies Adams representability for the first infinite cardinal. For that cardinal, Adams representability is well understood thanks to the work of Christensen, Keller and Neeman. In this paper, we develop an obstruction theory to decide when T satisfies a-Adams representability. We derive necessary and sufficient conditions of homological nature, and we compute several examples. In particular, we show that there are rings satisfying a-Adams representability for all non-countable cardinals a and rings which do not satisfy a-Adams representability for any infinite cardinal a. Moreover, we exhibit rings for which the answer to both questions is no for infinite many cardinals. As a side result, we give an example of an infinite phantom map."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Oriol Raventós"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Oriol Raventós"
+      },
+      "author": "Fernando Muro, Oriol Raventós",
+      "arxiv_doi": "10.1016/j.aim.2016.01.009",
+      "arxiv_comment": "58 pages. To appear in Advances in Mathematics",
+      "arxiv_journal_ref": "Advances in Mathematics 292 (2016) 111-180",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1304.3599v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1304.3599v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.aim.2016.01.009",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "55S35 (Primary) 18E30 (Secondary)",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1507.06644v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1507.06644v1",
+      "updated": "2015-07-23T12:17:04-04:00",
+      "updated_parsed": [
+        2015,
+        7,
+        23,
+        16,
+        17,
+        4,
+        3,
+        204,
+        0
+      ],
+      "published": "2015-07-23T12:17:04-04:00",
+      "published_parsed": [
+        2015,
+        7,
+        23,
+        16,
+        17,
+        4,
+        3,
+        204,
+        0
+      ],
+      "title": "Corrections to \"Homotopy theory of nonsymmetric operads, I, II\"",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Corrections to \"Homotopy theory of nonsymmetric operads, I, II\""
+      },
+      "summary": "We correct a mistake in the construction of push-outs along free morphisms of algebras over a nonsymmetric operad in arXiv:1101.1634 [math.AT], and we fix the affected results in arXiv:1101.1634 [math.AT] and arXiv:1304.6641 [math.AT].",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We correct a mistake in the construction of push-outs along free morphisms of algebras over a nonsymmetric operad in arXiv:1101.1634 [math.AT], and we fix the affected results in arXiv:1101.1634 [math.AT] and arXiv:1304.6641 [math.AT]."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.2140/agt.2017.17.3837",
+      "arxiv_comment": "27 pages",
+      "arxiv_journal_ref": "Algebr. Geom. Topol. 17 (2017) 3837-3852",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1507.06644v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1507.06644v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.2140/agt.2017.17.3837",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1505.02945v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1505.02945v1",
+      "updated": "2015-05-12T06:24:04-04:00",
+      "updated_parsed": [
+        2015,
+        5,
+        12,
+        10,
+        24,
+        4,
+        1,
+        132,
+        0
+      ],
+      "published": "2015-05-12T06:24:04-04:00",
+      "published_parsed": [
+        2015,
+        5,
+        12,
+        10,
+        24,
+        4,
+        1,
+        132,
+        0
+      ],
+      "title": "Cylinders for non-symmetric DG-operads via homological perturbation theory",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Cylinders for non-symmetric DG-operads via homological perturbation theory"
+      },
+      "summary": "We construct small cylinders for cellular non-symmetric DG-operads over an arbitrary commutative ring by using the basic perturbation lemma from homological algebra. We show that our construction, applied to the A-infinity operad, yields the operad parametrizing A-infinity maps whose linear part is the identity. We also compute some other examples with non-trivial operations in arities 1 and 0.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We construct small cylinders for cellular non-symmetric DG-operads over an arbitrary commutative ring by using the basic perturbation lemma from homological algebra. We show that our construction, applied to the A-infinity operad, yields the operad parametrizing A-infinity maps whose linear part is the identity. We also compute some other examples with non-trivial operations in arities 1 and 0."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1016/j.jpaa.2016.02.013",
+      "arxiv_comment": "33 pages",
+      "arxiv_journal_ref": "Journal of Pure and Applied Algebra 220, Issue 9 (2016) 3248-3281",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1505.02945v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1505.02945v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.jpaa.2016.02.013",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18D50, 18G55",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1411.1349v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1411.1349v2",
+      "updated": "2014-11-13T11:56:42-05:00",
+      "updated_parsed": [
+        2014,
+        11,
+        13,
+        16,
+        56,
+        42,
+        3,
+        317,
+        0
+      ],
+      "published": "2014-11-05T13:22:23-05:00",
+      "published_parsed": [
+        2014,
+        11,
+        5,
+        18,
+        22,
+        23,
+        2,
+        309,
+        0
+      ],
+      "title": "On the unit of a monoidal model category",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "On the unit of a monoidal model category"
+      },
+      "summary": "In this paper we show how to modify cofibrations in a monoidal model category so that the tensor unit becomes cofibrant while keeping the same weak equivalences. We obtain aplications to enriched categories and coloured operads in stable homotopy theory.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we show how to modify cofibrations in a monoidal model category so that the tensor unit becomes cofibrant while keeping the same weak equivalences. We obtain aplications to enriched categories and coloured operads in stable homotopy theory."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1016/j.topol.2015.05.006",
+      "arxiv_comment": "13 pages. Comments welcome",
+      "arxiv_journal_ref": "Topology and its Applications Volume 191, 15 August 2015, Pages 37-47",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1411.1349v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1411.1349v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.topol.2015.05.006",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "55U35, 55P42",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1111.2723v4",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1111.2723v4",
+      "updated": "2014-04-30T02:01:26-04:00",
+      "updated_parsed": [
+        2014,
+        4,
+        30,
+        6,
+        1,
+        26,
+        2,
+        120,
+        0
+      ],
+      "published": "2011-11-11T07:39:08-05:00",
+      "published_parsed": [
+        2011,
+        11,
+        11,
+        12,
+        39,
+        8,
+        4,
+        315,
+        0
+      ],
+      "title": "Homotopy units in A-infinity algebras",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Homotopy units in A-infinity algebras"
+      },
+      "summary": "We show that the canonical map from the associative operad to the unital associative operad is a homotopy epimorphism for a wide class of symmetric monoidal model categories. As a consequence, the space of unital associative algebra structures on a given object is up to homotopy a subset of connected components of the space of non-unital associative algebra structures.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We show that the canonical map from the associative operad to the unital associative operad is a homotopy epimorphism for a wide class of symmetric monoidal model categories. As a consequence, the space of unital associative algebra structures on a given object is up to homotopy a subset of connected components of the space of non-unital associative algebra structures."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1090/tran/6545",
+      "arxiv_comment": "39 pages, the proof of the main theorem for DG-operads has been corrected, cylinders are not used any more and will be considered elsewhere",
+      "arxiv_journal_ref": "Trans. Amer. Math. Soc. 368 (2016), 2145-2184",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1111.2723v4",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1111.2723v4",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1090/tran/6545",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18D50, 18G55",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1201.1575v4",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1201.1575v4",
+      "updated": "2014-03-10T12:04:27-04:00",
+      "updated_parsed": [
+        2014,
+        3,
+        10,
+        16,
+        4,
+        27,
+        0,
+        69,
+        0
+      ],
+      "published": "2012-01-07T11:41:38-05:00",
+      "published_parsed": [
+        2012,
+        1,
+        7,
+        16,
+        41,
+        38,
+        5,
+        7,
+        0
+      ],
+      "title": "Dwyer-Kan homotopy theory of enriched categories",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Dwyer-Kan homotopy theory of enriched categories"
+      },
+      "summary": "We construct a model structure on the category of small categories enriched over a combinatorial closed symmetric monoidal model category satisfying the monoid axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which induce weak equivalences on morphism objects and equivalences of ordinary categories when we take sets of connected components on morphism objects.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We construct a model structure on the category of small categories enriched over a combinatorial closed symmetric monoidal model category satisfying the monoid axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which induce weak equivalences on morphism objects and equivalences of ordinary categories when we take sets of connected components on morphism objects."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1112/jtopol/jtu029",
+      "arxiv_comment": "39 pages, corrected version",
+      "arxiv_journal_ref": "J Topology (2015) 8 (2): 377-413",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1201.1575v4",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1201.1575v4",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1112/jtopol/jtu029",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "55U35, 18D20, 18C35",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1112.5146v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1112.5146v2",
+      "updated": "2013-08-19T18:49:58-04:00",
+      "updated_parsed": [
+        2013,
+        8,
+        19,
+        22,
+        49,
+        58,
+        0,
+        231,
+        0
+      ],
+      "published": "2011-12-21T15:05:02-05:00",
+      "published_parsed": [
+        2011,
+        12,
+        21,
+        20,
+        5,
+        2,
+        2,
+        355,
+        0
+      ],
+      "title": "Moduli spaces of algebras over non-symmetric operads",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Moduli spaces of algebras over non-symmetric operads"
+      },
+      "summary": "In this paper we study spaces of algebras over an operad (non-symmetric) in symmetric monoidal model categories. We first compute the homotopy fiber of the forgetful functor sending an algebra to its underlying object, extending a result of Rezk. We then apply this computation to the construction of geometric moduli stacks of algebras over an operad in a homotopical algebraic geometry context in the sense of To\\\"en and Vezzosi. We show under mild hypotheses that the moduli stack of unital associative algebras is a Zariski open substack of the moduli stack of non-necessarily unital associative algebras. The classical analogue for finite-dimensional vector spaces was noticed by Gabriel.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we study spaces of algebras over an operad (non-symmetric) in symmetric monoidal model categories. We first compute the homotopy fiber of the forgetful functor sending an algebra to its underlying object, extending a result of Rezk. We then apply this computation to the construction of geometric moduli stacks of algebras over an operad in a homotopical algebraic geometry context in the sense of To\\\"en and Vezzosi. We show under mild hypotheses that the moduli stack of unital associative algebras is a Zariski open substack of the moduli stack of non-necessarily unital associative algebras. The classical analogue for finite-dimensional vector spaces was noticed by Gabriel."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.2140/agt.2014.14.229",
+      "arxiv_comment": "38 pages. Many improvements and generalizations with respect to the previous version",
+      "arxiv_journal_ref": "Algebr. Geom. Topol. 14 (2014) 229-281",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1112.5146v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1112.5146v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.2140/agt.2014.14.229",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.AG",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Geometry (math.AG)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18D50, 55U35, 14K10",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1304.6641v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1304.6641v2",
+      "updated": "2013-08-09T11:11:43-04:00",
+      "updated_parsed": [
+        2013,
+        8,
+        9,
+        15,
+        11,
+        43,
+        4,
+        221,
+        0
+      ],
+      "published": "2013-04-24T12:02:58-04:00",
+      "published_parsed": [
+        2013,
+        4,
+        24,
+        16,
+        2,
+        58,
+        2,
+        114,
+        0
+      ],
+      "title": "Homotopy theory of non-symmetric operads II: change of base category and left properness",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Homotopy theory of non-symmetric operads II: change of base category and left properness"
+      },
+      "summary": "We prove, under mild assumptions, that a Quillen equivalence between symmetric monoidal model categories gives rise to a Quillen equivalence between their model categories of (non-symmetric) operads, and also between model categories of algebras over operads. We also show left properness results on model categories of operads and algebras over operads. As an application, we prove homotopy invariance for (unital) associative operads.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We prove, under mild assumptions, that a Quillen equivalence between symmetric monoidal model categories gives rise to a Quillen equivalence between their model categories of (non-symmetric) operads, and also between model categories of algebras over operads. We also show left properness results on model categories of operads and algebras over operads. As an application, we prove homotopy invariance for (unital) associative operads."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.2140/agt.2014.14.1489",
+      "arxiv_comment": "43 pages. Minor changes: a couple of remarks, corollaries and references have been added",
+      "arxiv_journal_ref": "Algebr. Geom. Topol. 14 (2014) 1489-1539",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1304.6641v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1304.6641v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.2140/agt.2014.14.1489",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18D50, 55U35, 18G55",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1006.5399v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1006.5399v2",
+      "updated": "2013-03-18T07:43:20-04:00",
+      "updated_parsed": [
+        2013,
+        3,
+        18,
+        11,
+        43,
+        20,
+        0,
+        77,
+        0
+      ],
+      "published": "2010-06-28T12:34:14-04:00",
+      "published_parsed": [
+        2010,
+        6,
+        28,
+        16,
+        34,
+        14,
+        0,
+        179,
+        0
+      ],
+      "title": "On determinant functors and $K$-theory",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "On determinant functors and $K$-theory"
+      },
+      "summary": "In this paper we introduce a new approach to determinant functors which allows us to extend Deligne's determinant functors for exact categories to Waldhausen categories, (strongly) triangulated categories, and derivators. We construct universal determinant functors in all cases by original methods which are interesting even for the known cases. Moreover, we show that the target of each universal determinant functor computes the corresponding $K$-theory in dimensions 0 and 1. As applications, we answer open questions by Maltsiniotis and Neeman on the $K$-theory of (strongly) triangulated categories and a question of Grothendieck to Knudsen on determinant functors. We also prove additivity theorems for low-dimensional $K$-theory and obtain generators and (some) relations for various $K_{1}$-groups.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we introduce a new approach to determinant functors which allows us to extend Deligne's determinant functors for exact categories to Waldhausen categories, (strongly) triangulated categories, and derivators. We construct universal determinant functors in all cases by original methods which are interesting even for the known cases. Moreover, we show that the target of each universal determinant functor computes the corresponding $K$-theory in dimensions 0 and 1. As applications, we answer open questions by Maltsiniotis and Neeman on the $K$-theory of (strongly) triangulated categories and a question of Grothendieck to Knudsen on determinant functors. We also prove additivity theorems for low-dimensional $K$-theory and obtain generators and (some) relations for various $K_{1}$-groups."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Andrew Tonks, Malte Witte"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Andrew Tonks, Malte Witte"
+      },
+      "author": "Fernando Muro, Andrew Tonks, Malte Witte",
+      "arxiv_doi": "10.5565/PUBLMAT_59115_07",
+      "arxiv_comment": "73 pages. We have deeply revised the paper to make it more accessible, it contains now explicit examples and computations. We have removed the part on localization, it was correct but we didn't want to make the paper longer and we thought this part was the less interesting one. Nevertheless it will remain here in the arXiv, in version 1. If you need it in your research, please let us know",
+      "arxiv_journal_ref": "Publ. Mat. 59 (2015), 137-233",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1006.5399v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1006.5399v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.5565/PUBLMAT_59115_07",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.NT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Number Theory (math.NT)"
+        },
+        {
+          "term": "19A99, 19B99, 18F25, 18G50, 18G55, 18E10, 18E30",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1110.1959v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1110.1959v1",
+      "updated": "2011-10-10T04:46:18-04:00",
+      "updated_parsed": [
+        2011,
+        10,
+        10,
+        8,
+        46,
+        18,
+        0,
+        283,
+        0
+      ],
+      "published": "2011-10-10T04:46:18-04:00",
+      "published_parsed": [
+        2011,
+        10,
+        10,
+        8,
+        46,
+        18,
+        0,
+        283,
+        0
+      ],
+      "title": "Unital associahedra",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Unital associahedra"
+      },
+      "summary": "We construct a topological cellular operad such that the algebras over its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We construct a topological cellular operad such that the algebras over its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Andrew Tonks"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Andrew Tonks"
+      },
+      "author": "Fernando Muro, Andrew Tonks",
+      "arxiv_doi": "10.1515/forum-2011-0130",
+      "arxiv_comment": "22 pages, EPS color figures",
+      "arxiv_journal_ref": "Forum Mathematicum Volume 26, Issue 2 (Mar 2014), Pages 593-620",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1110.1959v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1110.1959v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1515/forum-2011-0130",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.QA",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Quantum Algebra (math.QA)"
+      },
+      "tags": [
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1007.4776v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1007.4776v2",
+      "updated": "2011-04-16T07:16:02-04:00",
+      "updated_parsed": [
+        2011,
+        4,
+        16,
+        11,
+        16,
+        2,
+        5,
+        106,
+        0
+      ],
+      "published": "2010-07-27T13:45:25-04:00",
+      "published_parsed": [
+        2010,
+        7,
+        27,
+        17,
+        45,
+        25,
+        1,
+        208,
+        0
+      ],
+      "title": "A note on K-theory and triangulated derivators",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "A note on K-theory and triangulated derivators"
+      },
+      "summary": "In this paper we show an example of two differential graded algebras that have the same derivator K-theory but non-isomorphic Waldhausen K-theory. We also prove that Maltsiniotis's comparison and localization conjectures for derivator K-theory cannot be simultaneously true.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we show an example of two differential graded algebras that have the same derivator K-theory but non-isomorphic Waldhausen K-theory. We also prove that Maltsiniotis's comparison and localization conjectures for derivator K-theory cannot be simultaneously true."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, George Raptis"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, George Raptis"
+      },
+      "author": "Fernando Muro, George Raptis",
+      "arxiv_doi": "10.1016/j.aim.2011.04.005",
+      "arxiv_comment": "17 pages, in this new version we extend our results to all primes (before we worked with primes greater than three)",
+      "arxiv_journal_ref": "Adv. Math. 227 (2011) no. 5, 1827-1845",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1007.4776v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1007.4776v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.aim.2011.04.005",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "19D99, 18E30, 16E45",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1101.1634v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/1101.1634v1",
+      "updated": "2011-01-09T09:09:20-05:00",
+      "updated_parsed": [
+        2011,
+        1,
+        9,
+        14,
+        9,
+        20,
+        6,
+        9,
+        0
+      ],
+      "published": "2011-01-09T09:09:20-05:00",
+      "published_parsed": [
+        2011,
+        1,
+        9,
+        14,
+        9,
+        20,
+        6,
+        9,
+        0
+      ],
+      "title": "Homotopy theory of non-symmetric operads",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Homotopy theory of non-symmetric operads"
+      },
+      "summary": "We endow categories of non-symmetric operads with natural model structures. We work with no restriction on our operads and only assume the usual hypotheses for model categories with a symmetric monoidal structure. We also study categories of algebras over these operads in enriched non-symmetric monoidal model categories.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We endow categories of non-symmetric operads with natural model structures. We work with no restriction on our operads and only assume the usual hypotheses for model categories with a symmetric monoidal structure. We also study categories of algebras over these operads in enriched non-symmetric monoidal model categories."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.2140/agt.2011.11.1541",
+      "arxiv_comment": "54 pages",
+      "arxiv_journal_ref": "Algebr. Geom. Topol. 11 (2011), 1541-1599",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/1101.1634v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/1101.1634v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.2140/agt.2011.11.1541",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.QA",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Quantum Algebra (math.QA)"
+        },
+        {
+          "term": "18D50, 55U35, 18D10, 18D35, 18D20",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/0707.1892v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/0707.1892v2",
+      "updated": "2007-10-19T05:51:07-04:00",
+      "updated_parsed": [
+        2007,
+        10,
+        19,
+        9,
+        51,
+        7,
+        4,
+        292,
+        0
+      ],
+      "published": "2007-07-12T18:00:01-04:00",
+      "published_parsed": [
+        2007,
+        7,
+        12,
+        22,
+        0,
+        1,
+        3,
+        193,
+        0
+      ],
+      "title": "Maltsiniotis's first conjecture for K_1",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Maltsiniotis's first conjecture for K_1"
+      },
+      "summary": "We show that K_1 of an exact category agrees with K_1 of the associated triangulated derivator. More generally we show that K_1 of a Waldhausen category with cylinders and a saturated class of weak equivalences coincides with K_1 of the associated right pointed derivator.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We show that K_1 of an exact category agrees with K_1 of the associated triangulated derivator. More generally we show that K_1 of a Waldhausen category with cylinders and a saturated class of weak equivalences coincides with K_1 of the associated right pointed derivator."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1093/imrn/rnm153",
+      "arxiv_comment": "23 pages, the main results have been generalized",
+      "arxiv_journal_ref": "International Mathematics Research Notices, Vol. 2008, Article ID rnm153, 31 pages.",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/0707.1892v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/0707.1892v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1093/imrn/rnm153",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "18E10; 18E30; 18F25; 19B99; 55S45",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/0704.1378v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/0704.1378v2",
+      "updated": "2007-05-09T19:59:59-04:00",
+      "updated_parsed": [
+        2007,
+        5,
+        9,
+        23,
+        59,
+        59,
+        2,
+        129,
+        0
+      ],
+      "published": "2007-04-11T05:08:03-04:00",
+      "published_parsed": [
+        2007,
+        4,
+        11,
+        9,
+        8,
+        3,
+        2,
+        101,
+        0
+      ],
+      "title": "Triangulated categories without models",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Triangulated categories without models"
+      },
+      "summary": "We exhibit examples of triangulated categories which are neither the stable category of a Frobenius category nor a full triangulated subcategory of the homotopy category of a stable model category. Even more drastically, our examples do not admit any non-trivial exact functors to or from these algebraic respectively topological triangulated categories.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We exhibit examples of triangulated categories which are neither the stable category of a Frobenius category nor a full triangulated subcategory of the homotopy category of a stable model category. Even more drastically, our examples do not admit any non-trivial exact functors to or from these algebraic respectively topological triangulated categories."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Stefan Schwede, Neil Strickland"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Stefan Schwede, Neil Strickland"
+      },
+      "author": "Fernando Muro, Stefan Schwede, Neil Strickland",
+      "arxiv_doi": "10.1007/s00222-007-0061-2",
+      "arxiv_comment": "10 pages",
+      "arxiv_journal_ref": "Inventiones Mathematicae, Vol. 170 (2007), No. 2, pp. 231-241",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/0704.1378v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/0704.1378v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1007/s00222-007-0061-2",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "18E30, 55P42",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0703311v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0703311v1",
+      "updated": "2007-03-11T16:04:23-04:00",
+      "updated_parsed": [
+        2007,
+        3,
+        11,
+        20,
+        4,
+        23,
+        6,
+        70,
+        0
+      ],
+      "published": "2007-03-11T16:04:23-04:00",
+      "published_parsed": [
+        2007,
+        3,
+        11,
+        20,
+        4,
+        23,
+        6,
+        70,
+        0
+      ],
+      "title": "A triangulated category without models",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "A triangulated category without models"
+      },
+      "summary": "We exhibit a triangulated category which is neither the stable category of a Frobenius category nor a full triangulated subcategory of the homotopy category of a stable model category.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We exhibit a triangulated category which is neither the stable category of a Frobenius category nor a full triangulated subcategory of the homotopy category of a stable model category."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_comment": "12 pages",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0703311v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0703311v1",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "18E30; 55P42; 16E40",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0612450v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0612450v1",
+      "updated": "2006-12-15T10:26:02-05:00",
+      "updated_parsed": [
+        2006,
+        12,
+        15,
+        15,
+        26,
+        2,
+        4,
+        349,
+        0
+      ],
+      "published": "2006-12-15T10:26:02-05:00",
+      "published_parsed": [
+        2006,
+        12,
+        15,
+        15,
+        26,
+        2,
+        4,
+        349,
+        0
+      ],
+      "title": "Toda brackets and cup-one squares for ring spectra",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Toda brackets and cup-one squares for ring spectra"
+      },
+      "summary": "In this paper we prove the laws of Toda brackets on the homotopy groups of a connective ring spectrum and the laws of the cup-one square in the homotopy groups of a commutative connective ring spectrum.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we prove the laws of Toda brackets on the homotopy groups of a connective ring spectrum and the laws of the cup-one square in the homotopy groups of a commutative connective ring spectrum."
+      },
+      "authors": [
+        {
+          "name": "Hans-Joachim Baues, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Hans-Joachim Baues, Fernando Muro"
+      },
+      "author": "Hans-Joachim Baues, Fernando Muro",
+      "arxiv_doi": "10.1080/00927870802241188",
+      "arxiv_comment": "22 pages",
+      "arxiv_journal_ref": "Comm. Algebra 37 (2009) no. 1, 56-82",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0612450v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0612450v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1080/00927870802241188",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "18G50, 55P42, 55Q35",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0611229v3",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0611229v3",
+      "updated": "2006-11-29T19:15:13-05:00",
+      "updated_parsed": [
+        2006,
+        11,
+        30,
+        0,
+        15,
+        13,
+        3,
+        334,
+        0
+      ],
+      "published": "2006-11-08T09:16:06-05:00",
+      "published_parsed": [
+        2006,
+        11,
+        8,
+        14,
+        16,
+        6,
+        2,
+        312,
+        0
+      ],
+      "title": "On K_1 of a Waldhausen category",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "On K_1 of a Waldhausen category"
+      },
+      "summary": "We give a simple representation of all elements in K_1 of a Waldhausen category and prove relations between these representatives which hold in K_1.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We give a simple representation of all elements in K_1 of a Waldhausen category and prove relations between these representatives which hold in K_1."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Andrew Tonks"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Andrew Tonks"
+      },
+      "author": "Fernando Muro, Andrew Tonks",
+      "arxiv_doi": "10.4171/060-1/4",
+      "arxiv_journal_ref": "K-theory and Noncommutative Geometry, EMS Series of Congress Reports, October 2008, 91-116",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0611229v3",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0611229v3",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.4171/060-1/4",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0610523v3",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0610523v3",
+      "updated": "2007-03-06T07:16:50-05:00",
+      "updated_parsed": [
+        2007,
+        3,
+        6,
+        12,
+        16,
+        50,
+        1,
+        65,
+        0
+      ],
+      "published": "2006-10-17T10:19:35-04:00",
+      "published_parsed": [
+        2006,
+        10,
+        17,
+        14,
+        19,
+        35,
+        1,
+        290,
+        0
+      ],
+      "title": "The algebra of secondary homotopy operations in ring spectra",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The algebra of secondary homotopy operations in ring spectra"
+      },
+      "summary": "The primary algebraic model of a ring spectrum is the ring of homotopy groups. We introduce the secondary model which has the structure of a secondary analogue of a ring. This new algebraic model determines Massey products and cup-one squares. As an application we obtain new derivations of the homotopy ring.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The primary algebraic model of a ring spectrum is the ring of homotopy groups. We introduce the secondary model which has the structure of a secondary analogue of a ring. This new algebraic model determines Massey products and cup-one squares. As an application we obtain new derivations of the homotopy ring."
+      },
+      "authors": [
+        {
+          "name": "Hans-Joachim Baues, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Hans-Joachim Baues, Fernando Muro"
+      },
+      "author": "Hans-Joachim Baues, Fernando Muro",
+      "arxiv_doi": "10.1112/plms/pdq034",
+      "arxiv_comment": "We have changed the title and we have included new computations and applications, 55 pages",
+      "arxiv_journal_ref": "Proc. London Math. Soc. 102 (2011) no. 4, 637-696",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0610523v3",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0610523v3",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1112/plms/pdq034",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "55P42, 55Q35, 18G50",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0605213v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0605213v1",
+      "updated": "2006-05-08T13:51:05-04:00",
+      "updated_parsed": [
+        2006,
+        5,
+        8,
+        17,
+        51,
+        5,
+        0,
+        128,
+        0
+      ],
+      "published": "2006-05-08T13:51:05-04:00",
+      "published_parsed": [
+        2006,
+        5,
+        8,
+        17,
+        51,
+        5,
+        0,
+        128,
+        0
+      ],
+      "title": "On the proper homotopy type of locally compact A^2_n-polyhedra",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "On the proper homotopy type of locally compact A^2_n-polyhedra"
+      },
+      "summary": "In this paper we address the classification problem for locally compact (n-1)-connected CW-complexes with dimension less or equal than n+2 up to proper homotopy type. We obtain complete classification theorems in terms of purely algebraic data in those cases where the representation type of the involved algebra is finite. For this we define new quadratic functors in controlled algebra and new homotopy and cohomology invariants in proper homotopy theory.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we address the classification problem for locally compact (n-1)-connected CW-complexes with dimension less or equal than n+2 up to proper homotopy type. We obtain complete classification theorems in terms of purely algebraic data in those cases where the representation type of the involved algebra is finite. For this we define new quadratic functors in controlled algebra and new homotopy and cohomology invariants in proper homotopy theory."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_comment": "100 pages",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0605213v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0605213v1",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "55P15; 55P57; 55S05; 55S35; 18G60; 18G35; 18G15; 18G50",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0604031v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0604031v2",
+      "updated": "2006-10-17T09:31:35-04:00",
+      "updated_parsed": [
+        2006,
+        10,
+        17,
+        13,
+        31,
+        35,
+        1,
+        290,
+        0
+      ],
+      "published": "2006-04-03T07:28:32-04:00",
+      "published_parsed": [
+        2006,
+        4,
+        3,
+        11,
+        28,
+        32,
+        0,
+        93,
+        0
+      ],
+      "title": "Smash products for secondary homotopy groups",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Smash products for secondary homotopy groups"
+      },
+      "summary": "We construct a smash product operation on secondary homotopy groups yielding the structure of a lax symmetric monoidal functor. Applications on cup-one products, Toda brackets and Whitehead products are considered. In particular we prove a formula for the crossed effect of the cup-one product operation on unstable homotopy groups of spheres which was claimed by Barratt-Jones-Mahowald.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We construct a smash product operation on secondary homotopy groups yielding the structure of a lax symmetric monoidal functor. Applications on cup-one products, Toda brackets and Whitehead products are considered. In particular we prove a formula for the crossed effect of the cup-one product operation on unstable homotopy groups of spheres which was claimed by Barratt-Jones-Mahowald."
+      },
+      "authors": [
+        {
+          "name": "Hans-Joachim Baues, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Hans-Joachim Baues, Fernando Muro"
+      },
+      "author": "Hans-Joachim Baues, Fernando Muro",
+      "arxiv_doi": "10.1007/s10485-007-9071-x",
+      "arxiv_comment": "We give a clearer description of the tensor product of symmetric sequences of quadratic pair modules",
+      "arxiv_journal_ref": "Appl. Categ. Structures, 16 (2008) no. 5, 551-616",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0604031v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0604031v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1007/s10485-007-9071-x",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "55Q15; 55Q35; 55S45",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0604030v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0604030v2",
+      "updated": "2006-10-17T09:50:06-04:00",
+      "updated_parsed": [
+        2006,
+        10,
+        17,
+        13,
+        50,
+        6,
+        1,
+        290,
+        0
+      ],
+      "published": "2006-04-03T07:11:29-04:00",
+      "published_parsed": [
+        2006,
+        4,
+        3,
+        11,
+        11,
+        29,
+        0,
+        93,
+        0
+      ],
+      "title": "The symmetric action on secondary homotopy groups",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The symmetric action on secondary homotopy groups"
+      },
+      "summary": "We show that the symmetric track group, which is an extension of the symmetric group associated to the second Stiefel- Withney class, acts as a crossed module on the secondary homotopy group of a pointed space. An application is given to cup-one products in unstable homotopy groups of spheres, generalizing a formula of Barratt-Jones-Mahowald.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We show that the symmetric track group, which is an extension of the symmetric group associated to the second Stiefel- Withney class, acts as a crossed module on the secondary homotopy group of a pointed space. An application is given to cup-one products in unstable homotopy groups of spheres, generalizing a formula of Barratt-Jones-Mahowald."
+      },
+      "authors": [
+        {
+          "name": "Hans-Joachim Baues, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Hans-Joachim Baues, Fernando Muro"
+      },
+      "author": "Hans-Joachim Baues, Fernando Muro",
+      "arxiv_comment": "We correct a misprint in the presentation of the symmetric track groups",
+      "arxiv_journal_ref": "Bull. Belg. Math. Soc. Simon Stevin 15 (2008) no. 4, 733-768",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0604030v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0604030v2",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "55Q25; 55S45",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0604029v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0604029v2",
+      "updated": "2006-10-17T09:43:37-04:00",
+      "updated_parsed": [
+        2006,
+        10,
+        17,
+        13,
+        43,
+        37,
+        1,
+        290,
+        0
+      ],
+      "published": "2006-04-03T06:53:45-04:00",
+      "published_parsed": [
+        2006,
+        4,
+        3,
+        10,
+        53,
+        45,
+        0,
+        93,
+        0
+      ],
+      "title": "Secondary homotopy groups",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Secondary homotopy groups"
+      },
+      "summary": "Secondary homotopy groups supplement the structure of classical homotopy groups. They yield a track functor on the track category of pointed spaces compatible with fiber sequences, suspensions and loop spaces. They also yield algebraic models of homotopy types with homotopy groups concentrated in two consecutive dimensions.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Secondary homotopy groups supplement the structure of classical homotopy groups. They yield a track functor on the track category of pointed spaces compatible with fiber sequences, suspensions and loop spaces. They also yield algebraic models of homotopy types with homotopy groups concentrated in two consecutive dimensions."
+      },
+      "authors": [
+        {
+          "name": "Hans-Joachim Baues, Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Hans-Joachim Baues, Fernando Muro"
+      },
+      "author": "Hans-Joachim Baues, Fernando Muro",
+      "arxiv_doi": "10.1515/FORUM.2008.032",
+      "arxiv_comment": "We added further commets and references to make the paper more easily readable",
+      "arxiv_journal_ref": "Forum Mathematicum. Volume 20, Issue 4, Pages 631-677, July 2008",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0604029v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0604029v2",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1515/FORUM.2008.032",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.AT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Algebraic Topology (math.AT)"
+      },
+      "tags": [
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "18D05; 55Q25; 55S45",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0603544v3",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0603544v3",
+      "updated": "2007-02-08T17:00:52-05:00",
+      "updated_parsed": [
+        2007,
+        2,
+        8,
+        22,
+        0,
+        52,
+        3,
+        39,
+        0
+      ],
+      "published": "2006-03-22T15:13:53-05:00",
+      "published_parsed": [
+        2006,
+        3,
+        22,
+        20,
+        13,
+        53,
+        2,
+        81,
+        0
+      ],
+      "title": "The 1-type of a Waldhausen K-theory spectrum",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The 1-type of a Waldhausen K-theory spectrum"
+      },
+      "summary": "We give a small functorial algebraic model for the 2-stage Postnikov section of the K-theory spectrum of a Waldhausen category and use our presentation to describe the multiplicative structure with respect to biexact functors.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "We give a small functorial algebraic model for the 2-stage Postnikov section of the K-theory spectrum of a Waldhausen category and use our presentation to describe the multiplicative structure with respect to biexact functors."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro, Andrew Tonks"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro, Andrew Tonks"
+      },
+      "author": "Fernando Muro, Andrew Tonks",
+      "arxiv_doi": "10.1016/j.aim.2007.05.008",
+      "arxiv_comment": "We include more technical details which were left to the reader in the previous versions",
+      "arxiv_journal_ref": "Advances in Mathematics 216 (2007), no. 1, 178-211",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0603544v3",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0603544v3",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.aim.2007.05.008",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "math.AT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Algebraic Topology (math.AT)"
+        },
+        {
+          "term": "19B99, 16E20, 18G50, 18G55",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0505540v2",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0505540v2",
+      "updated": "2005-07-08T11:52:27-04:00",
+      "updated_parsed": [
+        2005,
+        7,
+        8,
+        15,
+        52,
+        27,
+        4,
+        189,
+        0
+      ],
+      "published": "2005-05-25T09:43:16-04:00",
+      "published_parsed": [
+        2005,
+        5,
+        25,
+        13,
+        43,
+        16,
+        2,
+        145,
+        0
+      ],
+      "title": "The characteristic cohomology class of a triangulated category",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "The characteristic cohomology class of a triangulated category"
+      },
+      "summary": "This is the final version of a series of papers uploaded in May 25, 2005. We have splitted the long last paper of the previous version in two parts to make it easier to understand. The results are essentially the same, although the presentation has changed substantially. The first three papers have not changed.\n  This is a collection of five papers on the foundation of triangulated categories in the context of groupoid-enriched categories, termed track categories, and characteristic cohomology classes. As a main result it is shown that given an additive category A with a translation functor t: A --> A and a class V in translation cohomology H^3(A,t) then two simple properties of V imply that (A,t) is a triangulated category. The cohomology class V yields an equivalence class (B,[s]) where B is a track category with homotopy category A and [s] is the homotopy class of a pseudofunctor s: B --> B inducing t. The two properties of V correspond to natural axioms on B and s which again imply that (A,t) is a triangulated category.\n  The five papers of this volume depend on each other by cross references, but each paper can be read independently of the others so that the reader is free to choose one of the papers to start. Each paper has its own abstract, introduction and literature.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "This is the final version of a series of papers uploaded in May 25, 2005. We have splitted the long last paper of the previous version in two parts to make it easier to understand. The results are essentially the same, although the presentation has changed substantially. The first three papers have not changed.\n  This is a collection of five papers on the foundation of triangulated categories in the context of groupoid-enriched categories, termed track categories, and characteristic cohomology classes. As a main result it is shown that given an additive category A with a translation functor t: A --> A and a class V in translation cohomology H^3(A,t) then two simple properties of V imply that (A,t) is a triangulated category. The cohomology class V yields an equivalence class (B,[s]) where B is a track category with homotopy category A and [s] is the homotopy class of a pseudofunctor s: B --> B inducing t. The two properties of V correspond to natural axioms on B and s which again imply that (A,t) is a triangulated category.\n  The five papers of this volume depend on each other by cross references, but each paper can be read independently of the others so that the reader is free to choose one of the papers to start. Each paper has its own abstract, introduction and literature."
+      },
+      "authors": [
+        {
+          "name": "H. -J. Baues, F. Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "H. -J. Baues, F. Muro"
+      },
+      "author": "H. -J. Baues, F. Muro",
+      "arxiv_comment": "166 pages, some diagrams do not appear correctly in the DVI file",
+      "arxiv_journal_ref": "Georgian Math. J. 13 (2006), no. 4, 607-634 and 635-648, J. Pure Appl. Algebra 211 (2007), no. 3, 821-850, J. K-Theory 1 (2008), no. 1, 3-48, J. K-Theory 3 (2009), no. 1, 1-52",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0505540v2",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0505540v2",
+          "rel": "related",
+          "type": "application/pdf"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.KT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "K-Theory and Homology (math.KT)"
+      },
+      "tags": [
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "18E30, 18G60, 18D05, 55S35",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0411478v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0411478v1",
+      "updated": "2004-11-22T03:48:57-05:00",
+      "updated_parsed": [
+        2004,
+        11,
+        22,
+        8,
+        48,
+        57,
+        0,
+        327,
+        0
+      ],
+      "published": "2004-11-22T03:48:57-05:00",
+      "published_parsed": [
+        2004,
+        11,
+        22,
+        8,
+        48,
+        57,
+        0,
+        327,
+        0
+      ],
+      "title": "On the functoriality of cohomology of categories",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "On the functoriality of cohomology of categories"
+      },
+      "summary": "In this paper we show that the Baues-Wirsching complex used to define cohomology of categories is a 2-functor from a certain 2-category of natural systems of abelian groups to the 2-category of chain complexes, chain homomorphism and relative homotopy classes of chain homotopies. As a consequence we derive (co)localization theorems for this cohomology.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we show that the Baues-Wirsching complex used to define cohomology of categories is a 2-functor from a certain 2-category of natural systems of abelian groups to the 2-category of chain complexes, chain homomorphism and relative homotopy classes of chain homotopies. As a consequence we derive (co)localization theorems for this cohomology."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1016/j.jpaa.2005.05.004",
+      "arxiv_comment": "15 pages",
+      "arxiv_journal_ref": "J. Pure Appl. Algebra 204 (2006), no. 3, 455-472",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0411478v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0411478v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1016/j.jpaa.2005.05.004",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.CT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Category Theory (math.CT)"
+      },
+      "tags": [
+        {
+          "term": "math.CT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Category Theory (math.CT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "18G60, 18D05, 16E05",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/math/0310334v1",
+      "guidislink": true,
+      "link": "http://arxiv.org/abs/math/0310334v1",
+      "updated": "2003-10-21T07:44:51-04:00",
+      "updated_parsed": [
+        2003,
+        10,
+        21,
+        11,
+        44,
+        51,
+        1,
+        294,
+        0
+      ],
+      "published": "2003-10-21T07:44:51-04:00",
+      "published_parsed": [
+        2003,
+        10,
+        21,
+        11,
+        44,
+        51,
+        1,
+        294,
+        0
+      ],
+      "title": "Representation theory of some infinite-dimensional algebras arising in continuously controlled algebra and topology",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "Representation theory of some infinite-dimensional algebras arising in continuously controlled algebra and topology"
+      },
+      "summary": "In this paper we determine the representation type of some algebras of infinite matrices continuously controlled at infinity by a compact metrizable space. We explicitly classify their finitely presented modules in the finite and tame cases. The algebra of row-column-finite (or locally finite) matrices over an arbitrary field is one of the algebras considered in this paper, its representation type is shown to be finite.",
+      "summary_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "value": "In this paper we determine the representation type of some algebras of infinite matrices continuously controlled at infinity by a compact metrizable space. We explicitly classify their finitely presented modules in the finite and tame cases. The algebra of row-column-finite (or locally finite) matrices over an arbitrary field is one of the algebras considered in this paper, its representation type is shown to be finite."
+      },
+      "authors": [
+        {
+          "name": "Fernando Muro"
+        }
+      ],
+      "author_detail": {
+        "name": "Fernando Muro"
+      },
+      "author": "Fernando Muro",
+      "arxiv_doi": "10.1007/s10977-004-1837-4",
+      "arxiv_comment": "33 pages",
+      "arxiv_journal_ref": "K-Theory 33 no. 1 (2004) pag. 23-65",
+      "links": [
+        {
+          "href": "http://arxiv.org/abs/math/0310334v1",
+          "rel": "alternate",
+          "type": "text/html"
+        },
+        {
+          "title": "pdf",
+          "href": "http://arxiv.org/pdf/math/0310334v1",
+          "rel": "related",
+          "type": "application/pdf"
+        },
+        {
+          "title": "doi",
+          "href": "http://dx.doi.org/10.1007/s10977-004-1837-4",
+          "rel": "related",
+          "type": "text/html"
+        }
+      ],
+      "arxiv_primary_category": {
+        "term": "math.RT",
+        "scheme": "http://arxiv.org/schemas/atom",
+        "label": "Representation Theory (math.RT)"
+      },
+      "tags": [
+        {
+          "term": "math.RT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "Representation Theory (math.RT)"
+        },
+        {
+          "term": "math.KT",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": "K-Theory and Homology (math.KT)"
+        },
+        {
+          "term": "16G60, 16S50 (primary) 16G20, 16E10, 16E30 (secondary)",
+          "scheme": "http://arxiv.org/schemas/atom",
+          "label": null
+        }
+      ]
+    }
+  ],
+  "feed": {
+    "title": "Fernando Muro's articles on arXiv",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+      "value": "Fernando Muro's articles on arXiv"
+    },
+    "links": [
+      {
+        "rel": "describes",
+        "href": "https://orcid.org/0000-0001-8457-9889",
+        "type": "text/html"
+      },
+      {
+        "href": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+        "rel": "self",
+        "type": "application/atom+xml"
+      },
+      {
+        "rel": "describes",
+        "href": "https://arxiv.org/a/0000-0001-8457-9889",
+        "type": "text/html"
+      }
+    ],
+    "updated": "2026-08-06T00:00:00-04:00",
+    "updated_parsed": [
+      2026,
+      8,
+      6,
+      4,
+      0,
+      0,
+      3,
+      218,
+      0
+    ],
+    "id": "https://arxiv.org/a/0000-0001-8457-9889",
+    "guidislink": true,
+    "link": "https://arxiv.org/a/0000-0001-8457-9889"
   },
-  {
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Kahrobaei",
-        "given": "Delaram"
-      },
-      {
-        "family": "Noce",
-        "given": "Marialaura"
-      }
-    ],
-    "id": "2203.15898",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
-    },
-    "title": "The root extraction problem in braid group-based cryptography",
-    "type": ""
+  "headers": {
+    "connection": "close",
+    "x-catalyst": "5.90019",
+    "set-cookie": "browser=172.166.156.160.1786045904354109; path=/; max-age=946080000; domain=.arxiv.org",
+    "content-type": "application/atom+xml; charset=UTF-8",
+    "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "strict-transport-security": "max-age=31536000",
+    "content-encoding": "gzip",
+    "accept-ranges": "bytes",
+    "server": "Apache",
+    "date": "Thu, 06 Aug 2026 19:51:44 GMT",
+    "x-served-by": "cache-lga21980-LGA, cache-lga21980-LGA, cache-lga21930-LGA, cache-lhr-egll1980098-LHR",
+    "x-cache": "MISS, MISS, MISS",
+    "x-timer": "S1786045904.270205,VS0,VE423",
+    "vary": "Accept-Encoding",
+    "transfer-encoding": "chunked"
   },
-  {
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Martin",
-        "given": "Alexandre"
-      },
-      {
-        "family": "Vaskou",
-        "given": "Nicolas"
-      }
-    ],
-    "id": "2012.02693",
-    "issued": {
-      "date-parts": [
-        [
-          2020
-        ]
-      ]
-    },
-    "title": "Parabolic subgroups of large-type Artin groups",
-    "type": ""
-  },
-  {
-    "author": [
-      {
-        "family": "Aroca",
-        "given": "Julio"
-      },
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "2005.09593",
-    "issued": {
-      "date-parts": [
-        [
-          2020
-        ]
-      ]
-    },
-    "title": "A new family of infinitely braided Thompson’s groups",
-    "type": ""
-  },
-  {
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "González-Meneses",
-        "given": "Juan"
-      },
-      {
-        "family": "Silvero",
-        "given": "Marithania"
-      }
-    ],
-    "id": "1909.10962",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "title": "The root extraction problem for generic braids",
-    "type": ""
-  },
-  {
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Paris",
-        "given": "Luis"
-      }
-    ],
-    "id": "1904.09461",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "title": "Commensurability in Artin groups of spherical type",
-    "type": ""
-  },
-  {
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "1708.09310",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "title": "On the minimal positive standardizer of a parabolic subgroup of an Artin-Tits group",
-    "type": ""
-  },
-  {
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "1706.08377",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "title": "On the loxodromic actions of Artin-Tits groups",
-    "type": ""
-  },
-  {
-    "DOI": "10.1112/blms.12148",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Wiest",
-        "given": "Bert"
-      }
-    ],
-    "id": "1703.05044",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "title": "A positive proportion of elements of mapping class groups is pseudo-Anosov",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.1007/s00009-022-02153-9",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "2107.13372",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "publisher": "Mediterr. J. Math. 19, 237 (2022)",
-    "title": "The conjugacy stability problem for parabolic subgroups in Artin groups",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.2140/agt.2021.21.1791",
-    "author": [
-      {
-        "family": "Antolín",
-        "given": "Yago"
-      },
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "1906.06325",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "publisher": "Algebr. Geom. Topol. 21 (2021) 1791-1816",
-    "title": "Parabolic subgroups acting on the additional length graph",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.1016/j.aim.2019.06.010",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Gebhardt",
-        "given": "Volker"
-      },
-      {
-        "family": "González-Meneses",
-        "given": "Juan"
-      },
-      {
-        "family": "Wiest",
-        "given": "Bert"
-      }
-    ],
-    "id": "1712.06727",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "publisher": "Advances in Mathematics 352 (2019) 572-610",
-    "title": "On parabolic subgroups of Artin-Tits groups of spherical type",
-    "type": "article-journal"
-  },
-  {
-    "URL": "https://arxiv.org/abs/2204.03523",
-    "author": [
-      {
-        "family": "Blasco-García",
-        "given": "Rubén"
-      },
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Morris-Wright",
-        "given": "Rose"
-      }
-    ],
-    "id": "2204.03523",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
-    },
-    "title": "The Word Problem is Solvable for 3-free Artin groups in Quadratic Time",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/2203.15898",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Kahrobaei",
-        "given": "Delaram"
-      },
-      {
-        "family": "Noce",
-        "given": "Marialaura"
-      }
-    ],
-    "id": "2203.15898",
-    "issued": {
-      "date-parts": [
-        [
-          2022
-        ]
-      ]
-    },
-    "title": "The root extraction problem in braid group-based cryptography",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/2012.02693",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Martin",
-        "given": "Alexandre"
-      },
-      {
-        "family": "Vaskou",
-        "given": "Nicolas"
-      }
-    ],
-    "id": "2012.02693",
-    "issued": {
-      "date-parts": [
-        [
-          2020
-        ]
-      ]
-    },
-    "title": "Parabolic subgroups of large-type Artin groups",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/2005.09593",
-    "author": [
-      {
-        "family": "Aroca",
-        "given": "Julio"
-      },
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "2005.09593",
-    "issued": {
-      "date-parts": [
-        [
-          2020
-        ]
-      ]
-    },
-    "title": "A new family of infinitely braided Thompson’s groups",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/1909.10962",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "González-Meneses",
-        "given": "Juan"
-      },
-      {
-        "family": "Silvero",
-        "given": "Marithania"
-      }
-    ],
-    "id": "1909.10962",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "title": "The root extraction problem for generic braids",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/1904.09461",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Paris",
-        "given": "Luis"
-      }
-    ],
-    "id": "1904.09461",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "title": "Commensurability in Artin groups of spherical type",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/1708.09310",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "1708.09310",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "title": "On the minimal positive standardizer of a parabolic subgroup of an Artin-Tits group",
-    "type": "webpage"
-  },
-  {
-    "URL": "https://arxiv.org/abs/1706.08377",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "1706.08377",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "title": "On the loxodromic actions of Artin-Tits groups",
-    "type": "webpage"
-  },
-  {
-    "DOI": "10.1112/blms.12148",
-    "URL": "https://arxiv.org/abs/1703.05044",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Wiest",
-        "given": "Bert"
-      }
-    ],
-    "id": "1703.05044",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "title": "A positive proportion of elements of mapping class groups is pseudo-Anosov",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.1007/s00009-022-02153-9",
-    "URL": "https://arxiv.org/abs/2107.13372",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "2107.13372",
-    "issued": {
-      "date-parts": [
-        [
-          2021
-        ]
-      ]
-    },
-    "publisher": "Mediterr. J. Math. 19, 237 (2022)",
-    "title": "The conjugacy stability problem for parabolic subgroups in Artin groups",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.2140/agt.2021.21.1791",
-    "URL": "https://arxiv.org/abs/1906.06325",
-    "author": [
-      {
-        "family": "Antolín",
-        "given": "Yago"
-      },
-      {
-        "family": "Cumplido",
-        "given": "María"
-      }
-    ],
-    "id": "1906.06325",
-    "issued": {
-      "date-parts": [
-        [
-          2019
-        ]
-      ]
-    },
-    "publisher": "Algebr. Geom. Topol. 21 (2021) 1791-1816",
-    "title": "Parabolic subgroups acting on the additional length graph",
-    "type": "article-journal"
-  },
-  {
-    "DOI": "10.1016/j.aim.2019.06.010",
-    "URL": "https://arxiv.org/abs/1712.06727",
-    "author": [
-      {
-        "family": "Cumplido",
-        "given": "María"
-      },
-      {
-        "family": "Gebhardt",
-        "given": "Volker"
-      },
-      {
-        "family": "González-Meneses",
-        "given": "Juan"
-      },
-      {
-        "family": "Wiest",
-        "given": "Bert"
-      }
-    ],
-    "id": "1712.06727",
-    "issued": {
-      "date-parts": [
-        [
-          2017
-        ]
-      ]
-    },
-    "publisher": "Advances in Mathematics 352 (2019) 572-610",
-    "title": "On parabolic subgroups of Artin-Tits groups of spherical type",
-    "type": "article-journal"
+  "href": "https://arxiv.org/a/0000-0001-8457-9889.atom2",
+  "status": 200,
+  "encoding": "UTF-8",
+  "version": "atom10",
+  "namespaces": {
+    "": "http://www.w3.org/2005/Atom",
+    "arxiv": "http://arxiv.org/schemas/atom"
   }
-]
+}
