@@ -57,6 +57,7 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) 
             entries = arxiv_json.get("dictitems", [])
             if entries:
                 entry = entries[0]
+                entry = entry['dictitems']
                 if isinstance(entry, dict):
                     summary = entry.get("summary")
                     if isinstance(summary, str):

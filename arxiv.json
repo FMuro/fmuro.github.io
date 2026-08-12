@@ -4004,16 +4004,16 @@
         "type": "text/html"
       }
     ],
-    "updated": "2026-08-11T00:00:00-04:00",
+    "updated": "2026-08-12T00:00:00-04:00",
     "updated_parsed": [
       2026,
       8,
-      11,
+      12,
       4,
       0,
       0,
-      1,
-      223,
+      2,
+      224,
       0
     ],
     "id": "https://arxiv.org/a/0000-0001-8457-9889",
@@ -4023,17 +4023,17 @@
   "headers": {
     "connection": "close",
     "x-catalyst": "5.90019",
-    "set-cookie": "browser=172.166.156.168.1786455703760143; path=/; max-age=946080000; domain=.arxiv.org",
+    "set-cookie": "browser=172.166.156.162.1786548484724366; path=/; max-age=946080000; domain=.arxiv.org",
     "content-type": "application/atom+xml; charset=UTF-8",
     "via": "1.1 varnish, 1.1 varnish, 1.1 varnish",
     "strict-transport-security": "max-age=31536000",
     "content-encoding": "gzip",
     "accept-ranges": "bytes",
     "server": "Apache",
-    "date": "Tue, 11 Aug 2026 13:42:23 GMT",
-    "x-served-by": "cache-lga21967-LGA, cache-lga21967-LGA, cache-lga21930-LGA, cache-lhr-egll1980022-LHR",
+    "date": "Wed, 12 Aug 2026 15:28:05 GMT",
+    "x-served-by": "cache-lga21993-LGA, cache-lga21993-LGA, cache-lga21965-LGA, cache-lcy-eglc8600021-LCY",
     "x-cache": "MISS, MISS, MISS",
-    "x-timer": "S1786455704.608373,VS0,VE40197",
+    "x-timer": "S1786548485.637186,VS0,VE429",
     "vary": "Accept-Encoding",
     "transfer-encoding": "chunked"
   },

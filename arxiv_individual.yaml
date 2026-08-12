@@ -1,0 +1,5146 @@
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2301.11593v3
+      guidislink: true
+      link: https://arxiv.org/abs/2301.11593v3
+      title: The Donovan--Wemyss Conjecture via the Derived Auslander--Iyama Correspondence
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2301.11593
+          value: The Donovan--Wemyss Conjecture via the Derived Auslander--Iyama Correspondence
+      updated: '2024-05-11T06:16:30Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2024
+        - 5
+        - 11
+        - 6
+        - 16
+        - 30
+        - 5
+        - 132
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2301.11593v3
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2301.11593v3
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1007/978-3-031-57789-5_4
+          title: doi
+          type: text/html
+      summary: We provide an outline of the proof of the Donovan--Wemyss Conjecture
+        in the context of the Homological Minimal Model Program for threefolds. The
+        proof relies on results of August, of Hua and the second-named author, Wemyss,
+        and on the Derived Auslander--Iyama Correspondence -- a recent result by the
+        first- and third-named authors.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2301.11593
+          value: We provide an outline of the proof of the Donovan--Wemyss Conjecture
+            in the context of the Homological Minimal Model Program for threefolds.
+            The proof relies on results of August, of Hua and the second-named author,
+            Wemyss, and on the Derived Auslander--Iyama Correspondence -- a recent
+            result by the first- and third-named authors.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AG
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.RT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2023-01-27T08:36:52Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2023
+        - 1
+        - 27
+        - 8
+        - 36
+        - 52
+        - 4
+        - 27
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: '25 pages. v4: Corrected several minor typos. v3: New title;
+        final version; to appear in the proceedings of the Abel Symposium 2022: Triangulated
+        categories in representation theory and beyond'
+      arxiv_primary_category:
+        term: math.AG
+      arxiv_journal_ref: Triangulated Categories in Representation Theory and Beyond.
+        Abelsymposium 2017. Abel Symposia, vol 17. Springer, Cham
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Gustavo Jasso
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Bernhard Keller
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1007/978-3-031-57789-5_4
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/rVnh7D6kdrzqt8uMbrhDuXJDDFE
+      guidislink: true
+      link: https://arxiv.org/api/rVnh7D6kdrzqt8uMbrhDuXJDDFE
+      title: 'arXiv Query: search_query=&id_list=2301.11593&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2301.11593
+          value: 'arXiv Query: search_query=&id_list=2301.11593&start=0&max_results=10'
+      updated: '2026-08-12T15:26:39Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 39
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2301.11593
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2468'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    server: Google Frontend
+    x-cloud-trace-context: 2816b75e8b12193d486b40597a3ecb50
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:08 GMT
+    x-served-by: cache-lga21938-LGA, cache-lga21938-LGA, cache-lga21954-LGA, cache-lhr-egll1980062-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548489.848134,VS0,VE71
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2301.11593
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2208.14413v6
+      guidislink: true
+      link: https://arxiv.org/abs/2208.14413v6
+      title: The Derived Auslander-Iyama Correspondence
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2208.14413
+          value: The Derived Auslander-Iyama Correspondence
+      updated: '2026-05-12T10:02:12Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 5
+        - 12
+        - 10
+        - 2
+        - 12
+        - 1
+        - 132
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2208.14413v6
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2208.14413v6
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: We work over a perfect field. Recent work of the third-named author
+        established a Derived Auslander Correspondence that relates finite-dimensional
+        self-injective algebras that are twisted $3$-periodic to algebraic triangulated
+        categories of finite type. Moreover, the aforementioned work also shows that
+        the latter triangulated categories admit a unique differential graded enhancement.
+        In this article we prove a higher-dimensional version of this result that,
+        given an integer $d\geq1$, relates twisted $(d+2)$-periodic algebras to algebraic
+        triangulated categories with a $d\mathbb{Z}$-cluster tilting object. We also
+        show that the latter triangulated categories admit a unique differential graded
+        enhancement. Our result yields recognition theorems for interesting algebraic
+        triangulated categories, such as the Amiot cluster category of a self-injective
+        quiver with potential in the sense of Herschend and Iyama and, more generally,
+        the Amiot-Guo-Keller cluster category associated with a $d$-representation
+        finite algebra in the sense of Iyama and Oppermann. As an application of our
+        result, we obtain infinitely many triangulated categories with a unique differential
+        graded enhancement that is not strongly unique. In the appendix, B. Keller
+        explains how -- combined with crucial results of August and Hua-Keller --
+        our main result yields the last key ingredient to prove the Donovan-Wemyss
+        Conjecture in the context of the Homological Minimal Model Program for threefolds.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2208.14413
+          value: We work over a perfect field. Recent work of the third-named author
+            established a Derived Auslander Correspondence that relates finite-dimensional
+            self-injective algebras that are twisted $3$-periodic to algebraic triangulated
+            categories of finite type. Moreover, the aforementioned work also shows
+            that the latter triangulated categories admit a unique differential graded
+            enhancement. In this article we prove a higher-dimensional version of
+            this result that, given an integer $d\geq1$, relates twisted $(d+2)$-periodic
+            algebras to algebraic triangulated categories with a $d\mathbb{Z}$-cluster
+            tilting object. We also show that the latter triangulated categories admit
+            a unique differential graded enhancement. Our result yields recognition
+            theorems for interesting algebraic triangulated categories, such as the
+            Amiot cluster category of a self-injective quiver with potential in the
+            sense of Herschend and Iyama and, more generally, the Amiot-Guo-Keller
+            cluster category associated with a $d$-representation finite algebra in
+            the sense of Iyama and Oppermann. As an application of our result, we
+            obtain infinitely many triangulated categories with a unique differential
+            graded enhancement that is not strongly unique. In the appendix, B. Keller
+            explains how -- combined with crucial results of August and Hua-Keller
+            -- our main result yields the last key ingredient to prove the Donovan-Wemyss
+            Conjecture in the context of the Homological Minimal Model Program for
+            threefolds.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.RT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AG
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2022-08-30T17:27:09Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2022
+        - 8
+        - 30
+        - 17
+        - 27
+        - 9
+        - 1
+        - 242
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 'Appendix by Bernhard Keller. 117 pp., 2 figs. v1-v5: See submission
+        history. v6: Significant edits following referee report. Accepted for publication
+        in J. Amer. Math. Soc'
+      arxiv_primary_category:
+        term: math.RT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Gustavo Jasso
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Bernhard Keller
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/+qx/y6OihqdygIU1Uv1L/odLdbg
+      guidislink: true
+      link: https://arxiv.org/api/+qx/y6OihqdygIU1Uv1L/odLdbg
+      title: 'arXiv Query: search_query=&id_list=2208.14413&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2208.14413
+          value: 'arXiv Query: search_query=&id_list=2208.14413&start=0&max_results=10'
+      updated: '2026-08-12T15:26:46Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 46
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2208.14413
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '3395'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: c58439ec958107e79f8f165a83c2d421
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21993-LGA, cache-lga21993-LGA, cache-lga21979-LGA, cache-lhr-egll1980053-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548489.960901,VS0,VE70
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2208.14413
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/0704.1378v2
+      guidislink: true
+      link: https://arxiv.org/abs/0704.1378v2
+      title: Triangulated categories without models
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=0704.1378
+          value: Triangulated categories without models
+      updated: '2007-05-09T23:59:59Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2007
+        - 5
+        - 9
+        - 23
+        - 59
+        - 59
+        - 2
+        - 129
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/0704.1378v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/0704.1378v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1007/s00222-007-0061-2
+          title: doi
+          type: text/html
+      summary: We exhibit examples of triangulated categories which are neither the
+        stable category of a Frobenius category nor a full triangulated subcategory
+        of the homotopy category of a stable model category. Even more drastically,
+        our examples do not admit any non-trivial exact functors to or from these
+        algebraic respectively topological triangulated categories.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=0704.1378
+          value: We exhibit examples of triangulated categories which are neither
+            the stable category of a Frobenius category nor a full triangulated subcategory
+            of the homotopy category of a stable model category. Even more drastically,
+            our examples do not admit any non-trivial exact functors to or from these
+            algebraic respectively topological triangulated categories.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2007-04-11T09:08:03Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2007
+        - 4
+        - 11
+        - 9
+        - 8
+        - 3
+        - 2
+        - 101
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 10 pages
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Inventiones Mathematicae, Vol. 170 (2007), No. 2, pp. 231-241
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Stefan Schwede
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Neil Strickland
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Neil Strickland
+      author: Neil Strickland
+      arxiv_doi: 10.1007/s00222-007-0061-2
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/t1tgqGyZT0sHjkOR4EsaWoRhzcM
+      guidislink: true
+      link: https://arxiv.org/api/t1tgqGyZT0sHjkOR4EsaWoRhzcM
+      title: 'arXiv Query: search_query=&id_list=0704.1378&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=0704.1378
+          value: 'arXiv Query: search_query=&id_list=0704.1378&start=0&max_results=10'
+      updated: '2026-08-12T15:26:47Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 47
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=0704.1378
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2204'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 3f747690be3db933b130f63173152c94
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21993-LGA, cache-lga21993-LGA, cache-lga21931-LGA, cache-lhr-egll1980027-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548489.077147,VS0,VE71
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=0704.1378
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1101.1634v1
+      guidislink: true
+      link: https://arxiv.org/abs/1101.1634v1
+      title: Homotopy theory of non-symmetric operads
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1101.1634
+          value: Homotopy theory of non-symmetric operads
+      updated: '2011-01-09T14:09:20Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2011
+        - 1
+        - 9
+        - 14
+        - 9
+        - 20
+        - 6
+        - 9
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1101.1634v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1101.1634v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.2140/agt.2011.11.1541
+          title: doi
+          type: text/html
+      summary: We endow categories of non-symmetric operads with natural model structures.
+        We work with no restriction on our operads and only assume the usual hypotheses
+        for model categories with a symmetric monoidal structure. We also study categories
+        of algebras over these operads in enriched non-symmetric monoidal model categories.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1101.1634
+          value: We endow categories of non-symmetric operads with natural model structures.
+            We work with no restriction on our operads and only assume the usual hypotheses
+            for model categories with a symmetric monoidal structure. We also study
+            categories of algebras over these operads in enriched non-symmetric monoidal
+            model categories.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2011-01-09T14:09:20Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2011
+        - 1
+        - 9
+        - 14
+        - 9
+        - 20
+        - 6
+        - 9
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 54 pages
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Algebr. Geom. Topol. 11 (2011), 1541-1599
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.2140/agt.2011.11.1541
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/xK72hOt/g9UKfdnFMaipW+hzvG0
+      guidislink: true
+      link: https://arxiv.org/api/xK72hOt/g9UKfdnFMaipW+hzvG0
+      title: 'arXiv Query: search_query=&id_list=1101.1634&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1101.1634
+          value: 'arXiv Query: search_query=&id_list=1101.1634&start=0&max_results=10'
+      updated: '2026-08-12T15:26:47Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 47
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1101.1634
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2027'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 6398f48f185542a200ed9cea57f7bc9b
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21983-LGA, cache-lga21983-LGA, cache-lga21960-LGA, cache-lhr-egll1980083-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548489.202574,VS0,VE84
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1101.1634
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0604029v2
+      guidislink: true
+      link: https://arxiv.org/abs/math/0604029v2
+      title: Secondary homotopy groups
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604029
+          value: Secondary homotopy groups
+      updated: '2006-10-17T13:43:37Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 10
+        - 17
+        - 13
+        - 43
+        - 37
+        - 1
+        - 290
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0604029v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0604029v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1515/FORUM.2008.032
+          title: doi
+          type: text/html
+      summary: Secondary homotopy groups supplement the structure of classical homotopy
+        groups. They yield a track functor on the track category of pointed spaces
+        compatible with fiber sequences, suspensions and loop spaces. They also yield
+        algebraic models of homotopy types with homotopy groups concentrated in two
+        consecutive dimensions.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604029
+          value: Secondary homotopy groups supplement the structure of classical homotopy
+            groups. They yield a track functor on the track category of pointed spaces
+            compatible with fiber sequences, suspensions and loop spaces. They also
+            yield algebraic models of homotopy types with homotopy groups concentrated
+            in two consecutive dimensions.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-04-03T10:53:45Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 4
+        - 3
+        - 10
+        - 53
+        - 45
+        - 0
+        - 93
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: We added further commets and references to make the paper more
+        easily readable
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Forum Mathematicum. Volume 20, Issue 4, Pages 631-677, July
+        2008
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Hans-Joachim Baues
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1515/FORUM.2008.032
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/mRcjef1hgmukO42mJLi6mmpZH+w
+      guidislink: true
+      link: https://arxiv.org/api/mRcjef1hgmukO42mJLi6mmpZH+w
+      title: 'arXiv Query: search_query=&id_list=math/0604029&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604029
+          value: 'arXiv Query: search_query=&id_list=math/0604029&start=0&max_results=10'
+      updated: '2026-08-12T15:26:47Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 47
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0604029
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2116'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: d3bb0aa29257531ef1bbfc27cc991014
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21966-LGA, cache-lga21966-LGA, cache-lga21952-LGA, cache-lhr-egll1980023-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548489.329844,VS0,VE71
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0604029
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0604031v2
+      guidislink: true
+      link: https://arxiv.org/abs/math/0604031v2
+      title: Smash products for secondary homotopy groups
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604031
+          value: Smash products for secondary homotopy groups
+      updated: '2006-10-17T13:31:35Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 10
+        - 17
+        - 13
+        - 31
+        - 35
+        - 1
+        - 290
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0604031v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0604031v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1007/s10485-007-9071-x
+          title: doi
+          type: text/html
+      summary: We construct a smash product operation on secondary homotopy groups
+        yielding the structure of a lax symmetric monoidal functor. Applications on
+        cup-one products, Toda brackets and Whitehead products are considered. In
+        particular we prove a formula for the crossed effect of the cup-one product
+        operation on unstable homotopy groups of spheres which was claimed by Barratt-Jones-Mahowald.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604031
+          value: We construct a smash product operation on secondary homotopy groups
+            yielding the structure of a lax symmetric monoidal functor. Applications
+            on cup-one products, Toda brackets and Whitehead products are considered.
+            In particular we prove a formula for the crossed effect of the cup-one
+            product operation on unstable homotopy groups of spheres which was claimed
+            by Barratt-Jones-Mahowald.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-04-03T11:28:32Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 4
+        - 3
+        - 11
+        - 28
+        - 32
+        - 0
+        - 93
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: We give a clearer description of the tensor product of symmetric
+        sequences of quadratic pair modules
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Appl. Categ. Structures, 16 (2008) no. 5, 551-616
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Hans-Joachim Baues
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1007/s10485-007-9071-x
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/5FC5JHzYNPZJETDFnO+n42sJht0
+      guidislink: true
+      link: https://arxiv.org/api/5FC5JHzYNPZJETDFnO+n42sJht0
+      title: 'arXiv Query: search_query=&id_list=math/0604031&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604031
+          value: 'arXiv Query: search_query=&id_list=math/0604031&start=0&max_results=10'
+      updated: '2026-08-12T15:26:47Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 47
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0604031
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2210'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    server: Google Frontend
+    x-cloud-trace-context: df9ca2437aeed0567adde66c5faacf1e
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21937-LGA, cache-lga21937-LGA, cache-lga21953-LGA, cache-lhr-egll1980040-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548489.461971,VS0,VE72
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0604031
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0610523v3
+      guidislink: true
+      link: https://arxiv.org/abs/math/0610523v3
+      title: The algebra of secondary homotopy operations in ring spectra
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0610523
+          value: The algebra of secondary homotopy operations in ring spectra
+      updated: '2007-03-06T12:16:50Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2007
+        - 3
+        - 6
+        - 12
+        - 16
+        - 50
+        - 1
+        - 65
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0610523v3
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0610523v3
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1112/plms/pdq034
+          title: doi
+          type: text/html
+      summary: The primary algebraic model of a ring spectrum is the ring of homotopy
+        groups. We introduce the secondary model which has the structure of a secondary
+        analogue of a ring. This new algebraic model determines Massey products and
+        cup-one squares. As an application we obtain new derivations of the homotopy
+        ring.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0610523
+          value: The primary algebraic model of a ring spectrum is the ring of homotopy
+            groups. We introduce the secondary model which has the structure of a
+            secondary analogue of a ring. This new algebraic model determines Massey
+            products and cup-one squares. As an application we obtain new derivations
+            of the homotopy ring.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-10-17T14:19:35Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 10
+        - 17
+        - 14
+        - 19
+        - 35
+        - 1
+        - 290
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: We have changed the title and we have included new computations
+        and applications, 55 pages
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Proc. London Math. Soc. 102 (2011) no. 4, 637-696
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Hans-Joachim Baues
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1112/plms/pdq034
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/OZe4HWjtIJBexGtd9ifHuZLxjEA
+      guidislink: true
+      link: https://arxiv.org/api/OZe4HWjtIJBexGtd9ifHuZLxjEA
+      title: 'arXiv Query: search_query=&id_list=math/0610523&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0610523
+          value: 'arXiv Query: search_query=&id_list=math/0610523&start=0&max_results=10'
+      updated: '2026-08-12T15:26:48Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 26
+        - 48
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0610523
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2056'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: fe31627b0de12ca2dedb0c9dcee99459
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21976-LGA, cache-lga21976-LGA, cache-lga21966-LGA, cache-lhr-egll1980028-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548490.615378,VS0,VE71
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0610523
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1110.1959v1
+      guidislink: true
+      link: https://arxiv.org/abs/1110.1959v1
+      title: Unital associahedra
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1110.1959
+          value: Unital associahedra
+      updated: '2011-10-10T08:46:18Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2011
+        - 10
+        - 10
+        - 8
+        - 46
+        - 18
+        - 0
+        - 283
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1110.1959v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1110.1959v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1515/forum-2011-0130
+          title: doi
+          type: text/html
+      summary: We construct a topological cellular operad such that the algebras over
+        its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1110.1959
+          value: We construct a topological cellular operad such that the algebras
+            over its cellular chains are the homotopy unital A-infinity algebras of
+            Fukaya-Oh-Ohta-Ono.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2011-10-10T08:46:18Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2011
+        - 10
+        - 10
+        - 8
+        - 46
+        - 18
+        - 0
+        - 283
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 22 pages, EPS color figures
+      arxiv_primary_category:
+        term: math.QA
+      arxiv_journal_ref: Forum Mathematicum Volume 26, Issue 2 (Mar 2014), Pages 593-620
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      author: Andrew Tonks
+      arxiv_doi: 10.1515/forum-2011-0130
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/iIBbu1dF/JB2EFvPP4rTgEaQZPE
+      guidislink: true
+      link: https://arxiv.org/api/iIBbu1dF/JB2EFvPP4rTgEaQZPE
+      title: 'arXiv Query: search_query=&id_list=1110.1959&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1110.1959
+          value: 'arXiv Query: search_query=&id_list=1110.1959&start=0&max_results=10'
+      updated: '2026-08-12T15:27:03Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 27
+        - 3
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1110.1959
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1869'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 957c7701d743515678b7721d39305bf1
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:09 GMT
+    x-served-by: cache-lga21928-LGA, cache-lga21928-LGA, cache-lga21942-LGA, cache-lhr-egll1980060-LHR
+    x-cache: MISS, HIT, MISS
+    x-cache-hits: 0, 1, 0
+    x-timer: S1786548490.772099,VS0,VE71
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1110.1959
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0604030v2
+      guidislink: true
+      link: https://arxiv.org/abs/math/0604030v2
+      title: The symmetric action on secondary homotopy groups
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604030
+          value: The symmetric action on secondary homotopy groups
+      updated: '2006-10-17T13:50:06Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 10
+        - 17
+        - 13
+        - 50
+        - 6
+        - 1
+        - 290
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0604030v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0604030v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: We show that the symmetric track group, which is an extension of the
+        symmetric group associated to the second Stiefel- Withney class, acts as a
+        crossed module on the secondary homotopy group of a pointed space. An application
+        is given to cup-one products in unstable homotopy groups of spheres, generalizing
+        a formula of Barratt-Jones-Mahowald.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604030
+          value: We show that the symmetric track group, which is an extension of
+            the symmetric group associated to the second Stiefel- Withney class, acts
+            as a crossed module on the secondary homotopy group of a pointed space.
+            An application is given to cup-one products in unstable homotopy groups
+            of spheres, generalizing a formula of Barratt-Jones-Mahowald.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-04-03T11:11:29Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 4
+        - 3
+        - 11
+        - 11
+        - 29
+        - 0
+        - 93
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: We correct a misprint in the presentation of the symmetric track
+        groups
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Bull. Belg. Math. Soc. Simon Stevin 15 (2008) no. 4, 733-768
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Hans-Joachim Baues
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/pSmsAFemQ01TWIYlU+P1UZvH0hg
+      guidislink: true
+      link: https://arxiv.org/api/pSmsAFemQ01TWIYlU+P1UZvH0hg
+      title: 'arXiv Query: search_query=&id_list=math/0604030&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0604030
+          value: 'arXiv Query: search_query=&id_list=math/0604030&start=0&max_results=10'
+      updated: '2026-08-12T15:28:10Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 10
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0604030
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2014'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: d8b0563b3cb03fdc6004881d2eb38dec
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:10 GMT
+    x-served-by: cache-lga21962-LGA, cache-lga21962-LGA, cache-lga21973-LGA, cache-lhr-egll1980021-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548490.916613,VS0,VE419
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0604030
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0612450v1
+      guidislink: true
+      link: https://arxiv.org/abs/math/0612450v1
+      title: Toda brackets and cup-one squares for ring spectra
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0612450
+          value: Toda brackets and cup-one squares for ring spectra
+      updated: '2006-12-15T15:26:02Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 12
+        - 15
+        - 15
+        - 26
+        - 2
+        - 4
+        - 349
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0612450v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0612450v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1080/00927870802241188
+          title: doi
+          type: text/html
+      summary: In this paper we prove the laws of Toda brackets on the homotopy groups
+        of a connective ring spectrum and the laws of the cup-one square in the homotopy
+        groups of a commutative connective ring spectrum.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0612450
+          value: In this paper we prove the laws of Toda brackets on the homotopy
+            groups of a connective ring spectrum and the laws of the cup-one square
+            in the homotopy groups of a commutative connective ring spectrum.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-12-15T15:26:02Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 12
+        - 15
+        - 15
+        - 26
+        - 2
+        - 4
+        - 349
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 22 pages
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Comm. Algebra 37 (2009) no. 1, 56-82
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Hans-Joachim Baues
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1080/00927870802241188
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/RdPMt4oBNy8iho4J9HzrU0jrhXA
+      guidislink: true
+      link: https://arxiv.org/api/RdPMt4oBNy8iho4J9HzrU0jrhXA
+      title: 'arXiv Query: search_query=&id_list=math/0612450&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0612450
+          value: 'arXiv Query: search_query=&id_list=math/0612450&start=0&max_results=10'
+      updated: '2026-08-12T15:28:11Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 11
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0612450
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1856'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 2b0a54cd573d4f06d685daf6e3f06d31
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:11 GMT
+    x-served-by: cache-lga21948-LGA, cache-lga21948-LGA, cache-lga21953-LGA, cache-lhr-egll1980058-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548490.390372,VS0,VE809
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0612450
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0505540v2
+      guidislink: true
+      link: https://arxiv.org/abs/math/0505540v2
+      title: The characteristic cohomology class of a triangulated category
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0505540
+          value: The characteristic cohomology class of a triangulated category
+      updated: '2005-07-08T15:52:27Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2005
+        - 7
+        - 8
+        - 15
+        - 52
+        - 27
+        - 4
+        - 189
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0505540v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0505540v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: "This is the final version of a series of papers uploaded in May 25,\
+        \ 2005. We have splitted the long last paper of the previous version in two\
+        \ parts to make it easier to understand. The results are essentially the same,\
+        \ although the presentation has changed substantially. The first three papers\
+        \ have not changed.\n  This is a collection of five papers on the foundation\
+        \ of triangulated categories in the context of groupoid-enriched categories,\
+        \ termed track categories, and characteristic cohomology classes. As a main\
+        \ result it is shown that given an additive category A with a translation\
+        \ functor t: A --> A and a class V in translation cohomology H^3(A,t) then\
+        \ two simple properties of V imply that (A,t) is a triangulated category.\
+        \ The cohomology class V yields an equivalence class (B,[s]) where B is a\
+        \ track category with homotopy category A and [s] is the homotopy class of\
+        \ a pseudofunctor s: B --> B inducing t. The two properties of V correspond\
+        \ to natural axioms on B and s which again imply that (A,t) is a triangulated\
+        \ category.\n  The five papers of this volume depend on each other by cross\
+        \ references, but each paper can be read independently of the others so that\
+        \ the reader is free to choose one of the papers to start. Each paper has\
+        \ its own abstract, introduction and literature."
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0505540
+          value: "This is the final version of a series of papers uploaded in May\
+            \ 25, 2005. We have splitted the long last paper of the previous version\
+            \ in two parts to make it easier to understand. The results are essentially\
+            \ the same, although the presentation has changed substantially. The first\
+            \ three papers have not changed.\n  This is a collection of five papers\
+            \ on the foundation of triangulated categories in the context of groupoid-enriched\
+            \ categories, termed track categories, and characteristic cohomology classes.\
+            \ As a main result it is shown that given an additive category A with\
+            \ a translation functor t: A --> A and a class V in translation cohomology\
+            \ H^3(A,t) then two simple properties of V imply that (A,t) is a triangulated\
+            \ category. The cohomology class V yields an equivalence class (B,[s])\
+            \ where B is a track category with homotopy category A and [s] is the\
+            \ homotopy class of a pseudofunctor s: B --> B inducing t. The two properties\
+            \ of V correspond to natural axioms on B and s which again imply that\
+            \ (A,t) is a triangulated category.\n  The five papers of this volume\
+            \ depend on each other by cross references, but each paper can be read\
+            \ independently of the others so that the reader is free to choose one\
+            \ of the papers to start. Each paper has its own abstract, introduction\
+            \ and literature."
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2005-05-25T13:43:16Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2005
+        - 5
+        - 25
+        - 13
+        - 43
+        - 16
+        - 2
+        - 145
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 166 pages, some diagrams do not appear correctly in the DVI file
+      arxiv_primary_category:
+        term: math.KT
+      arxiv_journal_ref: Georgian Math. J. 13 (2006), no. 4, 607-634 and 635-648,
+        J. Pure Appl. Algebra 211 (2007), no. 3, 821-850, J. K-Theory 1 (2008), no.
+        1, 3-48, J. K-Theory 3 (2009), no. 1, 1-52
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: H. -J. Baues
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: F. Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: F. Muro
+      author: F. Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/zSWdQb997DjkfnvKvUCAAmdRxkI
+      guidislink: true
+      link: https://arxiv.org/api/zSWdQb997DjkfnvKvUCAAmdRxkI
+      title: 'arXiv Query: search_query=&id_list=math/0505540&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0505540
+          value: 'arXiv Query: search_query=&id_list=math/0505540&start=0&max_results=10'
+      updated: '2026-08-12T15:28:11Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 11
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0505540
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '3011'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: c22c74c4e81df3b0665d3cef74d03cb9
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:11 GMT
+    x-served-by: cache-lga21938-LGA, cache-lga21938-LGA, cache-lga21957-LGA, cache-lhr-egll1980056-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548491.248783,VS0,VE476
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0505540
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0603544v3
+      guidislink: true
+      link: https://arxiv.org/abs/math/0603544v3
+      title: The 1-type of a Waldhausen K-theory spectrum
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0603544
+          value: The 1-type of a Waldhausen K-theory spectrum
+      updated: '2007-02-08T22:00:52Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2007
+        - 2
+        - 8
+        - 22
+        - 0
+        - 52
+        - 3
+        - 39
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0603544v3
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0603544v3
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1016/j.aim.2007.05.008
+          title: doi
+          type: text/html
+      summary: We give a small functorial algebraic model for the 2-stage Postnikov
+        section of the K-theory spectrum of a Waldhausen category and use our presentation
+        to describe the multiplicative structure with respect to biexact functors.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0603544
+          value: We give a small functorial algebraic model for the 2-stage Postnikov
+            section of the K-theory spectrum of a Waldhausen category and use our
+            presentation to describe the multiplicative structure with respect to
+            biexact functors.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-03-22T20:13:53Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 3
+        - 22
+        - 20
+        - 13
+        - 53
+        - 2
+        - 81
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: We include more technical details which were left to the reader
+        in the previous versions
+      arxiv_primary_category:
+        term: math.KT
+      arxiv_journal_ref: Advances in Mathematics 216 (2007), no. 1, 178-211
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      author: Andrew Tonks
+      arxiv_doi: 10.1016/j.aim.2007.05.008
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/6GnlkXr4MTc5ivRxYdQJLzKq0Ek
+      guidislink: true
+      link: https://arxiv.org/api/6GnlkXr4MTc5ivRxYdQJLzKq0Ek
+      title: 'arXiv Query: search_query=&id_list=math/0603544&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0603544
+          value: 'arXiv Query: search_query=&id_list=math/0603544&start=0&max_results=10'
+      updated: '2026-08-12T15:28:12Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 12
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0603544
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2032'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: bf49b1002f1ae41d5ca4983f34109cfa
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:12 GMT
+    x-served-by: cache-lga21959-LGA, cache-lga21959-LGA, cache-lga21933-LGA, cache-lhr-egll1980076-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548492.776636,VS0,VE418
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0603544
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1304.6641v2
+      guidislink: true
+      link: https://arxiv.org/abs/1304.6641v2
+      title: 'Homotopy theory of non-symmetric operads II: change of base category
+        and left properness'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1304.6641
+          value: 'Homotopy theory of non-symmetric operads II: change of base category
+            and left properness'
+      updated: '2013-08-09T15:11:43Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2013
+        - 8
+        - 9
+        - 15
+        - 11
+        - 43
+        - 4
+        - 221
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1304.6641v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1304.6641v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.2140/agt.2014.14.1489
+          title: doi
+          type: text/html
+      summary: We prove, under mild assumptions, that a Quillen equivalence between
+        symmetric monoidal model categories gives rise to a Quillen equivalence between
+        their model categories of (non-symmetric) operads, and also between model
+        categories of algebras over operads. We also show left properness results
+        on model categories of operads and algebras over operads. As an application,
+        we prove homotopy invariance for (unital) associative operads.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1304.6641
+          value: We prove, under mild assumptions, that a Quillen equivalence between
+            symmetric monoidal model categories gives rise to a Quillen equivalence
+            between their model categories of (non-symmetric) operads, and also between
+            model categories of algebras over operads. We also show left properness
+            results on model categories of operads and algebras over operads. As an
+            application, we prove homotopy invariance for (unital) associative operads.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2013-04-24T16:02:58Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2013
+        - 4
+        - 24
+        - 16
+        - 2
+        - 58
+        - 2
+        - 114
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: '43 pages. Minor changes: a couple of remarks, corollaries and
+        references have been added'
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Algebr. Geom. Topol. 14 (2014) 1489-1539
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.2140/agt.2014.14.1489
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/Myz4ysaijKUd0VsdyklZgxbc1Fg
+      guidislink: true
+      link: https://arxiv.org/api/Myz4ysaijKUd0VsdyklZgxbc1Fg
+      title: 'arXiv Query: search_query=&id_list=1304.6641&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1304.6641
+          value: 'arXiv Query: search_query=&id_list=1304.6641&start=0&max_results=10'
+      updated: '2026-08-12T15:28:12Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 12
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1304.6641
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2268'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: c1e071b69aa18be8b044e334083b3c20
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:12 GMT
+    x-served-by: cache-lga21985-LGA, cache-lga21985-LGA, cache-lga21959-LGA, cache-lhr-egll1980042-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548492.246970,VS0,VE453
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1304.6641
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0411478v1
+      guidislink: true
+      link: https://arxiv.org/abs/math/0411478v1
+      title: On the functoriality of cohomology of categories
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0411478
+          value: On the functoriality of cohomology of categories
+      updated: '2004-11-22T08:48:57Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2004
+        - 11
+        - 22
+        - 8
+        - 48
+        - 57
+        - 0
+        - 327
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0411478v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0411478v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1016/j.jpaa.2005.05.004
+          title: doi
+          type: text/html
+      summary: In this paper we show that the Baues-Wirsching complex used to define
+        cohomology of categories is a 2-functor from a certain 2-category of natural
+        systems of abelian groups to the 2-category of chain complexes, chain homomorphism
+        and relative homotopy classes of chain homotopies. As a consequence we derive
+        (co)localization theorems for this cohomology.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0411478
+          value: In this paper we show that the Baues-Wirsching complex used to define
+            cohomology of categories is a 2-functor from a certain 2-category of natural
+            systems of abelian groups to the 2-category of chain complexes, chain
+            homomorphism and relative homotopy classes of chain homotopies. As a consequence
+            we derive (co)localization theorems for this cohomology.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2004-11-22T08:48:57Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2004
+        - 11
+        - 22
+        - 8
+        - 48
+        - 57
+        - 0
+        - 327
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 15 pages
+      arxiv_primary_category:
+        term: math.CT
+      arxiv_journal_ref: J. Pure Appl. Algebra 204 (2006), no. 3, 455-472
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1016/j.jpaa.2005.05.004
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/TNfR105HZ+Gf+xg10KaLHHlJ3iY
+      guidislink: true
+      link: https://arxiv.org/api/TNfR105HZ+Gf+xg10KaLHHlJ3iY
+      title: 'arXiv Query: search_query=&id_list=math/0411478&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0411478
+          value: 'arXiv Query: search_query=&id_list=math/0411478&start=0&max_results=10'
+      updated: '2026-08-12T15:28:13Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 13
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0411478
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2025'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 60804aad9407ef4c75c7bd42fa51d84c
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:13 GMT
+    x-served-by: cache-lga21921-LGA, cache-lga21921-LGA, cache-lga21922-LGA, cache-lhr-egll1980079-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548493.749843,VS0,VE505
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0411478
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1411.1349v2
+      guidislink: true
+      link: https://arxiv.org/abs/1411.1349v2
+      title: On the unit of a monoidal model category
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1411.1349
+          value: On the unit of a monoidal model category
+      updated: '2014-11-13T16:56:42Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2014
+        - 11
+        - 13
+        - 16
+        - 56
+        - 42
+        - 3
+        - 317
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1411.1349v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1411.1349v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1016/j.topol.2015.05.006
+          title: doi
+          type: text/html
+      summary: In this paper we show how to modify cofibrations in a monoidal model
+        category so that the tensor unit becomes cofibrant while keeping the same
+        weak equivalences. We obtain aplications to enriched categories and coloured
+        operads in stable homotopy theory.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1411.1349
+          value: In this paper we show how to modify cofibrations in a monoidal model
+            category so that the tensor unit becomes cofibrant while keeping the same
+            weak equivalences. We obtain aplications to enriched categories and coloured
+            operads in stable homotopy theory.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2014-11-05T18:22:23Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2014
+        - 11
+        - 5
+        - 18
+        - 22
+        - 23
+        - 2
+        - 309
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 13 pages. Comments welcome
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Topology and its Applications Volume 191, 15 August 2015,
+        Pages 37-47
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1016/j.topol.2015.05.006
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/rYNXM657/LBYI/J1/QGvhMK4fZY
+      guidislink: true
+      link: https://arxiv.org/api/rYNXM657/LBYI/J1/QGvhMK4fZY
+      title: 'arXiv Query: search_query=&id_list=1411.1349&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1411.1349
+          value: 'arXiv Query: search_query=&id_list=1411.1349&start=0&max_results=10'
+      updated: '2026-08-12T15:28:14Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 14
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1411.1349
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1871'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: e142b053574563b87a1cd3d833df7917
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:14 GMT
+    x-served-by: cache-lga21939-LGA, cache-lga21939-LGA, cache-lga21978-LGA, cache-lhr-egll1980089-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548493.308454,VS0,VE1006
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1411.1349
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/math/0611229v3
+      guidislink: true
+      link: https://arxiv.org/abs/math/0611229v3
+      title: On K_1 of a Waldhausen category
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0611229
+          value: On K_1 of a Waldhausen category
+      updated: '2006-11-30T00:15:13Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 11
+        - 30
+        - 0
+        - 15
+        - 13
+        - 3
+        - 334
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/math/0611229v3
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/math/0611229v3
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.4171/060-1/4
+          title: doi
+          type: text/html
+      summary: We give a simple representation of all elements in K_1 of a Waldhausen
+        category and prove relations between these representatives which hold in K_1.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0611229
+          value: We give a simple representation of all elements in K_1 of a Waldhausen
+            category and prove relations between these representatives which hold
+            in K_1.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2006-11-08T14:16:06Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2006
+        - 11
+        - 8
+        - 14
+        - 16
+        - 6
+        - 2
+        - 312
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_primary_category:
+        term: math.KT
+      arxiv_journal_ref: K-theory and Noncommutative Geometry, EMS Series of Congress
+        Reports, October 2008, 91-116
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      author: Andrew Tonks
+      arxiv_doi: 10.4171/060-1/4
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/dQqM+oqme5Fj1wU9e1IjYtXYE/o
+      guidislink: true
+      link: https://arxiv.org/api/dQqM+oqme5Fj1wU9e1IjYtXYE/o
+      title: 'arXiv Query: search_query=&id_list=math/0611229&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=math/0611229
+          value: 'arXiv Query: search_query=&id_list=math/0611229&start=0&max_results=10'
+      updated: '2026-08-12T15:28:14Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 14
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=math/0611229
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1767'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 5bb37c723d9d22e387e9abbc2309f19e
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:14 GMT
+    x-served-by: cache-lga21933-LGA, cache-lga21933-LGA, cache-lga21972-LGA, cache-lhr-egll1980053-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548494.362386,VS0,VE356
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=math/0611229
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1802.07610v1
+      guidislink: true
+      link: https://arxiv.org/abs/1802.07610v1
+      title: Homotopy Theory of Bicomplexes
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1802.07610
+          value: Homotopy Theory of Bicomplexes
+      updated: '2018-02-21T15:20:41Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2018
+        - 2
+        - 21
+        - 15
+        - 20
+        - 41
+        - 2
+        - 52
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1802.07610v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1802.07610v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1016/j.jpaa.2018.08.007
+          title: doi
+          type: text/html
+      summary: We define two model structures on the category of bicomplexes concentrated
+        in the right half plane. The first model structure has weak equivalences detected
+        by the totalisation functor. The second model structure's weak equivalences
+        are detected by the $E^2$-term of the spectral sequence associated to the
+        filtration of the total complex by the horizontal degree. We then extend this
+        result to twisted complexes.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1802.07610
+          value: We define two model structures on the category of bicomplexes concentrated
+            in the right half plane. The first model structure has weak equivalences
+            detected by the totalisation functor. The second model structure's weak
+            equivalences are detected by the $E^2$-term of the spectral sequence associated
+            to the filtration of the total complex by the horizontal degree. We then
+            extend this result to twisted complexes.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2018-02-21T15:20:41Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2018
+        - 2
+        - 21
+        - 15
+        - 20
+        - 41
+        - 2
+        - 52
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 26 pages
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Journal of Pure and Applied Algebra 223, Issue 5 (2019) 1913-1939
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Constanze Roitzheim
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Constanze Roitzheim
+      author: Constanze Roitzheim
+      arxiv_doi: 10.1016/j.jpaa.2018.08.007
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/+3dK7mqtAWweczGQCmfOXwJyc2s
+      guidislink: true
+      link: https://arxiv.org/api/+3dK7mqtAWweczGQCmfOXwJyc2s
+      title: 'arXiv Query: search_query=&id_list=1802.07610&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1802.07610
+          value: 'arXiv Query: search_query=&id_list=1802.07610&start=0&max_results=10'
+      updated: '2026-08-12T15:28:15Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 15
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1802.07610
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2137'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 94f74c1a8998805356855d52fc267e07
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:15 GMT
+    x-served-by: cache-lga21992-LGA, cache-lga21992-LGA, cache-lga21940-LGA, cache-lhr-egll1980062-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548495.769329,VS0,VE346
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1802.07610
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1111.2723v4
+      guidislink: true
+      link: https://arxiv.org/abs/1111.2723v4
+      title: Homotopy units in A-infinity algebras
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1111.2723
+          value: Homotopy units in A-infinity algebras
+      updated: '2014-04-30T06:01:26Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2014
+        - 4
+        - 30
+        - 6
+        - 1
+        - 26
+        - 2
+        - 120
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1111.2723v4
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1111.2723v4
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1090/tran/6545
+          title: doi
+          type: text/html
+      summary: We show that the canonical map from the associative operad to the unital
+        associative operad is a homotopy epimorphism for a wide class of symmetric
+        monoidal model categories. As a consequence, the space of unital associative
+        algebra structures on a given object is up to homotopy a subset of connected
+        components of the space of non-unital associative algebra structures.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1111.2723
+          value: We show that the canonical map from the associative operad to the
+            unital associative operad is a homotopy epimorphism for a wide class of
+            symmetric monoidal model categories. As a consequence, the space of unital
+            associative algebra structures on a given object is up to homotopy a subset
+            of connected components of the space of non-unital associative algebra
+            structures.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2011-11-11T12:39:08Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2011
+        - 11
+        - 11
+        - 12
+        - 39
+        - 8
+        - 4
+        - 315
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 39 pages, the proof of the main theorem for DG-operads has been
+        corrected, cylinders are not used any more and will be considered elsewhere
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Trans. Amer. Math. Soc. 368 (2016), 2145-2184
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1090/tran/6545
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/3LWMrZh/SywrGJnX4Rg3UpmnLKg
+      guidislink: true
+      link: https://arxiv.org/api/3LWMrZh/SywrGJnX4Rg3UpmnLKg
+      title: 'arXiv Query: search_query=&id_list=1111.2723&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1111.2723
+          value: 'arXiv Query: search_query=&id_list=1111.2723&start=0&max_results=10'
+      updated: '2026-08-12T15:28:15Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 15
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1111.2723
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2124'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 83577a3a5ee4baff49362d307a9ad690
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:15 GMT
+    x-served-by: cache-lga21988-LGA, cache-lga21988-LGA, cache-lga21932-LGA, cache-lhr-egll1980027-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548495.171124,VS0,VE238
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1111.2723
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1201.1575v4
+      guidislink: true
+      link: https://arxiv.org/abs/1201.1575v4
+      title: Dwyer-Kan homotopy theory of enriched categories
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1201.1575
+          value: Dwyer-Kan homotopy theory of enriched categories
+      updated: '2014-03-10T16:04:27Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2014
+        - 3
+        - 10
+        - 16
+        - 4
+        - 27
+        - 0
+        - 69
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1201.1575v4
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1201.1575v4
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1112/jtopol/jtu029
+          title: doi
+          type: text/html
+      summary: We construct a model structure on the category of small categories
+        enriched over a combinatorial closed symmetric monoidal model category satisfying
+        the monoid axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched
+        functors which induce weak equivalences on morphism objects and equivalences
+        of ordinary categories when we take sets of connected components on morphism
+        objects.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1201.1575
+          value: We construct a model structure on the category of small categories
+            enriched over a combinatorial closed symmetric monoidal model category
+            satisfying the monoid axiom. Weak equivalences are Dwyer-Kan equivalences,
+            i.e. enriched functors which induce weak equivalences on morphism objects
+            and equivalences of ordinary categories when we take sets of connected
+            components on morphism objects.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2012-01-07T16:41:38Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2012
+        - 1
+        - 7
+        - 16
+        - 41
+        - 38
+        - 5
+        - 7
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 39 pages, corrected version
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: 'J Topology (2015) 8 (2): 377-413'
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1112/jtopol/jtu029
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/CSD9v7Xf0FlburzTazeRRyXPclk
+      guidislink: true
+      link: https://arxiv.org/api/CSD9v7Xf0FlburzTazeRRyXPclk
+      title: 'arXiv Query: search_query=&id_list=1201.1575&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1201.1575
+          value: 'arXiv Query: search_query=&id_list=1201.1575&start=0&max_results=10'
+      updated: '2026-08-12T15:28:17Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 17
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1201.1575
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2036'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: e70e719e64850cd029e1708340dd0e7f
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:17 GMT
+    x-served-by: cache-lga21948-LGA, cache-lga21948-LGA, cache-lga21922-LGA, cache-lhr-egll1980083-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548495.454014,VS0,VE1940
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1201.1575
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1810.10068v4
+      guidislink: true
+      link: https://arxiv.org/abs/1810.10068v4
+      title: Enhanced finite triangulated categories
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1810.10068
+          value: Enhanced finite triangulated categories
+      updated: '2020-05-11T18:16:57Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2020
+        - 5
+        - 11
+        - 18
+        - 16
+        - 57
+        - 0
+        - 132
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1810.10068v4
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1810.10068v4
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1017/S1474748020000250
+          title: doi
+          type: text/html
+      summary: We give a necessary and sufficient condition for the existence of an
+        enhancement of a finite triangulated category. Moreover, we show that enhancements
+        are unique when they exist, up to Morita equivalence.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1810.10068
+          value: We give a necessary and sufficient condition for the existence of
+            an enhancement of a finite triangulated category. Moreover, we show that
+            enhancements are unique when they exist, up to Morita equivalence.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2018-10-23T19:52:28Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2018
+        - 10
+        - 23
+        - 19
+        - 52
+        - 28
+        - 1
+        - 296
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 40 pages, minor improvements
+      arxiv_primary_category:
+        term: math.KT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1017/S1474748020000250
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/GBKXxcZSXDGQMg+enhOx0BsNtrE
+      guidislink: true
+      link: https://arxiv.org/api/GBKXxcZSXDGQMg+enhOx0BsNtrE
+      title: 'arXiv Query: search_query=&id_list=1810.10068&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1810.10068
+          value: 'arXiv Query: search_query=&id_list=1810.10068&start=0&max_results=10'
+      updated: '2026-08-12T15:28:18Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 18
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1810.10068
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1921'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 4d8bf8eaf060702a0a7a5fd11bd1f6cf
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:18 GMT
+    x-served-by: cache-lga21955-LGA, cache-lga21955-LGA, cache-lga21925-LGA, cache-lhr-egll1980056-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548497.447952,VS0,VE1112
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1810.10068
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1112.5146v2
+      guidislink: true
+      link: https://arxiv.org/abs/1112.5146v2
+      title: Moduli spaces of algebras over non-symmetric operads
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1112.5146
+          value: Moduli spaces of algebras over non-symmetric operads
+      updated: '2013-08-19T22:49:58Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2013
+        - 8
+        - 19
+        - 22
+        - 49
+        - 58
+        - 0
+        - 231
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1112.5146v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1112.5146v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.2140/agt.2014.14.229
+          title: doi
+          type: text/html
+      summary: In this paper we study spaces of algebras over an operad (non-symmetric)
+        in symmetric monoidal model categories. We first compute the homotopy fiber
+        of the forgetful functor sending an algebra to its underlying object, extending
+        a result of Rezk. We then apply this computation to the construction of geometric
+        moduli stacks of algebras over an operad in a homotopical algebraic geometry
+        context in the sense of Toën and Vezzosi. We show under mild hypotheses that
+        the moduli stack of unital associative algebras is a Zariski open substack
+        of the moduli stack of non-necessarily unital associative algebras. The classical
+        analogue for finite-dimensional vector spaces was noticed by Gabriel.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1112.5146
+          value: In this paper we study spaces of algebras over an operad (non-symmetric)
+            in symmetric monoidal model categories. We first compute the homotopy
+            fiber of the forgetful functor sending an algebra to its underlying object,
+            extending a result of Rezk. We then apply this computation to the construction
+            of geometric moduli stacks of algebras over an operad in a homotopical
+            algebraic geometry context in the sense of Toën and Vezzosi. We show under
+            mild hypotheses that the moduli stack of unital associative algebras is
+            a Zariski open substack of the moduli stack of non-necessarily unital
+            associative algebras. The classical analogue for finite-dimensional vector
+            spaces was noticed by Gabriel.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AG
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2011-12-21T20:05:02Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2011
+        - 12
+        - 21
+        - 20
+        - 5
+        - 2
+        - 2
+        - 355
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 38 pages. Many improvements and generalizations with respect
+        to the previous version
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Algebr. Geom. Topol. 14 (2014) 229-281
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.2140/agt.2014.14.229
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/ltskCJXuywYWZKqSANIr5b4GYjU
+      guidislink: true
+      link: https://arxiv.org/api/ltskCJXuywYWZKqSANIr5b4GYjU
+      title: 'arXiv Query: search_query=&id_list=1112.5146&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1112.5146
+          value: 'arXiv Query: search_query=&id_list=1112.5146&start=0&max_results=10'
+      updated: '2026-08-12T15:28:21Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 21
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1112.5146
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2550'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: b180b00970892e9da3c6e93c30e9117b
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:21 GMT
+    x-served-by: cache-lga21958-LGA, cache-lga21958-LGA, cache-lga21959-LGA, cache-lhr-egll1980023-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548499.618112,VS0,VE2723
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1112.5146
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1006.5399v2
+      guidislink: true
+      link: https://arxiv.org/abs/1006.5399v2
+      title: On determinant functors and $K$-theory
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1006.5399
+          value: On determinant functors and $K$-theory
+      updated: '2013-03-18T11:43:20Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2013
+        - 3
+        - 18
+        - 11
+        - 43
+        - 20
+        - 0
+        - 77
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1006.5399v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1006.5399v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.5565/PUBLMAT_59115_07
+          title: doi
+          type: text/html
+      summary: In this paper we introduce a new approach to determinant functors which
+        allows us to extend Deligne's determinant functors for exact categories to
+        Waldhausen categories, (strongly) triangulated categories, and derivators.
+        We construct universal determinant functors in all cases by original methods
+        which are interesting even for the known cases. Moreover, we show that the
+        target of each universal determinant functor computes the corresponding $K$-theory
+        in dimensions 0 and 1. As applications, we answer open questions by Maltsiniotis
+        and Neeman on the $K$-theory of (strongly) triangulated categories and a question
+        of Grothendieck to Knudsen on determinant functors. We also prove additivity
+        theorems for low-dimensional $K$-theory and obtain generators and (some) relations
+        for various $K_{1}$-groups.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1006.5399
+          value: In this paper we introduce a new approach to determinant functors
+            which allows us to extend Deligne's determinant functors for exact categories
+            to Waldhausen categories, (strongly) triangulated categories, and derivators.
+            We construct universal determinant functors in all cases by original methods
+            which are interesting even for the known cases. Moreover, we show that
+            the target of each universal determinant functor computes the corresponding
+            $K$-theory in dimensions 0 and 1. As applications, we answer open questions
+            by Maltsiniotis and Neeman on the $K$-theory of (strongly) triangulated
+            categories and a question of Grothendieck to Knudsen on determinant functors.
+            We also prove additivity theorems for low-dimensional $K$-theory and obtain
+            generators and (some) relations for various $K_{1}$-groups.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.NT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2010-06-28T16:34:14Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2010
+        - 6
+        - 28
+        - 16
+        - 34
+        - 14
+        - 0
+        - 179
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 73 pages. We have deeply revised the paper to make it more accessible,
+        it contains now explicit examples and computations. We have removed the part
+        on localization, it was correct but we didn't want to make the paper longer
+        and we thought this part was the less interesting one. Nevertheless it will
+        remain here in the arXiv, in version 1. If you need it in your research, please
+        let us know
+      arxiv_primary_category:
+        term: math.KT
+      arxiv_journal_ref: Publ. Mat. 59 (2015), 137-233
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Andrew Tonks
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Malte Witte
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Malte Witte
+      author: Malte Witte
+      arxiv_doi: 10.5565/PUBLMAT_59115_07
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/fw8wyzqZOu2TDDvvTqI/whoG4pE
+      guidislink: true
+      link: https://arxiv.org/api/fw8wyzqZOu2TDDvvTqI/whoG4pE
+      title: 'arXiv Query: search_query=&id_list=1006.5399&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1006.5399
+          value: 'arXiv Query: search_query=&id_list=1006.5399&start=0&max_results=10'
+      updated: '2026-08-12T15:28:24Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 24
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1006.5399
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '3068'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 4d3db1939e96bb13cb76a1ac6df682d6
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:24 GMT
+    x-served-by: cache-lga21992-LGA, cache-lga21992-LGA, cache-lga21972-LGA, cache-lhr-egll1980062-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548501.405406,VS0,VE3114
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1006.5399
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2508.18852v2
+      guidislink: true
+      link: https://arxiv.org/abs/2508.18852v2
+      title: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d\mathbb{Z}$-cluster
+        tilting objects'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2508.18852
+          value: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d\mathbb{Z}$-cluster
+            tilting objects'
+      updated: '2026-01-06T09:00:52Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 1
+        - 6
+        - 9
+        - 0
+        - 52
+        - 1
+        - 6
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2508.18852v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2508.18852v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: The Derived Auslander--Iyama Corresponence, a recent result of the
+        authors, provides a classification up to quasi-isomorphism of the derived
+        endomorphism algebras of basic $d\mathbb{Z}$-cluster tilting objects in $\operatorname{Hom}$-finite
+        algebraic triangulated categories in terms of a small amount of algebraic
+        data. In this note we highlight the role of minimal $A_\infty$-algebra structures
+        in the proof of this result, as well as the crucial role of the enhanced $A_\infty$-obstruction
+        theory developed by the second-named author.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2508.18852
+          value: The Derived Auslander--Iyama Corresponence, a recent result of the
+            authors, provides a classification up to quasi-isomorphism of the derived
+            endomorphism algebras of basic $d\mathbb{Z}$-cluster tilting objects in
+            $\operatorname{Hom}$-finite algebraic triangulated categories in terms
+            of a small amount of algebraic data. In this note we highlight the role
+            of minimal $A_\infty$-algebra structures in the proof of this result,
+            as well as the crucial role of the enhanced $A_\infty$-obstruction theory
+            developed by the second-named author.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.RT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2025-08-26T09:31:54Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2025
+        - 8
+        - 26
+        - 9
+        - 31
+        - 54
+        - 1
+        - 238
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: '17 pages. Contribution to the proceedings of the XXI International
+        Conference on Representations of Algebras (ICRA 21); v2: final version following
+        referee''s comments'
+      arxiv_primary_category:
+        term: math.RT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Gustavo Jasso
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/xmaHb8k+2LA554Kxx07BCtH0tWs
+      guidislink: true
+      link: https://arxiv.org/api/xmaHb8k+2LA554Kxx07BCtH0tWs
+      title: 'arXiv Query: search_query=&id_list=2508.18852&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2508.18852
+          value: 'arXiv Query: search_query=&id_list=2508.18852&start=0&max_results=10'
+      updated: '2026-08-12T15:28:29Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 29
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2508.18852
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2161'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 0e347cbb15536e4afcfdaf5fb0083388
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:29 GMT
+    x-served-by: cache-lga21935-LGA, cache-lga21935-LGA, cache-lga21958-LGA, cache-lhr-egll1980056-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548505.565963,VS0,VE5125
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2508.18852
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2509.22625v4
+      guidislink: true
+      link: https://arxiv.org/abs/2509.22625v4
+      title: 'The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau
+        Structures'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2509.22625
+          value: 'The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau
+            Structures'
+      updated: '2026-07-14T07:33:26Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 7
+        - 14
+        - 7
+        - 33
+        - 26
+        - 1
+        - 195
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2509.22625v4
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2509.22625v4
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: 'Let $d$ be a positive integer. In a previous article we established
+        a bijective correspondence between the following classes of objects, considered
+        up to the appropriate notion of equivalence: differential graded algebras
+        (dg) with finite-dimensional $0$-th cohomology such that the canonical generator
+        of their perfect derived category is a basic $d\ZZ$-cluster tilting object,
+        and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules.
+        In this article, we prove a variant of our general correspondence for bimodule
+        right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory
+        which contains obstructions to the existence and uniqueness of minimal $A_\infty$-bimodule
+        structures on a graded bimodule. As an application of our results, we obtain,
+        to our knowledge, the first example of an algebraic triangulated category
+        with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule
+        right Calabi--Yau structure on any of its dg enhancements.'
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2509.22625
+          value: 'Let $d$ be a positive integer. In a previous article we established
+            a bijective correspondence between the following classes of objects, considered
+            up to the appropriate notion of equivalence: differential graded algebras
+            (dg) with finite-dimensional $0$-th cohomology such that the canonical
+            generator of their perfect derived category is a basic $d\ZZ$-cluster
+            tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic
+            as bimodules. In this article, we prove a variant of our general correspondence
+            for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new
+            cohomology theory which contains obstructions to the existence and uniqueness
+            of minimal $A_\infty$-bimodule structures on a graded bimodule. As an
+            application of our results, we obtain, to our knowledge, the first example
+            of an algebraic triangulated category with a triangulated Calabi--Yau
+            structure that cannot be lifted to a bimodule right Calabi--Yau structure
+            on any of its dg enhancements.'
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.RT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2025-09-26T17:51:20Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2025
+        - 9
+        - 26
+        - 17
+        - 51
+        - 20
+        - 4
+        - 269
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: '103 pages. v2: Corrected several small typos. Added new Section
+        7.3 on a non-enhanceable triangulated Calabi--Yau structure. v3: Editorial
+        improvements. v4: Enhanced exposition, several small corrections. Subsection
+        7.3 is now Section 8'
+      arxiv_primary_category:
+        term: math.RT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Gustavo Jasso
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/1ApvgajlT26Nc3m70YHs2GznDeM
+      guidislink: true
+      link: https://arxiv.org/api/1ApvgajlT26Nc3m70YHs2GznDeM
+      title: 'arXiv Query: search_query=&id_list=2509.22625&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2509.22625
+          value: 'arXiv Query: search_query=&id_list=2509.22625&start=0&max_results=10'
+      updated: '2026-08-12T15:28:30Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 30
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2509.22625
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2665'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    server: Google Frontend
+    x-cloud-trace-context: c78bb93915323aed2a15b2f44c45d637
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:30 GMT
+    x-served-by: cache-lga21983-LGA, cache-lga21983-LGA, cache-lga21955-LGA, cache-lhr-egll1980053-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548510.731470,VS0,VE602
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2509.22625
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2507.17568v1
+      guidislink: true
+      link: https://arxiv.org/abs/2507.17568v1
+      title: Obstruction theory for $A$-infinity bimodules
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2507.17568
+          value: Obstruction theory for $A$-infinity bimodules
+      updated: '2025-07-23T14:58:33Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2025
+        - 7
+        - 23
+        - 14
+        - 58
+        - 33
+        - 2
+        - 204
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2507.17568v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2507.17568v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: We develop an obstruction theory for the extension of truncated minimal
+        $A$-infinity bimodule structures over truncated minimal $A$-infinity algebras.
+        Obstructions live in far-away pages of a (truncated) fringed spectral sequence
+        of Bousfield--Kan type. The second page of this spectral sequence is mostly
+        given by a new cohomology theory associated to a pair consisting of a graded
+        algebra and a graded bimodule over it. This new cohomology theory fits in
+        a long exact sequence involving the Hochschild cohomology of the algebra and
+        the self-extensions of the bimodule. We show that the second differential
+        of this spectral sequence is given by the Gerstenhaber bracket with a bimodule
+        analogue of the universal Massey product of a minimal $A$-infinity algebra.
+        We also develop a closely-related obstruction theory for truncated minimal
+        $A$-infinity bimodule structures over (the truncation of) a fixed minimal
+        $A$-infinity algebra; the second page of the corresponding spectral sequence
+        is now mostly given by the vector spaces of self-extensions of the underlying
+        graded bimodule and the second differential is described analogously to the
+        previous one. We also establish variants of the above for graded algebras
+        and graded bimodules that are $d$-sparse, that is they are concentrated in
+        degrees that are multiples of a fixed integer $d\geq1$. These obstruction
+        theories are used to establish intrinsic formality and almost formality theorems
+        for differential graded bimodules over differential graded algebras. Our results
+        hold, more generally, in the context of graded operads with multiplication
+        equipped with an associative operadic ideal, examples of which are the endomorphism
+        operad of a graded algebra and the linear endomorphism operad of a pair consisting
+        of a graded algebra and a graded bimodule over it.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2507.17568
+          value: We develop an obstruction theory for the extension of truncated minimal
+            $A$-infinity bimodule structures over truncated minimal $A$-infinity algebras.
+            Obstructions live in far-away pages of a (truncated) fringed spectral
+            sequence of Bousfield--Kan type. The second page of this spectral sequence
+            is mostly given by a new cohomology theory associated to a pair consisting
+            of a graded algebra and a graded bimodule over it. This new cohomology
+            theory fits in a long exact sequence involving the Hochschild cohomology
+            of the algebra and the self-extensions of the bimodule. We show that the
+            second differential of this spectral sequence is given by the Gerstenhaber
+            bracket with a bimodule analogue of the universal Massey product of a
+            minimal $A$-infinity algebra. We also develop a closely-related obstruction
+            theory for truncated minimal $A$-infinity bimodule structures over (the
+            truncation of) a fixed minimal $A$-infinity algebra; the second page of
+            the corresponding spectral sequence is now mostly given by the vector
+            spaces of self-extensions of the underlying graded bimodule and the second
+            differential is described analogously to the previous one. We also establish
+            variants of the above for graded algebras and graded bimodules that are
+            $d$-sparse, that is they are concentrated in degrees that are multiples
+            of a fixed integer $d\geq1$. These obstruction theories are used to establish
+            intrinsic formality and almost formality theorems for differential graded
+            bimodules over differential graded algebras. Our results hold, more generally,
+            in the context of graded operads with multiplication equipped with an
+            associative operadic ideal, examples of which are the endomorphism operad
+            of a graded algebra and the linear endomorphism operad of a pair consisting
+            of a graded algebra and a graded bimodule over it.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.RT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2025-07-23T14:58:33Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2025
+        - 7
+        - 23
+        - 14
+        - 58
+        - 33
+        - 2
+        - 204
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 66 pages, 1 figure
+      arxiv_primary_category:
+        term: math.AT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Gustavo Jasso
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/KiF7EpQe//igheZ1eq+GcrLwtvY
+      guidislink: true
+      link: https://arxiv.org/api/KiF7EpQe//igheZ1eq+GcrLwtvY
+      title: 'arXiv Query: search_query=&id_list=2507.17568&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2507.17568
+          value: 'arXiv Query: search_query=&id_list=2507.17568&start=0&max_results=10'
+      updated: '2026-08-12T15:28:30Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 30
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2507.17568
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '3452'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: c1840de160fcea2a26969dc55f6b9250
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:31 GMT
+    x-served-by: cache-lga21990-LGA, cache-lga21990-LGA, cache-lga21981-LGA, cache-lhr-egll1980083-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548511.593458,VS0,VE409
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2507.17568
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2106.14996v4
+      guidislink: true
+      link: https://arxiv.org/abs/2106.14996v4
+      title: Massey products for algebras over operads
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2106.14996
+          value: Massey products for algebras over operads
+      updated: '2023-03-03T10:30:31Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2023
+        - 3
+        - 3
+        - 10
+        - 30
+        - 31
+        - 4
+        - 62
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2106.14996v4
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2106.14996v4
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: We define a generalization of Massey products for algebras over a Koszul
+        operad in characteristic zero, extending Massey's and Allday's and Retah's
+        in the associative and Lie cases, respectively. We establish connections with
+        minimal models and with Dimitrova's universal operadic cohomology class. We
+        compute a Gerstenhaber algebra example and a hypercommutative algebra example
+        related to the Chevalley-Eilenberg complex of the Heisenberg Lie algebra.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2106.14996
+          value: We define a generalization of Massey products for algebras over a
+            Koszul operad in characteristic zero, extending Massey's and Allday's
+            and Retah's in the associative and Lie cases, respectively. We establish
+            connections with minimal models and with Dimitrova's universal operadic
+            cohomology class. We compute a Gerstenhaber algebra example and a hypercommutative
+            algebra example related to the Chevalley-Eilenberg complex of the Heisenberg
+            Lie algebra.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2021-06-28T21:41:09Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2021
+        - 6
+        - 28
+        - 21
+        - 41
+        - 9
+        - 0
+        - 179
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 18 pages, remove claim about sign mistake in another paper, really
+        final version
+      arxiv_primary_category:
+        term: math.AT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/s8kHus44vwfQmmKJcymxkn0k2dI
+      guidislink: true
+      link: https://arxiv.org/api/s8kHus44vwfQmmKJcymxkn0k2dI
+      title: 'arXiv Query: search_query=&id_list=2106.14996&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2106.14996
+          value: 'arXiv Query: search_query=&id_list=2106.14996&start=0&max_results=10'
+      updated: '2026-08-12T15:28:32Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 32
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2106.14996
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2013'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 6849feb772f8dfce745726589583d86c
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:33 GMT
+    x-served-by: cache-lga21949-LGA, cache-lga21949-LGA, cache-lga21954-LGA, cache-lhr-egll1980062-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548511.101544,VS0,VE1912
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2106.14996
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1510.00312v2
+      guidislink: true
+      link: https://arxiv.org/abs/1510.00312v2
+      title: Enhanced $A$-infinity obstruction theory
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1510.00312
+          value: Enhanced $A$-infinity obstruction theory
+      updated: '2018-03-12T10:20:54Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2018
+        - 3
+        - 12
+        - 10
+        - 20
+        - 54
+        - 0
+        - 71
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1510.00312v2
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1510.00312v2
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.1007/s40062-019-00245-0
+          title: doi
+          type: text/html
+      summary: We extend the Bousfield-Kan spectral sequence for the computation of
+        the homotopy groups of the space of minimal A-infinity algebra structures
+        on a graded projective module. We use the new part to define obstructions
+        to the extension of truncated minimal A-infinity algebra structures. We also
+        consider the Bousfield-Kan spectral sequence for the moduli space of A-infinity
+        algebras. We compute up to the second page, terms and differentials, of these
+        spectral sequences in terms of Hochschild cohomology.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1510.00312
+          value: We extend the Bousfield-Kan spectral sequence for the computation
+            of the homotopy groups of the space of minimal A-infinity algebra structures
+            on a graded projective module. We use the new part to define obstructions
+            to the extension of truncated minimal A-infinity algebra structures. We
+            also consider the Bousfield-Kan spectral sequence for the moduli space
+            of A-infinity algebras. We compute up to the second page, terms and differentials,
+            of these spectral sequences in terms of Hochschild cohomology.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2015-10-01T16:51:19Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2015
+        - 10
+        - 1
+        - 16
+        - 51
+        - 19
+        - 3
+        - 274
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 42 pages, color figures
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Journal of Homotopy and Related Structures (2020) 15:61-112
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.1007/s40062-019-00245-0
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/Ydj77ft7L1iIRZVWQF8QNMlHNhE
+      guidislink: true
+      link: https://arxiv.org/api/Ydj77ft7L1iIRZVWQF8QNMlHNhE
+      title: 'arXiv Query: search_query=&id_list=1510.00312&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1510.00312
+          value: 'arXiv Query: search_query=&id_list=1510.00312&start=0&max_results=10'
+      updated: '2026-08-12T15:28:33Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 33
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1510.00312
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '2182'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: f5245ab1299e1171696daa5e83b3bf41
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:34 GMT
+    x-served-by: cache-lga21963-LGA, cache-lga21963-LGA, cache-lga21979-LGA, cache-lhr-egll1980027-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548513.054564,VS0,VE1013
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1510.00312
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/1507.06644v1
+      guidislink: true
+      link: https://arxiv.org/abs/1507.06644v1
+      title: Corrections to "Homotopy theory of nonsymmetric operads, I, II"
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1507.06644
+          value: Corrections to "Homotopy theory of nonsymmetric operads, I, II"
+      updated: '2015-07-23T16:17:04Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2015
+        - 7
+        - 23
+        - 16
+        - 17
+        - 4
+        - 3
+        - 204
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/1507.06644v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/1507.06644v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          rel: related
+          href: https://doi.org/10.2140/agt.2017.17.3837
+          title: doi
+          type: text/html
+      summary: We correct a mistake in the construction of push-outs along free morphisms
+        of algebras over a nonsymmetric operad in arXiv:1101.1634 [math.AT], and we
+        fix the affected results in arXiv:1101.1634 [math.AT] and arXiv:1304.6641
+        [math.AT].
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1507.06644
+          value: We correct a mistake in the construction of push-outs along free
+            morphisms of algebras over a nonsymmetric operad in arXiv:1101.1634 [math.AT],
+            and we fix the affected results in arXiv:1101.1634 [math.AT] and arXiv:1304.6641
+            [math.AT].
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.CT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2015-07-23T16:17:04Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2015
+        - 7
+        - 23
+        - 16
+        - 17
+        - 4
+        - 3
+        - 204
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 27 pages
+      arxiv_primary_category:
+        term: math.AT
+      arxiv_journal_ref: Algebr. Geom. Topol. 17 (2017) 3837-3852
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+      arxiv_doi: 10.2140/agt.2017.17.3837
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/lO2cbimbQaiv1igZo7G41VsWZtM
+      guidislink: true
+      link: https://arxiv.org/api/lO2cbimbQaiv1igZo7G41VsWZtM
+      title: 'arXiv Query: search_query=&id_list=1507.06644&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=1507.06644
+          value: 'arXiv Query: search_query=&id_list=1507.06644&start=0&max_results=10'
+      updated: '2026-08-12T15:28:54Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 54
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=1507.06644
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1967'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 8e915b149b3938995d210709d0297a2c
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:54 GMT
+    x-served-by: cache-lga21990-LGA, cache-lga21990-LGA, cache-lga21945-LGA, cache-lhr-egll1980040-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548514.113280,VS0,VE20187
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=1507.06644
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries:
+  - !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: http://arxiv.org/abs/2109.01421v1
+      guidislink: true
+      link: https://arxiv.org/abs/2109.01421v1
+      title: Derived universal Massey products
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2109.01421
+          value: Derived universal Massey products
+      updated: '2021-09-03T10:29:37Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2021
+        - 9
+        - 3
+        - 10
+        - 29
+        - 37
+        - 4
+        - 246
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/abs/2109.01421v1
+          rel: alternate
+          type: text/html
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/pdf/2109.01421v1
+          rel: related
+          type: application/pdf
+          title: pdf
+      summary: We define an obstruction to the formality of a differential graded
+        algebra over a graded operad defined over a commutative ground ring. This
+        obstruction lives in the derived operadic cohomology of the algebra. Moreover,
+        it determines all operadic Massey products induced on the homology algebra,
+        hence the name of derived universal Massey product.
+      summary_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2109.01421
+          value: We define an obstruction to the formality of a differential graded
+            algebra over a graded operad defined over a commutative ground ring. This
+            obstruction lives in the derived operadic cohomology of the algebra. Moreover,
+            it determines all operadic Massey products induced on the homology algebra,
+            hence the name of derived universal Massey product.
+      tags:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.KT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.AT
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          term: math.QA
+          scheme: http://arxiv.org/schemas/atom
+          label: null
+      published: '2021-09-03T10:29:37Z'
+      published_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2021
+        - 9
+        - 3
+        - 10
+        - 29
+        - 37
+        - 4
+        - 246
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      arxiv_comment: 28 pages
+      arxiv_primary_category:
+        term: math.KT
+      authors:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          name: Fernando Muro
+      author: Fernando Muro
+  feed: !!python/object/new:feedparser.util.FeedParserDict
+    dictitems:
+      id: https://arxiv.org/api/QL4yiWgCL1RVxBDXX5XKNXPWpG0
+      guidislink: true
+      link: https://arxiv.org/api/QL4yiWgCL1RVxBDXX5XKNXPWpG0
+      title: 'arXiv Query: search_query=&id_list=2109.01421&start=0&max_results=10'
+      title_detail: !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          type: text/plain
+          language: null
+          base: https://export.arxiv.org/api/query?id_list=2109.01421
+          value: 'arXiv Query: search_query=&id_list=2109.01421&start=0&max_results=10'
+      updated: '2026-08-12T15:28:54Z'
+      updated_parsed: !!python/object/apply:time.struct_time
+      - !!python/tuple
+        - 2026
+        - 8
+        - 12
+        - 15
+        - 28
+        - 54
+        - 2
+        - 224
+        - 0
+      - tm_zone: null
+        tm_gmtoff: null
+      links:
+      - !!python/object/new:feedparser.util.FeedParserDict
+        dictitems:
+          href: https://arxiv.org/api/query?search_query=&start=0&max_results=10&id_list=2109.01421
+          type: application/atom+xml
+          rel: alternate
+      opensearch_itemsperpage: '10'
+      opensearch_totalresults: '1'
+      opensearch_startindex: '0'
+  headers:
+    connection: close
+    content-length: '1827'
+    via: 1.1 google, 1.1 varnish, 1.1 varnish, 1.1 varnish
+    x-cloud-trace-context: 644e7d2ac1907b746defe3a6a14fc378
+    server: Google Frontend
+    content-type: application/atom+xml; charset=utf-8
+    accept-ranges: bytes
+    age: '0'
+    date: Wed, 12 Aug 2026 15:28:54 GMT
+    x-served-by: cache-lga21948-LGA, cache-lga21948-LGA, cache-lga21975-LGA, cache-lhr-egll1980062-LHR
+    x-cache: MISS, MISS, MISS
+    x-cache-hits: 0, 0, 0
+    x-timer: S1786548534.346256,VS0,VE379
+    strict-transport-security: max-age=300
+  href: https://export.arxiv.org/api/query?id_list=2109.01421
+  status: 301
+  encoding: utf-8
+  version: atom10
+  namespaces:
+    opensearch: http://a9.com/-/spec/opensearch/1.1/
+    arxiv: http://arxiv.org/schemas/atom
+    ? ''
+    : http://www.w3.org/2005/Atom
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:54 GMT
+    x-served-by: cache-lga21989-LGA, cache-lga21934-LGA, cache-lhr-egll1980056-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548535.798058,VS0,VE86
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=1304.3599
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21958-LGA, cache-lga21971-LGA, cache-lhr-egll1980053-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548535.920055,VS0,VE98
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=1402.1871
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21958-LGA, cache-lga21964-LGA, cache-lhr-egll1980027-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548535.053819,VS0,VE94
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=2107.14174
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21976-LGA, cache-lga21960-LGA, cache-lhr-egll1980083-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548535.192856,VS0,VE90
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=2312.07321
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21993-LGA, cache-lga21968-LGA, cache-lhr-egll1980023-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548535.320375,VS0,VE88
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=1803.02464
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21948-LGA, cache-lga21983-LGA, cache-lhr-egll1980028-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548535.455266,VS0,VE99
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=1707.07654
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21924-LGA, cache-lga21926-LGA, cache-lhr-egll1980060-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.610753,VS0,VE98
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=1505.02945
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21986-LGA, cache-lga21971-LGA, cache-lhr-egll1980058-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.751618,VS0,VE85
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=1007.4776
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:55 GMT
+    x-served-by: cache-lga21944-LGA, cache-lga21926-LGA, cache-lhr-egll1980076-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.875004,VS0,VE93
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=0707.1892
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:56 GMT
+    x-served-by: cache-lga21988-LGA, cache-lga21959-LGA, cache-lhr-egll1980079-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.015704,VS0,VE86
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=2106.14987
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:56 GMT
+    x-served-by: cache-lga21920-LGA, cache-lga21969-LGA, cache-lhr-egll1980089-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.138188,VS0,VE90
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=math/0703311
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:56 GMT
+    x-served-by: cache-lga21992-LGA, cache-lga21970-LGA, cache-lhr-egll1980021-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.266536,VS0,VE85
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=math/0605213
+  status: 301
+
+!!python/object/new:feedparser.util.FeedParserDict
+dictitems:
+  bozo: false
+  entries: []
+  feed: !!python/object:feedparser.util.FeedParserDict {}
+  headers:
+    connection: close
+    cache-control: private, no-store
+    accept-ranges: bytes
+    via: 1.1 varnish, 1.1 varnish
+    date: Wed, 12 Aug 2026 15:28:56 GMT
+    x-served-by: cache-lga21962-LGA, cache-lga21931-LGA, cache-lhr-egll1980042-LHR
+    x-cache: MISS, MISS
+    x-cache-hits: 0, 0
+    x-timer: S1786548536.398249,VS0,VE93
+    strict-transport-security: max-age=300
+    transfer-encoding: chunked
+  href: https://export.arxiv.org/api/query?id_list=math/0310334
+  status: 301
+

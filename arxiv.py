@@ -7,7 +7,7 @@ import yaml
 
 atom = 'https://arxiv.org/a/'
 BibTeX = 'https://arxiv.org/bibtex/'
-RSS = "http://export.arxiv.org/api/query?search_query=au:"
+RSS = "http://export.arxiv.org/api/query?"
 
 # This function retrieves from arXiv the JSON feed of the publications of a given author ORCID
 def get_JSON_from_arXiv(ORCID):
@@ -20,7 +20,7 @@ def get_YAML_from_arXiv(ORCID):
 
 # This function retrieves from arXiv the RSS feed of the publications of a given author name
 def get_search_output_from_string(author):
-    return urllib.request.urlopen(RSS+author).read().decode('utf-8')
+    return urllib.request.urlopen(RSS+"search_query=au:"+author).read().decode('utf-8')
 
 
 def get_paper_JSON_from_arXiv(arxiv_id: str):
@@ -29,7 +29,12 @@ def get_paper_JSON_from_arXiv(arxiv_id: str):
     if not normalized:
         raise ValueError(f"Invalid arXiv identifier: {arxiv_id}")
 
-    return feedparser.parse(f"{atom}{normalized}.atom")
+    return feedparser.parse(RSS+"id_list="+arxiv_id)
+
+def get_paper_YAML_from_arXiv(arxiv_id: str):
+    """Fetch the arXiv feed YAML for a single paper identifier."""
+    data = get_paper_JSON_from_arXiv(arxiv_id)
+    return yaml.dump(data, sort_keys=False, allow_unicode=True, default_flow_style=False)
 
 
 def normalize_arxiv_id(arxiv_id: str) -> str:

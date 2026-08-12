@@ -85,6 +85,23 @@ def run_arxiv_tests():
     except Exception as e:
         print("Search output retrieval failed:", e, "\n")
 
+    with open("arxiv_individual.yaml", "w", encoding="utf-8"):
+        pass
+
+    try:
+        json_zbmath = get_JSON_from_zbmath(zbMATH)['result']
+        for entry in json_zbmath:
+            for item in entry['links']:
+                if item['type'] == 'arxiv':
+                    arxiv_ID = item['identifier']
+                    arxiv_YAML = get_paper_YAML_from_arXiv(arxiv_ID)
+                    with open("arxiv_individual.yaml", "a", encoding="utf-8") as f:
+                        f.write(arxiv_YAML)
+                        f.write("\n")
+        print("Individual arXiv YAML retrieval successful")
+        print("Saved individual arXiv YAML to arxiv_individual.yaml\n")
+    except Exception as e:
+        print("Individual arXiv YAML retrieval failed:", e, "\n")
 
 def run_zbmath_tests():
     print("Test zbMATH functions:\n")
