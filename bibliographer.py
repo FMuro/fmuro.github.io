@@ -54,7 +54,7 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) 
             except Exception:
                 arxiv_json = {}
 
-            entries = arxiv_json.get("entries", []) if isinstance(arxiv_json, dict) else []
+            entries = arxiv_json.get("dictitems", [])
             if entries:
                 entry = entries[0]
                 if isinstance(entry, dict):
@@ -101,7 +101,7 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) 
                     series = {}
 
                 parts = []
-                short_title = series.get("short-title")
+                short_title = series.get("short_title")
                 if short_title:
                     parts.append(str(short_title))
                 volume = series.get("volume")
