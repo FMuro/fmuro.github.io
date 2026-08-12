@@ -20,23 +20,16 @@ jobs:
         run:
 #          python -m pip install --upgrade pip
           pip install -r requirements.txt    
-      - name: get bibtex
-        run:
-          python bibliographer-github-1.py
-      - name: convert bibtex to CSL JSON
-        uses: docker://pandoc/core:latest
-        with:
-          args: >-  # allows you to break string into multiple lines
-            -f
-            bibtex
-            bibtex.bib
-            -t
-            csljson
-            -o
-            csl_json.json
-      - name: convert bibtex to json and add some extras
-        run:
-          python bibliographer-github-2.py  
+      - name: get bibliography
+        run: |
+          script=$(find . -path '*/.git/*' -prune -o -name bibliographer.py -print | head -n1)
+          if [ -z "$script" ]; then
+            echo "bibliographer.py not found"
+            exit 1
+          fi
+          cd "$(dirname "$script")"
+          python bibliographer.py
+          cp output.yaml "$GITHUB_WORKSPACE/output.yaml"
       - name: populate
         run:
           python populate.py
@@ -50,16 +43,16 @@ jobs:
         run: npm run build --if-present
       - name: get output in the repo
         uses: stefanzweifel/git-auto-commit-action@v5
-      - name: Deploy to my domain
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          username: ${{ secrets.FTP_USERNAME }}
-          server: ${{ secrets.FTP_SERVER }}
-          port: ${{ secrets.FTP_PORT }}
-          local_path: './docs/*'
-          remote_path: '/fmuro'
-          sftp_only: true
-          password: ${{ secrets.FTP_PASSWORD }}
+      # - name: Deploy to my domain
+      #   uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      #   with:
+      #     username: ${{ secrets.FTP_USERNAME }}
+      #     server: ${{ secrets.FTP_SERVER }}
+      #     port: ${{ secrets.FTP_PORT }}
+      #     local_path: './docs/*'
+      #     remote_path: '/fmuro'
+      #     sftp_only: true
+      #     password: ${{ secrets.FTP_PASSWORD }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

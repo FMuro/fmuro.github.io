@@ -1,4 +1,4 @@
-{% macro paper (id, authors, title, year, type, publication, volume, number, series, pages, note, DOI, arxiv, abstract, bibtex, zbmath, pdf) %}
+{% macro paper (id, authors, title, source, DOI, arxiv, abstract, bibtex, zbmath, pdf) %}
 .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
     .card.shadow.rounded
         .card-body
@@ -6,7 +6,7 @@
             a.coauthor(href="{{ name.url }}") {{ name.given }} {{ name.family }}
             |{% else %}{{ name.given }} {{ name.family }}{% endif %}{% endfor %}<br>
             | #[strong {{ title }}]<br>
-            | {% if type == 'article-journal' %}#[i {{ publication }}]{% endif %} {% if pages %} {% if type == 'chapter' %}#[i {{ publication }}], {% endif %}{% if series %}{{ series }},{% endif %} {{ volume }}{% endif %} {% if pages %}{% if type == 'article-journal' %}({% endif %}{% endif %}{{ year }}{% if pages %}{% if type == 'article-journal' %}){% endif %}{% if number %} no. {{ number }}{% endif %}, {% if pages %}{{ pages }}{% endif %}{% endif %}{% if note %}, {{ note }}{% endif %}
+            | {{ source }}
         .card-footer
             {% if pdf != '' -%}
             {{ pdf }}

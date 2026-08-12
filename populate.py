@@ -12,7 +12,7 @@ ENV = Environment(loader=FileSystemLoader('.'), extensions=['jinja2.ext.do'])
 web_template = ENV.get_template('src/pug/index.j2') # landing page
 
 # Opening the data files
-with open("output.yml") as y:
+with open("output.yaml") as y:
     with open("data.yml") as z:
         # Loading the YAML data
         biblio = yaml.load(y, Loader=yaml.BaseLoader)
