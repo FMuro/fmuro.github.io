@@ -4417,7 +4417,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: 37, No. 1, 56-82
+    source: Commun. Algebra, 37, No. 1, 56-82
   states:
   - - o
     - has open version
@@ -10718,7 +10718,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: 51, No. 8, 3298-3313
+    source: Commun. Algebra, 51, No. 8, 3298-3313
   states:
   - - s
     - item with single author
@@ -17351,7 +17351,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: 31, No. 12, 5995-6017
+    source: Commun. Algebra, 31, No. 12, 5995-6017
   states:
   - - r
     - item has references
@@ -18727,6 +18727,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.4499237537384033
+  query_execution_time_in_seconds: 1.4981393814086914
   status_code: 200
-  time_stamp: '2026-08-12T13:45:57Z'
+  time_stamp: '2026-08-12T15:40:40Z'
