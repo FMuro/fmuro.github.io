@@ -30,9 +30,9 @@ jobs:
           cd "$(dirname "$script")"
           python bibliographer.py
           cp output.yaml "$GITHUB_WORKSPACE/output.yaml"
-      # - name: populate
-      #   run:
-      #     python populate.py
+      - name: populate
+        run:
+          python populate.py
       # - name: setup node
       #   uses: actions/setup-node@v4
       #   with:
