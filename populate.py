@@ -16,6 +16,8 @@ with open("output.yaml") as y:
     with open("data.yml") as z:
         # Loading the YAML data
         biblio = yaml.load(y, Loader=yaml.BaseLoader)['result']
+        for entry in biblio:
+            print(entry.keys())
         datos = yaml.load(z, Loader=yaml.BaseLoader)
         # Opening the output files
         f = open('src/pug/index.pug', 'w', encoding="utf8")
