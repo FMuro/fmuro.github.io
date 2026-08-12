@@ -1,6 +1,6 @@
 meta:
   count: 65
-  db_response_time_ms: 16
+  db_response_time_ms: 29
   page: null
   per_page: 200
   next_cursor: null
@@ -96,11 +96,11 @@ results:
   - https://openalex.org/I79238269
   apc_list: null
   apc_paid: null
-  fwci: 7.5386
+  fwci: 7.5396
   has_fulltext: false
   cited_by_count: 53
   citation_normalized_percentile:
-    value: 0.98719684
+    value: 0.9871915
     is_in_top_1_percent: false
     is_in_top_10_percent: true
   cited_by_percentile_year:
@@ -284,8 +284,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 18
   referenced_works:
@@ -572,11 +572,11 @@ results:
     currency: USD
     value_usd: 2990
   apc_paid: null
-  fwci: 2.8808
+  fwci: 2.8802
   has_fulltext: false
   cited_by_count: 49
   citation_normalized_percentile:
-    value: 0.90255864
+    value: 0.90252746
     is_in_top_1_percent: false
     is_in_top_10_percent: true
   cited_by_percentile_year:
@@ -926,8 +926,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 19
   referenced_works:
@@ -1106,11 +1106,11 @@ results:
     currency: USD
     value_usd: 3480
   apc_paid: null
-  fwci: 2.4354
+  fwci: 2.4379
   has_fulltext: true
   cited_by_count: 22
   citation_normalized_percentile:
-    value: 0.86065669
+    value: 0.86089178
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -1475,8 +1475,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W1975575198.pdf
     grobid_xml: https://content.openalex.org/works/W1975575198.grobid-xml
@@ -1640,11 +1640,11 @@ results:
   - https://openalex.org/I79238269
   apc_list: null
   apc_paid: null
-  fwci: 4.0845
+  fwci: 4.0847
   has_fulltext: true
   cited_by_count: 20
   citation_normalized_percentile:
-    value: 0.94452917
+    value: 0.94455559
     is_in_top_1_percent: false
     is_in_top_10_percent: true
   cited_by_percentile_year:
@@ -1844,8 +1844,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 29
   referenced_works:
@@ -2099,11 +2099,11 @@ results:
   - https://openalex.org/I79238269
   apc_list: null
   apc_paid: null
-  fwci: 3.8239
+  fwci: 3.826
   has_fulltext: false
   cited_by_count: 17
   citation_normalized_percentile:
-    value: 0.93677218
+    value: 0.93692068
     is_in_top_1_percent: false
     is_in_top_10_percent: true
   cited_by_percentile_year:
@@ -2235,8 +2235,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 35
   referenced_works:
@@ -2499,11 +2499,11 @@ results:
     currency: USD
     value_usd: 3710
   apc_paid: null
-  fwci: 3.8239
+  fwci: 3.826
   has_fulltext: false
   cited_by_count: 11
   citation_normalized_percentile:
-    value: 0.93078563
+    value: 0.93085063
     is_in_top_1_percent: false
     is_in_top_10_percent: true
   cited_by_percentile_year:
@@ -2843,8 +2843,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 73
   referenced_works:
@@ -3269,8 +3269,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 30
   referenced_works:
@@ -3765,8 +3765,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 53
   referenced_works:
@@ -4031,11 +4031,11 @@ results:
   corresponding_institution_ids: []
   apc_list: null
   apc_paid: null
-  fwci: 1.9904
+  fwci: 1.9906
   has_fulltext: true
   cited_by_count: 12
   citation_normalized_percentile:
-    value: 0.85049687
+    value: 0.85046197
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -4393,8 +4393,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 37
   referenced_works:
@@ -5040,8 +5040,8 @@ results:
     display_name: Generalitat de Catalunya
     ror: https://ror.org/01bg62x04
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 10
   referenced_works:
@@ -5237,11 +5237,11 @@ results:
   - https://openalex.org/I20581793
   apc_list: null
   apc_paid: null
-  fwci: 2.435
+  fwci: 2.4342
   has_fulltext: false
   cited_by_count: 11
   citation_normalized_percentile:
-    value: 0.88830769
+    value: 0.88823952
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -5468,8 +5468,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 14
   referenced_works:
@@ -5938,8 +5938,8 @@ results:
     display_name: Ministerio de Ciencia e Innovación
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W1984329983.pdf
     grobid_xml: https://content.openalex.org/works/W1984329983.grobid-xml
@@ -6420,8 +6420,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W1494056328.pdf
     grobid_xml: https://content.openalex.org/works/W1494056328.grobid-xml
@@ -6799,8 +6799,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W3023837999.pdf
     grobid_xml: https://content.openalex.org/works/W3023837999.grobid-xml
@@ -6997,11 +6997,11 @@ results:
   - https://openalex.org/I71999127
   apc_list: null
   apc_paid: null
-  fwci: 0.3729
+  fwci: 0.373
   has_fulltext: false
   cited_by_count: 5
   citation_normalized_percentile:
-    value: 0.57897734
+    value: 0.57945096
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -7408,8 +7408,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 18
   referenced_works:
@@ -7902,8 +7902,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 30
   referenced_works:
@@ -8289,8 +8289,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 34
   referenced_works:
@@ -8644,11 +8644,11 @@ results:
     currency: USD
     value_usd: 2910
   apc_paid: null
-  fwci: 1.2177
+  fwci: 1.2189
   has_fulltext: false
   cited_by_count: 9
   citation_normalized_percentile:
-    value: 0.76540202
+    value: 0.7656758
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -8970,8 +8970,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 13
   referenced_works:
@@ -9463,8 +9463,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W2082985551.pdf
     grobid_xml: https://content.openalex.org/works/W2082985551.grobid-xml
@@ -9906,8 +9906,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 29
   referenced_works:
@@ -10192,11 +10192,11 @@ results:
   - https://openalex.org/I79238269
   apc_list: null
   apc_paid: null
-  fwci: 1.2259
+  fwci: 1.234
   has_fulltext: true
   cited_by_count: 7
   citation_normalized_percentile:
-    value: 0.74782941
+    value: 0.74867021
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -10407,6 +10407,18 @@ results:
     is_published: false
     raw_source_name: null
     raw_type: text
+  - id: pmh:oai:CiteSeerX.psu:10.1.1.742.8315
+    is_oa: false
+    landing_page_url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.742.8315
+    pdf_url: null
+    source: null
+    license: null
+    license_id: null
+    version: submittedVersion
+    is_accepted: false
+    is_published: false
+    raw_source_name: http://arxiv.org/pdf/1101.1634.pdf
+    raw_type: text
   - id: pmh:oai:CULeuclid:euclid.agt/1513715800
     is_oa: false
     landing_page_url: https://projecteuclid.org/euclid.agt/1513715800
@@ -10432,18 +10444,6 @@ results:
     is_published: false
     raw_source_name: ''
     raw_type: Text
-  - id: pmh:oai:CiteSeerX.psu:10.1.1.742.8315
-    is_oa: false
-    landing_page_url: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.742.8315
-    pdf_url: null
-    source: null
-    license: null
-    license_id: null
-    version: submittedVersion
-    is_accepted: false
-    is_published: false
-    raw_source_name: http://arxiv.org/pdf/1101.1634.pdf
-    raw_type: text
   - id: doi:10.48550/arxiv.1304.6641
     is_oa: true
     landing_page_url: https://doi.org/10.48550/arxiv.1304.6641
@@ -10522,8 +10522,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W2023702627.pdf
     grobid_xml: https://content.openalex.org/works/W2023702627.grobid-xml
@@ -10686,7 +10686,7 @@ results:
     cited_by_count: 2
   - year: 2013
     cited_by_count: 2
-  updated_date: '2026-08-05T07:39:15.569665'
+  updated_date: '2026-08-11T07:18:39.950985'
   created_date: '2016-06-24T00:00:00'
 - id: https://openalex.org/W2728784616
   doi: https://doi.org/10.2140/agt.2014.14.1489
@@ -11133,8 +11133,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W2728784616.pdf
     grobid_xml: https://content.openalex.org/works/W2728784616.grobid-xml
@@ -11743,8 +11743,8 @@ results:
     display_name: Universitat de Barcelona
     ror: https://ror.org/021018s57
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W1932493796.pdf
     grobid_xml: https://content.openalex.org/works/W1932493796.grobid-xml
@@ -12283,8 +12283,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 14
   referenced_works:
@@ -12547,11 +12547,11 @@ results:
   corresponding_institution_ids: []
   apc_list: null
   apc_paid: null
-  fwci: 1.0436
+  fwci: 1.0432
   has_fulltext: false
   cited_by_count: 3
   citation_normalized_percentile:
-    value: 0.692
+    value: 0.69188967
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -12891,8 +12891,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 47
   referenced_works:
@@ -13578,8 +13578,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W1932423927.pdf
     grobid_xml: https://content.openalex.org/works/W1932423927.grobid-xml
@@ -14161,8 +14161,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 36
   referenced_works:
@@ -14685,8 +14685,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W2083431710.pdf
     grobid_xml: https://content.openalex.org/works/W2083431710.grobid-xml
@@ -14833,7 +14833,7 @@ results:
   has_fulltext: true
   cited_by_count: 5
   citation_normalized_percentile:
-    value: 0.33464819
+    value: 0.33443532
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -15138,8 +15138,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W3124118014.pdf
     grobid_xml: https://content.openalex.org/works/W3124118014.grobid-xml
@@ -15744,8 +15744,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 11
   referenced_works:
@@ -15954,11 +15954,11 @@ results:
   - https://openalex.org/I79238269
   apc_list: null
   apc_paid: null
-  fwci: 0.7428
+  fwci: 0.7419
   has_fulltext: false
   cited_by_count: 3
   citation_normalized_percentile:
-    value: 0.60459564
+    value: 0.60429722
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -16210,8 +16210,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 50
   referenced_works:
@@ -16429,11 +16429,11 @@ results:
     currency: USD
     value_usd: 2890
   apc_paid: null
-  fwci: 0.6957
+  fwci: 0.6952
   has_fulltext: false
   cited_by_count: 3
   citation_normalized_percentile:
-    value: 0.6425641
+    value: 0.64195632
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -16692,8 +16692,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 40
   referenced_works:
@@ -16876,7 +16876,7 @@ results:
   has_fulltext: false
   cited_by_count: 2
   citation_normalized_percentile:
-    value: 0.12556383
+    value: 0.12548567
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year:
@@ -17300,8 +17300,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: true
     grobid_xml: false
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W2042646002.pdf
   referenced_works_count: 19
@@ -18081,8 +18081,8 @@ results:
     display_name: Ministerio de Ciencia e Innovación
     ror: https://ror.org/034900433
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 21
   referenced_works:
@@ -18617,8 +18617,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 19
   referenced_works:
@@ -19055,8 +19055,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 23
   referenced_works:
@@ -19455,8 +19455,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W3198254723.pdf
     grobid_xml: https://content.openalex.org/works/W3198254723.grobid-xml
@@ -19846,8 +19846,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 32
   referenced_works:
@@ -20332,8 +20332,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W3105168287.pdf
     grobid_xml: https://content.openalex.org/works/W3105168287.grobid-xml
@@ -20709,8 +20709,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 12
   referenced_works:
@@ -21173,8 +21173,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 12
   referenced_works:
@@ -21358,11 +21358,11 @@ results:
   corresponding_institution_ids: []
   apc_list: null
   apc_paid: null
-  fwci: 3.5566
+  fwci: 3.5805
   has_fulltext: false
   cited_by_count: 3
   citation_normalized_percentile:
-    value: 0.93382353
+    value: 0.93584071
     is_in_top_1_percent: false
     is_in_top_10_percent: true
   cited_by_percentile_year: null
@@ -21648,8 +21648,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 6
   referenced_works:
@@ -21839,7 +21839,7 @@ results:
   has_fulltext: false
   cited_by_count: 3
   citation_normalized_percentile:
-    value: 0.62331744
+    value: 0.62326518
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year: null
@@ -22058,8 +22058,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 22
   referenced_works:
@@ -22503,8 +22503,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W1821246645.pdf
     grobid_xml: https://content.openalex.org/works/W1821246645.grobid-xml
@@ -23018,8 +23018,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 4
   referenced_works:
@@ -23297,11 +23297,11 @@ results:
   corresponding_institution_ids: []
   apc_list: null
   apc_paid: null
-  fwci: 0.3857
+  fwci: 0.3856
   has_fulltext: true
   cited_by_count: 1
   citation_normalized_percentile:
-    value: 0.62232779
+    value: 0.62220278
     is_in_top_1_percent: false
     is_in_top_10_percent: false
   cited_by_percentile_year: null
@@ -23773,8 +23773,8 @@ results:
     display_name: Ministerio de Economía y Competitividad
     ror: https://ror.org/034900433
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 12
   referenced_works:
@@ -24321,8 +24321,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 22
   referenced_works:
@@ -24908,8 +24908,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -25635,8 +25635,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -26241,8 +26241,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -26635,8 +26635,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 4
   referenced_works:
@@ -27253,8 +27253,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 11
   referenced_works:
@@ -27700,8 +27700,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 33
   referenced_works:
@@ -28074,8 +28074,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 15
   referenced_works:
@@ -28459,8 +28459,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W4286987612.pdf
     grobid_xml: https://content.openalex.org/works/W4286987612.grobid-xml
@@ -28995,8 +28995,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W4287112368.pdf
     grobid_xml: https://content.openalex.org/works/W4287112368.grobid-xml
@@ -29413,8 +29413,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -29781,8 +29781,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W4318620816.pdf
     grobid_xml: https://content.openalex.org/works/W4318620816.grobid-xml
@@ -30291,8 +30291,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W4389712594.pdf
     grobid_xml: https://content.openalex.org/works/W4389712594.grobid-xml
@@ -30904,8 +30904,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -31736,8 +31736,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W4415015346.pdf
     grobid_xml: https://content.openalex.org/works/W4415015346.grobid-xml
@@ -32041,7 +32041,7 @@ results:
     institutions: []
     countries: []
     is_corresponding: false
-    raw_author_name: Muro, Fernando
+    x: Muro, Fernando
     raw_affiliation_strings: []
     raw_orcid: null
     affiliations: []
@@ -32286,8 +32286,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -32803,8 +32803,8 @@ results:
     display_name: Agencia Estatal de Investigación
     ror: null
   has_content:
-    pdf: true
     grobid_xml: true
+    pdf: true
   content_urls:
     pdf: https://content.openalex.org/works/W4416830908.pdf
     grobid_xml: https://content.openalex.org/works/W4416830908.grobid-xml
@@ -33213,8 +33213,8 @@ results:
   awards: []
   funders: []
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []
@@ -33991,8 +33991,8 @@ results:
     display_name: Vetenskapsrådet
     ror: https://ror.org/03zttf063
   has_content:
-    pdf: false
     grobid_xml: false
+    pdf: false
   content_urls: null
   referenced_works_count: 0
   referenced_works: []

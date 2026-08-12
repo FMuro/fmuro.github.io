@@ -4560,17 +4560,17 @@ dictitems:
           rel: describes
           href: https://arxiv.org/a/0000-0001-8457-9889
           type: text/html
-      updated: '2026-08-06T00:00:00-04:00'
+      updated: '2026-08-11T00:00:00-04:00'
       updated_parsed: !!python/object/apply:time.struct_time
       - !!python/tuple
         - 2026
         - 8
-        - 6
+        - 11
         - 4
         - 0
         - 0
-        - 3
-        - 218
+        - 1
+        - 223
         - 0
       - tm_zone: null
         tm_gmtoff: null
@@ -4580,7 +4580,7 @@ dictitems:
   headers:
     connection: close
     x-catalyst: '5.90019'
-    set-cookie: browser=172.166.156.160.1786045904844086; path=/; max-age=946080000;
+    set-cookie: browser=172.166.156.168.1786455744045211; path=/; max-age=946080000;
       domain=.arxiv.org
     content-type: application/atom+xml; charset=UTF-8
     via: 1.1 varnish, 1.1 varnish, 1.1 varnish
@@ -4588,10 +4588,10 @@ dictitems:
     content-encoding: gzip
     accept-ranges: bytes
     server: Apache
-    date: Thu, 06 Aug 2026 19:51:45 GMT
-    x-served-by: cache-lga21993-LGA, cache-lga21993-LGA, cache-lga21930-LGA, cache-lcy-eglc8600031-LCY
+    date: Tue, 11 Aug 2026 13:42:36 GMT
+    x-served-by: cache-lga21945-LGA, cache-lga21945-LGA, cache-lga21976-LGA, cache-lhr-egll1980069-LHR
     x-cache: MISS, MISS, MISS
-    x-timer: S1786045905.776726,VS0,VE375
+    x-timer: S1786455744.963758,VS0,VE12242
     vary: Accept-Encoding
     transfer-encoding: chunked
   href: https://arxiv.org/a/0000-0001-8457-9889.atom2

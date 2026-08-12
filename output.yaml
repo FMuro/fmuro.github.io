@@ -1092,6 +1092,25 @@ result:
     title: The Donovan-Wemyss conjecture via the derived Auslander-Iyama correspondence
   year: '2024'
   zbmath_url: https://zbmath.org/7950525
+  arxiv: '2301.11593'
+  authors:
+  - &id001
+    given: Gustavo
+    family: Jasso
+  - &id002
+    given: Bernhard
+    family: Keller
+  - &id003
+    given: Fernando
+    family: Muro
+  doi: 10.1007/978-3-031-57789-5_4
+  bibtex: "@inbook{Jasso_2024,\n    title={The Donovan–Wemyss Conjecture via the Derived\
+    \ Auslander–Iyama Correspondence},\n    ISBN={9783031577895},\n    ISSN={2197-8549},\n\
+    \    url={http://dx.doi.org/10.1007/978-3-031-57789-5_4},\n    DOI={10.1007/978-3-031-57789-5_4},\n\
+    \    booktitle={Triangulated Categories in Representation Theory and Beyond},\n\
+    \    publisher={Springer Nature Switzerland},\n    author={Jasso, Gustavo and\
+    \ Keller, Bernhard and Muro, Fernando},\n    year={2024},\n    pages={105–140}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -1180,6 +1199,17 @@ result:
     title: The Derived Auslander-Iyama Correspondence
   year: '2026'
   zbmath_url: https://zbmath.org/900570519
+  arxiv: '2208.14413'
+  authors:
+  - *id001
+  - *id002
+  - *id003
+  doi: 10.1090/jams/1079
+  bibtex: "@article{Jasso_2026,\n    title={The derived Auslander-Iyama correspondence},\n\
+    \    ISSN={0894-0347},\n    url={http://dx.doi.org/10.1090/jams/1079},\n    DOI={10.1090/jams/1079},\n\
+    \    journal={Journal of the American Mathematical Society},\n    publisher={American\
+    \ Mathematical Society (AMS)},\n    author={Jasso, Gustavo and Muro, Fernando\
+    \ and Keller, Bernhard},\n    year={2026},\n    month=May }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -1543,6 +1573,20 @@ result:
     title: Triangulated categories without models
   year: '2007'
   zbmath_url: https://zbmath.org/5208165
+  arxiv: '0704.1378'
+  authors:
+  - *id003
+  - given: Stefan
+    family: Schwede
+  - given: N. P.
+    family: Strickland
+  doi: 10.1007/s00222-007-0061-2
+  bibtex: "@article{Muro_2007,\n    title={Triangulated categories without models},\n\
+    \    volume={170},\n    ISSN={1432-1297},\n    url={http://dx.doi.org/10.1007/s00222-007-0061-2},\n\
+    \    DOI={10.1007/s00222-007-0061-2},\n    number={2},\n    journal={Inventiones\
+    \ mathematicae},\n    publisher={Springer Science and Business Media LLC},\n \
+    \   author={Muro, Fernando and Schwede, Stefan and Strickland, Neil},\n    year={2007},\n\
+    \    month=May,\n    pages={231–241} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -1982,6 +2026,16 @@ result:
     title: Homotopy theory of nonsymmetric operads
   year: '2011'
   zbmath_url: https://zbmath.org/5904608
+  arxiv: '1101.1634'
+  authors:
+  - *id003
+  doi: 10.2140/agt.2011.11.1541
+  bibtex: "@article{Muro_2011,\n    title={Homotopy theory of nonsymmetric operads},\n\
+    \    volume={11},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2011.11.1541},\n\
+    \    DOI={10.2140/agt.2011.11.1541},\n    number={3},\n    journal={Algebraic\
+    \ &amp; Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n\
+    \    author={Muro, Fernando},\n    year={2011},\n    month=May,\n    pages={1541–1599}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -2286,6 +2340,18 @@ result:
     title: The homotopy category of pseudofunctors and translation cohomology
   year: '2007'
   zbmath_url: https://zbmath.org/5186664
+  authors:
+  - &id004
+    given: Hans-Joachim
+    family: Baues
+  - *id003
+  doi: 10.1016/j.jpaa.2007.04.008
+  bibtex: "@article{Baues_2007,\n    title={The homotopy category of pseudofunctors\
+    \ and translation cohomology},\n    volume={211},\n    ISSN={0022-4049},\n   \
+    \ url={http://dx.doi.org/10.1016/j.jpaa.2007.04.008},\n    DOI={10.1016/j.jpaa.2007.04.008},\n\
+    \    number={3},\n    journal={Journal of Pure and Applied Algebra},\n    publisher={Elsevier\
+    \ BV},\n    author={Baues, Hans-Joachim and Muro, Fernando},\n    year={2007},\n\
+    \    month=Dec,\n    pages={821–850} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -2551,6 +2617,16 @@ result:
     title: Secondary homotopy groups
   year: '2008'
   zbmath_url: https://zbmath.org/5351182
+  arxiv: math/0604029
+  authors:
+  - *id004
+  - *id003
+  doi: 10.1515/FORUM.2008.032
+  bibtex: "@article{Baues_2008,\n    title={Secondary homotopy groups},\n    volume={20},\n\
+    \    ISSN={1435-5337},\n    url={http://dx.doi.org/10.1515/FORUM.2008.032},\n\
+    \    DOI={10.1515/forum.2008.032},\n    number={4},\n    journal={Forum Mathematicum},\n\
+    \    publisher={Walter de Gruyter GmbH},\n    author={Baues, Hans-Joachim and\
+    \ Muro, Fernando},\n    year={2008},\n    month=Jan }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -2911,6 +2987,15 @@ result:
     title: Cohomologically triangulated categories. I
   year: '2008'
   zbmath_url: https://zbmath.org/5347000
+  authors:
+  - *id004
+  - *id003
+  doi: 10.1017/is007011018jkt019
+  bibtex: "@article{Baues_2008,\n    title={Cohomologically triangulated categories\
+    \ I},\n    volume={1},\n    ISSN={1865-5394},\n    url={http://dx.doi.org/10.1017/is007011018jkt019},\n\
+    \    DOI={10.1017/is007011018jkt019},\n    number={1},\n    journal={Journal of\
+    \ K-Theory},\n    publisher={Cambridge University Press (CUP)},\n    author={Baues,\
+    \ H.-J. and Muro, F.},\n    year={2008},\n    month=Jan,\n    pages={3–48} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -3369,6 +3454,17 @@ result:
     title: Smash products for secondary homotopy groups
   year: '2008'
   zbmath_url: https://zbmath.org/5367270
+  arxiv: math/0604031
+  authors:
+  - *id004
+  - *id003
+  doi: 10.1007/s10485-007-9071-x
+  bibtex: "@article{Baues_2007,\n    title={Smash Products for Secondary Homotopy\
+    \ Groups},\n    volume={16},\n    ISSN={1572-9095},\n    url={http://dx.doi.org/10.1007/s10485-007-9071-x},\n\
+    \    DOI={10.1007/s10485-007-9071-x},\n    number={5},\n    journal={Applied Categorical\
+    \ Structures},\n    publisher={Springer Science and Business Media LLC},\n   \
+    \ author={Baues, Hans-Joachim and Muro, Fernando},\n    year={2007},\n    month=Oct,\n\
+    \    pages={551–616} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -3472,6 +3568,17 @@ result:
     title: The algebra of secondary homotopy operations in ring spectra
   year: '2011'
   zbmath_url: https://zbmath.org/5882112
+  arxiv: math/0610523
+  authors:
+  - *id004
+  - *id003
+  doi: 10.1112/plms/pdq034
+  bibtex: "@article{Baues_2010,\n    title={The algebra of secondary homotopy operations\
+    \ in ring spectra},\n    volume={102},\n    ISSN={0024-6115},\n    url={http://dx.doi.org/10.1112/plms/pdq034},\n\
+    \    DOI={10.1112/plms/pdq034},\n    number={4},\n    journal={Proceedings of\
+    \ the London Mathematical Society},\n    publisher={Wiley},\n    author={Baues,\
+    \ Hans-Joachim and Muro, Fernando},\n    year={2010},\n    month=Nov,\n    pages={637–696}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -3816,6 +3923,15 @@ result:
     title: Cohomologically triangulated categories. II
   year: '2009'
   zbmath_url: https://zbmath.org/5528664
+  authors:
+  - *id004
+  - *id003
+  doi: 10.1017/is008007021jkt061
+  bibtex: "@article{Baues_2008,\n    title={Cohomologically triangulated categories\
+    \ II},\n    volume={3},\n    ISSN={1865-5394},\n    url={http://dx.doi.org/10.1017/is008007021jkt061},\n\
+    \    DOI={10.1017/is008007021jkt061},\n    number={1},\n    journal={Journal of\
+    \ K-Theory},\n    publisher={Cambridge University Press (CUP)},\n    author={Baues,\
+    \ H.-J. and Muro, F.},\n    year={2008},\n    month=Dec,\n    pages={1–52} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -3929,6 +4045,18 @@ result:
     title: Unital associahedra
   year: '2014'
   zbmath_url: https://zbmath.org/6342603
+  arxiv: '1110.1959'
+  authors:
+  - *id003
+  - &id005
+    given: Andrew
+    family: Tonks
+  doi: 10.1515/forum-2011-0130
+  bibtex: "@article{Muro_2012,\n    title={Unital associahedra},\n    volume={26},\n\
+    \    ISSN={1435-5337},\n    url={http://dx.doi.org/10.1515/forum-2011-0130},\n\
+    \    DOI={10.1515/forum-2011-0130},\n    number={2},\n    journal={Forum Mathematicum},\n\
+    \    publisher={Walter de Gruyter GmbH},\n    author={Muro, Fernando and Tonks,\
+    \ Andrew},\n    year={2012},\n    month=Feb,\n    pages={593–620} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -4033,6 +4161,17 @@ result:
     title: The symmetric action on secondary homotopy groups
   year: '2008'
   zbmath_url: https://zbmath.org/5496973
+  arxiv: math/0604030
+  authors:
+  - *id004
+  - *id003
+  doi: 10.36045/bbms/1225893951
+  bibtex: "@article{Baues_2008,\n    title={The symmetric action on secondary homotopy\
+    \ groups},\n    volume={15},\n    ISSN={1370-1444},\n    url={http://dx.doi.org/10.36045/bbms/1225893951},\n\
+    \    DOI={10.36045/bbms/1225893951},\n    number={4},\n    journal={Bulletin of\
+    \ the Belgian Mathematical Society - Simon Stevin},\n    publisher={The Belgian\
+    \ Mathematical Society},\n    author={Baues, Hans-Joachim and Muro, Fernando},\n\
+    \    year={2008},\n    month=May }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -4260,7 +4399,7 @@ result:
       year: '1962'
   source:
     book: []
-    pages: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    pages: 56-82
     series:
     - acronym: null
       issn:
@@ -4278,7 +4417,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    source: 37, No. 1, 56-82
   states:
   - - o
     - has open version
@@ -4290,9 +4429,19 @@ result:
     addition: null
     original: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
     subtitle: null
-    title: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    title: Toda Brackets and Cup-One Squares for Ring Spectra
   year: '2009'
   zbmath_url: https://zbmath.org/5538788
+  arxiv: math/0612450
+  authors:
+  - *id004
+  - *id003
+  doi: 10.1080/00927870802241188
+  bibtex: "@article{Baues_2009,\n    title={Toda Brackets and Cup-One Squares for\
+    \ Ring Spectra},\n    volume={37},\n    ISSN={1532-4125},\n    url={http://dx.doi.org/10.1080/00927870802241188},\n\
+    \    DOI={10.1080/00927870802241188},\n    number={1},\n    journal={Communications\
+    \ in Algebra},\n    publisher={Informa UK Limited},\n    author={Baues, Hans-Joachim\
+    \ and Muro, Fernando},\n    year={2009},\n    month=Jan,\n    pages={56–82} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -4363,6 +4512,15 @@ result:
     title: The characteristic cohomology class of a triangulated category
   year: '2005'
   zbmath_url: https://zbmath.org/900079638
+  arxiv: math/0505540
+  authors:
+  - *id004
+  - *id003
+  bibtex: "@misc{baues2005characteristiccohomologyclasstriangulated,\n      title={The\
+    \ characteristic cohomology class of a triangulated category}, \n      author={H.\
+    \ -J. Baues and F. Muro},\n      year={2005},\n      eprint={math/0505540},\n\
+    \      archivePrefix={arXiv},\n      primaryClass={math.KT},\n      url={https://arxiv.org/abs/math/0505540},\
+    \ \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -4905,6 +5063,16 @@ result:
     title: The 1-type of a Waldhausen \(K\)-theory spectrum
   year: '2007'
   zbmath_url: https://zbmath.org/5201720
+  arxiv: math/0603544
+  authors:
+  - *id003
+  - *id005
+  doi: 10.1016/j.aim.2007.05.008
+  bibtex: "@article{Muro_2007,\n    title={The 1-type of a Waldhausen K-theory spectrum},\n\
+    \    volume={216},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2007.05.008},\n\
+    \    DOI={10.1016/j.aim.2007.05.008},\n    number={1},\n    journal={Advances\
+    \ in Mathematics},\n    publisher={Elsevier BV},\n    author={Muro, Fernando and\
+    \ Tonks, Andrew},\n    year={2007},\n    month=Dec,\n    pages={178–211} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -5273,6 +5441,16 @@ result:
       and left properness'
   year: '2014'
   zbmath_url: https://zbmath.org/6243329
+  arxiv: '1304.6641'
+  authors:
+  - *id003
+  doi: 10.2140/agt.2014.14.229
+  bibtex: "@article{Muro_2014,\n    title={Homotopy theory of non-symmetric operads,\
+    \ II: Change of base category and left properness},\n    volume={14},\n    ISSN={1472-2747},\n\
+    \    url={http://dx.doi.org/10.2140/agt.2014.14.229},\n    DOI={10.2140/agt.2014.14.229},\n\
+    \    number={1},\n    journal={Algebraic &amp; Geometric Topology},\n    publisher={Mathematical\
+    \ Sciences Publishers},\n    author={Muro, Fernando},\n    year={2014},\n    month=Jan,\n\
+    \    pages={229–281} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -5548,6 +5726,15 @@ result:
     title: On the functoriality of cohomology of categories
   year: '2006'
   zbmath_url: https://zbmath.org/2244508
+  arxiv: math/0411478
+  authors:
+  - *id003
+  doi: 10.1016/j.jpaa.2005.05.004
+  bibtex: "@article{Muro_2006,\n    title={On the functoriality of cohomology of categories},\n\
+    \    volume={204},\n    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2005.05.004},\n\
+    \    DOI={10.1016/j.jpaa.2005.05.004},\n    number={3},\n    journal={Journal\
+    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
+    \ Fernando},\n    year={2006},\n    month=Mar,\n    pages={455–472} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -5922,6 +6109,15 @@ result:
     title: On the unit of a monoidal model category
   year: '2015'
   zbmath_url: https://zbmath.org/6454207
+  arxiv: '1411.1349'
+  authors:
+  - *id003
+  doi: 10.1016/j.topol.2015.05.006
+  bibtex: "@article{Muro_2015,\n    title={On the unit of a monoidal model category},\n\
+    \    volume={191},\n    ISSN={0166-8641},\n    url={http://dx.doi.org/10.1016/j.topol.2015.05.006},\n\
+    \    DOI={10.1016/j.topol.2015.05.006},\n    journal={Topology and its Applications},\n\
+    \    publisher={Elsevier BV},\n    author={Muro, Fernando},\n    year={2015},\n\
+    \    month=Aug,\n    pages={37–47} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -6412,6 +6608,15 @@ result:
     title: Suspensions of crossed and quadratic complexes, co-H-structures and applications
   year: '2005'
   zbmath_url: https://zbmath.org/2172214
+  authors:
+  - *id003
+  doi: 10.1090/S0002-9947-04-03597-4
+  bibtex: "@article{Muro_2004,\n    title={Suspensions of crossed and quadratic complexes,\
+    \ co-H-structures and applications},\n    volume={357},\n    ISSN={0002-9947},\n\
+    \    url={http://dx.doi.org/10.1090/S0002-9947-04-03597-4},\n    DOI={10.1090/s0002-9947-04-03597-4},\n\
+    \    number={9},\n    journal={Transactions of the American Mathematical Society},\n\
+    \    publisher={American Mathematical Society (AMS)},\n    author={Muro, Fernando},\n\
+    \    year={2004},\n    month=Dec,\n    pages={3623–3653} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -6505,6 +6710,16 @@ result:
     title: On \(K_1\) of a Waldhausen category
   year: '2008'
   zbmath_url: https://zbmath.org/5381934
+  arxiv: math/0611229
+  authors:
+  - *id003
+  - *id005
+  doi: 10.4171/060-1/4
+  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
+    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
+    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
+    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
+    \    pages={91–115} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -6833,6 +7048,18 @@ result:
     title: Homotopy theory of bicomplexes
   year: '2019'
   zbmath_url: https://zbmath.org/7006249
+  arxiv: '1802.07610'
+  authors:
+  - *id003
+  - given: Constanze
+    family: Roitzheim
+  doi: 10.1016/j.jpaa.2018.08.007
+  bibtex: "@article{Muro_2019,\n    title={Homotopy theory of bicomplexes},\n    volume={223},\n\
+    \    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2018.08.007},\n\
+    \    DOI={10.1016/j.jpaa.2018.08.007},\n    number={5},\n    journal={Journal\
+    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
+    \ Fernando and Roitzheim, Constanze},\n    year={2019},\n    month=May,\n    pages={1913–1939}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -7390,6 +7617,16 @@ result:
     title: Homotopy units in \(A\)-infinity algebras
   year: '2016'
   zbmath_url: https://zbmath.org/6550647
+  arxiv: '1111.2723'
+  authors:
+  - *id003
+  doi: 10.1090/tran/6545
+  bibtex: "@article{Muro_2015,\n    title={Homotopy units in \U0001D434-infinity algebras},\n\
+    \    volume={368},\n    ISSN={0002-9947},\n    url={http://dx.doi.org/10.1090/tran/6545},\n\
+    \    DOI={10.1090/tran/6545},\n    number={3},\n    journal={Transactions of the\
+    \ American Mathematical Society},\n    publisher={American Mathematical Society\
+    \ (AMS)},\n    author={Muro, Fernando},\n    year={2015},\n    month=May,\n  \
+    \  pages={2145–2184} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -7992,6 +8229,15 @@ result:
     title: Dwyer-Kan homotopy theory of enriched categories
   year: '2015'
   zbmath_url: https://zbmath.org/6451815
+  arxiv: '1201.1575'
+  authors:
+  - *id003
+  doi: 10.1112/jtopol/jtu029
+  bibtex: "@article{Muro_2015,\n    title={Dwyer-Kan homotopy theory of enriched categories},\n\
+    \    volume={8},\n    ISSN={1753-8416},\n    url={http://dx.doi.org/10.1112/jtopol/jtu029},\n\
+    \    DOI={10.1112/jtopol/jtu029},\n    number={2},\n    journal={Journal of Topology},\n\
+    \    publisher={Wiley},\n    author={Muro, Fernando},\n    year={2015},\n    month=Mar,\n\
+    \    pages={377–413} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -9030,6 +9276,16 @@ result:
     title: Enhanced finite triangulated categories
   year: '2022'
   zbmath_url: https://zbmath.org/7506910
+  arxiv: '1810.10068'
+  authors:
+  - *id003
+  doi: 10.1017/S1474748020000250
+  bibtex: "@article{Muro_2020,\n    title={ENHANCED FINITE TRIANGULATED CATEGORIES},\n\
+    \    volume={21},\n    ISSN={1475-3030},\n    url={http://dx.doi.org/10.1017/S1474748020000250},\n\
+    \    DOI={10.1017/s1474748020000250},\n    number={3},\n    journal={Journal of\
+    \ the Institute of Mathematics of Jussieu},\n    publisher={Cambridge University\
+    \ Press (CUP)},\n    author={Muro, Fernando},\n    year={2020},\n    month=June,\n\
+    \    pages={741–783} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -9502,6 +9758,16 @@ result:
     title: Moduli spaces of algebras over nonsymmetric operads
   year: '2014'
   zbmath_url: https://zbmath.org/6281920
+  arxiv: '1112.5146'
+  authors:
+  - *id003
+  doi: 10.2140/agt.2014.14.1489
+  bibtex: "@article{Muro_2014,\n    title={Moduli spaces of algebras over nonsymmetric\
+    \ operads},\n    volume={14},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2014.14.1489},\n\
+    \    DOI={10.2140/agt.2014.14.1489},\n    number={3},\n    journal={Algebraic\
+    \ &amp; Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n\
+    \    author={Muro, Fernando},\n    year={2014},\n    month=Apr,\n    pages={1489–1539}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -9631,6 +9897,19 @@ result:
     title: On determinant functors and \(K\)-theory
   year: '2015'
   zbmath_url: https://zbmath.org/6417698
+  arxiv: '1006.5399'
+  authors:
+  - *id003
+  - *id005
+  - given: Malte
+    family: Witte
+  doi: 10.5565/PUBLMAT_59115_07
+  bibtex: "@article{Muro_2015,\n    title={On determinant functors and $K$-theory},\n\
+    \    volume={59},\n    ISSN={0214-1493},\n    url={http://dx.doi.org/10.5565/PUBLMAT_59115_07},\n\
+    \    DOI={10.5565/publmat_59115_07},\n    journal={Publicacions Matemàtiques},\n\
+    \    publisher={Universitat Autonoma de Barcelona},\n    author={Muro, F. and\
+    \ Tonks, A. and Witte, M.},\n    year={2015},\n    month=Jan,\n    pages={137–233}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -9703,6 +9982,15 @@ result:
       tilting objects'
   year: '2026'
   zbmath_url: https://zbmath.org/902815985
+  arxiv: '2508.18852'
+  authors:
+  - *id001
+  - *id003
+  bibtex: "@misc{jasso2026minimalainftyalgebrasendomorphismscase,\n      title={Minimal\
+    \ ${A}_{\\infty}$-algebras of endomorphisms: The case of $d\\mathbb{Z}$-cluster\
+    \ tilting objects}, \n      author={Gustavo Jasso and Fernando Muro},\n      year={2026},\n\
+    \      eprint={2508.18852},\n      archivePrefix={arXiv},\n      primaryClass={math.RT},\n\
+    \      url={https://arxiv.org/abs/2508.18852}, \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -9780,6 +10068,15 @@ result:
     title: 'The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures'
   year: '2026'
   zbmath_url: https://zbmath.org/902841587
+  arxiv: '2509.22625'
+  authors:
+  - *id001
+  - *id003
+  bibtex: "@misc{jasso2026derivedauslanderiyamacorrespondenceii,\n      title={The\
+    \ Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures},\
+    \ \n      author={Gustavo Jasso and Fernando Muro},\n      year={2026},\n    \
+    \  eprint={2509.22625},\n      archivePrefix={arXiv},\n      primaryClass={math.RT},\n\
+    \      url={https://arxiv.org/abs/2509.22625}, \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -9851,6 +10148,15 @@ result:
     title: Obstruction theory for $A$-infinity bimodules
   year: '2025'
   zbmath_url: https://zbmath.org/902790912
+  arxiv: '2507.17568'
+  authors:
+  - *id001
+  - *id003
+  bibtex: "@misc{jasso2025obstructiontheoryainfinitybimodules,\n      title={Obstruction\
+    \ theory for $A$-infinity bimodules}, \n      author={Gustavo Jasso and Fernando\
+    \ Muro},\n      year={2025},\n      eprint={2507.17568},\n      archivePrefix={arXiv},\n\
+    \      primaryClass={math.AT},\n      url={https://arxiv.org/abs/2507.17568},\
+    \ \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -10394,7 +10700,7 @@ result:
       year: '2010'
   source:
     book: []
-    pages: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    pages: 3298-3313
     series:
     - acronym: null
       issn:
@@ -10412,7 +10718,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    source: 51, No. 8, 3298-3313
   states:
   - - s
     - item with single author
@@ -10426,9 +10732,18 @@ result:
     addition: null
     original: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
     subtitle: null
-    title: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    title: Massey products for algebras over operads
   year: '2023'
   zbmath_url: https://zbmath.org/7700052
+  arxiv: '2106.14996'
+  authors:
+  - *id003
+  doi: 10.1080/00927872.2023.2181780
+  bibtex: "@article{Muro_2023,\n    title={Massey products for algebras over operads},\n\
+    \    volume={51},\n    ISSN={1532-4125},\n    url={http://dx.doi.org/10.1080/00927872.2023.2181780},\n\
+    \    DOI={10.1080/00927872.2023.2181780},\n    number={8},\n    journal={Communications\
+    \ in Algebra},\n    publisher={Informa UK Limited},\n    author={Muro, Fernando},\n\
+    \    year={2023},\n    month=Mar,\n    pages={3298–3313} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -11093,6 +11408,16 @@ result:
     title: Enhanced \(A_{\infty}\)-obstruction theory
   year: '2020'
   zbmath_url: https://zbmath.org/7190145
+  arxiv: '1510.00312'
+  authors:
+  - *id003
+  doi: 10.1007/s40062-019-00245-0
+  bibtex: "@article{Muro_2019,\n    title={Enhanced $$A_{\\infty }$$-obstruction theory},\n\
+    \    volume={15},\n    ISSN={1512-2891},\n    url={http://dx.doi.org/10.1007/s40062-019-00245-0},\n\
+    \    DOI={10.1007/s40062-019-00245-0},\n    number={1},\n    journal={Journal\
+    \ of Homotopy and Related Structures},\n    publisher={Springer Science and Business\
+    \ Media LLC},\n    author={Muro, Fernando},\n    year={2019},\n    month=July,\n\
+    \    pages={61–112} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -11355,6 +11680,16 @@ result:
     title: 'Correction to: ``Homotopy theory of nonsymmetric operads. I--II'''''
   year: '2017'
   zbmath_url: https://zbmath.org/6791664
+  arxiv: '1507.06644'
+  authors:
+  - *id003
+  doi: 10.2140/agt.2017.17.3837
+  bibtex: "@article{Muro_2017,\n    title={Correction to the articles “Homotopy theory\
+    \ of\n    nonsymmetric operads”, I–II},\n    volume={17},\n    ISSN={1472-2747},\n\
+    \    url={http://dx.doi.org/10.2140/agt.2017.17.3837},\n    DOI={10.2140/agt.2017.17.3837},\n\
+    \    number={6},\n    journal={Algebraic &amp; Geometric Topology},\n    publisher={Mathematical\
+    \ Sciences Publishers},\n    author={Muro, Fernando},\n    year={2017},\n    month=Oct,\n\
+    \    pages={3837–3852} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -11449,6 +11784,15 @@ result:
     title: Derived universal Massey products
   year: '2023'
   zbmath_url: https://zbmath.org/7681901
+  arxiv: '2109.01421'
+  authors:
+  - *id003
+  doi: 10.4310/HHA.2023.v25.n1.a10
+  bibtex: "@article{Muro_2023,\n    title={Derived universal Massey products},\n \
+    \   volume={25},\n    ISSN={1532-0081},\n    url={http://dx.doi.org/10.4310/HHA.2023.v25.n1.a10},\n\
+    \    DOI={10.4310/hha.2023.v25.n1.a10},\n    number={1},\n    journal={Homology,\
+    \ Homotopy and Applications},\n    publisher={International Press of Boston},\n\
+    \    author={Muro, Fernando},\n    year={2023},\n    pages={189–218} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -12452,6 +12796,17 @@ result:
     title: Transfinite Adams representability
   year: '2016'
   zbmath_url: https://zbmath.org/6548165
+  arxiv: '1304.3599'
+  authors:
+  - *id003
+  - given: Oriol
+    family: Raventós
+  doi: 10.1016/j.aim.2016.01.009
+  bibtex: "@article{Muro_2016,\n    title={Transfinite Adams representability},\n\
+    \    volume={292},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2016.01.009},\n\
+    \    DOI={10.1016/j.aim.2016.01.009},\n    journal={Advances in Mathematics},\n\
+    \    publisher={Elsevier BV},\n    author={Muro, Fernando and Raventós, Oriol},\n\
+    \    year={2016},\n    month=Apr,\n    pages={111–180} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -12554,6 +12909,19 @@ result:
     title: \(K\)-theory of derivators revisited
   year: '2017'
   zbmath_url: https://zbmath.org/6673997
+  arxiv: '1402.1871'
+  authors:
+  - *id003
+  - &id007
+    given: George
+    family: Raptis
+  doi: 10.2140/akt.2017.2.303
+  bibtex: "@article{Muro_2017,\n    title={K-theory of derivators revisited},\n  \
+    \  volume={2},\n    ISSN={2379-1683},\n    url={http://dx.doi.org/10.2140/akt.2017.2.303},\n\
+    \    DOI={10.2140/akt.2017.2.303},\n    number={2},\n    journal={Annals of K-Theory},\n\
+    \    publisher={Mathematical Sciences Publishers},\n    author={Muro, Fernando\
+    \ and Raptis, Georgios},\n    year={2017},\n    month=Jan,\n    pages={303–340}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -12618,6 +12986,19 @@ result:
     title: A model structure for locally constant factorization algebras
   year: '2026'
   zbmath_url: https://zbmath.org/900514688
+  arxiv: '2107.14174'
+  authors:
+  - given: Victor
+    family: Carmona
+  - &id006
+    given: Ramón
+    family: Flores
+  - *id003
+  bibtex: "@misc{carmona2026modelstructurelocallyconstant,\n      title={A model structure\
+    \ for locally constant factorization algebras}, \n      author={Victor Carmona\
+    \ and Ramon Flores and Fernando Muro},\n      year={2026},\n      eprint={2107.14174},\n\
+    \      archivePrefix={arXiv},\n      primaryClass={math.AT},\n      url={https://arxiv.org/abs/2107.14174},\
+    \ \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -13290,6 +13671,18 @@ result:
     title: Operations on the de Rham cohomology of Poisson and Jacobi manifolds
   year: '2025'
   zbmath_url: https://zbmath.org/8105648
+  arxiv: '2312.07321'
+  authors:
+  - given: Ai
+    family: Guan
+  - *id003
+  doi: 10.1007/s00029-025-01087-w
+  bibtex: "@article{Guan_2025,\n    title={Operations on the de Rham cohomology of\
+    \ Poisson and Jacobi manifolds},\n    volume={31},\n    ISSN={1420-9020},\n  \
+    \  url={http://dx.doi.org/10.1007/s00029-025-01087-w},\n    DOI={10.1007/s00029-025-01087-w},\n\
+    \    number={5},\n    journal={Selecta Mathematica},\n    publisher={Springer\
+    \ Science and Business Media LLC},\n    author={Guan, Ai and Muro, Fernando},\n\
+    \    year={2025},\n    month=Oct }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -13979,6 +14372,16 @@ result:
     title: The first obstructions to enhancing a triangulated category
   year: '2020'
   zbmath_url: https://zbmath.org/7242463
+  arxiv: '1803.02464'
+  authors:
+  - *id003
+  doi: 10.1007/s00209-019-02438-y
+  bibtex: "@article{Muro_2019,\n    title={The first obstructions to enhancing a triangulated\
+    \ category},\n    volume={296},\n    ISSN={1432-1823},\n    url={http://dx.doi.org/10.1007/s00209-019-02438-y},\n\
+    \    DOI={10.1007/s00209-019-02438-y},\n    number={1-2},\n    journal={Mathematische\
+    \ Zeitschrift},\n    publisher={Springer Science and Business Media LLC},\n  \
+    \  author={Muro, Fernando},\n    year={2019},\n    month=Dec,\n    pages={719–759}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -14493,6 +14896,23 @@ result:
     title: Proper L--S category, fundamental pro-groups and 2-dimensional proper co-H-spaces
   year: '2005'
   zbmath_url: https://zbmath.org/5012978
+  authors:
+  - &id008
+    given: M.
+    family: Cárdenas
+  - given: F. F.
+    family: Lasheras
+  - *id003
+  - &id009
+    given: Antonio
+    family: Quintero
+  doi: 10.1016/j.topol.2005.01.032
+  bibtex: "@article{C_rdenas_2005,\n    title={Proper L–S category, fundamental pro-groups\
+    \ and 2-dimensional proper co-H-spaces},\n    volume={153},\n    ISSN={0166-8641},\n\
+    \    url={http://dx.doi.org/10.1016/j.topol.2005.01.032},\n    DOI={10.1016/j.topol.2005.01.032},\n\
+    \    number={4},\n    journal={Topology and its Applications},\n    publisher={Elsevier\
+    \ BV},\n    author={Cárdenas, M. and Lasheras, F.F. and Muro, F. and Quintero,\
+    \ A.},\n    year={2005},\n    month=Nov,\n    pages={580–604} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -15170,6 +15590,17 @@ result:
     title: Torsion homology and cellular approximation
   year: '2019'
   zbmath_url: https://zbmath.org/7053579
+  arxiv: '1707.07654'
+  authors:
+  - *id006
+  - *id003
+  doi: 10.2140/agt.2019.19.457
+  bibtex: "@article{Flores_2019,\n    title={Torsion homology and cellular approximation},\n\
+    \    volume={19},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2019.19.457},\n\
+    \    DOI={10.2140/agt.2019.19.457},\n    number={1},\n    journal={Algebraic &amp;\
+    \ Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n  \
+    \  author={Flores, Ramón and Muro, Fernando},\n    year={2019},\n    month=Feb,\n\
+    \    pages={457–476} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -15545,6 +15976,16 @@ result:
     title: Cylinders for non-symmetric DG-operads via homological perturbation theory
   year: '2016'
   zbmath_url: https://zbmath.org/6571599
+  arxiv: '1505.02945'
+  authors:
+  - *id003
+  doi: 10.1016/j.jpaa.2016.02.013
+  bibtex: "@article{Muro_2016,\n    title={Cylinders for non-symmetric DG-operads\
+    \ via homological perturbation theory},\n    volume={220},\n    ISSN={0022-4049},\n\
+    \    url={http://dx.doi.org/10.1016/j.jpaa.2016.02.013},\n    DOI={10.1016/j.jpaa.2016.02.013},\n\
+    \    number={9},\n    journal={Journal of Pure and Applied Algebra},\n    publisher={Elsevier\
+    \ BV},\n    author={Muro, Fernando},\n    year={2016},\n    month=Sept,\n    pages={3248–3281}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -16090,6 +16531,16 @@ result:
     title: A note on \(K\)-theory and triangulated derivators
   year: '2011'
   zbmath_url: https://zbmath.org/5918250
+  arxiv: '1007.4776'
+  authors:
+  - *id003
+  - *id007
+  doi: 10.1016/j.aim.2011.04.005
+  bibtex: "@article{Muro_2011,\n    title={A note on K-theory and triangulated derivators},\n\
+    \    volume={227},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2011.04.005},\n\
+    \    DOI={10.1016/j.aim.2011.04.005},\n    number={5},\n    journal={Advances\
+    \ in Mathematics},\n    publisher={Elsevier BV},\n    author={Muro, Fernando and\
+    \ Raptis, George},\n    year={2011},\n    month=Aug,\n    pages={1827–1845} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -16632,6 +17083,17 @@ result:
     title: The proper L-S category of Whitehead manifolds
   year: '2005'
   zbmath_url: https://zbmath.org/5012977
+  authors:
+  - *id008
+  - *id003
+  - *id009
+  doi: 10.1016/j.topol.2005.01.031
+  bibtex: "@article{C_rdenas_2005,\n    title={The proper L-S category of Whitehead\
+    \ manifolds},\n    volume={153},\n    ISSN={0166-8641},\n    url={http://dx.doi.org/10.1016/j.topol.2005.01.031},\n\
+    \    DOI={10.1016/j.topol.2005.01.031},\n    number={4},\n    journal={Topology\
+    \ and its Applications},\n    publisher={Elsevier BV},\n    author={Cárdenas,\
+    \ M. and Muro, F. and Quintero, A.},\n    year={2005},\n    month=Nov,\n    pages={557–579}\
+    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -16871,7 +17333,7 @@ result:
       year: null
   source:
     book: []
-    pages: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    pages: 5995-6017
     series:
     - acronym: null
       issn:
@@ -16889,7 +17351,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    source: 31, No. 12, 5995-6017
   states:
   - - r
     - item has references
@@ -16899,9 +17361,23 @@ result:
     addition: null
     original: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
     subtitle: null
-    title: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    title: An Elementary Approach to the Projective Dimension in Proper Homotopy Theory
   year: '2003'
   zbmath_url: https://zbmath.org/2010229
+  authors:
+  - given: R.
+    family: Ayala
+  - *id008
+  - *id003
+  - given: Adrian
+    family: Quintero
+  doi: 10.1081/AGB-120024863
+  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
+    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
+    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
+    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
+    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
+    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17041,6 +17517,15 @@ result:
     title: Maltsiniotis's first conjecture for \(K_{1}\)
   year: '2008'
   zbmath_url: https://zbmath.org/5306025
+  arxiv: '0707.1892'
+  authors:
+  - *id003
+  doi: 10.1093/imrn/rnm153
+  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
+    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
+    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
+    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
+    \ F.},\n    year={2010},\n    month=July }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17734,6 +18219,18 @@ result:
     title: Derived homotopy algebras
   year: '2023'
   zbmath_url: https://zbmath.org/7719245
+  arxiv: '2106.14987'
+  authors:
+  - given: Jeroen
+    family: Maes
+  - *id003
+  doi: 10.1017/prm.2022.42
+  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
+    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
+    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
+    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
+    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
+    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17799,6 +18296,13 @@ result:
     title: A triangulated category without models
   year: '2007'
   zbmath_url: https://zbmath.org/900080869
+  arxiv: math/0703311
+  authors:
+  - *id003
+  bibtex: "@misc{muro2007triangulatedcategorymodels,\n      title={A triangulated\
+    \ category without models}, \n      author={Fernando Muro},\n      year={2007},\n\
+    \      eprint={math/0703311},\n      archivePrefix={arXiv},\n      primaryClass={math.KT},\n\
+    \      url={https://arxiv.org/abs/math/0703311}, \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -17878,6 +18382,14 @@ result:
     title: On the proper homotopy type of locally compact A^2_n-polyhedra
   year: '2006'
   zbmath_url: https://zbmath.org/900028837
+  arxiv: math/0605213
+  authors:
+  - *id003
+  bibtex: "@misc{muro2006properhomotopytypelocally,\n      title={On the proper homotopy\
+    \ type of locally compact A^2_n-polyhedra}, \n      author={Fernando Muro},\n\
+    \      year={2006},\n      eprint={math/0605213},\n      archivePrefix={arXiv},\n\
+    \      primaryClass={math.AT},\n      url={https://arxiv.org/abs/math/0605213},\
+    \ \n}"
 - biographic_references: []
   contributors:
     authors:
@@ -18198,6 +18710,16 @@ result:
       continuously controlled algebra and topology.
   year: '2004'
   zbmath_url: https://zbmath.org/5068816
+  arxiv: math/0310334
+  authors:
+  - *id003
+  doi: 10.1007/s10977-004-1837-4
+  bibtex: "@article{Muro_2004,\n    title={Representation Theory of some Infinite-dimensional\
+    \ Algebras Arising in Continuously Controlled Algebra and Topology},\n    volume={33},\n\
+    \    ISSN={0920-3036},\n    url={http://dx.doi.org/10.1007/s10977-004-1837-4},\n\
+    \    DOI={10.1007/s10977-004-1837-4},\n    number={1},\n    journal={K-Theory},\n\
+    \    publisher={Portico},\n    author={Muro, Fernando},\n    year={2004},\n  \
+    \  month=Sept,\n    pages={23–65} }\n"
 status:
   execution: successful request
   execution_bool: true
@@ -18205,6 +18727,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.2817199230194092
+  query_execution_time_in_seconds: 1.2639963626861572
   status_code: 200
-  time_stamp: '2026-08-11T13:42:39Z'
+  time_stamp: '2026-08-12T09:23:09Z'

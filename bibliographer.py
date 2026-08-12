@@ -1,26 +1,141 @@
 #!.venv/bin/python3
-from libbibliographer import merged_data_dict, get_bibtex_from_zbmath, get_json_from_zbmath, get_dict_from_arxiv, bibtex, bibtex_to_csljson
 import yaml
-import json
+from typing import Any, Dict, Optional
 
-bibtex_zbmath = get_bibtex_from_zbmath('muro.fernando')
+from zbmath import get_JSON_from_zbmath, get_author_lookup_from_zbmath
+from openalex import get_JSON_from_openalex
 
-def handle_exceptions(string):
-    return string.replace(
-        "title = {Minimal ${A_}{{\\infty}}$-algebras of endomorphisms: {The} case of $d{{\\mathbb}}{Z}$-cluster tilting objects},",
-        "title = {Minimal ${A}_{\\infty}$-algebras of endomorphisms: {The} case of $d\\mathbb{Z}$-cluster tilting objects},"
-    )
+from DOI import *
+from crossref import *
+from arxiv import *
 
-bibtex_zbmath = handle_exceptions(bibtex_zbmath)
+ORCID = "0000-0001-8457-9889"
+zbMATH = "muro.fernando"
+OUTPUT_YAML = "output.yaml"
 
-json_zbmath = get_json_from_zbmath('muro.fernando')
-dict_arxiv = get_dict_from_arxiv('0000-0001-8457-9889')
-bibtex_string = bibtex(bibtex_zbmath, json_zbmath, dict_arxiv, 2020)
-csl_json = json.loads(bibtex_to_csljson(bibtex_string))
+def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) -> Dict[str, Any]:
+    openalex_results = openalex_data.get("results", [])
+    openalex_exact, openalex_lower = build_openalex_lookup(openalex_results)
+    conflict_str = "zbMATH Open Web Interface contents unavailable due to conflicting licenses."
+    authors = get_author_lookup_from_zbmath(zbmath_data)
 
-data = merged_data_dict(bibtex_string, csl_json, json_zbmath, dict_arxiv)
+    for item in zbmath_data.get("result", []):
+        arxiv_ID = get_arxiv_identifier_from_zbmath_item(item)
+        if arxiv_ID:
+            item["arxiv"] = arxiv_ID
 
-with open('output.yml', 'w') as outfile:
-    yaml.dump(data, outfile, default_flow_style=False)
-with open("output.json", "w") as outfile: 
-    json.dump(data, outfile)
+        contributors = item.get("contributors", {})
+        authors_list = []
+        for author_item in contributors.get("authors", []):
+            codes = author_item.get("codes", [])
+            if not codes:
+                continue
+            author_data = authors.get(codes[0])
+            if author_data is not None:
+                authors_list.append(author_data)
+        item["authors"] = authors_list
+
+        doi, _ = get_doi_from_zbmath_item(item, openalex_exact, openalex_lower)
+        if doi:
+            item["doi"] = doi
+            try:
+                item["bibtex"] = get_paper_bibtex_from_crossref(doi)
+            except Exception:
+                pass
+        elif arxiv_ID:
+            try:
+                item["bibtex"] = get_paper_bibtex_from_arxiv(arxiv_ID)
+            except Exception:
+                pass
+
+        if arxiv_ID:
+            try:
+                arxiv_json = get_paper_JSON_from_arXiv(arxiv_ID)
+            except Exception:
+                arxiv_json = {}
+
+            entries = arxiv_json.get("entries", []) if isinstance(arxiv_json, dict) else []
+            if entries:
+                entry = entries[0]
+                if isinstance(entry, dict):
+                    summary = entry.get("summary")
+                    if isinstance(summary, str):
+                        item["abstract"] = summary
+                    elif isinstance(summary, dict):
+                        summary_value = summary.get("value") or summary.get("summary")
+                        if isinstance(summary_value, str):
+                            item["abstract"] = summary_value
+
+        if doi is not None and any(
+            item.get("source", {}).get(field) == conflict_str
+            for field in ("pages", "source")
+        ) or item.get("title", {}).get("title") == conflict_str:
+            crossref_json = {}
+            if doi is not None:
+                try:
+                    crossref_json = get_paper_JSON_from_crossref(doi)
+                except Exception:
+                    crossref_json = {}
+
+            message = crossref_json.get("message") if isinstance(crossref_json, dict) else {}
+
+            source = item.setdefault("source", {})
+            if source.get("pages") == conflict_str:
+                page_value = message.get("page")
+                if page_value:
+                    source["pages"] = page_value
+
+            title_container = item.setdefault("title", {})
+            if title_container.get("title") == conflict_str:
+                title_values = message.get("title")
+                if isinstance(title_values, list) and title_values:
+                    title_container["title"] = title_values[0]
+                elif isinstance(title_values, str):
+                    title_container["title"] = title_values
+
+            if source.get("source") == conflict_str:
+                series = source.get("series", {}) or {}
+                if isinstance(series, list) and series:
+                    series = series[0] if isinstance(series[0], dict) else {}
+                if not isinstance(series, dict):
+                    series = {}
+
+                parts = []
+                short_title = series.get("short-title")
+                if short_title:
+                    parts.append(str(short_title))
+                volume = series.get("volume")
+                if volume:
+                    parts.append(str(volume))
+                issue = series.get("issue")
+                if issue:
+                    parts.append(f"No. {issue}")
+                pages = source.get("pages")
+                if pages:
+                    parts.append(str(pages))
+                years = series.get("years")
+                if years:
+                    parts.append(f"({years})")
+                if parts:
+                    source["source"] = ", ".join(parts)
+
+    return zbmath_data
+
+
+def main() -> None:
+    zbmath_data = get_JSON_from_zbmath(zbMATH)
+    openalex_data = get_JSON_from_openalex(ORCID)
+    
+    output_data = complete_zbmath(zbmath_data, openalex_data)
+
+    with open(OUTPUT_YAML, "w", encoding="utf-8") as handle:
+        yaml.dump(output_data, handle, sort_keys=False, allow_unicode=True, default_flow_style=False)
+
+    print(f"Wrote {OUTPUT_YAML}")
+
+
+if __name__ == "__main__":
+    main()
+
+
+

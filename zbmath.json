@@ -12476,102 +12476,6 @@
             "name": null,
             "sign": null
           },
-          "text": "Summary: Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras (dg) with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\ZZ$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule. As an application of our results, we obtain, to our knowledge, the first example of an algebraic triangulated category with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule right Calabi--Yau structure on any of its dg enhancements.",
-          "contribution_type": "summary"
-        }
-      ],
-      "id": 902841587,
-      "identifier": "arXiv:2509.22625",
-      "keywords": [],
-      "language": {
-        "languages": [],
-        "addition": [
-          null
-        ]
-      },
-      "license": [
-        "http://creativecommons.org/licenses/by/4.0/"
-      ],
-      "links": [
-        {
-          "identifier": "2509.22625",
-          "type": "arxiv",
-          "url": "https://arxiv.org/abs/2509.22625"
-        }
-      ],
-      "msc": [
-        {
-          "code": "18G80",
-          "scheme": "msc2020",
-          "text": "Derived categories, triangulated categories"
-        },
-        {
-          "code": "18N40",
-          "scheme": "msc2020",
-          "text": "Homotopical algebra, Quillen model categories, derivators"
-        }
-      ],
-      "references": [],
-      "source": {
-        "book": [],
-        "pages": null,
-        "series": [],
-        "source": "Preprint, arXiv:2509.22625 [math.RT] (2026)"
-      },
-      "states": [
-        [
-          "o",
-          "has open version"
-        ]
-      ],
-      "title": {
-        "addition": null,
-        "original": null,
-        "subtitle": null,
-        "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures"
-      },
-      "year": "2026",
-      "zbmath_url": "https://zbmath.org/902841587"
-    },
-    {
-      "biographic_references": [],
-      "contributors": {
-        "authors": [
-          {
-            "aliases": [],
-            "checked": "0",
-            "codes": [
-              "jasso.gustavo"
-            ],
-            "name": "Gustavo Jasso"
-          },
-          {
-            "aliases": [],
-            "checked": "0",
-            "codes": [
-              "muro.fernando"
-            ],
-            "name": "Fernando Muro"
-          }
-        ],
-        "author_references": [],
-        "editors": []
-      },
-      "database": "arXiv",
-      "datestamp": "0001-01-01T00:00:00Z",
-      "document_type": {
-        "code": null,
-        "description": null
-      },
-      "editorial_contributions": [
-        {
-          "language": null,
-          "reviewer": {
-            "author_code": null,
-            "reviewer_id": null,
-            "name": null,
-            "sign": null
-          },
           "text": "Summary: The Derived Auslander--Iyama Corresponence, a recent result of the authors, provides a classification up to quasi-isomorphism of the derived endomorphism algebras of basic $d\\mathbb{Z}$-cluster tilting objects in $\\operatorname{Hom}$-finite algebraic triangulated categories in terms of a small amount of algebraic data. In this note we highlight the role of minimal $A_\\infty$-algebra structures in the proof of this result, as well as the crucial role of the enhanced $A_\\infty$-obstruction theory developed by the second-named author.",
           "contribution_type": "summary"
         }
@@ -12628,6 +12532,102 @@
       },
       "year": "2026",
       "zbmath_url": "https://zbmath.org/902815985"
+    },
+    {
+      "biographic_references": [],
+      "contributors": {
+        "authors": [
+          {
+            "aliases": [],
+            "checked": "0",
+            "codes": [
+              "jasso.gustavo"
+            ],
+            "name": "Gustavo Jasso"
+          },
+          {
+            "aliases": [],
+            "checked": "0",
+            "codes": [
+              "muro.fernando"
+            ],
+            "name": "Fernando Muro"
+          }
+        ],
+        "author_references": [],
+        "editors": []
+      },
+      "database": "arXiv",
+      "datestamp": "0001-01-01T00:00:00Z",
+      "document_type": {
+        "code": null,
+        "description": null
+      },
+      "editorial_contributions": [
+        {
+          "language": null,
+          "reviewer": {
+            "author_code": null,
+            "reviewer_id": null,
+            "name": null,
+            "sign": null
+          },
+          "text": "Summary: Let $d$ be a positive integer. In a previous article we established a bijective correspondence between the following classes of objects, considered up to the appropriate notion of equivalence: differential graded algebras (dg) with finite-dimensional $0$-th cohomology such that the canonical generator of their perfect derived category is a basic $d\\ZZ$-cluster tilting object, and basic Frobenius algebras that are twisted $(d+2)$-periodic as bimodules. In this article, we prove a variant of our general correspondence for bimodule right Calabi--Yau dg algebras. A novel ingredient is a new cohomology theory which contains obstructions to the existence and uniqueness of minimal $A_\\infty$-bimodule structures on a graded bimodule. As an application of our results, we obtain, to our knowledge, the first example of an algebraic triangulated category with a triangulated Calabi--Yau structure that cannot be lifted to a bimodule right Calabi--Yau structure on any of its dg enhancements.",
+          "contribution_type": "summary"
+        }
+      ],
+      "id": 902841587,
+      "identifier": "arXiv:2509.22625",
+      "keywords": [],
+      "language": {
+        "languages": [],
+        "addition": [
+          null
+        ]
+      },
+      "license": [
+        "http://creativecommons.org/licenses/by/4.0/"
+      ],
+      "links": [
+        {
+          "identifier": "2509.22625",
+          "type": "arxiv",
+          "url": "https://arxiv.org/abs/2509.22625"
+        }
+      ],
+      "msc": [
+        {
+          "code": "18G80",
+          "scheme": "msc2020",
+          "text": "Derived categories, triangulated categories"
+        },
+        {
+          "code": "18N40",
+          "scheme": "msc2020",
+          "text": "Homotopical algebra, Quillen model categories, derivators"
+        }
+      ],
+      "references": [],
+      "source": {
+        "book": [],
+        "pages": null,
+        "series": [],
+        "source": "Preprint, arXiv:2509.22625 [math.RT] (2026)"
+      },
+      "states": [
+        [
+          "o",
+          "has open version"
+        ]
+      ],
+      "title": {
+        "addition": null,
+        "original": null,
+        "subtitle": null,
+        "title": "The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures"
+      },
+      "year": "2026",
+      "zbmath_url": "https://zbmath.org/902841587"
     },
     {
       "biographic_references": [],
@@ -23611,8 +23611,8 @@
     "last_id": null,
     "nr_total_results": 49,
     "nr_request_results": 49,
-    "query_execution_time_in_seconds": 1.2720448970794678,
+    "query_execution_time_in_seconds": 1.4550812244415283,
     "status_code": 200,
-    "time_stamp": "2026-08-09T17:06:36Z"
+    "time_stamp": "2026-08-11T13:42:37Z"
   }
 }

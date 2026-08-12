@@ -5,11 +5,11 @@ from urllib.parse import quote
 
 import yaml
 
-ZBMATH_API_URL = 'https://api.zbmath.org/v1/document/_search?search_string=ia%3A'
+ZBMATH_API_URL = 'https://api.zbmath.org/v1'
 
 
 def _build_request(author_ID):
-    url = f"{ZBMATH_API_URL}{quote(str(author_ID), safe='.-_')}"
+    url = f"{ZBMATH_API_URL}/document/_search?search_string=ia%3A{quote(str(author_ID), safe='.-_')}"
     return urllib.request.Request(
         url,
         headers={
@@ -44,3 +44,77 @@ def get_JSON_from_zbmath(author_ID):
 def get_YAML_from_zbmath(author_ID):
     data = get_JSON_from_zbmath(author_ID)
     return yaml.dump(data, sort_keys=False, allow_unicode=True, default_flow_style=False)
+
+def fix_zbmath_source(json_zbmath):
+    """Repair zbMATH sources with conflicting license text.
+
+    For each result entry, if source.source is the known placeholder text,
+    replace it using values from source.series and source.
+    """
+    placeholder = "zbMATH Open Web Interface contents unavailable due to conflicting licenses."
+
+    for entry in json_zbmath.get("result", []):
+        source = entry.get("source", {})
+        if source.get("source") != placeholder:
+            continue
+
+        series = source.get("series", {})
+        parts = []
+
+        short_title = series.get("short_title")
+        if short_title:
+            parts.append(short_title)
+
+        volume = series.get("volume")
+        if volume:
+            parts.append(str(volume))
+
+        issue = series.get("issue")
+        if issue:
+            parts.append(f"No. {issue}")
+
+        pages = source.get("pages")
+        if pages:
+            parts.append(str(pages))
+
+        year = series.get("year")
+        if year:
+            parts.append(f"({year})")
+
+        if parts:
+            source["source"] = ", ".join(parts)
+
+    return json_zbmath
+
+def get_author_from_id(author_ID):
+    url = f"{ZBMATH_API_URL}/author/{quote(str(author_ID), safe='.-_')}"
+    request = urllib.request.Request(
+        url,
+        headers={
+            'User-Agent': 'Mozilla/5.0',
+            'Accept': 'application/json',
+        },
+    )
+    response = _read_json_response(request)
+    spellings = response.get("result", {}).get("spellings", [])
+    if not spellings:
+        return {}
+
+    first_spelling = spellings[0]
+    return {
+        "given": first_spelling.get("first_name"),
+        "family": first_spelling.get("last_name"),
+    }
+
+
+def get_author_lookup_from_zbmath(json_zbmath):
+    author_lookup = {}
+    for entry in json_zbmath.get("result", []):
+        contributors = entry.get("contributors", {})
+        for author in contributors.get("authors", []):
+            for code in author.get("codes", []):
+                if code not in author_lookup:
+                    author_lookup[code] = get_author_from_id(code)
+    return author_lookup
+
+
