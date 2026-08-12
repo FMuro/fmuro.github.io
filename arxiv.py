@@ -36,6 +36,11 @@ def get_paper_YAML_from_arXiv(arxiv_id: str):
     data = get_paper_JSON_from_arXiv(arxiv_id)
     return yaml.dump(data, sort_keys=False, allow_unicode=True, default_flow_style=False)
 
+def extract_arxiv_summary(json_arxiv, arxiv_ID):
+    for entry in json_arxiv['entries']:
+        if arxiv_ID in entry['id']:
+            return entry['summary']
+
 
 def normalize_arxiv_id(arxiv_id: str) -> str:
     normalized = arxiv_id.strip()

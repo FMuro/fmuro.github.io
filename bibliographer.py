@@ -13,7 +13,7 @@ ORCID = "0000-0001-8457-9889"
 zbMATH = "muro.fernando"
 OUTPUT_YAML = "output.yaml"
 
-def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) -> Dict[str, Any]:
+def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any], arxiv_data: Dict[str, Any]) -> Dict[str, Any]:
     openalex_results = openalex_data.get("results", [])
     openalex_exact, openalex_lower = build_openalex_lookup(openalex_results)
     conflict_str = "zbMATH Open Web Interface contents unavailable due to conflicting licenses."
@@ -50,22 +50,9 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) 
 
         if arxiv_ID:
             try:
-                arxiv_json = get_paper_JSON_from_arXiv(arxiv_ID)
+                item["abstract"] = extract_arxiv_summary(arxiv_data, arxiv_ID)
             except Exception:
-                arxiv_json = {}
-
-            entries = arxiv_json.get("dictitems", [])
-            if entries:
-                entry = entries[0]
-                entry = entry['dictitems']
-                if isinstance(entry, dict):
-                    summary = entry.get("summary")
-                    if isinstance(summary, str):
-                        item["abstract"] = summary
-                    elif isinstance(summary, dict):
-                        summary_value = summary.get("value") or summary.get("summary")
-                        if isinstance(summary_value, str):
-                            item["abstract"] = summary_value
+                print(f"Failed to retrieve abstract for arXiv ID {arxiv_ID}")
 
         if doi is not None and any(
             item.get("source", {}).get(field) == conflict_str
@@ -126,8 +113,8 @@ def complete_zbmath(zbmath_data: Dict[str, Any], openalex_data: Dict[str, Any]) 
 def main() -> None:
     zbmath_data = get_JSON_from_zbmath(zbMATH)
     openalex_data = get_JSON_from_openalex(ORCID)
-    
-    output_data = complete_zbmath(zbmath_data, openalex_data)
+    arxiv_data = get_JSON_from_arXiv(ORCID)
+    output_data = complete_zbmath(zbmath_data, openalex_data, arxiv_data)
 
     with open(OUTPUT_YAML, "w", encoding="utf-8") as handle:
         yaml.dump(output_data, handle, sort_keys=False, allow_unicode=True, default_flow_style=False)
@@ -137,6 +124,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-
-
