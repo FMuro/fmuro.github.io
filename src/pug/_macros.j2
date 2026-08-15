@@ -3,10 +3,10 @@
     .card.shadow.rounded
         .card-body
             | {% for name in authors %}{% if loop.index > 1 %}{% if loop.last %}  and {% else %}, {% endif %}{% endif %}{% if name.url %}
-            a.coauthor(href="{{ name.url }}") {{ name.given }} {{ name.family }}
-            |{% else %}{{ name.given }} {{ name.family }}{% endif %}{% endfor %}<br>
+            a.coauthor(href="{{ name.url }}") {{ name.given | replace('--', '—') }} {{ name.family | replace('--', '—') }}
+            |{% else %}{{ name.given | replace('--', '—') }} {{ name.family | replace('--', '—') }}{% endif %}{% endfor %}<br>
             | #[strong {{ title }}]<br>
-            | {{ source }}
+            | {{ source | replace('--', '—') }}
         .card-footer
             {% if pdf != '' -%}
             {{ pdf }}
@@ -35,10 +35,10 @@
     .modal-dialog(role="document").modal-dialog-centered
         .modal-content
             .modal-header
-                h5.modal-title {{ title }}
+                h5.modal-title {{ title | replace('--', '—') }}
             .modal-body
                 {% for line in abstract.splitlines() %}
-                p {{ line | e }}
+                p {{ line | e | replace('--', '—') }}
                 {% endfor %}
             .modal-footer.justify-content-center
                 button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
@@ -64,9 +64,9 @@ a.btn.btn-xs(href="{{ zbmath }}") zbMath
 .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
     .card.shadow.rounded
         .card-body
-            | #[strong {{ title }}]<br>
-            | #[i {{ event }}]<br>
-            | {% if note %}{{ note }}<br>{% endif %}
+            | #[strong {{ title | replace('--', '—') }}]<br>
+            | #[i {{ event | replace('--', '—') }}]<br>
+            | {% if note %}{{ note | replace('--', '—') }}<br>{% endif %}
             | {{ daymonth }} {{ year }}, {{ location }}
         .card-footer
             {% if file -%}
