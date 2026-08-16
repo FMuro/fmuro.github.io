@@ -15836,12 +15836,6 @@ result:
   - *id006
   - *id003
   doi: 10.2140/agt.2019.19.457
-  bibtex: "@article{Flores_2019,\n    title={Torsion homology and cellular approximation},\n\
-    \    volume={19},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2019.19.457},\n\
-    \    DOI={10.2140/agt.2019.19.457},\n    number={1},\n    journal={Algebraic &amp;\
-    \ Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n  \
-    \  author={Flores, Ramón and Muro, Fernando},\n    year={2019},\n    month=Feb,\n\
-    \    pages={457–476} }\n"
   abstract: In this note we describe the role of the Schur multiplier in the structure
     of the $p$-torsion of discrete groups. More concretely, we show how the knowledge
     of $H_2G$ allows to approximate many groups by colimits of copies of finite $p$-groups.
@@ -16789,11 +16783,6 @@ result:
   - *id003
   - *id007
   doi: 10.1016/j.aim.2011.04.005
-  bibtex: "@article{Muro_2011,\n    title={A note on K-theory and triangulated derivators},\n\
-    \    volume={227},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2011.04.005},\n\
-    \    DOI={10.1016/j.aim.2011.04.005},\n    number={5},\n    journal={Advances\
-    \ in Mathematics},\n    publisher={Elsevier BV},\n    author={Muro, Fernando and\
-    \ Raptis, George},\n    year={2011},\n    month=Aug,\n    pages={1827–1845} }\n"
   abstract: In this paper we show an example of two differential graded algebras that
     have the same derivator K-theory but non-isomorphic Waldhausen K-theory. We also
     prove that Maltsiniotis's comparison and localization conjectures for derivator
@@ -19006,6 +18995,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.4486539363861084
+  query_execution_time_in_seconds: 1.4843981266021729
   status_code: 200
-  time_stamp: '2026-08-16T18:19:47Z'
+  time_stamp: '2026-08-16T21:51:10Z'
