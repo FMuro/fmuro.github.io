@@ -101,7 +101,7 @@ html(lang='en')
                 p.text-muted.mb-2.mx-5.text-center
                     | I work on algebraic topology, specifically on homotopy theory, and I also interact with related fields such as category theory, homological algebra, K-theory, and representation theory.
             {% set count = {'counter': 0} %}
-            {% for entry in biblio | sort(attribute='year') %}
+            {% for entry in biblio | sort(attribute='year', reverse=true) %}
             {% if entry['document_type'].code not in ['a', 'j'] and (entry.year | int) > 2020 %}
             {% if count.counter == 0 %}
             .container-fluid
@@ -124,7 +124,7 @@ html(lang='en')
                 h3.mt-5.mb-3.text-center 
                     .bi.bi-journal-check &nbsp; Papers
                 .scrolling-wrapper.row.flex-row.flex-nowrap.px-3.px-sm-5.mt-4.pb-4.pt-2(style="overflow-x: auto; overflow-y: hidden; -webkit-mask: linear-gradient(90deg,#0000,#000 5% 95%,#0000);")
-            {% for entry in biblio | sort(attribute='year') %}
+            {% for entry in biblio | sort(attribute='year', reverse=true) %}
             {% if entry['document_type'].code in ['a', 'j'] %}
             {% if entry.id in datos.open.keys() %}
             {% if datos.open[entry.id] == ''%}
@@ -232,7 +232,7 @@ html(lang='en')
                     a(href='https://startbootstrap.com/theme/creative') Creative 
                     | theme.
 
-        {% for entry in biblio | sort(attribute='year') %}
+        {% for entry in biblio | sort(attribute='year', reverse=true) %}
         {% if (entry['document_type'].code == none and (entry.year | int) > 2020) or entry['document_type'].code != none %}
         {% filter indent(width=4) %}
         {{ papermodal(entry.id, entry.title.title, entry.abstract, entry.bibtex) }}
