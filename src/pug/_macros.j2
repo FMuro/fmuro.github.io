@@ -5,7 +5,7 @@
             | {% for name in authors %}{% if loop.index > 1 %}{% if loop.last %}  and {% else %}, {% endif %}{% endif %}{% if name.url %}
             a.coauthor(href="{{ name.url }}") {{ name.given | replace('--', '—') }} {{ name.family | replace('--', '—') }}
             |{% else %}{{ name.given | replace('--', '—') }} {{ name.family | replace('--', '—') }}{% endif %}{% endfor %}<br>
-            | #[strong {{ title }}]<br>
+            | #[strong {{ title | replace('--', '—') }}]<br>
             | {{ source | replace('--', '—') }}
         .card-footer
             {% if pdf != '' -%}
