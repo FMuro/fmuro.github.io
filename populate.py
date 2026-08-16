@@ -15,8 +15,8 @@ web_template = ENV.get_template('src/pug/index.j2') # landing page
 with open("output.yaml") as y:
     with open("data.yml") as z:
         # Loading the YAML data
-        biblio = yaml.load(y, Loader=yaml.BaseLoader)['result']
-        datos = yaml.load(z, Loader=yaml.BaseLoader)
+        biblio = yaml.load(y, Loader=yaml.SafeLoader)['result']
+        datos = yaml.load(z, Loader=yaml.SafeLoader)
         # Opening the output files
         f = open('src/pug/index.pug', 'w', encoding="utf8")
         # Rendering the output files from data, biblio and jinja2 templates
