@@ -1090,7 +1090,7 @@ result:
     original: null
     subtitle: null
     title: The Donovan-Wemyss conjecture via the derived Auslander-Iyama correspondence
-  year: '2024'
+  year: 2024
   zbmath_url: https://zbmath.org/7950525
   arxiv: '2301.11593'
   authors:
@@ -1202,7 +1202,7 @@ result:
     original: null
     subtitle: null
     title: The Derived Auslander-Iyama Correspondence
-  year: '2026'
+  year: 2026
   zbmath_url: https://zbmath.org/900570519
   arxiv: '2208.14413'
   authors:
@@ -1595,7 +1595,7 @@ result:
     original: null
     subtitle: null
     title: Triangulated categories without models
-  year: '2007'
+  year: 2007
   zbmath_url: https://zbmath.org/5208165
   arxiv: '0704.1378'
   authors:
@@ -2053,7 +2053,7 @@ result:
     original: null
     subtitle: null
     title: Homotopy theory of nonsymmetric operads
-  year: '2011'
+  year: 2011
   zbmath_url: https://zbmath.org/5904608
   arxiv: '1101.1634'
   authors:
@@ -2371,7 +2371,7 @@ result:
     original: null
     subtitle: null
     title: The homotopy category of pseudofunctors and translation cohomology
-  year: '2007'
+  year: 2007
   zbmath_url: https://zbmath.org/5186664
   authors:
   - &id004
@@ -2648,7 +2648,7 @@ result:
     original: null
     subtitle: null
     title: Secondary homotopy groups
-  year: '2008'
+  year: 2008
   zbmath_url: https://zbmath.org/5351182
   arxiv: math/0604029
   authors:
@@ -3022,7 +3022,7 @@ result:
     original: null
     subtitle: null
     title: Cohomologically triangulated categories. I
-  year: '2008'
+  year: 2008
   zbmath_url: https://zbmath.org/5347000
   authors:
   - *id004
@@ -3489,7 +3489,7 @@ result:
     original: null
     subtitle: null
     title: Smash products for secondary homotopy groups
-  year: '2008'
+  year: 2008
   zbmath_url: https://zbmath.org/5367270
   arxiv: math/0604031
   authors:
@@ -3608,7 +3608,7 @@ result:
     original: null
     subtitle: null
     title: The algebra of secondary homotopy operations in ring spectra
-  year: '2011'
+  year: 2011
   zbmath_url: https://zbmath.org/5882112
   arxiv: math/0610523
   authors:
@@ -3967,7 +3967,7 @@ result:
     original: null
     subtitle: null
     title: Cohomologically triangulated categories. II
-  year: '2009'
+  year: 2009
   zbmath_url: https://zbmath.org/5528664
   authors:
   - *id004
@@ -4089,7 +4089,7 @@ result:
     original: null
     subtitle: null
     title: Unital associahedra
-  year: '2014'
+  year: 2014
   zbmath_url: https://zbmath.org/6342603
   arxiv: '1110.1959'
   authors:
@@ -4098,6 +4098,11 @@ result:
     given: Andrew
     family: Tonks
   doi: 10.1515/forum-2011-0130
+  bibtex: "@article{Muro_2012,\n    title={Unital associahedra},\n    volume={26},\n\
+    \    ISSN={1435-5337},\n    url={http://dx.doi.org/10.1515/forum-2011-0130},\n\
+    \    DOI={10.1515/forum-2011-0130},\n    number={2},\n    journal={Forum Mathematicum},\n\
+    \    publisher={Walter de Gruyter GmbH},\n    author={Muro, Fernando and Tonks,\
+    \ Andrew},\n    year={2012},\n    month=Feb,\n    pages={593–620} }\n"
   abstract: We construct a topological cellular operad such that the algebras over
     its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.
 - biographic_references: []
@@ -4202,13 +4207,19 @@ result:
     original: null
     subtitle: null
     title: The symmetric action on secondary homotopy groups
-  year: '2008'
+  year: 2008
   zbmath_url: https://zbmath.org/5496973
   arxiv: math/0604030
   authors:
   - *id004
   - *id003
   doi: 10.36045/bbms/1225893951
+  bibtex: "@article{Baues_2008,\n    title={The symmetric action on secondary homotopy\
+    \ groups},\n    volume={15},\n    ISSN={1370-1444},\n    url={http://dx.doi.org/10.36045/bbms/1225893951},\n\
+    \    DOI={10.36045/bbms/1225893951},\n    number={4},\n    journal={Bulletin of\
+    \ the Belgian Mathematical Society - Simon Stevin},\n    publisher={The Belgian\
+    \ Mathematical Society},\n    author={Baues, Hans-Joachim and Muro, Fernando},\n\
+    \    year={2008},\n    month=May }\n"
   abstract: We show that the symmetric track group, which is an extension of the symmetric
     group associated to the second Stiefel- Withney class, acts as a crossed module
     on the secondary homotopy group of a pointed space. An application is given to
@@ -4459,7 +4470,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: Commun. Algebra, 37, No. 1, 56-82
+    source: Commun. Algebra, 37, No. 1, 56-82, (2009)
   states:
   - - o
     - has open version
@@ -4472,7 +4483,7 @@ result:
     original: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
     subtitle: null
     title: Toda Brackets and Cup-One Squares for Ring Spectra
-  year: '2009'
+  year: 2009
   zbmath_url: https://zbmath.org/5538788
   arxiv: math/0612450
   authors:
@@ -4555,7 +4566,7 @@ result:
     original: null
     subtitle: null
     title: The characteristic cohomology class of a triangulated category
-  year: '2005'
+  year: 2005
   zbmath_url: https://zbmath.org/900079638
   arxiv: math/0505540
   authors:
@@ -5123,7 +5134,7 @@ result:
     original: null
     subtitle: null
     title: The 1-type of a Waldhausen \(K\)-theory spectrum
-  year: '2007'
+  year: 2007
   zbmath_url: https://zbmath.org/5201720
   arxiv: math/0603544
   authors:
@@ -5504,7 +5515,7 @@ result:
     subtitle: null
     title: 'Homotopy theory of non-symmetric operads. II: Change of base category
       and left properness'
-  year: '2014'
+  year: 2014
   zbmath_url: https://zbmath.org/6243329
   arxiv: '1304.6641'
   authors:
@@ -5795,7 +5806,7 @@ result:
     original: null
     subtitle: null
     title: On the functoriality of cohomology of categories
-  year: '2006'
+  year: 2006
   zbmath_url: https://zbmath.org/2244508
   arxiv: math/0411478
   authors:
@@ -6183,7 +6194,7 @@ result:
     original: null
     subtitle: null
     title: On the unit of a monoidal model category
-  year: '2015'
+  year: 2015
   zbmath_url: https://zbmath.org/6454207
   arxiv: '1411.1349'
   authors:
@@ -6686,7 +6697,7 @@ result:
     original: null
     subtitle: null
     title: Suspensions of crossed and quadratic complexes, co-H-structures and applications
-  year: '2005'
+  year: 2005
   zbmath_url: https://zbmath.org/2172214
   authors:
   - *id003
@@ -6788,7 +6799,7 @@ result:
     original: null
     subtitle: null
     title: On \(K_1\) of a Waldhausen category
-  year: '2008'
+  year: 2008
   zbmath_url: https://zbmath.org/5381934
   arxiv: math/0611229
   authors:
@@ -7128,7 +7139,7 @@ result:
     original: null
     subtitle: null
     title: Homotopy theory of bicomplexes
-  year: '2019'
+  year: 2019
   zbmath_url: https://zbmath.org/7006249
   arxiv: '1802.07610'
   authors:
@@ -7703,7 +7714,7 @@ result:
     original: null
     subtitle: null
     title: Homotopy units in \(A\)-infinity algebras
-  year: '2016'
+  year: 2016
   zbmath_url: https://zbmath.org/6550647
   arxiv: '1111.2723'
   authors:
@@ -8320,7 +8331,7 @@ result:
     original: null
     subtitle: null
     title: Dwyer-Kan homotopy theory of enriched categories
-  year: '2015'
+  year: 2015
   zbmath_url: https://zbmath.org/6451815
   arxiv: '1201.1575'
   authors:
@@ -9372,7 +9383,7 @@ result:
     original: null
     subtitle: null
     title: Enhanced finite triangulated categories
-  year: '2022'
+  year: 2022
   zbmath_url: https://zbmath.org/7506910
   arxiv: '1810.10068'
   authors:
@@ -9857,7 +9868,7 @@ result:
     original: null
     subtitle: null
     title: Moduli spaces of algebras over nonsymmetric operads
-  year: '2014'
+  year: 2014
   zbmath_url: https://zbmath.org/6281920
   arxiv: '1112.5146'
   authors:
@@ -10005,7 +10016,7 @@ result:
     original: null
     subtitle: null
     title: On determinant functors and \(K\)-theory
-  year: '2015'
+  year: 2015
   zbmath_url: https://zbmath.org/6417698
   arxiv: '1006.5399'
   authors:
@@ -10105,7 +10116,7 @@ result:
     original: null
     subtitle: null
     title: 'The Derived Auslander--Iyama Correspondence II: Bimodule Calabi--Yau Structures'
-  year: '2026'
+  year: 2026
   zbmath_url: https://zbmath.org/902841587
   arxiv: '2509.22625'
   authors:
@@ -10199,7 +10210,7 @@ result:
     subtitle: null
     title: 'Minimal ${A}_{\infty}$-algebras of endomorphisms: The case of $d\mathbb{Z}$-cluster
       tilting objects'
-  year: '2026'
+  year: 2026
   zbmath_url: https://zbmath.org/902815985
   arxiv: '2508.18852'
   authors:
@@ -10286,7 +10297,7 @@ result:
     original: null
     subtitle: null
     title: Obstruction theory for $A$-infinity bimodules
-  year: '2025'
+  year: 2025
   zbmath_url: https://zbmath.org/902790912
   arxiv: '2507.17568'
   authors:
@@ -10881,7 +10892,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: Commun. Algebra, 51, No. 8, 3298-3313
+    source: Commun. Algebra, 51, No. 8, 3298-3313, (2023)
   states:
   - - s
     - item with single author
@@ -10896,7 +10907,7 @@ result:
     original: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
     subtitle: null
     title: Massey products for algebras over operads
-  year: '2023'
+  year: 2023
   zbmath_url: https://zbmath.org/7700052
   arxiv: '2106.14996'
   authors:
@@ -11575,7 +11586,7 @@ result:
     original: null
     subtitle: null
     title: Enhanced \(A_{\infty}\)-obstruction theory
-  year: '2020'
+  year: 2020
   zbmath_url: https://zbmath.org/7190145
   arxiv: '1510.00312'
   authors:
@@ -11854,7 +11865,7 @@ result:
     original: null
     subtitle: null
     title: 'Correction to: ``Homotopy theory of nonsymmetric operads. I--II'''''
-  year: '2017'
+  year: 2017
   zbmath_url: https://zbmath.org/6791664
   arxiv: '1507.06644'
   authors:
@@ -11961,12 +11972,17 @@ result:
     original: null
     subtitle: null
     title: Derived universal Massey products
-  year: '2023'
+  year: 2023
   zbmath_url: https://zbmath.org/7681901
   arxiv: '2109.01421'
   authors:
   - *id003
   doi: 10.4310/HHA.2023.v25.n1.a10
+  bibtex: "@article{Muro_2023,\n    title={Derived universal Massey products},\n \
+    \   volume={25},\n    ISSN={1532-0081},\n    url={http://dx.doi.org/10.4310/HHA.2023.v25.n1.a10},\n\
+    \    DOI={10.4310/hha.2023.v25.n1.a10},\n    number={1},\n    journal={Homology,\
+    \ Homotopy and Applications},\n    publisher={International Press of Boston},\n\
+    \    author={Muro, Fernando},\n    year={2023},\n    pages={189–218} }\n"
   abstract: We define an obstruction to the formality of a differential graded algebra
     over a graded operad defined over a commutative ground ring. This obstruction
     lives in the derived operadic cohomology of the algebra. Moreover, it determines
@@ -12973,7 +12989,7 @@ result:
     original: null
     subtitle: null
     title: Transfinite Adams representability
-  year: '2016'
+  year: 2016
   zbmath_url: https://zbmath.org/6548165
   arxiv: '1304.3599'
   authors:
@@ -13104,7 +13120,7 @@ result:
     original: null
     subtitle: null
     title: \(K\)-theory of derivators revisited
-  year: '2017'
+  year: 2017
   zbmath_url: https://zbmath.org/6673997
   arxiv: '1402.1871'
   authors:
@@ -13113,6 +13129,12 @@ result:
     given: George
     family: Raptis
   doi: 10.2140/akt.2017.2.303
+  bibtex: "@article{Muro_2017,\n    title={K-theory of derivators revisited},\n  \
+    \  volume={2},\n    ISSN={2379-1683},\n    url={http://dx.doi.org/10.2140/akt.2017.2.303},\n\
+    \    DOI={10.2140/akt.2017.2.303},\n    number={2},\n    journal={Annals of K-Theory},\n\
+    \    publisher={Mathematical Sciences Publishers},\n    author={Muro, Fernando\
+    \ and Raptis, Georgios},\n    year={2017},\n    month=Jan,\n    pages={303–340}\
+    \ }\n"
   abstract: We define a $K$-theory for pointed right derivators and show that it agrees
     with Waldhausen $K$-theory in the case where the derivator arises from a good
     Waldhausen category. This $K$-theory is not invariant under general equivalences
@@ -13182,7 +13204,7 @@ result:
     original: null
     subtitle: null
     title: A model structure for locally constant factorization algebras
-  year: '2026'
+  year: 2026
   zbmath_url: https://zbmath.org/900514688
   arxiv: '2107.14174'
   authors:
@@ -13872,7 +13894,7 @@ result:
     original: null
     subtitle: null
     title: Operations on the de Rham cohomology of Poisson and Jacobi manifolds
-  year: '2025'
+  year: 2025
   zbmath_url: https://zbmath.org/8105648
   arxiv: '2312.07321'
   authors:
@@ -14584,7 +14606,7 @@ result:
     original: null
     subtitle: null
     title: The first obstructions to enhancing a triangulated category
-  year: '2020'
+  year: 2020
   zbmath_url: https://zbmath.org/7242463
   arxiv: '1803.02464'
   authors:
@@ -15113,7 +15135,7 @@ result:
     original: null
     subtitle: null
     title: Proper L--S category, fundamental pro-groups and 2-dimensional proper co-H-spaces
-  year: '2005'
+  year: 2005
   zbmath_url: https://zbmath.org/5012978
   authors:
   - &id008
@@ -15807,7 +15829,7 @@ result:
     original: null
     subtitle: null
     title: Torsion homology and cellular approximation
-  year: '2019'
+  year: 2019
   zbmath_url: https://zbmath.org/7053579
   arxiv: '1707.07654'
   authors:
@@ -16199,7 +16221,7 @@ result:
     original: null
     subtitle: null
     title: Cylinders for non-symmetric DG-operads via homological perturbation theory
-  year: '2016'
+  year: 2016
   zbmath_url: https://zbmath.org/6571599
   arxiv: '1505.02945'
   authors:
@@ -16760,7 +16782,7 @@ result:
     original: null
     subtitle: null
     title: A note on \(K\)-theory and triangulated derivators
-  year: '2011'
+  year: 2011
   zbmath_url: https://zbmath.org/5918250
   arxiv: '1007.4776'
   authors:
@@ -17316,7 +17338,7 @@ result:
     original: null
     subtitle: null
     title: The proper L-S category of Whitehead manifolds
-  year: '2005'
+  year: 2005
   zbmath_url: https://zbmath.org/5012977
   authors:
   - *id008
@@ -17586,7 +17608,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: Commun. Algebra, 31, No. 12, 5995-6017
+    source: Commun. Algebra, 31, No. 12, 5995-6017, (2003)
   states:
   - - r
     - item has references
@@ -17597,7 +17619,7 @@ result:
     original: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
     subtitle: null
     title: An Elementary Approach to the Projective Dimension in Proper Homotopy Theory
-  year: '2003'
+  year: 2003
   zbmath_url: https://zbmath.org/2010229
   authors:
   - given: R.
@@ -17750,7 +17772,7 @@ result:
     original: null
     subtitle: null
     title: Maltsiniotis's first conjecture for \(K_{1}\)
-  year: '2008'
+  year: 2008
   zbmath_url: https://zbmath.org/5306025
   arxiv: '0707.1892'
   authors:
@@ -18456,7 +18478,7 @@ result:
     original: null
     subtitle: null
     title: Derived homotopy algebras
-  year: '2023'
+  year: 2023
   zbmath_url: https://zbmath.org/7719245
   arxiv: '2106.14987'
   authors:
@@ -18536,7 +18558,7 @@ result:
     original: null
     subtitle: null
     title: A triangulated category without models
-  year: '2007'
+  year: 2007
   zbmath_url: https://zbmath.org/900080869
   arxiv: math/0703311
   authors:
@@ -18625,7 +18647,7 @@ result:
     original: null
     subtitle: null
     title: On the proper homotopy type of locally compact A^2_n-polyhedra
-  year: '2006'
+  year: 2006
   zbmath_url: https://zbmath.org/900028837
   arxiv: math/0605213
   authors:
@@ -18959,7 +18981,7 @@ result:
     subtitle: null
     title: Representation theory of some infinite dimensional algebras arising in
       continuously controlled algebra and topology.
-  year: '2004'
+  year: 2004
   zbmath_url: https://zbmath.org/5068816
   arxiv: math/0310334
   authors:
@@ -18984,6 +19006,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.332348108291626
+  query_execution_time_in_seconds: 1.3352024555206299
   status_code: 200
-  time_stamp: '2026-08-16T10:24:35Z'
+  time_stamp: '2026-08-16T11:02:45Z'
