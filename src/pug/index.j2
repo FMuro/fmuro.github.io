@@ -101,7 +101,7 @@ html(lang='en')
                 p.text-muted.mb-2.mx-5.text-center
                     | I work on algebraic topology, specifically on homotopy theory, and I also interact with related fields such as category theory, homological algebra, K-theory, and representation theory.
             {% set count = {'counter': 0} %}
-            {% for entry in biblio %}
+            {% for entry in biblio | sort(attribute='year') %}
             {% if entry['document_type'].code not in ['a', 'j'] and (entry.year | int) > 2020 %}
             {% if count.counter == 0 %}
             .container-fluid
