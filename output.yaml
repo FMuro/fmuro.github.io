@@ -3973,6 +3973,11 @@ result:
   - *id004
   - *id003
   doi: 10.1017/is008007021jkt061
+  bibtex: "@article{Baues_2008,\n    title={Cohomologically triangulated categories\
+    \ II},\n    volume={3},\n    ISSN={1865-5394},\n    url={http://dx.doi.org/10.1017/is008007021jkt061},\n\
+    \    DOI={10.1017/is008007021jkt061},\n    number={1},\n    journal={Journal of\
+    \ K-Theory},\n    publisher={Cambridge University Press (CUP)},\n    author={Baues,\
+    \ H.-J. and Muro, F.},\n    year={2008},\n    month=Dec,\n    pages={1–52} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -4093,6 +4098,11 @@ result:
     given: Andrew
     family: Tonks
   doi: 10.1515/forum-2011-0130
+  bibtex: "@article{Muro_2012,\n    title={Unital associahedra},\n    volume={26},\n\
+    \    ISSN={1435-5337},\n    url={http://dx.doi.org/10.1515/forum-2011-0130},\n\
+    \    DOI={10.1515/forum-2011-0130},\n    number={2},\n    journal={Forum Mathematicum},\n\
+    \    publisher={Walter de Gruyter GmbH},\n    author={Muro, Fernando and Tonks,\
+    \ Andrew},\n    year={2012},\n    month=Feb,\n    pages={593–620} }\n"
   abstract: We construct a topological cellular operad such that the algebras over
     its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.
 - biographic_references: []
@@ -5131,6 +5141,11 @@ result:
   - *id003
   - *id005
   doi: 10.1016/j.aim.2007.05.008
+  bibtex: "@article{Muro_2007,\n    title={The 1-type of a Waldhausen K-theory spectrum},\n\
+    \    volume={216},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2007.05.008},\n\
+    \    DOI={10.1016/j.aim.2007.05.008},\n    number={1},\n    journal={Advances\
+    \ in Mathematics},\n    publisher={Elsevier BV},\n    author={Muro, Fernando and\
+    \ Tonks, Andrew},\n    year={2007},\n    month=Dec,\n    pages={178–211} }\n"
   abstract: We give a small functorial algebraic model for the 2-stage Postnikov section
     of the K-theory spectrum of a Waldhausen category and use our presentation to
     describe the multiplicative structure with respect to biexact functors.
@@ -5506,6 +5521,12 @@ result:
   authors:
   - *id003
   doi: 10.2140/agt.2014.14.229
+  bibtex: "@article{Muro_2014,\n    title={Homotopy theory of non-symmetric operads,\
+    \ II: Change of base category and left properness},\n    volume={14},\n    ISSN={1472-2747},\n\
+    \    url={http://dx.doi.org/10.2140/agt.2014.14.229},\n    DOI={10.2140/agt.2014.14.229},\n\
+    \    number={1},\n    journal={Algebraic &amp; Geometric Topology},\n    publisher={Mathematical\
+    \ Sciences Publishers},\n    author={Muro, Fernando},\n    year={2014},\n    month=Jan,\n\
+    \    pages={229–281} }\n"
   abstract: We prove, under mild assumptions, that a Quillen equivalence between symmetric
     monoidal model categories gives rise to a Quillen equivalence between their model
     categories of (non-symmetric) operads, and also between model categories of algebras
@@ -5791,6 +5812,11 @@ result:
   authors:
   - *id003
   doi: 10.1016/j.jpaa.2005.05.004
+  bibtex: "@article{Muro_2006,\n    title={On the functoriality of cohomology of categories},\n\
+    \    volume={204},\n    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2005.05.004},\n\
+    \    DOI={10.1016/j.jpaa.2005.05.004},\n    number={3},\n    journal={Journal\
+    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
+    \ Fernando},\n    year={2006},\n    month=Mar,\n    pages={455–472} }\n"
   abstract: In this paper we show that the Baues-Wirsching complex used to define
     cohomology of categories is a 2-functor from a certain 2-category of natural systems
     of abelian groups to the 2-category of chain complexes, chain homomorphism and
@@ -6780,6 +6806,11 @@ result:
   - *id003
   - *id005
   doi: 10.4171/060-1/4
+  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
+    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
+    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
+    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
+    \    pages={91–115} }\n"
   abstract: We give a simple representation of all elements in K_1 of a Waldhausen
     category and prove relations between these representatives which hold in K_1.
 - biographic_references: []
@@ -8306,6 +8337,11 @@ result:
   authors:
   - *id003
   doi: 10.1112/jtopol/jtu029
+  bibtex: "@article{Muro_2015,\n    title={Dwyer-Kan homotopy theory of enriched categories},\n\
+    \    volume={8},\n    ISSN={1753-8416},\n    url={http://dx.doi.org/10.1112/jtopol/jtu029},\n\
+    \    DOI={10.1112/jtopol/jtu029},\n    number={2},\n    journal={Journal of Topology},\n\
+    \    publisher={Wiley},\n    author={Muro, Fernando},\n    year={2015},\n    month=Mar,\n\
+    \    pages={377–413} }\n"
   abstract: We construct a model structure on the category of small categories enriched
     over a combinatorial closed symmetric monoidal model category satisfying the monoid
     axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which
@@ -9989,6 +10025,12 @@ result:
   - given: Malte
     family: Witte
   doi: 10.5565/PUBLMAT_59115_07
+  bibtex: "@article{Muro_2015,\n    title={On determinant functors and $K$-theory},\n\
+    \    volume={59},\n    ISSN={0214-1493},\n    url={http://dx.doi.org/10.5565/PUBLMAT_59115_07},\n\
+    \    DOI={10.5565/publmat_59115_07},\n    journal={Publicacions Matemàtiques},\n\
+    \    publisher={Universitat Autonoma de Barcelona},\n    author={Muro, F. and\
+    \ Tonks, A. and Witte, M.},\n    year={2015},\n    month=Jan,\n    pages={137–233}\
+    \ }\n"
   abstract: In this paper we introduce a new approach to determinant functors which
     allows us to extend Deligne's determinant functors for exact categories to Waldhausen
     categories, (strongly) triangulated categories, and derivators. We construct universal
@@ -16747,6 +16789,11 @@ result:
   - *id003
   - *id007
   doi: 10.1016/j.aim.2011.04.005
+  bibtex: "@article{Muro_2011,\n    title={A note on K-theory and triangulated derivators},\n\
+    \    volume={227},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2011.04.005},\n\
+    \    DOI={10.1016/j.aim.2011.04.005},\n    number={5},\n    journal={Advances\
+    \ in Mathematics},\n    publisher={Elsevier BV},\n    author={Muro, Fernando and\
+    \ Raptis, George},\n    year={2011},\n    month=Aug,\n    pages={1827–1845} }\n"
   abstract: In this paper we show an example of two differential graded algebras that
     have the same derivator K-theory but non-isomorphic Waldhausen K-theory. We also
     prove that Maltsiniotis's comparison and localization conjectures for derivator
@@ -17582,6 +17629,12 @@ result:
   - given: Adrian
     family: Quintero
   doi: 10.1081/AGB-120024863
+  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
+    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
+    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
+    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
+    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
+    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17725,11 +17778,6 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
-  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
-    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
-    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
-    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
-    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -18934,12 +18982,6 @@ result:
   authors:
   - *id003
   doi: 10.1007/s10977-004-1837-4
-  bibtex: "@article{Muro_2004,\n    title={Representation Theory of some Infinite-dimensional\
-    \ Algebras Arising in Continuously Controlled Algebra and Topology},\n    volume={33},\n\
-    \    ISSN={0920-3036},\n    url={http://dx.doi.org/10.1007/s10977-004-1837-4},\n\
-    \    DOI={10.1007/s10977-004-1837-4},\n    number={1},\n    journal={K-Theory},\n\
-    \    publisher={Portico},\n    author={Muro, Fernando},\n    year={2004},\n  \
-    \  month=Sept,\n    pages={23–65} }\n"
   abstract: In this paper we determine the representation type of some algebras of
     infinite matrices continuously controlled at infinity by a compact metrizable
     space. We explicitly classify their finitely presented modules in the finite and
@@ -18953,6 +18995,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.327700138092041
+  query_execution_time_in_seconds: 1.3268725872039795
   status_code: 200
-  time_stamp: '2026-08-16T17:45:27Z'
+  time_stamp: '2026-08-16T17:57:56Z'
