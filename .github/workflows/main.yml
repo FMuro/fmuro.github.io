@@ -52,7 +52,7 @@ jobs:
           local_path: './docs/*'
           remote_path: '/fmuro'
           sftp_only: true
-         password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.FTP_PASSWORD }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
