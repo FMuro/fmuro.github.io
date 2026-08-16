@@ -3973,11 +3973,6 @@ result:
   - *id004
   - *id003
   doi: 10.1017/is008007021jkt061
-  bibtex: "@article{Baues_2008,\n    title={Cohomologically triangulated categories\
-    \ II},\n    volume={3},\n    ISSN={1865-5394},\n    url={http://dx.doi.org/10.1017/is008007021jkt061},\n\
-    \    DOI={10.1017/is008007021jkt061},\n    number={1},\n    journal={Journal of\
-    \ K-Theory},\n    publisher={Cambridge University Press (CUP)},\n    author={Baues,\
-    \ H.-J. and Muro, F.},\n    year={2008},\n    month=Dec,\n    pages={1–52} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -4098,11 +4093,6 @@ result:
     given: Andrew
     family: Tonks
   doi: 10.1515/forum-2011-0130
-  bibtex: "@article{Muro_2012,\n    title={Unital associahedra},\n    volume={26},\n\
-    \    ISSN={1435-5337},\n    url={http://dx.doi.org/10.1515/forum-2011-0130},\n\
-    \    DOI={10.1515/forum-2011-0130},\n    number={2},\n    journal={Forum Mathematicum},\n\
-    \    publisher={Walter de Gruyter GmbH},\n    author={Muro, Fernando and Tonks,\
-    \ Andrew},\n    year={2012},\n    month=Feb,\n    pages={593–620} }\n"
   abstract: We construct a topological cellular operad such that the algebras over
     its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.
 - biographic_references: []
@@ -8337,11 +8327,6 @@ result:
   authors:
   - *id003
   doi: 10.1112/jtopol/jtu029
-  bibtex: "@article{Muro_2015,\n    title={Dwyer-Kan homotopy theory of enriched categories},\n\
-    \    volume={8},\n    ISSN={1753-8416},\n    url={http://dx.doi.org/10.1112/jtopol/jtu029},\n\
-    \    DOI={10.1112/jtopol/jtu029},\n    number={2},\n    journal={Journal of Topology},\n\
-    \    publisher={Wiley},\n    author={Muro, Fernando},\n    year={2015},\n    month=Mar,\n\
-    \    pages={377–413} }\n"
   abstract: We construct a model structure on the category of small categories enriched
     over a combinatorial closed symmetric monoidal model category satisfying the monoid
     axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which
@@ -10025,6 +10010,12 @@ result:
   - given: Malte
     family: Witte
   doi: 10.5565/PUBLMAT_59115_07
+  bibtex: "@article{Muro_2015,\n    title={On determinant functors and $K$-theory},\n\
+    \    volume={59},\n    ISSN={0214-1493},\n    url={http://dx.doi.org/10.5565/PUBLMAT_59115_07},\n\
+    \    DOI={10.5565/publmat_59115_07},\n    journal={Publicacions Matemàtiques},\n\
+    \    publisher={Universitat Autonoma de Barcelona},\n    author={Muro, F. and\
+    \ Tonks, A. and Witte, M.},\n    year={2015},\n    month=Jan,\n    pages={137–233}\
+    \ }\n"
   abstract: In this paper we introduce a new approach to determinant functors which
     allows us to extend Deligne's determinant functors for exact categories to Waldhausen
     categories, (strongly) triangulated categories, and derivators. We construct universal
@@ -18480,12 +18471,6 @@ result:
     family: Maes
   - *id003
   doi: 10.1017/prm.2022.42
-  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
-    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
-    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
-    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
-    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
-    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
   abstract: We develop a theory of minimal models for algebras over an operad defined
     over a commutative ring, not necessarily a field, extending and supplementing
     the work of Sagave in the associative case.
@@ -19000,6 +18985,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.4217007160186768
+  query_execution_time_in_seconds: 1.4566214084625244
   status_code: 200
-  time_stamp: '2026-08-16T15:32:34Z'
+  time_stamp: '2026-08-16T16:23:54Z'
