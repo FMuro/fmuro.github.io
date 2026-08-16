@@ -6702,12 +6702,6 @@ result:
   authors:
   - *id003
   doi: 10.1090/S0002-9947-04-03597-4
-  bibtex: "@article{Muro_2004,\n    title={Suspensions of crossed and quadratic complexes,\
-    \ co-H-structures and applications},\n    volume={357},\n    ISSN={0002-9947},\n\
-    \    url={http://dx.doi.org/10.1090/S0002-9947-04-03597-4},\n    DOI={10.1090/s0002-9947-04-03597-4},\n\
-    \    number={9},\n    journal={Transactions of the American Mathematical Society},\n\
-    \    publisher={American Mathematical Society (AMS)},\n    author={Muro, Fernando},\n\
-    \    year={2004},\n    month=Dec,\n    pages={3623–3653} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -6806,11 +6800,6 @@ result:
   - *id003
   - *id005
   doi: 10.4171/060-1/4
-  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
-    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
-    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
-    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
-    \    pages={91–115} }\n"
   abstract: We give a simple representation of all elements in K_1 of a Waldhausen
     category and prove relations between these representatives which hold in K_1.
 - biographic_references: []
@@ -7147,12 +7136,6 @@ result:
   - given: Constanze
     family: Roitzheim
   doi: 10.1016/j.jpaa.2018.08.007
-  bibtex: "@article{Muro_2019,\n    title={Homotopy theory of bicomplexes},\n    volume={223},\n\
-    \    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2018.08.007},\n\
-    \    DOI={10.1016/j.jpaa.2018.08.007},\n    number={5},\n    journal={Journal\
-    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
-    \ Fernando and Roitzheim, Constanze},\n    year={2019},\n    month=May,\n    pages={1913–1939}\
-    \ }\n"
   abstract: We define two model structures on the category of bicomplexes concentrated
     in the right half plane. The first model structure has weak equivalences detected
     by the totalisation functor. The second model structure's weak equivalences are
@@ -19006,6 +18989,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.330986738204956
+  query_execution_time_in_seconds: 1.4128284454345703
   status_code: 200
-  time_stamp: '2026-08-16T18:05:16Z'
+  time_stamp: '2026-08-16T18:16:38Z'
