@@ -43,7 +43,7 @@ jobs:
         run: npm run build --if-present
       - name: get output in the repo
         uses: stefanzweifel/git-auto-commit-action@v5
-			- name: Create EduVPN config
+      - name: Create EduVPN config
         run: |
           echo '${{ secrets.EDUVPN_CONFIG_B64 }}' | base64 -d > eduvpn.ovpn
       - name: Connect to EduVPN
