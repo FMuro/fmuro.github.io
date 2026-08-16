@@ -46,6 +46,10 @@ jobs:
       - name: Create EduVPN config
         run: |
           echo '${{ secrets.EDUVPN_CONFIG_B64 }}' | base64 -d > eduvpn.ovpn
+      - name: Install OpenVPN
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn
       - name: Connect to EduVPN
         uses: kota65535/github-openvpn-connect-action@v3
         with:
