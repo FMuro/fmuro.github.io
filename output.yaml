@@ -17778,6 +17778,11 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
+  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
+    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
+    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
+    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
+    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -18982,6 +18987,12 @@ result:
   authors:
   - *id003
   doi: 10.1007/s10977-004-1837-4
+  bibtex: "@article{Muro_2004,\n    title={Representation Theory of some Infinite-dimensional\
+    \ Algebras Arising in Continuously Controlled Algebra and Topology},\n    volume={33},\n\
+    \    ISSN={0920-3036},\n    url={http://dx.doi.org/10.1007/s10977-004-1837-4},\n\
+    \    DOI={10.1007/s10977-004-1837-4},\n    number={1},\n    journal={K-Theory},\n\
+    \    publisher={Portico},\n    author={Muro, Fernando},\n    year={2004},\n  \
+    \  month=Sept,\n    pages={23–65} }\n"
   abstract: In this paper we determine the representation type of some algebras of
     infinite matrices continuously controlled at infinity by a compact metrizable
     space. We explicitly classify their finitely presented modules in the finite and
@@ -18995,6 +19006,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.3268725872039795
+  query_execution_time_in_seconds: 1.330986738204956
   status_code: 200
-  time_stamp: '2026-08-16T17:57:56Z'
+  time_stamp: '2026-08-16T18:05:16Z'
