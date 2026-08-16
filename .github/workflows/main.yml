@@ -43,6 +43,12 @@ jobs:
         run: npm run build --if-present
       - name: get output in the repo
         uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Connect to EduVPN
+        uses: kota65535/github-openvpn-connect-action@v3
+        with:
+          config_file: ${{ secrets.EDUVPN_CONFIG }}
+          username: ${{ secrets.EDUVPN_USERNAME }}
+          password: ${{ secrets.EDUVPN_PASSWORD }}
       - name: Deploy to my domain
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
