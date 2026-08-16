@@ -115,7 +115,7 @@ html(lang='en')
                 {% endif %}
                 {% endfor %}
                 {% filter indent(width=20) %}
-                {{ paper(entry.id, entry.authors, entry.title.title, entry.source.source, entry.doi, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url'], pdf) }}
+                {{ paper(entry.id, entry.authors, entry.title.title, entry.source.source[10:], entry.doi, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url'], pdf) }}
                 {% endfilter -%}
             {% if count.update({'counter': count.counter + 1}) %} {% endif %}
             {% endif -%}
