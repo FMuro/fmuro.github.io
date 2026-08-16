@@ -43,19 +43,32 @@ jobs:
         run: npm run build --if-present
       - name: get output in the repo
         uses: stefanzweifel/git-auto-commit-action@v5
-      - name: Create EduVPN config
-        run: |
-          echo '${{ secrets.EDUVPN_CONFIG }}' | base64 -d > eduvpn.ovpn
       - name: Install OpenVPN
         run: |
           sudo apt-get update
           sudo apt-get install -y openvpn
+      - name: Create EduVPN configuration
+        env:
+          EDUVPN_CONFIG: ${{ secrets.EDUVPN_CONFIG }}
+        run: |
+          printf '%s\n' "$EDUVPN_CONFIG" > eduvpn.ovpn
+      - name: Create OpenVPN credentials
+        env:
+          EDUVPN_USERNAME: ${{ secrets.EDUVPN_USERNAME }}
+          EDUVPN_PASSWORD: ${{ secrets.EDUVPN_PASSWORD }}
+        run: |
+          printf '%s\n%s\n' "$EDUVPN_USERNAME" "$EDUVPN_PASSWORD" > up.txt
+          chmod 600 up.txt
       - name: Connect to EduVPN
-        uses: kota65535/github-openvpn-connect-action@v3
-        with:
-          config_file: ./eduvpn.ovpn
-          username: ${{ secrets.EDUVPN_USERNAME }}
-          password: ${{ secrets.EDUVPN_PASSWORD }}
+        run: |
+          sudo openvpn \
+            --config "$PWD/eduvpn.ovpn" \
+            --auth-user-pass "$PWD/up.txt" \
+            --daemon \
+            --log "$PWD/openvpn.log" \
+            --writepid "$PWD/openvpn.pid"
+          sleep 10
+          cat openvpn.log
       - name: Deploy to my domain
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
