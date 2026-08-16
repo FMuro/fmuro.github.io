@@ -4098,11 +4098,6 @@ result:
     given: Andrew
     family: Tonks
   doi: 10.1515/forum-2011-0130
-  bibtex: "@article{Muro_2012,\n    title={Unital associahedra},\n    volume={26},\n\
-    \    ISSN={1435-5337},\n    url={http://dx.doi.org/10.1515/forum-2011-0130},\n\
-    \    DOI={10.1515/forum-2011-0130},\n    number={2},\n    journal={Forum Mathematicum},\n\
-    \    publisher={Walter de Gruyter GmbH},\n    author={Muro, Fernando and Tonks,\
-    \ Andrew},\n    year={2012},\n    month=Feb,\n    pages={593–620} }\n"
   abstract: We construct a topological cellular operad such that the algebras over
     its cellular chains are the homotopy unital A-infinity algebras of Fukaya-Oh-Ohta-Ono.
 - biographic_references: []
@@ -4214,12 +4209,6 @@ result:
   - *id004
   - *id003
   doi: 10.36045/bbms/1225893951
-  bibtex: "@article{Baues_2008,\n    title={The symmetric action on secondary homotopy\
-    \ groups},\n    volume={15},\n    ISSN={1370-1444},\n    url={http://dx.doi.org/10.36045/bbms/1225893951},\n\
-    \    DOI={10.36045/bbms/1225893951},\n    number={4},\n    journal={Bulletin of\
-    \ the Belgian Mathematical Society - Simon Stevin},\n    publisher={The Belgian\
-    \ Mathematical Society},\n    author={Baues, Hans-Joachim and Muro, Fernando},\n\
-    \    year={2008},\n    month=May }\n"
   abstract: We show that the symmetric track group, which is an extension of the symmetric
     group associated to the second Stiefel- Withney class, acts as a crossed module
     on the secondary homotopy group of a pointed space. An application is given to
@@ -11978,11 +11967,6 @@ result:
   authors:
   - *id003
   doi: 10.4310/HHA.2023.v25.n1.a10
-  bibtex: "@article{Muro_2023,\n    title={Derived universal Massey products},\n \
-    \   volume={25},\n    ISSN={1532-0081},\n    url={http://dx.doi.org/10.4310/HHA.2023.v25.n1.a10},\n\
-    \    DOI={10.4310/hha.2023.v25.n1.a10},\n    number={1},\n    journal={Homology,\
-    \ Homotopy and Applications},\n    publisher={International Press of Boston},\n\
-    \    author={Muro, Fernando},\n    year={2023},\n    pages={189–218} }\n"
   abstract: We define an obstruction to the formality of a differential graded algebra
     over a graded operad defined over a commutative ground ring. This obstruction
     lives in the derived operadic cohomology of the algebra. Moreover, it determines
@@ -13129,12 +13113,6 @@ result:
     given: George
     family: Raptis
   doi: 10.2140/akt.2017.2.303
-  bibtex: "@article{Muro_2017,\n    title={K-theory of derivators revisited},\n  \
-    \  volume={2},\n    ISSN={2379-1683},\n    url={http://dx.doi.org/10.2140/akt.2017.2.303},\n\
-    \    DOI={10.2140/akt.2017.2.303},\n    number={2},\n    journal={Annals of K-Theory},\n\
-    \    publisher={Mathematical Sciences Publishers},\n    author={Muro, Fernando\
-    \ and Raptis, Georgios},\n    year={2017},\n    month=Jan,\n    pages={303–340}\
-    \ }\n"
   abstract: We define a $K$-theory for pointed right derivators and show that it agrees
     with Waldhausen $K$-theory in the case where the derivator arises from a good
     Waldhausen category. This $K$-theory is not invariant under general equivalences
@@ -19006,6 +18984,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.328845739364624
+  query_execution_time_in_seconds: 1.332348108291626
   status_code: 200
-  time_stamp: '2026-08-15T14:55:37Z'
+  time_stamp: '2026-08-16T10:24:35Z'
