@@ -17778,6 +17778,11 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
+  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
+    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
+    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
+    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
+    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -19001,6 +19006,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.5757384300231934
+  query_execution_time_in_seconds: 1.6301586627960205
   status_code: 200
-  time_stamp: '2026-08-17T18:00:07Z'
+  time_stamp: '2026-08-18T06:42:30Z'
