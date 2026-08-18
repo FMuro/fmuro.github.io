@@ -6702,12 +6702,6 @@ result:
   authors:
   - *id003
   doi: 10.1090/S0002-9947-04-03597-4
-  bibtex: "@article{Muro_2004,\n    title={Suspensions of crossed and quadratic complexes,\
-    \ co-H-structures and applications},\n    volume={357},\n    ISSN={0002-9947},\n\
-    \    url={http://dx.doi.org/10.1090/S0002-9947-04-03597-4},\n    DOI={10.1090/s0002-9947-04-03597-4},\n\
-    \    number={9},\n    journal={Transactions of the American Mathematical Society},\n\
-    \    publisher={American Mathematical Society (AMS)},\n    author={Muro, Fernando},\n\
-    \    year={2004},\n    month=Dec,\n    pages={3623–3653} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -6806,11 +6800,6 @@ result:
   - *id003
   - *id005
   doi: 10.4171/060-1/4
-  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
-    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
-    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
-    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
-    \    pages={91–115} }\n"
   abstract: We give a simple representation of all elements in K_1 of a Waldhausen
     category and prove relations between these representatives which hold in K_1.
 - biographic_references: []
@@ -17629,12 +17618,6 @@ result:
   - given: Adrian
     family: Quintero
   doi: 10.1081/AGB-120024863
-  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
-    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
-    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
-    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
-    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
-    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17778,11 +17761,6 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
-  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
-    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
-    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
-    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
-    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -18486,12 +18464,6 @@ result:
     family: Maes
   - *id003
   doi: 10.1017/prm.2022.42
-  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
-    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
-    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
-    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
-    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
-    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
   abstract: We develop a theory of minimal models for algebras over an operad defined
     over a commutative ring, not necessarily a field, extending and supplementing
     the work of Sagave in the associative case.
@@ -19006,6 +18978,6 @@ status:
   last_id: null
   nr_total_results: 49
   nr_request_results: 49
-  query_execution_time_in_seconds: 1.6301586627960205
+  query_execution_time_in_seconds: 1.2934331893920898
   status_code: 200
-  time_stamp: '2026-08-18T06:42:30Z'
+  time_stamp: '2026-08-18T08:40:24Z'
