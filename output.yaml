@@ -6702,6 +6702,12 @@ result:
   authors:
   - *id003
   doi: 10.1090/S0002-9947-04-03597-4
+  bibtex: "@article{Muro_2004,\n    title={Suspensions of crossed and quadratic complexes,\
+    \ co-H-structures and applications},\n    volume={357},\n    ISSN={0002-9947},\n\
+    \    url={http://dx.doi.org/10.1090/S0002-9947-04-03597-4},\n    DOI={10.1090/s0002-9947-04-03597-4},\n\
+    \    number={9},\n    journal={Transactions of the American Mathematical Society},\n\
+    \    publisher={American Mathematical Society (AMS)},\n    author={Muro, Fernando},\n\
+    \    year={2004},\n    month=Dec,\n    pages={3623–3653} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -6800,6 +6806,11 @@ result:
   - *id003
   - *id005
   doi: 10.4171/060-1/4
+  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
+    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
+    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
+    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
+    \    pages={91–115} }\n"
   abstract: We give a simple representation of all elements in K_1 of a Waldhausen
     category and prove relations between these representatives which hold in K_1.
 - biographic_references: []
@@ -13137,88 +13148,6 @@ result:
     - aliases: []
       checked: '0'
       codes:
-      - carmona.victor
-      name: Victor Carmona
-    - aliases: []
-      checked: '0'
-      codes:
-      - flores.ramon-j
-      name: Ramon Flores
-    - aliases: []
-      checked: '0'
-      codes:
-      - muro.fernando
-      name: Fernando Muro
-    author_references: []
-    editors: []
-  database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
-  document_type:
-    code: null
-    description: null
-  editorial_contributions:
-  - language: null
-    reviewer:
-      author_code: null
-      reviewer_id: null
-      name: null
-      sign: null
-    text: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
-    contribution_type: summary
-  id: 900514688
-  identifier: arXiv:2107.14174
-  keywords: []
-  language:
-    languages: []
-    addition:
-    - null
-  license:
-  - http://arxiv.org/licenses/nonexclusive-distrib/1.0/
-  links:
-  - identifier: '2107.14174'
-    type: arxiv
-    url: https://arxiv.org/abs/2107.14174
-  msc: []
-  references: []
-  source:
-    book: []
-    pages: null
-    series: []
-    source: Preprint, arXiv:2107.14174 [math.AT] (2026)
-  states:
-  - - o
-    - has open version
-  title:
-    addition: null
-    original: null
-    subtitle: null
-    title: A model structure for locally constant factorization algebras
-  year: 2026
-  zbmath_url: https://zbmath.org/900514688
-  arxiv: '2107.14174'
-  authors:
-  - given: Victor
-    family: Carmona
-  - &id006
-    given: Ramón
-    family: Flores
-  - *id003
-  bibtex: "@misc{carmona2026modelstructurelocallyconstant,\n      title={A model structure\
-    \ for locally constant factorization algebras}, \n      author={Victor Carmona\
-    \ and Ramon Flores and Fernando Muro},\n      year={2026},\n      eprint={2107.14174},\n\
-    \      archivePrefix={arXiv},\n      primaryClass={math.AT},\n      url={https://arxiv.org/abs/2107.14174},\
-    \ \n}"
-  abstract: Several model structures related to the homotopy theory of locally constant
-    factorization algebras are constructed. This answers a question raised by D. Calaque
-    in his habilitation thesis. Our methods also solve a problem related to cosheafification
-    and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally
-    constant case.
-- biographic_references: []
-  contributors:
-    authors:
-    - aliases: []
-      checked: '0'
-      codes:
       - guan.ai
       name: Guan, Ai
     - aliases: []
@@ -13908,6 +13837,88 @@ result:
     the well-known (homotopy) commutative algebra structure, which exists for any
     smooth manifold. We proceed similarly with the commutative Batalin-Vilkovisky-infinity
     algebra structure on the de Rham complex of a generalized Poisson supermanifold.
+- biographic_references: []
+  contributors:
+    authors:
+    - aliases: []
+      checked: '0'
+      codes:
+      - carmona.victor
+      name: Victor Carmona
+    - aliases: []
+      checked: '0'
+      codes:
+      - flores.ramon-j
+      name: Ramon Flores
+    - aliases: []
+      checked: '0'
+      codes:
+      - muro.fernando
+      name: Fernando Muro
+    author_references: []
+    editors: []
+  database: arXiv
+  datestamp: '0001-01-01T00:00:00Z'
+  document_type:
+    code: null
+    description: null
+  editorial_contributions:
+  - language: null
+    reviewer:
+      author_code: null
+      reviewer_id: null
+      name: null
+      sign: null
+    text: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    contribution_type: summary
+  id: 900514688
+  identifier: arXiv:2107.14174
+  keywords: []
+  language:
+    languages: []
+    addition:
+    - null
+  license:
+  - http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+  links:
+  - identifier: '2107.14174'
+    type: arxiv
+    url: https://arxiv.org/abs/2107.14174
+  msc: []
+  references: []
+  source:
+    book: []
+    pages: null
+    series: []
+    source: Preprint, arXiv:2107.14174 [math.AT] (2026)
+  states:
+  - - o
+    - has open version
+  title:
+    addition: null
+    original: null
+    subtitle: null
+    title: A model structure for locally constant factorization algebras
+  year: 2026
+  zbmath_url: https://zbmath.org/900514688
+  arxiv: '2107.14174'
+  authors:
+  - given: Victor
+    family: Carmona
+  - &id006
+    given: Ramón
+    family: Flores
+  - *id003
+  bibtex: "@misc{carmona2026modelstructurelocallyconstant,\n      title={A model structure\
+    \ for locally constant factorization algebras}, \n      author={Victor Carmona\
+    \ and Ramon Flores and Fernando Muro},\n      year={2026},\n      eprint={2107.14174},\n\
+    \      archivePrefix={arXiv},\n      primaryClass={math.AT},\n      url={https://arxiv.org/abs/2107.14174},\
+    \ \n}"
+  abstract: Several model structures related to the homotopy theory of locally constant
+    factorization algebras are constructed. This answers a question raised by D. Calaque
+    in his habilitation thesis. Our methods also solve a problem related to cosheafification
+    and factorization algebras identified by O. Gwilliam - K. Rejzner in the locally
+    constant case.
 - biographic_references: []
   contributors:
     authors:
@@ -17618,6 +17629,12 @@ result:
   - given: Adrian
     family: Quintero
   doi: 10.1081/AGB-120024863
+  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
+    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
+    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
+    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
+    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
+    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17761,6 +17778,11 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
+  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
+    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
+    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
+    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
+    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -18464,9 +18486,89 @@ result:
     family: Maes
   - *id003
   doi: 10.1017/prm.2022.42
+  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
+    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
+    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
+    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
+    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
+    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
   abstract: We develop a theory of minimal models for algebras over an operad defined
     over a commutative ring, not necessarily a field, extending and supplementing
     the work of Sagave in the associative case.
+- biographic_references: []
+  contributors:
+    authors:
+    - aliases: []
+      checked: '0'
+      codes:
+      - cabrera.javier-diaz
+      name: Javier Díaz Cabrera
+    - aliases: []
+      checked: '0'
+      codes:
+      - muro.fernando
+      name: Fernando Muro
+    author_references: []
+    editors: []
+  database: arXiv
+  datestamp: '0001-01-01T00:00:00Z'
+  document_type:
+    code: null
+    description: null
+  editorial_contributions:
+  - language: null
+    reviewer:
+      author_code: null
+      reviewer_id: null
+      name: null
+      sign: null
+    text: zbMATH Open Web Interface contents unavailable due to conflicting licenses.
+    contribution_type: summary
+  id: 903136211
+  identifier: arXiv:2608.15203
+  keywords: []
+  language:
+    languages: []
+    addition:
+    - null
+  license:
+  - http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+  links:
+  - identifier: '2608.15203'
+    type: arxiv
+    url: https://arxiv.org/abs/2608.15203
+  msc: []
+  references: []
+  source:
+    book: []
+    pages: null
+    series: []
+    source: Preprint, arXiv:2608.15203 [math.RT] (2026)
+  states:
+  - - o
+    - has open version
+  title:
+    addition: null
+    original: null
+    subtitle: null
+    title: An exotic finite pretriangulated category over any algebraically closed
+      field
+  year: 2026
+  zbmath_url: https://zbmath.org/903136211
+  arxiv: '2608.15203'
+  authors:
+  - {}
+  - *id003
+  bibtex: "@misc{cabrera2026exoticfinitepretriangulatedcategory,\n      title={An\
+    \ exotic finite pretriangulated category over any algebraically closed field},\
+    \ \n      author={Javier Díaz Cabrera and Fernando Muro},\n      year={2026},\n\
+    \      eprint={2608.15203},\n      archivePrefix={arXiv},\n      primaryClass={math.RT},\n\
+    \      url={https://arxiv.org/abs/2608.15203}, \n}"
+  abstract: We show that, over any algebraically closed field of any characteristic,
+    the category of finite\-/dimensional projective modules over the preprojective
+    algebra of generalized Dynkin type $\mathbb{L}_{2}$ has a pretriangulated category
+    structure which is neither an algebraic nor a topological triangulated category
+    structure.
 - biographic_references: []
   contributors:
     authors:
@@ -18976,8 +19078,8 @@ status:
   execution_bool: true
   internal_code: ok
   last_id: null
-  nr_total_results: 49
-  nr_request_results: 49
-  query_execution_time_in_seconds: 1.2934331893920898
+  nr_total_results: 50
+  nr_request_results: 50
+  query_execution_time_in_seconds: 1.3245480060577393
   status_code: 200
-  time_stamp: '2026-08-18T08:40:24Z'
+  time_stamp: '2026-08-21T16:06:06Z'
