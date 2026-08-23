@@ -4469,7 +4469,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: Commun. Algebra, 37, No. 1, 56-82, (2009).
+    source: Commun. Algebra 37, No. 1 56-82 (2009).
   states:
   - - o
     - has open version
@@ -10024,6 +10024,12 @@ result:
   - given: Malte
     family: Witte
   doi: 10.5565/PUBLMAT_59115_07
+  bibtex: "@article{Muro_2015,\n    title={On determinant functors and $K$-theory},\n\
+    \    volume={59},\n    ISSN={0214-1493},\n    url={http://dx.doi.org/10.5565/PUBLMAT_59115_07},\n\
+    \    DOI={10.5565/publmat_59115_07},\n    journal={Publicacions Matemàtiques},\n\
+    \    publisher={Universitat Autonoma de Barcelona},\n    author={Muro, F. and\
+    \ Tonks, A. and Witte, M.},\n    year={2015},\n    month=Jan,\n    pages={137–233}\
+    \ }\n"
   abstract: In this paper we introduce a new approach to determinant functors which
     allows us to extend Deligne's determinant functors for exact categories to Waldhausen
     categories, (strongly) triangulated categories, and derivators. We construct universal
@@ -10885,7 +10891,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: Commun. Algebra, 51, No. 8, 3298-3313, (2023).
+    source: Commun. Algebra 51, No. 8 3298-3313 (2023).
   states:
   - - s
     - item with single author
@@ -12990,6 +12996,11 @@ result:
   - given: Oriol
     family: Raventós
   doi: 10.1016/j.aim.2016.01.009
+  bibtex: "@article{Muro_2016,\n    title={Transfinite Adams representability},\n\
+    \    volume={292},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2016.01.009},\n\
+    \    DOI={10.1016/j.aim.2016.01.009},\n    journal={Advances in Mathematics},\n\
+    \    publisher={Elsevier BV},\n    author={Muro, Fernando and Raventós, Oriol},\n\
+    \    year={2016},\n    month=Apr,\n    pages={111–180} }\n"
   abstract: 'In a well generated triangulated category T, given a regular cardinal
     a, we consider the following problems: given a functor from the category of a-compact
     objects to abelian groups that preserves products of <a objects and takes exact
@@ -13808,6 +13819,12 @@ result:
     family: Guan
   - *id003
   doi: 10.1007/s00029-025-01087-w
+  bibtex: "@article{Guan_2025,\n    title={Operations on the de Rham cohomology of\
+    \ Poisson and Jacobi manifolds},\n    volume={31},\n    ISSN={1420-9020},\n  \
+    \  url={http://dx.doi.org/10.1007/s00029-025-01087-w},\n    DOI={10.1007/s00029-025-01087-w},\n\
+    \    number={5},\n    journal={Selecta Mathematica},\n    publisher={Springer\
+    \ Science and Business Media LLC},\n    author={Guan, Ai and Muro, Fernando},\n\
+    \    year={2025},\n    month=Oct }\n"
   abstract: We prove that the (homotopy) hypercommutative algebra structure on the
     de Rham cohomology of a Poisson or Jacobi manifold defined by several authors
     is (homotopically) trivial, i.e. it reduces to the underlying (homotopy) commutative
@@ -17590,7 +17607,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: Commun. Algebra, 31, No. 12, 5995-6017, (2003).
+    source: Commun. Algebra 31, No. 12 5995-6017 (2003).
   states:
   - - r
     - item has references
@@ -18539,7 +18556,8 @@ result:
   zbmath_url: https://zbmath.org/903136211
   arxiv: '2608.15203'
   authors:
-  - {}
+  - given: Javier Díaz
+    family: Cabrera
   - *id003
   bibtex: "@misc{cabrera2026exoticfinitepretriangulatedcategory,\n      title={An\
     \ exotic finite pretriangulated category over any algebraically closed field},\
@@ -19062,6 +19080,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.5415489673614502
+  query_execution_time_in_seconds: 1.4143095016479492
   status_code: 200
-  time_stamp: '2026-08-23T22:05:01Z'
+  time_stamp: '2026-08-23T22:31:10Z'

@@ -150,7 +150,7 @@ html(lang='en')
                     .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
                         .card.shadow.rounded
                             .card-body
-                                |    and Fernando Muro<br>
+                                | Javier Díaz Cabrera  and Fernando Muro<br>
                                 | #[strong An exotic finite pretriangulated category over any algebraically closed field]<br>
                                 | arXiv:2608.15203 [math.RT] (2026)
                             .card-footer
@@ -383,6 +383,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1007/s00029-025-01087-w") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/2312.07321") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract8105648") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex8105648") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/8105648") zbMath
                                 
                                     
@@ -447,7 +448,7 @@ html(lang='en')
                             .card-body
                                 | Fernando Muro<br>
                                 | #[strong Massey products for algebras over operads]<br>
-                                | Commun. Algebra, 51, No. 8, 3298-3313, (2023).
+                                | Commun. Algebra 51, No. 8 3298-3313 (2023).
                             .card-footer
                                 
                                 a.btn.btn-xs(href="https://doi.org/10.1080/00927872.2023.2181780") publisher
@@ -695,6 +696,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1016/j.aim.2016.01.009") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/1304.3599") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract6548165") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex6548165") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/6548165") zbMath
                                 
                                     
@@ -760,6 +762,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.5565/PUBLMAT_59115_07") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/1006.5399") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract6417698") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex6417698") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/6417698") zbMath
                                 
                                     
@@ -907,7 +910,7 @@ html(lang='en')
                             .card-body
                                 | Hans-Joachim Baues  and Fernando Muro<br>
                                 | #[strong Toda Brackets and Cup-One Squares for Ring Spectra]<br>
-                                | Commun. Algebra, 37, No. 1, 56-82, (2009).
+                                | Commun. Algebra 37, No. 1 56-82 (2009).
                             .card-footer
                                 
                                 a.btn.btn-xs(href="https://doi.org/10.1080/00927870802241188") publisher
@@ -1250,7 +1253,7 @@ html(lang='en')
                             .card-body
                                 | R. Ayala, M. Cárdenas, Fernando Muro  and Adrian Quintero<br>
                                 | #[strong An Elementary Approach to the Projective Dimension in Proper Homotopy Theory]<br>
-                                | Commun. Algebra, 31, No. 12, 5995-6017, (2003).
+                                | Commun. Algebra 31, No. 12 5995-6017 (2003).
                             .card-footer
                                 
                                 a.btn.btn-xs(href="https://doi.org/10.1081/AGB-120024863") publisher
@@ -2134,6 +2137,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex8105648", tabindex="-1", role="dialog", aria-labelledby="Operations on the de Rham cohomology of Poisson and Jacobi manifolds", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent8105648") @article{Guan_2025,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Operations on the de Rham cohomology of Poisson and Jacobi manifolds},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={31},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={1420-9020},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1007/s00029-025-01087-w},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1007/s00029-025-01087-w},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={5},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Selecta Mathematica},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Springer Science and Business Media LLC},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Guan, Ai and Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Oct }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent8105648'))") Copy to clipboard
 
             
         
@@ -2544,6 +2557,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex6548165", tabindex="-1", role="dialog", aria-labelledby="Transfinite Adams representability", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent6548165") @article{Muro_2016,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Transfinite Adams representability},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={292},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0001-8708},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1016/j.aim.2016.01.009},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1016/j.aim.2016.01.009},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Advances in Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Elsevier BV},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, Fernando and Raventós, Oriol},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Apr,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={111–180} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent6548165'))") Copy to clipboard
 
             
         
@@ -2618,6 +2641,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex6417698", tabindex="-1", role="dialog", aria-labelledby="On determinant functors and \(K\)-theory", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent6417698") @article{Muro_2015,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={On determinant functors and $K$-theory},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={59},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0214-1493},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.5565/PUBLMAT_59115_07},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.5565/publmat_59115_07},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Publicacions Matemàtiques},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Universitat Autonoma de Barcelona},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, F. and Tonks, A. and Witte, M.},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2015},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Jan,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={137–233} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent6417698'))") Copy to clipboard
 
             
         
