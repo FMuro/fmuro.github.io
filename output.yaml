@@ -6701,6 +6701,12 @@ result:
   authors:
   - *id003
   doi: 10.1090/S0002-9947-04-03597-4
+  bibtex: "@article{Muro_2004,\n    title={Suspensions of crossed and quadratic complexes,\
+    \ co-H-structures and applications},\n    volume={357},\n    ISSN={0002-9947},\n\
+    \    url={http://dx.doi.org/10.1090/S0002-9947-04-03597-4},\n    DOI={10.1090/s0002-9947-04-03597-4},\n\
+    \    number={9},\n    journal={Transactions of the American Mathematical Society},\n\
+    \    publisher={American Mathematical Society (AMS)},\n    author={Muro, Fernando},\n\
+    \    year={2004},\n    month=Dec,\n    pages={3623–3653} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -9867,6 +9873,12 @@ result:
   authors:
   - *id003
   doi: 10.2140/agt.2014.14.1489
+  bibtex: "@article{Muro_2014,\n    title={Moduli spaces of algebras over nonsymmetric\
+    \ operads},\n    volume={14},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2014.14.1489},\n\
+    \    DOI={10.2140/agt.2014.14.1489},\n    number={3},\n    journal={Algebraic\
+    \ &amp; Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n\
+    \    author={Muro, Fernando},\n    year={2014},\n    month=Apr,\n    pages={1489–1539}\
+    \ }\n"
   abstract: In this paper we study spaces of algebras over an operad (non-symmetric)
     in symmetric monoidal model categories. We first compute the homotopy fiber of
     the forgetful functor sending an algebra to its underlying object, extending a
@@ -12984,6 +12996,11 @@ result:
   - given: Oriol
     family: Raventós
   doi: 10.1016/j.aim.2016.01.009
+  bibtex: "@article{Muro_2016,\n    title={Transfinite Adams representability},\n\
+    \    volume={292},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2016.01.009},\n\
+    \    DOI={10.1016/j.aim.2016.01.009},\n    journal={Advances in Mathematics},\n\
+    \    publisher={Elsevier BV},\n    author={Muro, Fernando and Raventós, Oriol},\n\
+    \    year={2016},\n    month=Apr,\n    pages={111–180} }\n"
   abstract: 'In a well generated triangulated category T, given a regular cardinal
     a, we consider the following problems: given a functor from the category of a-compact
     objects to abelian groups that preserves products of <a objects and takes exact
@@ -13802,6 +13819,12 @@ result:
     family: Guan
   - *id003
   doi: 10.1007/s00029-025-01087-w
+  bibtex: "@article{Guan_2025,\n    title={Operations on the de Rham cohomology of\
+    \ Poisson and Jacobi manifolds},\n    volume={31},\n    ISSN={1420-9020},\n  \
+    \  url={http://dx.doi.org/10.1007/s00029-025-01087-w},\n    DOI={10.1007/s00029-025-01087-w},\n\
+    \    number={5},\n    journal={Selecta Mathematica},\n    publisher={Springer\
+    \ Science and Business Media LLC},\n    author={Guan, Ai and Muro, Fernando},\n\
+    \    year={2025},\n    month=Oct }\n"
   abstract: We prove that the (homotopy) hypercommutative algebra structure on the
     de Rham cohomology of a Poisson or Jacobi manifold defined by several authors
     is (homotopically) trivial, i.e. it reduces to the underlying (homotopy) commutative
@@ -15124,6 +15147,12 @@ result:
     given: Antonio
     family: Quintero
   doi: 10.1016/j.topol.2005.01.032
+  bibtex: "@article{C_rdenas_2005,\n    title={Proper L–S category, fundamental pro-groups\
+    \ and 2-dimensional proper co-H-spaces},\n    volume={153},\n    ISSN={0166-8641},\n\
+    \    url={http://dx.doi.org/10.1016/j.topol.2005.01.032},\n    DOI={10.1016/j.topol.2005.01.032},\n\
+    \    number={4},\n    journal={Topology and its Applications},\n    publisher={Elsevier\
+    \ BV},\n    author={Cárdenas, M. and Lasheras, F.F. and Muro, F. and Quintero,\
+    \ A.},\n    year={2005},\n    month=Nov,\n    pages={580–604} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -15806,6 +15835,12 @@ result:
   - *id006
   - *id003
   doi: 10.2140/agt.2019.19.457
+  bibtex: "@article{Flores_2019,\n    title={Torsion homology and cellular approximation},\n\
+    \    volume={19},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2019.19.457},\n\
+    \    DOI={10.2140/agt.2019.19.457},\n    number={1},\n    journal={Algebraic &amp;\
+    \ Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n  \
+    \  author={Flores, Ramón and Muro, Fernando},\n    year={2019},\n    month=Feb,\n\
+    \    pages={457–476} }\n"
   abstract: In this note we describe the role of the Schur multiplier in the structure
     of the $p$-torsion of discrete groups. More concretely, we show how the knowledge
     of $H_2G$ allows to approximate many groups by colimits of copies of finite $p$-groups.
@@ -16753,6 +16788,11 @@ result:
   - *id003
   - *id007
   doi: 10.1016/j.aim.2011.04.005
+  bibtex: "@article{Muro_2011,\n    title={A note on K-theory and triangulated derivators},\n\
+    \    volume={227},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2011.04.005},\n\
+    \    DOI={10.1016/j.aim.2011.04.005},\n    number={5},\n    journal={Advances\
+    \ in Mathematics},\n    publisher={Elsevier BV},\n    author={Muro, Fernando and\
+    \ Raptis, George},\n    year={2011},\n    month=Aug,\n    pages={1827–1845} }\n"
   abstract: In this paper we show an example of two differential graded algebras that
     have the same derivator K-theory but non-isomorphic Waldhausen K-theory. We also
     prove that Maltsiniotis's comparison and localization conjectures for derivator
@@ -17588,6 +17628,12 @@ result:
   - given: Adrian
     family: Quintero
   doi: 10.1081/AGB-120024863
+  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
+    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
+    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
+    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
+    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
+    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -18439,6 +18485,12 @@ result:
     family: Maes
   - *id003
   doi: 10.1017/prm.2022.42
+  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
+    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
+    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
+    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
+    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
+    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
   abstract: We develop a theory of minimal models for algebras over an operad defined
     over a commutative ring, not necessarily a field, extending and supplementing
     the work of Sagave in the associative case.
@@ -19008,6 +19060,12 @@ result:
   authors:
   - *id003
   doi: 10.1007/s10977-004-1837-4
+  bibtex: "@article{Muro_2004,\n    title={Representation Theory of some Infinite-dimensional\
+    \ Algebras Arising in Continuously Controlled Algebra and Topology},\n    volume={33},\n\
+    \    ISSN={0920-3036},\n    url={http://dx.doi.org/10.1007/s10977-004-1837-4},\n\
+    \    DOI={10.1007/s10977-004-1837-4},\n    number={1},\n    journal={K-Theory},\n\
+    \    publisher={Portico},\n    author={Muro, Fernando},\n    year={2004},\n  \
+    \  month=Sept,\n    pages={23–65} }\n"
   abstract: In this paper we determine the representation type of some algebras of
     infinite matrices continuously controlled at infinity by a compact metrizable
     space. We explicitly classify their finitely presented modules in the finite and
@@ -19021,6 +19079,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.3657183647155762
+  query_execution_time_in_seconds: 1.3164255619049072
   status_code: 200
-  time_stamp: '2026-08-23T21:11:52Z'
+  time_stamp: '2026-08-23T21:36:14Z'

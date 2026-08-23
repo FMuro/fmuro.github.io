@@ -383,6 +383,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1007/s00029-025-01087-w") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/2312.07321") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract8105648") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex8105648") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/8105648") zbMath
                                 
                                     
@@ -431,6 +432,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1017/prm.2022.42") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/2106.14987") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract7719245") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex7719245") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/7719245") zbMath
                                 
                                     
@@ -562,6 +564,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.2140/agt.2019.19.457") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/1707.07654") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract7053579") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex7053579") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/7053579") zbMath
                                 
                                     
@@ -693,6 +696,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1016/j.aim.2016.01.009") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/1304.3599") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract6548165") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex6548165") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/6548165") zbMath
                                 
                                     
@@ -802,6 +806,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.2140/agt.2014.14.1489") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/1112.5146") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract6281920") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex6281920") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/6281920") zbMath
                                 
                                     
@@ -845,6 +850,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1016/j.aim.2011.04.005") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/1007.4776") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract5918250") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex5918250") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/5918250") zbMath
                                 
                                     
@@ -1168,6 +1174,7 @@ html(lang='en')
                             .card-footer
                                 
                                 a.btn.btn-xs(href="https://doi.org/10.1016/j.topol.2005.01.032") publisher
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex5012978") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/5012978") zbMath
                                 
                                     
@@ -1207,6 +1214,7 @@ html(lang='en')
                             .card-footer
                                 
                                 a.btn.btn-xs(href="https://doi.org/10.1090/S0002-9947-04-03597-4") publisher
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex2172214") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/2172214") zbMath
                                 
                                     
@@ -1229,6 +1237,7 @@ html(lang='en')
                                 a.btn.btn-xs(href="https://doi.org/10.1007/s10977-004-1837-4") publisher
                                 a.btn.btn-xs(href="https://arxiv.org/abs/math/0310334") arxiv
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract5068816") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex5068816") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/5068816") zbMath
                                 
                                     
@@ -1248,6 +1257,7 @@ html(lang='en')
                             .card-footer
                                 
                                 a.btn.btn-xs(href="https://doi.org/10.1081/AGB-120024863") publisher
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex2010229") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/2010229") zbMath
                                 
                                     
@@ -2127,6 +2137,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex8105648", tabindex="-1", role="dialog", aria-labelledby="Operations on the de Rham cohomology of Poisson and Jacobi manifolds", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent8105648") @article{Guan_2025,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Operations on the de Rham cohomology of Poisson and Jacobi manifolds},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={31},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={1420-9020},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1007/s00029-025-01087-w},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1007/s00029-025-01087-w},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={5},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Selecta Mathematica},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Springer Science and Business Media LLC},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Guan, Ai and Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2025},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Oct }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent8105648'))") Copy to clipboard
 
             
         
@@ -2201,6 +2221,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex7719245", tabindex="-1", role="dialog", aria-labelledby="Derived homotopy algebras", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent7719245") @article{Maes_2022,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Derived homotopy algebras},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={153},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={1473-7124},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1017/prm.2022.42},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1017/prm.2022.42},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={4},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Proceedings of the Royal Society of Edinburgh: Section A Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Cambridge University Press (CUP)},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Maes, Jeroen and Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2022},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=July,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={1198–1243} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent7719245'))") Copy to clipboard
 
             
         
@@ -2359,6 +2389,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex7053579", tabindex="-1", role="dialog", aria-labelledby="Torsion homology and cellular approximation", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent7053579") @article{Flores_2019,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Torsion homology and cellular approximation},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={19},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={1472-2747},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.2140/agt.2019.19.457},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.2140/agt.2019.19.457},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={1},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Algebraic &amp; Geometric Topology},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Mathematical Sciences Publishers},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Flores, Ramón and Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2019},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Feb,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={457–476} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent7053579'))") Copy to clipboard
 
             
         
@@ -2517,6 +2557,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex6548165", tabindex="-1", role="dialog", aria-labelledby="Transfinite Adams representability", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent6548165") @article{Muro_2016,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Transfinite Adams representability},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={292},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0001-8708},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1016/j.aim.2016.01.009},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1016/j.aim.2016.01.009},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Advances in Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Elsevier BV},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, Fernando and Raventós, Oriol},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2016},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Apr,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={111–180} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent6548165'))") Copy to clipboard
 
             
         
@@ -2647,6 +2697,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex6281920", tabindex="-1", role="dialog", aria-labelledby="Moduli spaces of algebras over nonsymmetric operads", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent6281920") @article{Muro_2014,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Moduli spaces of algebras over nonsymmetric operads},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={14},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={1472-2747},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.2140/agt.2014.14.1489},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.2140/agt.2014.14.1489},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={3},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Algebraic &amp; Geometric Topology},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Mathematical Sciences Publishers},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2014},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Apr,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={1489–1539} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent6281920'))") Copy to clipboard
 
             
         
@@ -2693,6 +2753,16 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex5918250", tabindex="-1", role="dialog", aria-labelledby="A note on \(K\)-theory and triangulated derivators", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent5918250") @article{Muro_2011,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={A note on K-theory and triangulated derivators},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={227},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0001-8708},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1016/j.aim.2011.04.005},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1016/j.aim.2011.04.005},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={5},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Advances in Mathematics},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Elsevier BV},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, Fernando and Raptis, George},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2011},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Aug,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={1827–1845} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent5918250'))") Copy to clipboard
 
             
         
@@ -3059,6 +3129,16 @@ html(lang='en')
         
         
             
+    // Modal
+    .modal.fade(id="bibtex5012978", tabindex="-1", role="dialog", aria-labelledby="Proper L--S category, fundamental pro-groups and 2-dimensional proper co-H-spaces", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent5012978") @article{C_rdenas_2005,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Proper L–S category, fundamental pro-groups and 2-dimensional proper co-H-spaces},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={153},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0166-8641},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1016/j.topol.2005.01.032},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1016/j.topol.2005.01.032},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={4},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Topology and its Applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Elsevier BV},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Cárdenas, M. and Lasheras, F.F. and Muro, F. and Quintero, A.},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2005},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Nov,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={580–604} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent5012978'))") Copy to clipboard
 
             
         
@@ -3081,6 +3161,16 @@ html(lang='en')
         
         
             
+    // Modal
+    .modal.fade(id="bibtex2172214", tabindex="-1", role="dialog", aria-labelledby="Suspensions of crossed and quadratic complexes, co-H-structures and applications", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent2172214") @article{Muro_2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Suspensions of crossed and quadratic complexes, co-H-structures and applications},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={357},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0002-9947},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1090/S0002-9947-04-03597-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1090/s0002-9947-04-03597-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={9},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Transactions of the American Mathematical Society},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={American Mathematical Society (AMS)},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Dec,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={3623–3653} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent2172214'))") Copy to clipboard
 
             
         
@@ -3101,12 +3191,32 @@ html(lang='en')
                     
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtex5068816", tabindex="-1", role="dialog", aria-labelledby="Representation theory of some infinite dimensional algebras arising in continuously controlled algebra and topology.", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent5068816") @article{Muro_2004,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={Representation Theory of some Infinite-dimensional Algebras Arising in Continuously Controlled Algebra and Topology},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={33},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={0920-3036},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1007/s10977-004-1837-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1007/s10977-004-1837-4},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={1},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={K-Theory},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Portico},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Muro, Fernando},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2004},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Sept,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={23–65} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent5068816'))") Copy to clipboard
 
             
         
         
         
             
+    // Modal
+    .modal.fade(id="bibtex2010229", tabindex="-1", role="dialog", aria-labelledby="An Elementary Approach to the Projective Dimension in Proper Homotopy Theory", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontent2010229") @article{Ayala_2003,<br>&nbsp;&nbsp;&nbsp;&nbsp;    title={An Elementary Approach to the Projective Dimension in Proper Homotopy Theory},<br>&nbsp;&nbsp;&nbsp;&nbsp;    volume={31},<br>&nbsp;&nbsp;&nbsp;&nbsp;    ISSN={1532-4125},<br>&nbsp;&nbsp;&nbsp;&nbsp;    url={http://dx.doi.org/10.1081/AGB-120024863},<br>&nbsp;&nbsp;&nbsp;&nbsp;    DOI={10.1081/agb-120024863},<br>&nbsp;&nbsp;&nbsp;&nbsp;    number={12},<br>&nbsp;&nbsp;&nbsp;&nbsp;    journal={Communications in Algebra},<br>&nbsp;&nbsp;&nbsp;&nbsp;    publisher={Informa UK Limited},<br>&nbsp;&nbsp;&nbsp;&nbsp;    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero, A.},<br>&nbsp;&nbsp;&nbsp;&nbsp;    year={2003},<br>&nbsp;&nbsp;&nbsp;&nbsp;    month=Jan,<br>&nbsp;&nbsp;&nbsp;&nbsp;    pages={5995–6017} }<br>&nbsp;&nbsp;&nbsp;&nbsp;
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent2010229'))") Copy to clipboard
 
             
         
