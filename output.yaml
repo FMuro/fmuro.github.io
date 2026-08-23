@@ -19079,6 +19079,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.5274558067321777
+  query_execution_time_in_seconds: 1.3698887825012207
   status_code: 200
-  time_stamp: '2026-08-23T21:03:16Z'
+  time_stamp: '2026-08-23T21:07:06Z'
