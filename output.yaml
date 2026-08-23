@@ -10024,6 +10024,12 @@ result:
   - given: Malte
     family: Witte
   doi: 10.5565/PUBLMAT_59115_07
+  bibtex: "@article{Muro_2015,\n    title={On determinant functors and $K$-theory},\n\
+    \    volume={59},\n    ISSN={0214-1493},\n    url={http://dx.doi.org/10.5565/PUBLMAT_59115_07},\n\
+    \    DOI={10.5565/publmat_59115_07},\n    journal={Publicacions Matemàtiques},\n\
+    \    publisher={Universitat Autonoma de Barcelona},\n    author={Muro, F. and\
+    \ Tonks, A. and Witte, M.},\n    year={2015},\n    month=Jan,\n    pages={137–233}\
+    \ }\n"
   abstract: In this paper we introduce a new approach to determinant functors which
     allows us to extend Deligne's determinant functors for exact categories to Waldhausen
     categories, (strongly) triangulated categories, and derivators. We construct universal
@@ -19073,6 +19079,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.34440279006958
+  query_execution_time_in_seconds: 1.5274558067321777
   status_code: 200
-  time_stamp: '2026-08-23T20:59:52Z'
+  time_stamp: '2026-08-23T21:03:16Z'
