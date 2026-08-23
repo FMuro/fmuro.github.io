@@ -1209,11 +1209,12 @@ result:
   - *id001
   - *id002
   - *id003
-  bibtex: "@misc{jasso2026derivedauslanderiyamacorrespondence,\n      title={The Derived\
-    \ Auslander-Iyama Correspondence}, \n      author={Gustavo Jasso and Bernhard\
-    \ Keller and Fernando Muro},\n      year={2026},\n      eprint={2208.14413},\n\
-    \      archivePrefix={arXiv},\n      primaryClass={math.RT},\n      url={https://arxiv.org/abs/2208.14413},\
-    \ \n}"
+  doi: 10.1090/jams/1079
+  bibtex: "@article{Jasso_2026,\n    title={The derived Auslander–Iyama correspondence},\n\
+    \    ISSN={0894-0347},\n    url={http://dx.doi.org/10.1090/jams/1079},\n    DOI={10.1090/jams/1079},\n\
+    \    journal={Journal of the American Mathematical Society},\n    publisher={American\
+    \ Mathematical Society (AMS)},\n    author={Jasso, Gustavo and Muro, Fernando},\n\
+    \    year={2026},\n    month=Aug }\n"
   abstract: We work over a perfect field. Recent work of the third-named author established
     a Derived Auslander Correspondence that relates finite-dimensional self-injective
     algebras that are twisted $3$-periodic to algebraic triangulated categories of
@@ -19080,6 +19081,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.4143095016479492
+  query_execution_time_in_seconds: 1.4385685920715332
   status_code: 200
-  time_stamp: '2026-08-23T22:31:10Z'
+  time_stamp: '2026-08-23T23:05:21Z'
