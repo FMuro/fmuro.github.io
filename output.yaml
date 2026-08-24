@@ -1193,7 +1193,8 @@ result:
     book: []
     pages: null
     series: []
-    source: Preprint, arXiv:2208.14413 [math.RT] (2026)
+    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in Journal of the
+      American Mathematical Society
   states:
   - - o
     - has open version
@@ -19081,6 +19082,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.4421443939208984
+  query_execution_time_in_seconds: 1.5159649848937988
   status_code: 200
-  time_stamp: '2026-08-24T00:17:58Z'
+  time_stamp: '2026-08-24T00:25:44Z'
