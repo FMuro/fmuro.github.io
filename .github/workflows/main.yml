@@ -43,57 +43,57 @@ jobs:
         run: npm run build --if-present
       - name: get output in the repo
         uses: stefanzweifel/git-auto-commit-action@v5
-      # - name: Install OpenVPN
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y openvpn
-      # - name: Create EduVPN configuration
-      #   env:
-      #     EDUVPN_CONFIG: ${{ secrets.EDUVPN_CONFIG }}
-      #   run: |
-      #     printf '%s\n' "$EDUVPN_CONFIG" > eduvpn.ovpn
-      # - name: Create OpenVPN credentials
-      #   env:
-      #     EDUVPN_USERNAME: ${{ secrets.EDUVPN_USERNAME }}
-      #     EDUVPN_PASSWORD: ${{ secrets.EDUVPN_PASSWORD }}
-      #   run: |
-      #     printf '%s\n%s\n' "$EDUVPN_USERNAME" "$EDUVPN_PASSWORD" > up.txt
-      #     chmod 600 up.txt
-      # - name: Connect to EduVPN
-      #   run: |
-      #     LOG="$RUNNER_TEMP/openvpn.log"
-      #     PID="$RUNNER_TEMP/openvpn.pid"
-      #     sudo openvpn \
-      #       --config "$PWD/eduvpn.ovpn" \
-      #       --auth-user-pass "$PWD/up.txt" \
-      #       --daemon \
-      #       --log "$LOG" \
-      #       --writepid "$PID"
-      #     for i in {1..30}; do
-      #       if sudo grep -q "Initialization Sequence Completed" "$LOG"; then
-      #         echo "EduVPN connection established."
-      #         exit 0
-      #       fi
-      #       if sudo grep -q "AUTH_FAILED" "$LOG"; then
-      #         echo "EduVPN authentication failed."
-      #         sudo cat "$LOG"
-      #         exit 1
-      #       fi
-      #       sleep 1
-      #     done
-      #     echo "EduVPN connection was not established."
-      #     sudo cat "$LOG"
-      #     exit 1
-      # - name: Deploy to my domain
-      #   uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-      #   with:
-      #     username: ${{ secrets.FTP_USERNAME }}
-      #     server: ${{ secrets.FTP_SERVER }}
-      #     port: ${{ secrets.FTP_PORT }}
-      #     local_path: './docs/*'
-      #     remote_path: '/fmuro'
-      #     sftp_only: true
-      #     password: ${{ secrets.FTP_PASSWORD }}
+      - name: Install OpenVPN
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn
+      - name: Create EduVPN configuration
+        env:
+          EDUVPN_CONFIG: ${{ secrets.EDUVPN_CONFIG }}
+        run: |
+          printf '%s\n' "$EDUVPN_CONFIG" > eduvpn.ovpn
+      - name: Create OpenVPN credentials
+        env:
+          EDUVPN_USERNAME: ${{ secrets.EDUVPN_USERNAME }}
+          EDUVPN_PASSWORD: ${{ secrets.EDUVPN_PASSWORD }}
+        run: |
+          printf '%s\n%s\n' "$EDUVPN_USERNAME" "$EDUVPN_PASSWORD" > up.txt
+          chmod 600 up.txt
+      - name: Connect to EduVPN
+        run: |
+          LOG="$RUNNER_TEMP/openvpn.log"
+          PID="$RUNNER_TEMP/openvpn.pid"
+          sudo openvpn \
+            --config "$PWD/eduvpn.ovpn" \
+            --auth-user-pass "$PWD/up.txt" \
+            --daemon \
+            --log "$LOG" \
+            --writepid "$PID"
+          for i in {1..30}; do
+            if sudo grep -q "Initialization Sequence Completed" "$LOG"; then
+              echo "EduVPN connection established."
+              exit 0
+            fi
+            if sudo grep -q "AUTH_FAILED" "$LOG"; then
+              echo "EduVPN authentication failed."
+              sudo cat "$LOG"
+              exit 1
+            fi
+            sleep 1
+          done
+          echo "EduVPN connection was not established."
+          sudo cat "$LOG"
+          exit 1
+      - name: Deploy to my domain
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          local_path: './docs/*'
+          remote_path: '/fmuro'
+          sftp_only: true
+          password: ${{ secrets.FTP_PASSWORD }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
