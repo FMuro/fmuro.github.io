@@ -18567,10 +18567,9 @@ result:
     \      eprint={2608.15203},\n      archivePrefix={arXiv},\n      primaryClass={math.RT},\n\
     \      url={https://arxiv.org/abs/2608.15203}, \n}"
   abstract: We show that, over any algebraically closed field of any characteristic,
-    the category of finite\-/dimensional projective modules over the preprojective
-    algebra of generalized Dynkin type $\mathbb{L}_{2}$ has a pretriangulated category
-    structure which is neither an algebraic nor a topological triangulated category
-    structure.
+    the category of finite-dimensional projective modules over the preprojective algebra
+    of generalized Dynkin type $\mathbb{L}_2$ has a pretriangulated category structure
+    which is neither an algebraic nor a topological triangulated category structure.
 - biographic_references: []
   contributors:
     authors:
@@ -19082,6 +19081,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.6286325454711914
+  query_execution_time_in_seconds: 1.4388928413391113
   status_code: 200
-  time_stamp: '2026-08-24T00:33:55Z'
+  time_stamp: '2026-08-25T07:23:49Z'
