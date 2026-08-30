@@ -109,11 +109,6 @@ html(lang='en')
                     .bi.bi-journal &nbsp; Preprints
                 .scrolling-wrapper.row.flex-row.flex-nowrap.px-3.px-sm-5.mt-4.pb-4.pt-2(style="overflow-x: auto; overflow-y: hidden; -webkit-mask: linear-gradient(90deg,#0000,#000 5% 95%,#0000);")
             {% endif -%}
-                {% for name in entry.authors %}
-                {% if name.family in datos.coauthors.keys() %}
-                {% do name.update({'url': datos.coauthors[name.family]}) %}
-                {% endif %}
-                {% endfor %}
                 {% filter indent(width=20) %}
                 {{ paper(entry.id, entry.authors, entry.title.title, entry.source.source[10:], entry.doi, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url'], pdf) }}
                 {% endfilter -%}
@@ -135,11 +130,6 @@ html(lang='en')
             {% else %}
             {% set pdf = '' %}
             {% endif %}
-            {% for name in entry.author %}
-            {% if name.family in datos.coauthors.keys() %}
-            {% do name.update({'url': datos.coauthors[name.family]}) %}
-            {% endif %}
-            {% endfor %}
                 {% filter indent(width=20) %}
                 {{ paper(entry.id, entry.authors, entry.title.title, entry.source.source, entry.doi, entry.arxiv, entry.abstract, entry.bibtex, entry['zbmath_url'], pdf) }}
                 {% endfilter -%}

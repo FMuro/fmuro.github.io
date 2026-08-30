@@ -30,6 +30,8 @@ jobs:
           cd "$(dirname "$script")"
           python bibliographer.py
           cp output.yaml "$GITHUB_WORKSPACE/output.yaml"
+      - name: get authors URLs
+        run: python add-urls.py 
       - name: populate
         run:
           python populate.py
