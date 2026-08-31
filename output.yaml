@@ -1097,9 +1097,11 @@ result:
   - &id001
     given: Gustavo
     family: Jasso
+    url: https://gustavo.jasso.info
   - &id002
     given: Bernhard
     family: Keller
+    url: https://webusers.imj-prg.fr/~bernhard.keller/
   - &id003
     given: Fernando
     family: Muro
@@ -1137,7 +1139,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2022-08-30T13:27:09-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -1193,8 +1195,7 @@ result:
     book: []
     pages: null
     series: []
-    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in Journal of the
-      American Mathematical Society
+    source: Preprint, arXiv:2208.14413 [math.RT] (2026)
   states:
   - - o
     - has open version
@@ -1210,12 +1211,11 @@ result:
   - *id001
   - *id002
   - *id003
-  doi: 10.1090/jams/1079
-  bibtex: "@article{Jasso_2026,\n    title={The derived Auslander–Iyama correspondence},\n\
-    \    ISSN={0894-0347},\n    url={http://dx.doi.org/10.1090/jams/1079},\n    DOI={10.1090/jams/1079},\n\
-    \    journal={Journal of the American Mathematical Society},\n    publisher={American\
-    \ Mathematical Society (AMS)},\n    author={Jasso, Gustavo and Muro, Fernando},\n\
-    \    year={2026},\n    month=Aug }\n"
+  bibtex: "@misc{jasso2026derivedauslanderiyamacorrespondence,\n      title={The Derived\
+    \ Auslander-Iyama Correspondence}, \n      author={Gustavo Jasso and Bernhard\
+    \ Keller and Fernando Muro},\n      year={2026},\n      eprint={2208.14413},\n\
+    \      archivePrefix={arXiv},\n      primaryClass={math.RT},\n      url={https://arxiv.org/abs/2208.14413},\
+    \ \n}"
   abstract: We work over a perfect field. Recent work of the third-named author established
     a Derived Auslander Correspondence that relates finite-dimensional self-injective
     algebras that are twisted $3$-periodic to algebraic triangulated categories of
@@ -1603,8 +1603,10 @@ result:
   - *id003
   - given: Stefan
     family: Schwede
+    url: https://www.math.uni-bonn.de/people/schwede/
   - given: N. P.
     family: Strickland
+    url: https://strickland1.org
   doi: 10.1007/s00222-007-0061-2
   bibtex: "@article{Muro_2007,\n    title={Triangulated categories without models},\n\
     \    volume={170},\n    ISSN={1432-1297},\n    url={http://dx.doi.org/10.1007/s00222-007-0061-2},\n\
@@ -3050,7 +3052,7 @@ result:
     author_references: []
     editors: []
   database: Zbl
-  datestamp: '2006-04-03T07:28:32-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: j
     description: journal article
@@ -4471,7 +4473,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: Commun. Algebra 37, No. 1, 56-82 (2009).
+    source: Commun. Algebra, 37, No. 1, 56-82, (2009).
   states:
   - - o
     - has open version
@@ -4515,7 +4517,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2005-05-25T09:43:16-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -7147,13 +7149,8 @@ result:
   - *id003
   - given: Constanze
     family: Roitzheim
+    url: https://sites.google.com/view/constanzeroitzheim/home
   doi: 10.1016/j.jpaa.2018.08.007
-  bibtex: "@article{Muro_2019,\n    title={Homotopy theory of bicomplexes},\n    volume={223},\n\
-    \    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2018.08.007},\n\
-    \    DOI={10.1016/j.jpaa.2018.08.007},\n    number={5},\n    journal={Journal\
-    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
-    \ Fernando and Roitzheim, Constanze},\n    year={2019},\n    month=May,\n    pages={1913–1939}\
-    \ }\n"
   abstract: We define two model structures on the category of bicomplexes concentrated
     in the right half plane. The first model structure has weak equivalences detected
     by the totalisation functor. The second model structure's weak equivalences are
@@ -10058,7 +10055,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2025-09-26T13:51:20-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -10157,7 +10154,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2025-08-26T05:31:54-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -10245,7 +10242,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2025-07-23T10:58:33-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -10893,7 +10890,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: Commun. Algebra 51, No. 8, 3298-3313 (2023).
+    source: Commun. Algebra, 51, No. 8, 3298-3313, (2023).
   states:
   - - s
     - item with single author
@@ -12997,6 +12994,7 @@ result:
   - *id003
   - given: Oriol
     family: Raventós
+    url: https://sites.google.com/site/oriolraventosmath/
   doi: 10.1016/j.aim.2016.01.009
   bibtex: "@article{Muro_2016,\n    title={Transfinite Adams representability},\n\
     \    volume={292},\n    ISSN={0001-8708},\n    url={http://dx.doi.org/10.1016/j.aim.2016.01.009},\n\
@@ -13129,6 +13127,7 @@ result:
   - &id007
     given: George
     family: Raptis
+    url: https://graptismath.net
   doi: 10.2140/akt.2017.2.303
   bibtex: "@article{Muro_2017,\n    title={K-theory of derivators revisited},\n  \
     \  volume={2},\n    ISSN={2379-1683},\n    url={http://dx.doi.org/10.2140/akt.2017.2.303},\n\
@@ -13859,7 +13858,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2021-07-29T12:54:13-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -13906,6 +13905,7 @@ result:
   authors:
   - given: Victor
     family: Carmona
+    url: https://personal.us.es/vcarmona1/
   - &id006
     given: Ramón
     family: Flores
@@ -14613,12 +14613,6 @@ result:
   authors:
   - *id003
   doi: 10.1007/s00209-019-02438-y
-  bibtex: "@article{Muro_2019,\n    title={The first obstructions to enhancing a triangulated\
-    \ category},\n    volume={296},\n    ISSN={1432-1823},\n    url={http://dx.doi.org/10.1007/s00209-019-02438-y},\n\
-    \    DOI={10.1007/s00209-019-02438-y},\n    number={1-2},\n    journal={Mathematische\
-    \ Zeitschrift},\n    publisher={Springer Science and Business Media LLC},\n  \
-    \  author={Muro, Fernando},\n    year={2019},\n    month=Dec,\n    pages={719–759}\
-    \ }\n"
   abstract: In this paper we relate triangulated category structures to the cohomology
     of small categories and define initial obstructions to the existence of an algebraic
     or topological enhancement. We show that these obstructions do not vanish in an
@@ -15142,6 +15136,7 @@ result:
   - &id008
     given: M.
     family: Cárdenas
+    url: https://personal.us.es/mcard/
   - given: F. F.
     family: Lasheras
   - *id003
@@ -15837,12 +15832,6 @@ result:
   - *id006
   - *id003
   doi: 10.2140/agt.2019.19.457
-  bibtex: "@article{Flores_2019,\n    title={Torsion homology and cellular approximation},\n\
-    \    volume={19},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2019.19.457},\n\
-    \    DOI={10.2140/agt.2019.19.457},\n    number={1},\n    journal={Algebraic &amp;\
-    \ Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n  \
-    \  author={Flores, Ramón and Muro, Fernando},\n    year={2019},\n    month=Feb,\n\
-    \    pages={457–476} }\n"
   abstract: In this note we describe the role of the Schur multiplier in the structure
     of the $p$-torsion of discrete groups. More concretely, we show how the knowledge
     of $H_2G$ allows to approximate many groups by colimits of copies of finite $p$-groups.
@@ -17346,12 +17335,6 @@ result:
   - *id003
   - *id009
   doi: 10.1016/j.topol.2005.01.031
-  bibtex: "@article{C_rdenas_2005,\n    title={The proper L-S category of Whitehead\
-    \ manifolds},\n    volume={153},\n    ISSN={0166-8641},\n    url={http://dx.doi.org/10.1016/j.topol.2005.01.031},\n\
-    \    DOI={10.1016/j.topol.2005.01.031},\n    number={4},\n    journal={Topology\
-    \ and its Applications},\n    publisher={Elsevier BV},\n    author={Cárdenas,\
-    \ M. and Muro, F. and Quintero, A.},\n    year={2005},\n    month=Nov,\n    pages={557–579}\
-    \ }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17609,7 +17592,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: Commun. Algebra 31, No. 12, 5995-6017 (2003).
+    source: Commun. Algebra, 31, No. 12, 5995-6017, (2003).
   states:
   - - r
     - item has references
@@ -18487,12 +18470,6 @@ result:
     family: Maes
   - *id003
   doi: 10.1017/prm.2022.42
-  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
-    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
-    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
-    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
-    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
-    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
   abstract: We develop a theory of minimal models for algebras over an operad defined
     over a commutative ring, not necessarily a field, extending and supplementing
     the work of Sagave in the associative case.
@@ -18512,7 +18489,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2026-08-15T08:35:22-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -18558,8 +18535,7 @@ result:
   zbmath_url: https://zbmath.org/903136211
   arxiv: '2608.15203'
   authors:
-  - given: Javier Díaz
-    family: Cabrera
+  - {}
   - *id003
   bibtex: "@misc{cabrera2026exoticfinitepretriangulatedcategory,\n      title={An\
     \ exotic finite pretriangulated category over any algebraically closed field},\
@@ -18581,7 +18557,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2007-03-11T16:04:23-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -18656,7 +18632,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '2006-05-08T13:51:05-04:00'
+  datestamp: '0001-01-01T00:00:00Z'
   document_type:
     code: null
     description: null
@@ -19081,6 +19057,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.4388928413391113
+  query_execution_time_in_seconds: 2.1868062019348145
   status_code: 200
-  time_stamp: '2026-08-25T07:23:49Z'
+  time_stamp: '2026-08-31T14:10:15Z'
