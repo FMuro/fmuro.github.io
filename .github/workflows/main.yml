@@ -31,7 +31,7 @@ jobs:
           python bibliographer.py
           cp output.yaml "$GITHUB_WORKSPACE/output.yaml"
       - name: get authors URLs
-        run: python add-urls.py 
+        run: python add_urls.py 
       - name: populate
         run:
           python populate.py
