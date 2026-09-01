@@ -1139,7 +1139,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2022-08-30T13:27:09-04:00'
   document_type:
     code: null
     description: null
@@ -1195,7 +1195,8 @@ result:
     book: []
     pages: null
     series: []
-    source: Preprint, arXiv:2208.14413 [math.RT] (2026)
+    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in Journal of the
+      American Mathematical Society
   states:
   - - o
     - has open version
@@ -1211,11 +1212,12 @@ result:
   - *id001
   - *id002
   - *id003
-  bibtex: "@misc{jasso2026derivedauslanderiyamacorrespondence,\n      title={The Derived\
-    \ Auslander-Iyama Correspondence}, \n      author={Gustavo Jasso and Bernhard\
-    \ Keller and Fernando Muro},\n      year={2026},\n      eprint={2208.14413},\n\
-    \      archivePrefix={arXiv},\n      primaryClass={math.RT},\n      url={https://arxiv.org/abs/2208.14413},\
-    \ \n}"
+  doi: 10.1090/jams/1079
+  bibtex: "@article{Jasso_2026,\n    title={The derived Auslander–Iyama correspondence},\n\
+    \    ISSN={0894-0347},\n    url={http://dx.doi.org/10.1090/jams/1079},\n    DOI={10.1090/jams/1079},\n\
+    \    journal={Journal of the American Mathematical Society},\n    publisher={American\
+    \ Mathematical Society (AMS)},\n    author={Jasso, Gustavo and Muro, Fernando},\n\
+    \    year={2026},\n    month=Aug }\n"
   abstract: We work over a perfect field. Recent work of the third-named author established
     a Derived Auslander Correspondence that relates finite-dimensional self-injective
     algebras that are twisted $3$-periodic to algebraic triangulated categories of
@@ -3052,7 +3054,7 @@ result:
     author_references: []
     editors: []
   database: Zbl
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2006-04-03T07:28:32-04:00'
   document_type:
     code: j
     description: journal article
@@ -4473,7 +4475,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: Commun. Algebra, 37, No. 1, 56-82, (2009).
+    source: Commun. Algebra 37, No. 1, 56-82 (2009).
   states:
   - - o
     - has open version
@@ -4517,7 +4519,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2005-05-25T09:43:16-04:00'
   document_type:
     code: null
     description: null
@@ -8341,11 +8343,6 @@ result:
   authors:
   - *id003
   doi: 10.1112/jtopol/jtu029
-  bibtex: "@article{Muro_2015,\n    title={Dwyer-Kan homotopy theory of enriched categories},\n\
-    \    volume={8},\n    ISSN={1753-8416},\n    url={http://dx.doi.org/10.1112/jtopol/jtu029},\n\
-    \    DOI={10.1112/jtopol/jtu029},\n    number={2},\n    journal={Journal of Topology},\n\
-    \    publisher={Wiley},\n    author={Muro, Fernando},\n    year={2015},\n    month=Mar,\n\
-    \    pages={377–413} }\n"
   abstract: We construct a model structure on the category of small categories enriched
     over a combinatorial closed symmetric monoidal model category satisfying the monoid
     axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which
@@ -9393,12 +9390,6 @@ result:
   authors:
   - *id003
   doi: 10.1017/S1474748020000250
-  bibtex: "@article{Muro_2020,\n    title={ENHANCED FINITE TRIANGULATED CATEGORIES},\n\
-    \    volume={21},\n    ISSN={1475-3030},\n    url={http://dx.doi.org/10.1017/S1474748020000250},\n\
-    \    DOI={10.1017/s1474748020000250},\n    number={3},\n    journal={Journal of\
-    \ the Institute of Mathematics of Jussieu},\n    publisher={Cambridge University\
-    \ Press (CUP)},\n    author={Muro, Fernando},\n    year={2020},\n    month=June,\n\
-    \    pages={741–783} }\n"
   abstract: We give a necessary and sufficient condition for the existence of an enhancement
     of a finite triangulated category. Moreover, we show that enhancements are unique
     when they exist, up to Morita equivalence.
@@ -9878,12 +9869,6 @@ result:
   authors:
   - *id003
   doi: 10.2140/agt.2014.14.1489
-  bibtex: "@article{Muro_2014,\n    title={Moduli spaces of algebras over nonsymmetric\
-    \ operads},\n    volume={14},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2014.14.1489},\n\
-    \    DOI={10.2140/agt.2014.14.1489},\n    number={3},\n    journal={Algebraic\
-    \ &amp; Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n\
-    \    author={Muro, Fernando},\n    year={2014},\n    month=Apr,\n    pages={1489–1539}\
-    \ }\n"
   abstract: In this paper we study spaces of algebras over an operad (non-symmetric)
     in symmetric monoidal model categories. We first compute the homotopy fiber of
     the forgetful functor sending an algebra to its underlying object, extending a
@@ -10061,7 +10046,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2025-09-26T13:51:20-04:00'
   document_type:
     code: null
     description: null
@@ -10160,7 +10145,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2025-08-26T05:31:54-04:00'
   document_type:
     code: null
     description: null
@@ -10248,7 +10233,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2025-07-23T10:58:33-04:00'
   document_type:
     code: null
     description: null
@@ -10896,7 +10881,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: Commun. Algebra, 51, No. 8, 3298-3313, (2023).
+    source: Commun. Algebra 51, No. 8, 3298-3313 (2023).
   states:
   - - s
     - item with single author
@@ -13864,7 +13849,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2021-07-29T12:54:13-04:00'
   document_type:
     code: null
     description: null
@@ -17616,7 +17601,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: Commun. Algebra, 31, No. 12, 5995-6017, (2003).
+    source: Commun. Algebra 31, No. 12, 5995-6017 (2003).
   states:
   - - r
     - item has references
@@ -18519,7 +18504,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2026-08-15T08:35:22-04:00'
   document_type:
     code: null
     description: null
@@ -18565,7 +18550,8 @@ result:
   zbmath_url: https://zbmath.org/903136211
   arxiv: '2608.15203'
   authors:
-  - {}
+  - given: Javier Díaz
+    family: Cabrera
   - *id003
   bibtex: "@misc{cabrera2026exoticfinitepretriangulatedcategory,\n      title={An\
     \ exotic finite pretriangulated category over any algebraically closed field},\
@@ -18587,7 +18573,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2007-03-11T16:04:23-04:00'
   document_type:
     code: null
     description: null
@@ -18662,7 +18648,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2006-05-08T13:51:05-04:00'
   document_type:
     code: null
     description: null
@@ -19087,6 +19073,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.7056584358215332
+  query_execution_time_in_seconds: 1.767594575881958
   status_code: 200
-  time_stamp: '2026-08-31T14:31:57Z'
+  time_stamp: '2026-09-01T12:42:32Z'
