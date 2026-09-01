@@ -5,7 +5,7 @@
             | {% for name in authors %}{% if loop.index > 1 %}{% if loop.last %}  and {% else %}, {% endif %}{% endif %}{% if name.url %}
             a.coauthor(href="{{ name.url }}") {{ name.given | replace('--', '—') }} {{ name.family | replace('--', '—') }}
             |{% else %}{{ name.given | replace('--', '—') }} {{ name.family | replace('--', '—') }}{% endif %}{% endfor %}<br>
-            | #[strong {{ title | replace('--', '—') | replace("``", "“") }}]<br>
+            | #[strong {{ title | replace('--', '—') | replace("``", "“") | replace('"', '”')  | replace("''", "”") }}]<br>
             | {{ source | replace('--', '—') }}
         .card-footer
             {% if pdf != '' -%}
@@ -35,7 +35,7 @@
     .modal-dialog(role="document").modal-dialog-centered
         .modal-content
             .modal-header
-                h5.modal-title {{ title | replace('--', '—') | replace("``", "“") }}
+                h5.modal-title {{ title | replace('--', '—') | replace("``", "“") | replace('"', '”')  | replace("''", "”") }}
             .modal-body
                 {% for line in abstract.splitlines() %}
                 p {{ line | e | replace('--', '—') }}
@@ -64,7 +64,7 @@ a.btn.btn-xs(href="{{ zbmath }}") zbMath
 .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
     .card.shadow.rounded
         .card-body
-            | #[strong {{ title | replace('--', '—') | replace("``", "“") }}]<br>
+            | #[strong {{ title | replace('--', '—') | replace("``", "“") | replace('"', '”')  | replace("''", "”") }}]<br>
             | #[i {{ event | replace('--', '—') }}]<br>
             | {% if note %}{{ note | replace('--', '—') }}<br>{% endif %}
             | {{ daymonth }} {{ year }}, {{ location }}
