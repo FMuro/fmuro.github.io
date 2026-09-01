@@ -8343,6 +8343,11 @@ result:
   authors:
   - *id003
   doi: 10.1112/jtopol/jtu029
+  bibtex: "@article{Muro_2015,\n    title={Dwyer-Kan homotopy theory of enriched categories},\n\
+    \    volume={8},\n    ISSN={1753-8416},\n    url={http://dx.doi.org/10.1112/jtopol/jtu029},\n\
+    \    DOI={10.1112/jtopol/jtu029},\n    number={2},\n    journal={Journal of Topology},\n\
+    \    publisher={Wiley},\n    author={Muro, Fernando},\n    year={2015},\n    month=Mar,\n\
+    \    pages={377–413} }\n"
   abstract: We construct a model structure on the category of small categories enriched
     over a combinatorial closed symmetric monoidal model category satisfying the monoid
     axiom. Weak equivalences are Dwyer-Kan equivalences, i.e. enriched functors which
@@ -9390,6 +9395,12 @@ result:
   authors:
   - *id003
   doi: 10.1017/S1474748020000250
+  bibtex: "@article{Muro_2020,\n    title={ENHANCED FINITE TRIANGULATED CATEGORIES},\n\
+    \    volume={21},\n    ISSN={1475-3030},\n    url={http://dx.doi.org/10.1017/S1474748020000250},\n\
+    \    DOI={10.1017/s1474748020000250},\n    number={3},\n    journal={Journal of\
+    \ the Institute of Mathematics of Jussieu},\n    publisher={Cambridge University\
+    \ Press (CUP)},\n    author={Muro, Fernando},\n    year={2020},\n    month=June,\n\
+    \    pages={741–783} }\n"
   abstract: We give a necessary and sufficient condition for the existence of an enhancement
     of a finite triangulated category. Moreover, we show that enhancements are unique
     when they exist, up to Morita equivalence.
@@ -9869,6 +9880,12 @@ result:
   authors:
   - *id003
   doi: 10.2140/agt.2014.14.1489
+  bibtex: "@article{Muro_2014,\n    title={Moduli spaces of algebras over nonsymmetric\
+    \ operads},\n    volume={14},\n    ISSN={1472-2747},\n    url={http://dx.doi.org/10.2140/agt.2014.14.1489},\n\
+    \    DOI={10.2140/agt.2014.14.1489},\n    number={3},\n    journal={Algebraic\
+    \ &amp; Geometric Topology},\n    publisher={Mathematical Sciences Publishers},\n\
+    \    author={Muro, Fernando},\n    year={2014},\n    month=Apr,\n    pages={1489–1539}\
+    \ }\n"
   abstract: In this paper we study spaces of algebras over an operad (non-symmetric)
     in symmetric monoidal model categories. We first compute the homotopy fiber of
     the forgetful functor sending an algebra to its underlying object, extending a
@@ -19073,6 +19090,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.767594575881958
+  query_execution_time_in_seconds: 1.530656099319458
   status_code: 200
-  time_stamp: '2026-09-01T12:42:32Z'
+  time_stamp: '2026-09-01T12:45:57Z'
