@@ -4,7 +4,7 @@
 # This PDF file should be stored in src/assets/files/presentations/
 
 presentations:
-	
+
   - location: Bonn, Germany
     daymonth: 11 September
     type: conference
