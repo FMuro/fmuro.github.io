@@ -1139,7 +1139,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2022-08-30T13:27:09-04:00'
   document_type:
     code: null
     description: null
@@ -1195,7 +1195,8 @@ result:
     book: []
     pages: null
     series: []
-    source: Preprint, arXiv:2208.14413 [math.RT] (2026)
+    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in Journal of the
+      American Mathematical Society
   states:
   - - o
     - has open version
@@ -1211,11 +1212,12 @@ result:
   - *id001
   - *id002
   - *id003
-  bibtex: "@misc{jasso2026derivedauslanderiyamacorrespondence,\n      title={The Derived\
-    \ Auslander-Iyama Correspondence}, \n      author={Gustavo Jasso and Bernhard\
-    \ Keller and Fernando Muro},\n      year={2026},\n      eprint={2208.14413},\n\
-    \      archivePrefix={arXiv},\n      primaryClass={math.RT},\n      url={https://arxiv.org/abs/2208.14413},\
-    \ \n}"
+  doi: 10.1090/jams/1079
+  bibtex: "@article{Jasso_2026,\n    title={The derived Auslander–Iyama correspondence},\n\
+    \    ISSN={0894-0347},\n    url={http://dx.doi.org/10.1090/jams/1079},\n    DOI={10.1090/jams/1079},\n\
+    \    journal={Journal of the American Mathematical Society},\n    publisher={American\
+    \ Mathematical Society (AMS)},\n    author={Jasso, Gustavo and Muro, Fernando},\n\
+    \    year={2026},\n    month=Aug }\n"
   abstract: We work over a perfect field. Recent work of the third-named author established
     a Derived Auslander Correspondence that relates finite-dimensional self-injective
     algebras that are twisted $3$-periodic to algebraic triangulated categories of
@@ -3052,7 +3054,7 @@ result:
     author_references: []
     editors: []
   database: Zbl
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2006-04-03T07:28:32-04:00'
   document_type:
     code: j
     description: journal article
@@ -4473,7 +4475,7 @@ result:
       title: Communications in Algebra
       volume: '37'
       year: '2009'
-    source: Commun. Algebra, 37, No. 1, 56-82, (2009).
+    source: Commun. Algebra 37, No. 1, 56-82 (2009).
   states:
   - - o
     - has open version
@@ -4517,7 +4519,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2005-05-25T09:43:16-04:00'
   document_type:
     code: null
     description: null
@@ -7151,6 +7153,12 @@ result:
     family: Roitzheim
     url: https://sites.google.com/view/constanzeroitzheim/home
   doi: 10.1016/j.jpaa.2018.08.007
+  bibtex: "@article{Muro_2019,\n    title={Homotopy theory of bicomplexes},\n    volume={223},\n\
+    \    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2018.08.007},\n\
+    \    DOI={10.1016/j.jpaa.2018.08.007},\n    number={5},\n    journal={Journal\
+    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
+    \ Fernando and Roitzheim, Constanze},\n    year={2019},\n    month=May,\n    pages={1913–1939}\
+    \ }\n"
   abstract: We define two model structures on the category of bicomplexes concentrated
     in the right half plane. The first model structure has weak equivalences detected
     by the totalisation functor. The second model structure's weak equivalences are
@@ -10055,7 +10063,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2025-09-26T13:51:20-04:00'
   document_type:
     code: null
     description: null
@@ -10154,7 +10162,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2025-08-26T05:31:54-04:00'
   document_type:
     code: null
     description: null
@@ -10242,7 +10250,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2025-07-23T10:58:33-04:00'
   document_type:
     code: null
     description: null
@@ -10890,7 +10898,7 @@ result:
       title: Communications in Algebra
       volume: '51'
       year: '2023'
-    source: Commun. Algebra, 51, No. 8, 3298-3313, (2023).
+    source: Commun. Algebra 51, No. 8, 3298-3313 (2023).
   states:
   - - s
     - item with single author
@@ -13129,12 +13137,6 @@ result:
     family: Raptis
     url: https://graptismath.net
   doi: 10.2140/akt.2017.2.303
-  bibtex: "@article{Muro_2017,\n    title={K-theory of derivators revisited},\n  \
-    \  volume={2},\n    ISSN={2379-1683},\n    url={http://dx.doi.org/10.2140/akt.2017.2.303},\n\
-    \    DOI={10.2140/akt.2017.2.303},\n    number={2},\n    journal={Annals of K-Theory},\n\
-    \    publisher={Mathematical Sciences Publishers},\n    author={Muro, Fernando\
-    \ and Raptis, Georgios},\n    year={2017},\n    month=Jan,\n    pages={303–340}\
-    \ }\n"
   abstract: We define a $K$-theory for pointed right derivators and show that it agrees
     with Waldhausen $K$-theory in the case where the derivator arises from a good
     Waldhausen category. This $K$-theory is not invariant under general equivalences
@@ -13820,12 +13822,6 @@ result:
     family: Guan
   - *id003
   doi: 10.1007/s00029-025-01087-w
-  bibtex: "@article{Guan_2025,\n    title={Operations on the de Rham cohomology of\
-    \ Poisson and Jacobi manifolds},\n    volume={31},\n    ISSN={1420-9020},\n  \
-    \  url={http://dx.doi.org/10.1007/s00029-025-01087-w},\n    DOI={10.1007/s00029-025-01087-w},\n\
-    \    number={5},\n    journal={Selecta Mathematica},\n    publisher={Springer\
-    \ Science and Business Media LLC},\n    author={Guan, Ai and Muro, Fernando},\n\
-    \    year={2025},\n    month=Oct }\n"
   abstract: We prove that the (homotopy) hypercommutative algebra structure on the
     de Rham cohomology of a Poisson or Jacobi manifold defined by several authors
     is (homotopically) trivial, i.e. it reduces to the underlying (homotopy) commutative
@@ -13858,7 +13854,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2021-07-29T12:54:13-04:00'
   document_type:
     code: null
     description: null
@@ -14613,6 +14609,12 @@ result:
   authors:
   - *id003
   doi: 10.1007/s00209-019-02438-y
+  bibtex: "@article{Muro_2019,\n    title={The first obstructions to enhancing a triangulated\
+    \ category},\n    volume={296},\n    ISSN={1432-1823},\n    url={http://dx.doi.org/10.1007/s00209-019-02438-y},\n\
+    \    DOI={10.1007/s00209-019-02438-y},\n    number={1-2},\n    journal={Mathematische\
+    \ Zeitschrift},\n    publisher={Springer Science and Business Media LLC},\n  \
+    \  author={Muro, Fernando},\n    year={2019},\n    month=Dec,\n    pages={719–759}\
+    \ }\n"
   abstract: In this paper we relate triangulated category structures to the cohomology
     of small categories and define initial obstructions to the existence of an algebraic
     or topological enhancement. We show that these obstructions do not vanish in an
@@ -15144,12 +15146,6 @@ result:
     given: Antonio
     family: Quintero
   doi: 10.1016/j.topol.2005.01.032
-  bibtex: "@article{C_rdenas_2005,\n    title={Proper L–S category, fundamental pro-groups\
-    \ and 2-dimensional proper co-H-spaces},\n    volume={153},\n    ISSN={0166-8641},\n\
-    \    url={http://dx.doi.org/10.1016/j.topol.2005.01.032},\n    DOI={10.1016/j.topol.2005.01.032},\n\
-    \    number={4},\n    journal={Topology and its Applications},\n    publisher={Elsevier\
-    \ BV},\n    author={Cárdenas, M. and Lasheras, F.F. and Muro, F. and Quintero,\
-    \ A.},\n    year={2005},\n    month=Nov,\n    pages={580–604} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17592,7 +17588,7 @@ result:
       title: Communications in Algebra
       volume: '31'
       year: '2003'
-    source: Commun. Algebra, 31, No. 12, 5995-6017, (2003).
+    source: Commun. Algebra 31, No. 12, 5995-6017 (2003).
   states:
   - - r
     - item has references
@@ -17613,12 +17609,6 @@ result:
   - given: Adrian
     family: Quintero
   doi: 10.1081/AGB-120024863
-  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
-    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
-    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
-    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
-    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
-    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17762,11 +17752,6 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
-  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
-    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
-    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
-    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
-    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -18470,6 +18455,12 @@ result:
     family: Maes
   - *id003
   doi: 10.1017/prm.2022.42
+  bibtex: "@article{Maes_2022,\n    title={Derived homotopy algebras},\n    volume={153},\n\
+    \    ISSN={1473-7124},\n    url={http://dx.doi.org/10.1017/prm.2022.42},\n   \
+    \ DOI={10.1017/prm.2022.42},\n    number={4},\n    journal={Proceedings of the\
+    \ Royal Society of Edinburgh: Section A Mathematics},\n    publisher={Cambridge\
+    \ University Press (CUP)},\n    author={Maes, Jeroen and Muro, Fernando},\n  \
+    \  year={2022},\n    month=July,\n    pages={1198–1243} }\n"
   abstract: We develop a theory of minimal models for algebras over an operad defined
     over a commutative ring, not necessarily a field, extending and supplementing
     the work of Sagave in the associative case.
@@ -18489,7 +18480,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2026-08-15T08:35:22-04:00'
   document_type:
     code: null
     description: null
@@ -18535,7 +18526,8 @@ result:
   zbmath_url: https://zbmath.org/903136211
   arxiv: '2608.15203'
   authors:
-  - {}
+  - given: Javier Díaz
+    family: Cabrera
   - *id003
   bibtex: "@misc{cabrera2026exoticfinitepretriangulatedcategory,\n      title={An\
     \ exotic finite pretriangulated category over any algebraically closed field},\
@@ -18557,7 +18549,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2007-03-11T16:04:23-04:00'
   document_type:
     code: null
     description: null
@@ -18632,7 +18624,7 @@ result:
     author_references: []
     editors: []
   database: arXiv
-  datestamp: '0001-01-01T00:00:00Z'
+  datestamp: '2006-05-08T13:51:05-04:00'
   document_type:
     code: null
     description: null
@@ -19038,12 +19030,6 @@ result:
   authors:
   - *id003
   doi: 10.1007/s10977-004-1837-4
-  bibtex: "@article{Muro_2004,\n    title={Representation Theory of some Infinite-dimensional\
-    \ Algebras Arising in Continuously Controlled Algebra and Topology},\n    volume={33},\n\
-    \    ISSN={0920-3036},\n    url={http://dx.doi.org/10.1007/s10977-004-1837-4},\n\
-    \    DOI={10.1007/s10977-004-1837-4},\n    number={1},\n    journal={K-Theory},\n\
-    \    publisher={Portico},\n    author={Muro, Fernando},\n    year={2004},\n  \
-    \  month=Sept,\n    pages={23–65} }\n"
   abstract: In this paper we determine the representation type of some algebras of
     infinite matrices continuously controlled at infinity by a compact metrizable
     space. We explicitly classify their finitely presented modules in the finite and
@@ -19057,6 +19043,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 2.1868062019348145
+  query_execution_time_in_seconds: 1.6631474494934082
   status_code: 200
-  time_stamp: '2026-08-31T14:10:15Z'
+  time_stamp: '2026-09-01T22:36:05Z'
