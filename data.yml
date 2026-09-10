@@ -4,6 +4,15 @@
 # This PDF file should be stored in src/assets/files/presentations/
 
 presentations:
+	
+  - location: Bonn, Germany
+    daymonth: 11 September
+    type: conference
+    event: New Perspectives on Stable Homotopy and Beyond
+    url: https://www.mpim-bonn.mpg.de/nps60
+    file: Bonn26
+    title: Geometry of singularities and homotopy theory
+    year: 2026
 
   - location: Salerno, Italy
     daymonth: 6 March
