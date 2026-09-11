@@ -1180,6 +1180,9 @@ result:
   license:
   - http://creativecommons.org/licenses/by/4.0/
   links:
+  - identifier: 10.1090/jams/1079
+    type: doi
+    url: https://doi.org/10.1090/jams/1079
   - identifier: '2208.14413'
     type: arxiv
     url: https://arxiv.org/abs/2208.14413
@@ -19104,6 +19107,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.6483547687530518
+  query_execution_time_in_seconds: 2.015338897705078
   status_code: 200
-  time_stamp: '2026-09-10T22:49:41Z'
+  time_stamp: '2026-09-11T09:40:38Z'
