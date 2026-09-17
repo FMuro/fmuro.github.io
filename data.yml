@@ -5,6 +5,15 @@
 
 presentations:
 
+  - location: Rome, Italy
+    daymonth: 17 September
+    type: conference
+    event: Higher Structures in Rome
+    url: https://dellaquercia.github.io/conference/
+    file: Rome26
+    title: Kadeishvili's formality theorem and universal Massey products
+    year: 2026
+
   - location: Bonn, Germany
     daymonth: 10 September
     type: conference
