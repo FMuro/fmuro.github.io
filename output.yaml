@@ -1198,8 +1198,8 @@ result:
     book: []
     pages: null
     series: []
-    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in Journal of the
-      American Mathematical Society
+    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in arXiv (Cornell
+      University)
   states:
   - - o
     - has open version
@@ -6730,111 +6730,6 @@ result:
     - aliases: []
       checked: '1'
       codes:
-      - tonks.andrew
-      name: Tonks, Andrew
-    author_references: []
-    editors: []
-  database: Zbl
-  datestamp: '2008-12-11T17:37:13Z'
-  document_type:
-    code: a
-    description: serial article
-  editorial_contributions:
-  - language: English
-    reviewer:
-      author_code: uma.vikraman
-      reviewer_id: '12043'
-      name: V. Uma
-      sign: V. Uma (Chennai)
-    text: "A general notion of \\(K\\)-theory, for a category \\({\\mathcal W}\\)\
-      \ with cofibrations and weak equivalences, was defined by Waldhausen as the\
-      \ homotopy groups of the loop space of a certain simplicial category \\(wS.{\\\
-      mathcal W}\\). \n\n\\[\nK_n{\\mathcal W}=\\pi_n\\Omega|wS.{\\mathcal W}|\\simeq\\\
-      pi_{n+1}|wS.{\\mathcal W}|\n\\]\n \nWaldhausen \\(K\\)-theory generalizes the\
-      \ \\(K\\)-theory of an exact category \\({\\mathcal E}\\), defined as homotopy\
-      \ groups of \\(\\Omega|Q{\\mathcal E}|\\) where \\(Q{\\mathcal E}\\) is a category\
-      \ defined by Quillen.\n\nNenashev has given representatives for \\(K_1{\\mathcal\
-      \ E}\\) which are pairs of short exact sequences on the same objects. He showed\
-      \ that the pairs of short exact sequences satisfy certain relations. Further,\
-      \ he proved that these pairs of short exact sequences together with these relations\
-      \ give a presentation for \\(K_1{\\mathcal E}\\).\n\nIn this paper, the authors\
-      \ produce representatives for all elements in \\(K_1\\) of an arbitrary Waldhausen\
-      \ category. These representatives are close to Nenashev's representations for\
-      \ exact categories. They are given by pairs of weak cofiber sequences which\
-      \ have the same source and target. Moreover, the authors also show that these\
-      \ pairs of weak cofiber sequences satisfy certain generalization of Nenashev's\
-      \ relations.\n\nFor the entire collection see [Zbl 1147.19001]."
-    contribution_type: review
-  id: 5381934
-  identifier: '1165.18010'
-  keywords: []
-  language:
-    languages:
-    - English
-    addition:
-    - null
-  license: []
-  links:
-  - identifier: math/0611229
-    type: arxiv
-    url: https://arxiv.org/abs/math/0611229
-  msc:
-  - code: 18F25
-    scheme: msc2020
-    text: Algebraic \(K\)-theory and \(L\)-theory (category-theoretic aspects)
-  - code: 19D10
-    scheme: msc2020
-    text: Algebraic \(K\)-theory of spaces
-  references: []
-  source:
-    book:
-    - book_id: 5350471
-      isbn:
-      - number: 978-3-03719-060-9
-        type: hbk
-      publisher: 'Zürich: European Mathematical Society (EMS)'
-      year: '2008'
-    pages: 91-115
-    series: []
-    source: 'Cortiñas, Guillermo (ed.) et al., \(K\)-theory and noncommutative geometry.
-      Proceedings of the ICM 2006 satellite conference, Valladolid, Spain, August
-      31--September 6, 2006. Zürich: European Mathematical Society (EMS) (ISBN 978-3-03719-060-9/hbk).
-      EMS Series of Congress Reports, 91-115 (2008).'
-  states:
-  - - o
-    - has open version
-  - - c
-    - is cited
-  title:
-    addition: null
-    original: null
-    subtitle: null
-    title: On \(K_1\) of a Waldhausen category
-  year: 2008
-  zbmath_url: https://zbmath.org/5381934
-  arxiv: math/0611229
-  authors:
-  - *id003
-  - *id005
-  doi: 10.4171/060-1/4
-  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
-    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
-    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
-    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
-    \    pages={91–115} }\n"
-  abstract: We give a simple representation of all elements in K_1 of a Waldhausen
-    category and prove relations between these representatives which hold in K_1.
-- biographic_references: []
-  contributors:
-    authors:
-    - aliases: []
-      checked: '1'
-      codes:
-      - muro.fernando
-      name: Muro, Fernando
-    - aliases: []
-      checked: '1'
-      codes:
       - roitzheim.constanze-susanne-ruth
       name: Roitzheim, Constanze
     author_references: []
@@ -7171,6 +7066,111 @@ result:
     detected by the $E^2$-term of the spectral sequence associated to the filtration
     of the total complex by the horizontal degree. We then extend this result to twisted
     complexes.
+- biographic_references: []
+  contributors:
+    authors:
+    - aliases: []
+      checked: '1'
+      codes:
+      - muro.fernando
+      name: Muro, Fernando
+    - aliases: []
+      checked: '1'
+      codes:
+      - tonks.andrew
+      name: Tonks, Andrew
+    author_references: []
+    editors: []
+  database: Zbl
+  datestamp: '2008-12-11T17:37:13Z'
+  document_type:
+    code: a
+    description: serial article
+  editorial_contributions:
+  - language: English
+    reviewer:
+      author_code: uma.vikraman
+      reviewer_id: '12043'
+      name: V. Uma
+      sign: V. Uma (Chennai)
+    text: "A general notion of \\(K\\)-theory, for a category \\({\\mathcal W}\\)\
+      \ with cofibrations and weak equivalences, was defined by Waldhausen as the\
+      \ homotopy groups of the loop space of a certain simplicial category \\(wS.{\\\
+      mathcal W}\\). \n\n\\[\nK_n{\\mathcal W}=\\pi_n\\Omega|wS.{\\mathcal W}|\\simeq\\\
+      pi_{n+1}|wS.{\\mathcal W}|\n\\]\n \nWaldhausen \\(K\\)-theory generalizes the\
+      \ \\(K\\)-theory of an exact category \\({\\mathcal E}\\), defined as homotopy\
+      \ groups of \\(\\Omega|Q{\\mathcal E}|\\) where \\(Q{\\mathcal E}\\) is a category\
+      \ defined by Quillen.\n\nNenashev has given representatives for \\(K_1{\\mathcal\
+      \ E}\\) which are pairs of short exact sequences on the same objects. He showed\
+      \ that the pairs of short exact sequences satisfy certain relations. Further,\
+      \ he proved that these pairs of short exact sequences together with these relations\
+      \ give a presentation for \\(K_1{\\mathcal E}\\).\n\nIn this paper, the authors\
+      \ produce representatives for all elements in \\(K_1\\) of an arbitrary Waldhausen\
+      \ category. These representatives are close to Nenashev's representations for\
+      \ exact categories. They are given by pairs of weak cofiber sequences which\
+      \ have the same source and target. Moreover, the authors also show that these\
+      \ pairs of weak cofiber sequences satisfy certain generalization of Nenashev's\
+      \ relations.\n\nFor the entire collection see [Zbl 1147.19001]."
+    contribution_type: review
+  id: 5381934
+  identifier: '1165.18010'
+  keywords: []
+  language:
+    languages:
+    - English
+    addition:
+    - null
+  license: []
+  links:
+  - identifier: math/0611229
+    type: arxiv
+    url: https://arxiv.org/abs/math/0611229
+  msc:
+  - code: 18F25
+    scheme: msc2020
+    text: Algebraic \(K\)-theory and \(L\)-theory (category-theoretic aspects)
+  - code: 19D10
+    scheme: msc2020
+    text: Algebraic \(K\)-theory of spaces
+  references: []
+  source:
+    book:
+    - book_id: 5350471
+      isbn:
+      - number: 978-3-03719-060-9
+        type: hbk
+      publisher: 'Zürich: European Mathematical Society (EMS)'
+      year: '2008'
+    pages: 91-115
+    series: []
+    source: 'Cortiñas, Guillermo (ed.) et al., \(K\)-theory and noncommutative geometry.
+      Proceedings of the ICM 2006 satellite conference, Valladolid, Spain, August
+      31--September 6, 2006. Zürich: European Mathematical Society (EMS) (ISBN 978-3-03719-060-9/hbk).
+      EMS Series of Congress Reports, 91-115 (2008).'
+  states:
+  - - o
+    - has open version
+  - - c
+    - is cited
+  title:
+    addition: null
+    original: null
+    subtitle: null
+    title: On \(K_1\) of a Waldhausen category
+  year: 2008
+  zbmath_url: https://zbmath.org/5381934
+  arxiv: math/0611229
+  authors:
+  - *id003
+  - *id005
+  doi: 10.4171/060-1/4
+  bibtex: "@inbook{Muro_2008,\n    title={On K_1 of a Waldhausen category},\n    ISBN={9783037195604},\n\
+    \    ISSN={2523-5168},\n    url={http://dx.doi.org/10.4171/060-1/4},\n    DOI={10.4171/060-1/4},\n\
+    \    booktitle={K-Theory and Noncommutative Geometry},\n    publisher={EMS Press},\n\
+    \    author={Muro, Fernando and Tonks, Andrew},\n    year={2008},\n    month=Oct,\n\
+    \    pages={91–115} }\n"
+  abstract: We give a simple representation of all elements in K_1 of a Waldhausen
+    category and prove relations between these representatives which hold in K_1.
 - biographic_references: []
   contributors:
     authors:
@@ -16813,12 +16813,6 @@ result:
   authors:
   - *id003
   doi: 10.1016/j.jpaa.2016.02.013
-  bibtex: "@article{Muro_2016,\n    title={Cylinders for non-symmetric DG-operads\
-    \ via homological perturbation theory},\n    volume={220},\n    ISSN={0022-4049},\n\
-    \    url={http://dx.doi.org/10.1016/j.jpaa.2016.02.013},\n    DOI={10.1016/j.jpaa.2016.02.013},\n\
-    \    number={9},\n    journal={Journal of Pure and Applied Algebra},\n    publisher={Elsevier\
-    \ BV},\n    author={Muro, Fernando},\n    year={2016},\n    month=Sept,\n    pages={3248–3281}\
-    \ }\n"
   abstract: We construct small cylinders for cellular non-symmetric DG-operads over
     an arbitrary commutative ring by using the basic perturbation lemma from homological
     algebra. We show that our construction, applied to the A-infinity operad, yields
@@ -17097,12 +17091,6 @@ result:
   - *id003
   - *id007
   doi: 10.1081/AGB-120024863
-  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
-    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
-    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
-    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
-    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
-    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17805,11 +17793,6 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
-  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
-    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
-    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
-    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
-    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -19107,6 +19090,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.5005955696105957
+  query_execution_time_in_seconds: 2.1924917697906494
   status_code: 200
-  time_stamp: '2026-09-11T09:52:38Z'
+  time_stamp: '2026-09-17T14:47:06Z'
