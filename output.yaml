@@ -6208,11 +6208,6 @@ result:
   authors:
   - *id003
   doi: 10.1016/j.topol.2015.05.006
-  bibtex: "@article{Muro_2015,\n    title={On the unit of a monoidal model category},\n\
-    \    volume={191},\n    ISSN={0166-8641},\n    url={http://dx.doi.org/10.1016/j.topol.2015.05.006},\n\
-    \    DOI={10.1016/j.topol.2015.05.006},\n    journal={Topology and its Applications},\n\
-    \    publisher={Elsevier BV},\n    author={Muro, Fernando},\n    year={2015},\n\
-    \    month=Aug,\n    pages={37–47} }\n"
   abstract: In this paper we show how to modify cofibrations in a monoidal model category
     so that the tensor unit becomes cofibrant while keeping the same weak equivalences.
     We obtain aplications to enriched categories and coloured operads in stable homotopy
@@ -7054,12 +7049,6 @@ result:
     family: Roitzheim
     url: https://sites.google.com/view/constanzeroitzheim/home
   doi: 10.1016/j.jpaa.2018.08.007
-  bibtex: "@article{Muro_2019,\n    title={Homotopy theory of bicomplexes},\n    volume={223},\n\
-    \    ISSN={0022-4049},\n    url={http://dx.doi.org/10.1016/j.jpaa.2018.08.007},\n\
-    \    DOI={10.1016/j.jpaa.2018.08.007},\n    number={5},\n    journal={Journal\
-    \ of Pure and Applied Algebra},\n    publisher={Elsevier BV},\n    author={Muro,\
-    \ Fernando and Roitzheim, Constanze},\n    year={2019},\n    month=May,\n    pages={1913–1939}\
-    \ }\n"
   abstract: We define two model structures on the category of bicomplexes concentrated
     in the right half plane. The first model structure has weak equivalences detected
     by the totalisation functor. The second model structure's weak equivalences are
@@ -16813,6 +16802,12 @@ result:
   authors:
   - *id003
   doi: 10.1016/j.jpaa.2016.02.013
+  bibtex: "@article{Muro_2016,\n    title={Cylinders for non-symmetric DG-operads\
+    \ via homological perturbation theory},\n    volume={220},\n    ISSN={0022-4049},\n\
+    \    url={http://dx.doi.org/10.1016/j.jpaa.2016.02.013},\n    DOI={10.1016/j.jpaa.2016.02.013},\n\
+    \    number={9},\n    journal={Journal of Pure and Applied Algebra},\n    publisher={Elsevier\
+    \ BV},\n    author={Muro, Fernando},\n    year={2016},\n    month=Sept,\n    pages={3248–3281}\
+    \ }\n"
   abstract: We construct small cylinders for cellular non-symmetric DG-operads over
     an arbitrary commutative ring by using the basic perturbation lemma from homological
     algebra. We show that our construction, applied to the A-infinity operad, yields
@@ -17091,6 +17086,12 @@ result:
   - *id003
   - *id007
   doi: 10.1081/AGB-120024863
+  bibtex: "@article{Ayala_2003,\n    title={An Elementary Approach to the Projective\
+    \ Dimension in Proper Homotopy Theory},\n    volume={31},\n    ISSN={1532-4125},\n\
+    \    url={http://dx.doi.org/10.1081/AGB-120024863},\n    DOI={10.1081/agb-120024863},\n\
+    \    number={12},\n    journal={Communications in Algebra},\n    publisher={Informa\
+    \ UK Limited},\n    author={Ayala, R. and Cárdenas, M. and Muro, F. and Quintero,\
+    \ A.},\n    year={2003},\n    month=Jan,\n    pages={5995–6017} }\n"
 - biographic_references: []
   contributors:
     authors:
@@ -17793,6 +17794,11 @@ result:
   authors:
   - *id003
   doi: 10.1093/imrn/rnm153
+  bibtex: "@article{Muro_2010,\n    title={Maltsiniotis’s First Conjecture for K1},\n\
+    \    ISSN={1687-0247},\n    url={http://dx.doi.org/10.1093/imrn/rnm153},\n   \
+    \ DOI={10.1093/imrn/rnm153},\n    journal={International Mathematics Research\
+    \ Notices},\n    publisher={Oxford University Press (OUP)},\n    author={Muro,\
+    \ F.},\n    year={2010},\n    month=July }\n"
   abstract: We show that K_1 of an exact category agrees with K_1 of the associated
     triangulated derivator. More generally we show that K_1 of a Waldhausen category
     with cylinders and a saturated class of weak equivalences coincides with K_1 of
@@ -19090,6 +19096,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 2.1924917697906494
+  query_execution_time_in_seconds: 2.25752854347229
   status_code: 200
-  time_stamp: '2026-09-17T14:47:06Z'
+  time_stamp: '2026-09-17T14:51:47Z'
