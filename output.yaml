@@ -1198,8 +1198,8 @@ result:
     book: []
     pages: null
     series: []
-    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in arXiv (Cornell
-      University)
+    source: Preprint, arXiv:2208.14413 [math.RT] (2026), to appear in Journal of the
+      American Mathematical Society
   states:
   - - o
     - has open version
@@ -19108,6 +19108,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.719684362411499
+  query_execution_time_in_seconds: 1.4973251819610596
   status_code: 200
-  time_stamp: '2026-09-19T12:24:08Z'
+  time_stamp: '2026-09-21T11:43:17Z'
