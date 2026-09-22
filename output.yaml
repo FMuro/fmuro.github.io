@@ -14876,7 +14876,9 @@ result:
       & Topology 2 (2, Special issue in memory of Yurii Petrovich Solovyev. Part 1
       2008), pp. 361–384. doi:10.1017/is008001011jkt030'
     zbmath:
-      author_codes: []
+      author_codes:
+      - sharygin.georgy-igorevich
+      - talalaev.dmitrii-valerevich
       document_id: 5356710
       msc:
       - 17B55
@@ -19108,6 +19110,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.4973251819610596
+  query_execution_time_in_seconds: 2.126932382583618
   status_code: 200
-  time_stamp: '2026-09-21T11:43:17Z'
+  time_stamp: '2026-09-22T16:32:11Z'
