@@ -137,6 +137,7 @@ html(lang='en')
             
             
             
+            
             .container-fluid
                 h3.mt-5.mb-3.text-center
                     .bi.bi-journal &nbsp; Preprints
@@ -313,6 +314,25 @@ html(lang='en')
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract8267062") Abstract
                                 a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex8267062") BibTeX
                                 a.btn.btn-xs(href="https://zbmath.org/8267062") zbMath
+                                
+                                    
+            
+            
+            
+            
+                
+                                    
+                    .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
+                        .card.shadow.rounded
+                            .card-body
+                                |  <br>
+                                | #[strong A cohomology operation encoding the octahedral axiom]<br>
+                                | Preprint, arXiv:2610.35232 [math.CT] (2026)
+                            .card-footer
+                                
+                                a.btn.btn-xs(href="https://arxiv.org/abs/2610.35232") arxiv
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstractNone") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtexNone") BibTeX
                                 
                                     
             
@@ -1968,6 +1988,34 @@ html(lang='en')
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
                     button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent8267062'))") Copy to clipboard
+
+            
+        
+        
+        
+            
+    // Modal
+    .modal.fade(id="abstractNone", tabindex="-1", role="dialog", aria-labelledby="A cohomology operation encoding the octahedral axiom", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-header
+                    h5.modal-title A cohomology operation encoding the octahedral axiom
+                .modal-body
+                    
+                    p We introduce a new secondary cohomology operation, the naturality defect product, associated with a graded natural transformation between the cohomology functors of two differential graded functors, and study its main properties. We then prove that a pretriangulated category satisfies the octahedral axiom if and only if the naturality defect product associated with the natural isomorphism given by a theorem of Heller vanishes on the homotopy category of acyclic complexes over it. This characterization extends immediately to n-angulated categories. As an application, we exhibit non-vanishing instances for the recently found examples of pretriangulated categories which are not triangulated. Finally, we show that horizontal composition of these natural isomorphisms preserves n-angulated structures, and we use it to obtain, from each of these examples and for every r &gt;= 1, a pre-3r-angulated category which is not 3r-angulated.
+                    
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+    // Modal
+    .modal.fade(id="bibtexNone", tabindex="-1", role="dialog", aria-labelledby="A cohomology operation encoding the octahedral axiom", aria-hidden="true")
+        .modal-dialog(role="document").modal-dialog-centered
+            .modal-content
+                .modal-body
+                    p 
+                        code.user-select-all(id="bibtexcontentNone") @misc{cabrera2026cohomologyoperationencodingoctahedral,<br>&nbsp;&nbsp;&nbsp;&nbsp;      title={A cohomology operation encoding the octahedral axiom}, <br>&nbsp;&nbsp;&nbsp;&nbsp;      author={Javier Díaz Cabrera and Fernando Muro},<br>&nbsp;&nbsp;&nbsp;&nbsp;      year={2026},<br>&nbsp;&nbsp;&nbsp;&nbsp;      eprint={2610.35232},<br>&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix={arXiv},<br>&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass={math.CT},<br>&nbsp;&nbsp;&nbsp;&nbsp;      url={https://arxiv.org/abs/2610.35232}, <br>&nbsp;&nbsp;&nbsp;&nbsp;}
+                .modal-footer.justify-content-center
+                    button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontentNone'))") Copy to clipboard
 
             
         

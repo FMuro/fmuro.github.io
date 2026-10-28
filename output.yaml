@@ -21684,6 +21684,82 @@ result:
     tame cases. The algebra of row-column-finite (or locally finite) matrices over
     an arbitrary field is one of the algebras considered in this paper, its representation
     type is shown to be finite.
+- database: arXiv
+  id: null
+  identifier: arXiv:2610.35232
+  arxiv: '2610.35232'
+  year: 2026
+  datestamp: '2026-10-26T07:21:01-04:00'
+  document_type:
+    code: a
+    description: preprint
+  title:
+    title: A cohomology operation encoding the octahedral axiom
+    original: null
+    subtitle: null
+    addition: null
+  contributors:
+    authors:
+    - name: Javier Díaz Cabrera, Fernando Muro
+      codes: []
+    author_references: []
+    editors: []
+  authors:
+  - name: Javier Díaz Cabrera, Fernando Muro
+  links:
+  - identifier: '2610.35232'
+    type: arxiv
+    url: https://arxiv.org/abs/2610.35232
+  msc: []
+  keywords: []
+  references: []
+  license: []
+  states:
+  - - o
+    - has open version
+  source:
+    book: []
+    pages: null
+    series: []
+    source: Preprint, arXiv:2610.35232 [math.CT] (2026)
+  editorial_contributions:
+  - language: null
+    reviewer:
+      author_code: null
+      reviewer_id: null
+      name: null
+      sign: null
+    text: We introduce a new secondary cohomology operation, the naturality defect
+      product, associated with a graded natural transformation between the cohomology
+      functors of two differential graded functors, and study its main properties.
+      We then prove that a pretriangulated category satisfies the octahedral axiom
+      if and only if the naturality defect product associated with the natural isomorphism
+      given by a theorem of Heller vanishes on the homotopy category of acyclic complexes
+      over it. This characterization extends immediately to n-angulated categories.
+      As an application, we exhibit non-vanishing instances for the recently found
+      examples of pretriangulated categories which are not triangulated. Finally,
+      we show that horizontal composition of these natural isomorphisms preserves
+      n-angulated structures, and we use it to obtain, from each of these examples
+      and for every r >= 1, a pre-3r-angulated category which is not 3r-angulated.
+    contribution_type: summary
+  zbmath_url: null
+  abstract: We introduce a new secondary cohomology operation, the naturality defect
+    product, associated with a graded natural transformation between the cohomology
+    functors of two differential graded functors, and study its main properties. We
+    then prove that a pretriangulated category satisfies the octahedral axiom if and
+    only if the naturality defect product associated with the natural isomorphism
+    given by a theorem of Heller vanishes on the homotopy category of acyclic complexes
+    over it. This characterization extends immediately to n-angulated categories.
+    As an application, we exhibit non-vanishing instances for the recently found examples
+    of pretriangulated categories which are not triangulated. Finally, we show that
+    horizontal composition of these natural isomorphisms preserves n-angulated structures,
+    and we use it to obtain, from each of these examples and for every r >= 1, a pre-3r-angulated
+    category which is not 3r-angulated.
+  bibtex: "@misc{cabrera2026cohomologyoperationencodingoctahedral,\n      title={A\
+    \ cohomology operation encoding the octahedral axiom}, \n      author={Javier\
+    \ Díaz Cabrera and Fernando Muro},\n      year={2026},\n      eprint={2610.35232},\n\
+    \      archivePrefix={arXiv},\n      primaryClass={math.CT},\n      url={https://arxiv.org/abs/2610.35232},\
+    \ \n}"
 status:
   execution: successful request
   execution_bool: true
@@ -21691,6 +21767,6 @@ status:
   last_id: null
   nr_total_results: 50
   nr_request_results: 50
-  query_execution_time_in_seconds: 1.4879941940307617
+  query_execution_time_in_seconds: 1.7002983093261719
   status_code: 200
-  time_stamp: '2026-10-27T17:14:33Z'
+  time_stamp: '2026-10-28T08:23:39Z'
