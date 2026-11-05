@@ -21772,6 +21772,6 @@ status:
   last_id: null
   nr_total_results: 51
   nr_request_results: 51
-  query_execution_time_in_seconds: 1.4385087490081787
+  query_execution_time_in_seconds: 1.5126144886016846
   status_code: 200
-  time_stamp: '2026-11-05T15:38:59Z'
+  time_stamp: '2026-11-05T16:08:22Z'
