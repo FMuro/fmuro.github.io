@@ -157,6 +157,11 @@ def login(session, username, password, dry_run=False):
             page = submit(session, page, saml)
             continue
         otp_form, otp_field = find_otp_form(forms)
+        js_otp = find_js_otp_url(page)
+        if js_otp and not otp_form:
+            # adAS 2FA page: no <form>, its JavaScript builds and POSTs this one.
+            otp_form, otp_field = {"action": js_otp, "method": "post", "inputs": {
+                "adAS_authn_module": "otp_module", "adAS_mode": "authn"}}, "adAS_otp_code"
         if otp_form:
             if otp_sent:
                 fail("The SSO rejected the two-factor code: check EDUVPN_TOTP_SECRET "
@@ -178,6 +183,14 @@ def login(session, username, password, dry_run=False):
     debug_forms(page)
     fail(f"Login did not reach the eduVPN portal (stopped at {urlparse(page.url).netloc}"
          f"{urlparse(page.url).path}).")
+
+
+def find_js_otp_url(page):
+    """URL the adAS 2FA page posts the code to (href of its 'Aceptar' button)."""
+    if 'id="input2factor"' not in page.text:
+        return None
+    m = re.search(r"""<a[^>]*id=['"]notification_2factor_button_ok['"][^>]*href=['"]([^'"]+)""", page.text)
+    return html.unescape(m.group(1)) if m else page.url
 
 
 def find_otp_form(forms):
@@ -204,6 +217,23 @@ def debug_forms(page):
         print(f"  form id={f['id']!r} method={f['method']} "
               f"action={urlparse(html.unescape(f['action'])).path!r} "
               f"inputs={list(f['inputs'])} visible={f['visible']} selects={list(f['selects'])}")
+    for m in re.findall(r'<meta[^>]+http-equiv=["\']?refresh[^>]*>', page.text, re.I):
+        print(f"  meta refresh: {m}")
+    for m in re.findall(r'(?:location(?:\.href)?\s*=|location\.(?:replace|assign)\()\s*["\'][^"\']*', page.text):
+        print(f"  js redirect: {m}")
+    for m in re.findall(r'<script[^>]+src=["\']([^"\']+)', page.text, re.I):
+        print(f"  script src: {urlparse(m).path}")
+    links = {urlparse(html.unescape(h)).path for h in re.findall(r'<a[^>]+href=["\']([^"\'#]+)', page.text, re.I)}
+    if links:
+        print(f"  links: {sorted(links)}")
+    text = re.sub(r"<(script|style)\b.*?</\1>", " ", page.text, flags=re.S | re.I)
+    text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", text))).strip()
+    print(f"  text: {text[:800]!r}")
+    dump = os.environ.get("EDUVPN_DEBUG_HTML")
+    if dump:
+        with open(dump, "w") as fh:
+            fh.write(page.text)
+        print(f"  full HTML written to {dump}")
 
 
 def delete_old_configs(session, home):
