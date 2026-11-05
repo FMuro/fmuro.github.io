@@ -137,11 +137,29 @@ html(lang='en')
             
             
             
-            
             .container-fluid
                 h3.mt-5.mb-3.text-center
                     .bi.bi-journal &nbsp; Preprints
                 .scrolling-wrapper.row.flex-row.flex-nowrap.px-3.px-sm-5.mt-4.pb-4.pt-2(style="overflow-x: auto; overflow-y: hidden; -webkit-mask: linear-gradient(90deg,#0000,#000 5% 95%,#0000);")
+            
+                                    
+                    .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
+                        .card.shadow.rounded
+                            .card-body
+                                | Javier Díaz Cabrera  and Fernando Muro<br>
+                                | #[strong A cohomology operation encoding the octahedral axiom]<br>
+                                | arXiv:2610.35232 [math.CT] (2026)
+                            .card-footer
+                                
+                                
+                                a.btn.btn-xs(href="https://arxiv.org/abs/2610.35232") arxiv
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstract903227779") Abstract
+                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtex903227779") BibTeX
+                                a.btn.btn-xs(href="https://zbmath.org/903227779") zbMath
+                                
+                                    
+            
+            
             
                                     
                     .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
@@ -317,24 +335,6 @@ html(lang='en')
                                 
                                     
             
-            
-            
-            
-                
-                                    
-                    .col-11.col-sm-10.col-md-8.col-lg-5.col-lx-4.mx-auto
-                        .card.shadow.rounded
-                            .card-body
-                                |  <br>
-                                | #[strong A cohomology operation encoding the octahedral axiom]<br>
-                                | Preprint, arXiv:2610.35232 [math.CT] (2026)
-                            .card-footer
-                                
-                                a.btn.btn-xs(href="https://arxiv.org/abs/2610.35232") arxiv
-                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#abstractNone") Abstract
-                                a.btn.btn-xs(type="button", data-bs-toggle="modal", data-bs-target="#bibtexNone") BibTeX
-                                
-                                    
             
             
             
@@ -1995,7 +1995,7 @@ html(lang='en')
         
             
     // Modal
-    .modal.fade(id="abstractNone", tabindex="-1", role="dialog", aria-labelledby="A cohomology operation encoding the octahedral axiom", aria-hidden="true")
+    .modal.fade(id="abstract903227779", tabindex="-1", role="dialog", aria-labelledby="A cohomology operation encoding the octahedral axiom", aria-hidden="true")
         .modal-dialog(role="document").modal-dialog-centered
             .modal-content
                 .modal-header
@@ -2007,15 +2007,15 @@ html(lang='en')
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
     // Modal
-    .modal.fade(id="bibtexNone", tabindex="-1", role="dialog", aria-labelledby="A cohomology operation encoding the octahedral axiom", aria-hidden="true")
+    .modal.fade(id="bibtex903227779", tabindex="-1", role="dialog", aria-labelledby="A cohomology operation encoding the octahedral axiom", aria-hidden="true")
         .modal-dialog(role="document").modal-dialog-centered
             .modal-content
                 .modal-body
                     p 
-                        code.user-select-all(id="bibtexcontentNone") @misc{cabrera2026cohomologyoperationencodingoctahedral,<br>&nbsp;&nbsp;&nbsp;&nbsp;      title={A cohomology operation encoding the octahedral axiom}, <br>&nbsp;&nbsp;&nbsp;&nbsp;      author={Javier Díaz Cabrera and Fernando Muro},<br>&nbsp;&nbsp;&nbsp;&nbsp;      year={2026},<br>&nbsp;&nbsp;&nbsp;&nbsp;      eprint={2610.35232},<br>&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix={arXiv},<br>&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass={math.CT},<br>&nbsp;&nbsp;&nbsp;&nbsp;      url={https://arxiv.org/abs/2610.35232}, <br>&nbsp;&nbsp;&nbsp;&nbsp;}
+                        code.user-select-all(id="bibtexcontent903227779") @misc{cabrera2026cohomologyoperationencodingoctahedral,<br>&nbsp;&nbsp;&nbsp;&nbsp;      title={A cohomology operation encoding the octahedral axiom}, <br>&nbsp;&nbsp;&nbsp;&nbsp;      author={Javier Díaz Cabrera and Fernando Muro},<br>&nbsp;&nbsp;&nbsp;&nbsp;      year={2026},<br>&nbsp;&nbsp;&nbsp;&nbsp;      eprint={2610.35232},<br>&nbsp;&nbsp;&nbsp;&nbsp;      archivePrefix={arXiv},<br>&nbsp;&nbsp;&nbsp;&nbsp;      primaryClass={math.CT},<br>&nbsp;&nbsp;&nbsp;&nbsp;      url={https://arxiv.org/abs/2610.35232}, <br>&nbsp;&nbsp;&nbsp;&nbsp;}
                 .modal-footer.justify-content-center
                     button.btn.btn-primary.btn-xl(type="button", data-bs-dismiss="modal") Close
-                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontentNone'))") Copy to clipboard
+                    button.btn.btn-info.btn-xl(type="button", onclick="myFunction(document.getElementById('bibtexcontent903227779'))") Copy to clipboard
 
             
         
